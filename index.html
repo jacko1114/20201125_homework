@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>宜蘭縣成功國民小學九十八學年度日課表</title>
     <style>
         * {
             font-family: "標楷體";
             text-align: center;
             box-sizing: border-box;
+            font-weight: 800;
+            font-size: 13px;
         }
 
         body {
@@ -17,42 +19,110 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            overflow-x: scroll;
+
         }
 
         table {
-            width: 1100px;
-            border: 2px solid #000;
+            border: 1px solid #000;
             border-collapse: collapse;
         }
 
         th,
         tr,
         td {
-            border: 2px solid #000;
+            border: 1px solid #000;
         }
 
         th {
-            padding: 20px 10px;
+            padding: 10px;
         }
 
         caption {
-            font-size: 30px;
+            font-size: 20px;
         }
 
         .highlight {
             color: #f00;
         }
 
-        .rotate {
-            transform: rotate(90deg);
-        }
+
 
         span {
             display: inline-block;
         }
 
         td {
-            padding: 4px;
+            padding: 3px;
+        }
+
+        .small {
+            font-size: 13px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            * {
+                font-size: 17px;
+            }
+
+            body {
+                overflow: hidden;
+                height: 100vh;
+            }
+
+            table {
+                max-width: 1000px;
+            }
+
+            caption {
+                font-size: 25px;
+            }
+
+            .rotate {
+                transform: rotate(90deg);
+            }
+
+            .align {
+                position: relative;
+            }
+
+            .text1 {
+                position: absolute;
+                bottom: 5%;
+                left: 5%;
+            }
+
+            .text2 {
+                position: absolute;
+                top: 5%;
+                left: 45%;
+            }
+
+            .text3 {
+                position: absolute;
+                top: 5%;
+                right: 5%;
+            }
+
+            .line1 {
+                position: absolute;
+                width: 253px;
+                height: 1px;
+                background: #000;
+                bottom: 15px;
+                right: -2px;
+                transform: rotate(194deg) translateY(15px);
+            }
+
+            .line2 {
+                position: absolute;
+                width: 107px;
+                height: 1px;
+                background: #000;
+                bottom: 18px;
+                right: -2px;
+                transform: rotate(215deg) translateY(15px);
+            }
         }
     </style>
 </head>
@@ -62,13 +132,25 @@
         <caption>宜蘭縣成功國民小學九十八學年度日課表</caption>
         <thead>
             <tr>
-                <th width="3%">時<br>段</th>
-                <th colspan="3" width="10%">時間\科別\星期</th>
-                <th width="5%">一</th>
-                <th width="5%">二</th>
-                <th width="5%">三</th>
-                <th width="5%">四</th>
-                <th width="5%">五</th>
+                <th width="2%">時<br>段</th>
+                <th colspan="3" width="9%" class="align">
+                    <span class="text1">
+                        時間
+                    </span>
+                    <span class="line1"></span>
+                    <span class="text2">
+                        科別
+                    </span>
+                    <span class="line2"></span>
+                    <span class="text3">
+                        星期
+                    </span>
+                </th>
+                <th width="3%">一</th>
+                <th width="3%">二</th>
+                <th width="3%">三</th>
+                <th width="3%">四</th>
+                <th width="3%">五</th>
                 <th colspan="4" width="10%">每週授課分鐘數及授課教師</th>
             </tr>
         </thead>
@@ -77,26 +159,26 @@
                 <td rowspan="11">上<br>午</td>
                 <td width="3%"></td>
                 <td width="3%">10</td>
-                <td class="time" width="3%">7:50<br>8:00</td>
+                <td width="3%">7:50<br>8:00</td>
                 <td colspan="5">教職員朝會</td>
-                <td colspan="2" width="6%">領域別</td>
+                <td colspan="2" width="5%">領域別</td>
                 <td>分<br>鐘</td>
                 <td>授課教師</td>
             </tr>
             <tr>
                 <td rowspan="3"></td>
                 <td>20</td>
-                <td class="time">8:00<br>8:20</td>
+                <td>8:00<br>8:20</td>
                 <td colspan="5">晨光時間
                     (兒童朝會)</td>
-                <td rowspan="3">語 文</td>
+                <td rowspan="3" width="2.5%">語 文</td>
                 <td>國語</td>
                 <td>240</td>
                 <td>劉展華</td>
             </tr>
             <tr>
                 <td rowspan="2">10</td>
-                <td rowspan="2" class="time">8:20<br>8:30</td>
+                <td rowspan="2">8:20<br>8:30</td>
                 <td colspan="5" rowspan="2">導師時間</td>
                 <td>鄉 土</td>
                 <td>40</td>
@@ -110,7 +192,7 @@
             <tr>
                 <td rowspan="2">1</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">8:40<br>9:20</td>
+                <td rowspan="2">8:40<br>9:20</td>
                 <td rowspan="2">數學</td>
                 <td rowspan="2">國語</td>
                 <td rowspan="2" class="highlight">社會</td>
@@ -128,7 +210,7 @@
             <tr>
                 <td>2</td>
                 <td>40</td>
-                <td class="time">9:30<br>10:10</td>
+                <td>9:30<br>10:10</td>
                 <td>國語</td>
                 <td>數學</td>
                 <td>國語</td>
@@ -141,7 +223,7 @@
             <tr>
                 <td rowspan="2">3</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">10:30<br>11:10</td>
+                <td rowspan="2">10:30<br>11:10</td>
                 <td rowspan="2">國語</td>
                 <td rowspan="2" class="highlight">自然</td>
                 <td rowspan="2" class="highlight">音樂</td>
@@ -160,7 +242,7 @@
             <tr>
                 <td rowspan="2">4</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">11:20<br>12:00</td>
+                <td rowspan="2">11:20<br>12:00</td>
                 <td rowspan="2" class="highlight">健康</td>
                 <td rowspan="2" class="highlight">自然</td>
                 <td rowspan="2">彈性<br>(數學)</td>
@@ -178,9 +260,9 @@
             </tr>
             <tr>
                 <td rowspan="11"><span class="rotate">下</span><br>午</td>
-                <td rowspan="2" style="height: 80px;"></td>
+                <td rowspan="2"></td>
                 <td rowspan="2">80</td>
-                <td class="time">12:00<br>12:40</td>
+                <td>12:00<br>12:40</td>
                 <td colspan="5">午餐時間</td>
                 <td rowspan="3" colspan="2">
                     綜<br>
@@ -192,13 +274,13 @@
                 <td rowspan="3">劉展華</td>
             </tr>
             <tr>
-                <td>12:40 13:20</td>
+                <td>12:40<br>13:20</td>
                 <td colspan="5">午休時間</td>
             </tr>
             <tr>
                 <td rowspan="2">5</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">13:30<br>14:10</td>
+                <td rowspan="2">13:30<br>14:10</td>
                 <td rowspan="2" class="highlight">美勞</td>
                 <td rowspan="2">國語</td>
                 <td rowspan="7">教<br>師<br>進<br>修<br>時<br>間</td>
@@ -206,7 +288,7 @@
                 <td rowspan="2">國語</td>
             </tr>
             <tr>
-                <td rowspan="3" class="rotate">彈性時間</td>
+                <td rowspan="3" class="rotate small">彈性時間</td>
                 <td rowspan="2">彈性<br>課程</td>
                 <td rowspan="2">160</td>
                 <td rowspan="2">劉展華</td>
@@ -214,7 +296,7 @@
             <tr>
                 <td rowspan="2">6</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">14:20<br>15:00</td>
+                <td rowspan="2">14:20<br>15:00</td>
                 <td rowspan="2" class="highlight">美勞</td>
                 <td rowspan="2" class="highlight">英語</td>
                 <td rowspan="2">綜合</td>
@@ -230,7 +312,7 @@
             <tr>
                 <td></td>
                 <td>20</td>
-                <td class="time">15:00 15:20</td>
+                <td>15:00<br>15:20</td>
                 <td colspan="2">整潔</td>
                 <td colspan="2">時間</td>
                 <td>合計</td>
@@ -239,7 +321,7 @@
             <tr>
                 <td rowspan="2">7</td>
                 <td rowspan="2">40</td>
-                <td rowspan="2" class="time">15:20<br>16:00</td>
+                <td rowspan="2">15:20<br>16:00</td>
                 <td rowspan="2">彈性</td>
                 <td rowspan="2" class="highlight">鄉土</td>
                 <td rowspan="2">綜合</td>
@@ -252,9 +334,9 @@
             <tr>
                 <td rowspan="2"></td>
                 <td rowspan="2">10</td>
-                <td rowspan="2" class="time">16:00<br>16:10</td>
-                <td colspan="5" style="height: 50px">收穫滿行囊滿心歡喜回家去</td>
-                <td colspan="4">劉展華老師</td>
+                <td rowspan="2">16:00<br>16:10</td>
+                <td rowspan="2" colspan="5">收穫滿行囊滿心歡喜回家去</td>
+                <td rowspan="2" colspan="4">劉展華老師</td>
             </tr>
         </tbody>
     </table>
