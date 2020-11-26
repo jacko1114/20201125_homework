@@ -37,6 +37,10 @@
             padding: 9px;
         }
 
+        td {
+            padding: 1px;
+        }
+
         caption {
             font-size: 20px;
         }
@@ -45,9 +49,6 @@
             color: #f00;
         }
 
-        td {
-            padding: 1px;
-        }
 
         .small {
             font-size: 13px;
@@ -57,6 +58,19 @@
             writing-mode: vertical-Lr;
             margin: auto;
         }
+
+        .rotate {
+            transform: rotate(90deg);
+        }
+
+        .force_rotate {
+            position: relative;
+        }
+
+        .force_rotate .rotate {
+            position: absolute;
+        }
+
 
         @media screen and (min-width: 1024px) {
             * {
@@ -70,10 +84,6 @@
 
             table {
                 max-width: 1000px;
-            }
-
-            .rotate {
-                transform: rotate(90deg);
             }
 
             .align {
@@ -254,8 +264,8 @@
             </tr>
             <tr>
                 <td rowspan="11">
-                    <span class="vetical">
-                        <span class="rotate">下 </span>
+                    <span class="vetical force_rotate">
+                        <span class="rotate">下</span>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;午
                     </span>
                 </td>
