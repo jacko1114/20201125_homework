@@ -19,12 +19,13 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-
+            background: #f8f4ee;
         }
 
         table {
             border: 2px solid #000;
             border-collapse: collapse;
+            background: #fff;
         }
 
         th,
@@ -34,7 +35,7 @@
         }
 
         th {
-            padding: 9px;
+            padding: 5px;
         }
 
         td {
@@ -42,13 +43,13 @@
         }
 
         caption {
-            font-size: 20px;
+            font-size: 18px;
+            line-height: 2;
         }
 
         .highlight {
             color: #f00;
         }
-
 
         .small {
             font-size: 13px;
@@ -74,7 +75,7 @@
 
         @media screen and (min-width: 1024px) {
             * {
-                font-size: 17px;
+                font-size: 16px;
             }
 
             body {
@@ -83,11 +84,16 @@
             }
 
             table {
-                max-width: 1000px;
+                max-width: 900px;
             }
 
             .align {
                 position: relative;
+            }
+
+            caption {
+                font-size: 23px;
+                line-height: 2;
             }
 
             .text1 {
@@ -99,33 +105,33 @@
             .text2 {
                 position: absolute;
                 top: 5%;
-                left: 45%;
+                left: 47%;
             }
 
             .text3 {
                 position: absolute;
                 top: 5%;
-                right: 5%;
+                right: 4%;
             }
 
             .line1 {
                 position: absolute;
-                width: 250px;
+                width: 231px;
                 height: 1px;
                 background: #000;
-                bottom: 14px;
+                bottom: 9px;
                 right: 0px;
-                transform: rotate(193deg) translateY(15px);
+                transform: rotate(192deg) translateY(15px);
             }
 
             .line2 {
                 position: absolute;
-                width: 100px;
+                width: 90px;
                 height: 1px;
                 background: #000;
-                bottom: 16px;
-                right: -2px;
-                transform: rotate(216deg) translateY(15px);
+                bottom: 12px;
+                right: 0px;
+                transform: rotate(213deg) translateY(15px);
             }
         }
     </style>
