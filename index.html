@@ -9,7 +9,6 @@
         * {
             font-family: "標楷體";
             text-align: center;
-            box-sizing: border-box;
             font-weight: 800;
             font-size: 12px;
         }
@@ -72,6 +71,48 @@
             position: absolute;
         }
 
+        .align {
+            position: relative;
+        }
+
+        .left-text {
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+        }
+
+        .middle-text {
+            position: absolute;
+            top: 5%;
+            left: 47%;
+        }
+
+        .right-text {
+            position: absolute;
+            top: 5%;
+            right: 0;
+        }
+
+        .left-line {
+            position: absolute;
+            width: 24vw;
+            height: 1px;
+            background: #000;
+            bottom: 9%;
+            right: 0;
+            transform: rotate(198deg) translateY(15px);
+        }
+
+        .right-line {
+            position: absolute;
+            width: 11vw;
+            height: 1px;
+            background: #000;
+            bottom: 22%;
+            right: -1%;
+            transform: rotate(228deg) translateY(15px);
+        }
+
 
         @media screen and (min-width: 1024px) {
             * {
@@ -87,50 +128,26 @@
                 max-width: 900px;
             }
 
-            .align {
-                position: relative;
-            }
-
             caption {
                 font-size: 23px;
                 line-height: 2;
             }
 
-            .text1 {
-                position: absolute;
-                bottom: 5%;
-                left: 5%;
-            }
-
-            .text2 {
-                position: absolute;
-                top: 5%;
-                left: 47%;
-            }
-
-            .text3 {
-                position: absolute;
-                top: 5%;
+            .right-text {
                 right: 4%;
             }
 
-            .line1 {
-                position: absolute;
+            .left-line {
                 width: 231px;
-                height: 1px;
-                background: #000;
-                bottom: 9px;
-                right: 0px;
+                bottom: 18%;
+                right: 0;
                 transform: rotate(192deg) translateY(15px);
             }
 
-            .line2 {
-                position: absolute;
+            .right-line {
                 width: 90px;
-                height: 1px;
-                background: #000;
-                bottom: 12px;
-                right: 0px;
+                bottom: 24%;
+                right: 0;
                 transform: rotate(213deg) translateY(15px);
             }
         }
@@ -144,15 +161,15 @@
             <tr>
                 <th width="2%">時<br>段</th>
                 <th colspan="3" width="9%" class="align">
-                    <span class="text1">
+                    <span class="left-text">
                         時間
                     </span>
-                    <span class="line1"></span>
-                    <span class="text2">
+                    <span class="left-line"></span>
+                    <span class="middle-text">
                         科別
                     </span>
-                    <span class="line2"></span>
-                    <span class="text3">
+                    <span class="right-line"></span>
+                    <span class="right-text">
                         星期
                     </span>
                 </th>
