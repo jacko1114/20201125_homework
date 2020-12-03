@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.landing-page{
+    background: url("../images/background_image.png");
+}
+nav .wrapper{
+    width: 100%;
+    padding: 30px 20px;
+    justify-content: space-between;
+    align-items: center;  
+}
+nav .navigation-list{
+    width: 500px;
+}
+nav .navigation-list ul{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+nav .navigation-list ul li{
+    list-style: none;
+    padding : 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav .navigation-list a{
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+nav .navigation-list a:hover{
+    text-decoration: none;
+    color: #518432;
+}
+nav .navigation-list a span{
+    position: absolute;
+    color:#fff;
+    top:-100%;
+    right: 0;
+    width: 40px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #0fb7eb;
+}
+nav .navigation-list a span.triangle::before{
+    content: "";
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 20px solid  #0fb7eb;
+    display:inline-block;
+    position: absolute;
+    left: 0;
+}
+nav .logo{
+    width: 300px;
+}
+nav .logo img{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+}
+nav .icon-list{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav .icon-list-item{
+    padding :10px;
+}
+nav .icon-list-item a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+nav .icon-list-item img{
+    width: 25px;
+}
+nav .icon-list-item 
+span.icon-list-item-number{
+    
+    font-size: 12px;
+}
+nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
+    color: #518432;
+}
+.banner{
+    padding-bottom: 100px;
+}
+.banner .item-pic,.banner .item-content{
+    width: 600px;
+}
+.banner .item-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+} 
+.banner .item-content h1{
+    font-size: 70px;
+    font-weight: 100;
+}
+.banner .item-content p{
+    line-height:20px;
+    margin: 10px 0 20px;
+    font-size: 20px;
+}
+.banner .item-content .btn{
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+    background: #000;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    transition: all .2s;
+}
+.banner .item-content .btn:hover{
+    background: #0fb7eb;
+}
+.banner .item-pic img{
+    width: 100%;
+}
+.intro .wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.intro {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.intro h1{
+    font-size: 40px;
+    color:#518432;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.intro em{
+    color:#aaa;
+}
+.plant-intro{
+    margin-bottom: 100px;
+}
+.plant-intro .wrapper{
+    width: 100%;
+}
+.plant-intro .item-content1,
+.plant-intro .item-content2{
+    width: 38%;
+    padding: 30px;
+}
+.plant-intro .item-content1 h3,
+.plant-intro .item-content2 h3{
+    line-height: 60px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.plant-intro .item-content1 p,
+.plant-intro .item-content2 p{
+    font-size: 15px;
+    color:#999;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.plant-intro .item-content1{
+    text-align: right;
+}
+.plant-intro .item-pic{
+    width: 33%;
+}
+.plant-intro .item-pic img{
+    width: 100%;
+    cursor: pointer;
+}
+.merchandise{
+    margin-bottom: 100px;
+}
+.merchandise .wrapper{
+    width: 100%;
+    flex-direction: column;
+}
+.merchandise .title{
+    text-align: center;
+    color: #518432;
+    font-size: 45px;
+    font-weight: 800;
+}
+.merchandise .list-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.merchandise .item{
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    transition: .35s;
+}
+.merchandise .item img:hover{
+    filter: opacity(25%);
+}
+.merchandise .item .sale-tag{
+    position: absolute;
+    top:20px;
+    right:20px;
+    background: #518432;
+    color:#fff;
+    width: 50px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.merchandise .item .sold-out-tag{
+    position: absolute;
+    top:80px;
+    left:20px;
+    background: #518432;
+    color:#fff;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.merchandise .item img {
+    width: 100%;
+}
+.merchandise .item h4 a{
+    color: #000;
+    text-decoration: none;
+}
+.merchandise .item p{
+    font-weight: 800;
+}
+.merchandise .item p span{
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 12px;
+}
+.merchandise .item h4 a:hover{
+    color: #518432;
+}
+.banner-info{
+    background: url("../images/bg-video.webp") no-repeat;
+    margin-bottom: 100px;
+}
+
+.banner-info .banner-info-content,
+.banner-info-pic{
+    margin: 100px auto;
+    padding-right: 30px;
+}
+.banner-info-pic img{
+    cursor: pointer;
+}
+.banner-info .banner-info-content h1{
+    margin-top: 120px;
+    color: #518432;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+.banner-info .banner-info-content p{
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.banner-info .banner-info-content a{
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all .3s;
+}
+.banner-info .banner-info-content a span{
+    position: absolute;
+    left: 25%;
+    transition: .3s;
+}
+.banner-info .banner-info-content a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #518432;
+    color:#fff;
+    transform: translateY(-100%);
+    transition: all .3s;  
+}
+.banner-info .banner-info-content a:hover:before{
+    transform: translateY(0);
+}
+.banner-info .banner-info-content a:hover span{
+    color:#fff;
+}
+.banner-info-pic img{
+    width: 100%;
+}
+.banner-info-pic{
+    position: relative;
+}
+.banner-info-pic i {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    color:#fff;
+    font-size: 72px;
+    transform: translate(-50%,-50%);
+}
+.shop-instagram{
+    margin-bottom: 100px;
+}
+.shop-instagram .wrapper{
+    width: 100%;
+}
+.shop-instagram .title{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.shop-instagram .title h2{
+    font-size: 30px;
+    margin: 10px 0 100px 0;
+}
+.shop-instagram .item img{
+    width: 100%;
+    padding :20px;
+    transition: all .4s ease-out;
+}
+.shop-instagram .item img:hover{
+    filter: brightness(.3);
+}
+.footer{
+    background-color: #f4f4f4;
+}
+.footer .wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.footer .logo {
+    margin: 30px 0;
+}
+.footer .logo img{
+    width: 150px;
+}
+.footer .website-link ul{
+    display: flex;
+}
+.footer .website-link li{
+    list-style: none;
+}
+.footer .website-link li a{
+    margin: 0 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.footer .website-link li + li::before{
+    content: '';
+    background-color: #aaa9a9;
+    width: 24px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer .socialmedia-icon-list 
+.socialmedia-icon{
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin:30px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.footer .socialmedia-icon-list 
+.socialmedia-icon i{
+    position: absolute;
+    transform: translate(-50%,100%);
+}
+.footer .socialmedia-icon-list 
+.socialmedia-icon:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #518432;
+    transform: translateY(100%);
+    transition: all .3s; 
+}
+.footer .socialmedia-icon-list 
+.socialmedia-icon:hover:before{
+    transform: translateY(0);
+}
+.footer .copyright{
+    color: #999;
+    margin: 30px 0 80px 0;
+    font-size: 12px;
+}
