@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 .wrapper{
     width: 1200px;
@@ -16,7 +17,7 @@ nav .wrapper{
     width: 100%;
     padding: 30px 20px;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;   
 }
 nav .navigation-list{
     width: 500px;
@@ -27,7 +28,6 @@ nav .navigation-list ul{
     align-items: center;
 }
 nav .navigation-list ul li{
-    list-style: none;
     padding : 0 20px;
     font-size: 15px;
     font-weight: 600;
@@ -63,12 +63,12 @@ nav .navigation-list a span.triangle::before{
 }
 nav .logo{
     width: 300px;
+    position: relative;
 }
 nav .logo img{
     display: block;
     width: 150px;
     height: 40px;
-    margin: auto;
 }
 nav .icon-list{
     width: 400px;
@@ -209,10 +209,13 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     text-align: center;
     line-height: 30px;
     position: relative;
-    transition: .35s;
+    
+}
+.merchandise .item img{
+    transition: .4s;
 }
 .merchandise .item img:hover{
-    filter: opacity(25%);
+    filter: opacity(30%);
 }
 .merchandise .item .sale-tag{
     position: absolute;
@@ -226,6 +229,7 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     font-size: 12px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 2;
 }
 .merchandise .item .sold-out-tag{
     position: absolute;
@@ -238,6 +242,7 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     line-height: 25px;
     font-weight: 700;
     font-size: 12px;
+    z-index: 2;
 }
 
 .merchandise .item img {
@@ -329,6 +334,11 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     color:#fff;
     font-size: 72px;
     transform: translate(-50%,-50%);
+    cursor: pointer;
+    transition: .4s;
+}
+.banner-info-pic i:hover{
+    color: #518432;
 }
 .shop-instagram{
     margin-bottom: 100px;
@@ -367,9 +377,6 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
 }
 .footer .website-link ul{
     display: flex;
-}
-.footer .website-link li{
-    list-style: none;
 }
 .footer .website-link li a{
     margin: 0 40px;
