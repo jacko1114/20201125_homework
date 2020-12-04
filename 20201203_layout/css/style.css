@@ -204,7 +204,7 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     flex-wrap: wrap;
 }
 .merchandise .item{
-    width: 33%;
+    width: calc(100% / 3);
     padding: 20px;
     text-align: center;
     line-height: 30px;
