@@ -111,7 +111,7 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
 .banner .item-content .btn{
     text-decoration: none;
     display: inline-block;
-    width: 150px;
+    width: 180px;
     height: 50px;
     border-radius: 2px;
     background: #000;
@@ -119,6 +119,8 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     text-align: center;
     line-height: 50px;
     transition: all .2s;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 .banner .item-content .btn:hover{
     background: #0fb7eb;
