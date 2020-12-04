@@ -244,7 +244,6 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     font-size: 12px;
     z-index: 2;
 }
-
 .merchandise .item img {
     width: 100%;
 }
@@ -267,15 +266,11 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
     background: url("../images/bg-video.png") no-repeat;
     margin-bottom: 100px;
 }
+.banner-info .wrapper{
+    padding : 80px 0;
+}
 
-.banner-info .banner-info-content,
-.banner-info-pic{
-    margin: 100px auto;
-    padding-right: 30px;
-}
-.banner-info-pic img{
-    cursor: pointer;
-}
+.banner-info .banner-info-content h1,
 .banner-info .banner-info-content h1{
     margin-top: 120px;
     color: #518432;
@@ -321,21 +316,30 @@ nav .icon-list-item img[alt="cart"]:hover + .icon-list-item-number{
 .banner-info .banner-info-content a:hover span{
     color:#fff;
 }
-.banner-info-pic img{
-    width: 100%;
-}
+
 .banner-info-pic{
     position: relative;
+    padding-left: 100px;
 }
-.banner-info-pic i {
+.banner-info-pic img{
     position: absolute;
-    left: 50%;
-    top:50%;
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 14%;
+}
+
+.banner-info-pic i{
+    position: absolute;
+    left: 65%;
+    top:55%;
     color:#fff;
     font-size: 72px;
     transform: translate(-50%,-50%);
     cursor: pointer;
     transition: .4s;
+    z-index: 3;
 }
 .banner-info-pic i:hover{
     color: #518432;
