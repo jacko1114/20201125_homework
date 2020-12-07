@@ -350,41 +350,47 @@ nav.active{
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.intro h2{
+.plant-intro{
+    margin-bottom: 100px;
+}
+.plant-intro .wrapper{
+    width: 1440px;
+    margin: auto;
+    flex-direction: column;
+}
+.plant-intro .title-heading{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.plant-intro .title-heading h2{
     font-size: 40px;
     color:#518432;
     line-height: 1.4;
     margin-bottom: 20px;
 }
-.intro em{
+.plant-intro .title-heading em{
     color:#aaa;
 }
-.plant-intro .wrapper{
-    width: 1440px;
-    margin: auto;
+.plant-intro .plant-intro-content{
+    display: flex;
 }
-.plant-intro{
-    margin-bottom: 100px;
-}
-.plant-intro .item-list-left,
-.plant-intro .item-list-right{
+.plant-intro .item-list{
     width: 38%;
     padding: 30px;
 }
-.plant-intro .item-list-left h3,
-.plant-intro .item-list-right h3{
+.plant-intro .item-list h3{
     line-height: 60px;
     font-size: 25px;
     letter-spacing: 1px;
 }
-.plant-intro .item-list-left p,
-.plant-intro .item-list-right p{
+.plant-intro .item-list p{
     font-size: 15px;
     color:#999;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-.plant-intro .item-list-left{
+.plant-intro  .align-right{
     text-align: right;
 }
 .plant-intro .intro-item-pic{
@@ -943,14 +949,14 @@ footer #gotop:hover:before{
         width: 70%;
         z-index: 0;
     }
-    .intro{
+    .plant-intro{
         margin-bottom: 50px;
     }
-    .intro h2{
+    .plant-intro h2{
         font-size: 35px;
         color: #518432;
     }
-    .intro em{
+    .plant-intro em{
         padding: 40px 10px;
         line-height: 1.5;
     }
@@ -958,8 +964,11 @@ footer #gotop:hover:before{
         width: 100%;
         flex-wrap: wrap;
     }
-    .plant-intro .item-list-left,
-    .plant-intro .item-list-right,
+    .plant-intro .plant-intro-content{
+        flex-direction: column;
+    }
+    .plant-intro .item-list,
+    .plant-intro .item-content,
     .plant-intro .intro-item-pic{
         width: 100%;
     }
@@ -1010,6 +1019,10 @@ footer #gotop:hover:before{
     }
     footer .website-link li a{
         margin: 0 10px;
+        font-size: 12px;
+    }
+    footer .website-link li a h4{
+        margin: 0 10px 0 20px;
     }
 
 }
