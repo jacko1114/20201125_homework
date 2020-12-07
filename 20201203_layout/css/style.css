@@ -95,12 +95,12 @@ nav .navigation-list .navigation-sublist
     padding: 10px;
 }
 nav .navigation-list .navigation-sublist
-.navigation-sublist-item h5{
+.navigation-sublist-item p{
     color: #518432;
     padding: 10px 0 20px 0;
 }
 nav .navigation-list .navigation-sublist
-.navigation-sublist-item h5:after{
+.navigation-sublist-item p:after{
     content: "";
     display: block;
     width: 5em;
@@ -198,6 +198,9 @@ nav .logo{
     width: 300px;
     position: relative;
 }
+nav .logo h1{
+    font-size: 0;
+}
 nav .logo img{
     display: block;
     width: 150px;
@@ -250,7 +253,7 @@ nav.active{
     justify-content: center;
     padding: 0 35px 100px 150px;
 } 
-.banner .item-content h1{
+.banner .item-content h2{
     font-size: 70px;
     font-weight: 100;
 }
@@ -308,20 +311,20 @@ nav.active{
     border-top: 2px solid #518432;
     border-left: 2px solid #518432;
 }
-.banner .carousel-btn .btn.to-left-btn{
+.banner .carousel-btn .btn.to-pre-btn{
     left: 5%;
     opacity: 0;
     transition: all .5s ease-in-out;
 }
-.banner .carousel-btn .btn.to-left-btn:before{
+.banner .carousel-btn .btn.to-pre-btn:before{
     transform: translate(-50%,-50%) rotate(-45deg);
 }
-.banner .carousel-btn .btn.to-right-btn{
+.banner .carousel-btn .btn.to-next-btn{
     right: 5%;
     opacity: 0;
     transition: all .5s ease-in-out;
 }
-.banner .carousel-btn .btn.to-right-btn:before{
+.banner .carousel-btn .btn.to-next-btn:before{
     transform: translate(-50%,-50%) rotate(135deg);
 }
 .banner .carousel-btn .btn:hover:before{
@@ -331,11 +334,11 @@ nav.active{
 .banner .carousel-btn .btn:hover{
     background: #518432;
 }
-.banner:hover .btn.to-left-btn{
+.banner:hover .btn.to-pre-btn{
     opacity: 1;
     transform: translateX(-100%);
 }
-.banner:hover .btn.to-right-btn{
+.banner:hover .btn.to-next-btn{
     opacity: 1;
     transform: translateX(100%);
 }
@@ -347,7 +350,7 @@ nav.active{
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.intro h1{
+.intro h2{
     font-size: 40px;
     color:#518432;
     line-height: 1.4;
@@ -548,7 +551,7 @@ nav.active{
 .merchandise .item .sale-tag{
     position: absolute;
     top:20px;
-    right:15px;
+    right:20px;
     background: #518432;
     color:#fff;
     width: 50px;
@@ -609,10 +612,11 @@ nav.active{
     padding: 0 50px 0 150px;
     margin: 150px 0;
 }
-.banner-info .banner-info-content h1{
+.banner-info .banner-info-content > div{
     color: #518432;
     line-height: 2;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 .banner-info .banner-info-content p{
     line-height: 2;
@@ -729,36 +733,37 @@ nav.active{
     border-top: 2px solid #000;
     border-left: 2px solid #000;
 }
-.shop-instagram .carousel-btn .btn.to-left-btn{
+.shop-instagram .carousel-btn .btn.to-pre-btn{
     left: 4%;
     opacity: 0;
 }
-.shop-instagram .carousel-btn .btn.to-left-btn:before{
+.shop-instagram .carousel-btn .btn.to-pre-btn:before{
     transform: translate(-50%,-50%) rotate(-45deg);
 }
-.shop-instagram .carousel-btn .btn.to-right-btn{
+.shop-instagram .carousel-btn .btn.to-next-btn{
     right: 5%;
     opacity: 0;
 }
-.shop-instagram .carousel-btn .btn.to-right-btn:before{
+.shop-instagram .carousel-btn .btn.to-next-btn:before{
     transform: translate(-50%,-50%) rotate(135deg);
 }
-.shop-instagram:hover .btn.to-left-btn{
-    animation: shop-carousel-move-to-left 1s ease forwards alternate;
+.shop-instagram:hover .btn.to-pre-btn{
+    animation: shop-carousel-move-to-pre 1s ease forwards alternate;
+    transition: .3s .1s;
 }
-.shop-instagram:hover .btn.to-right-btn{
-    animation: shop-carousel-move-to-right 1s ease forwards alternate;
+.shop-instagram:hover .btn.to-next-btn{
+    animation: shop-carousel-move-to-next 1s ease forwards alternate;    
+    transition: .3s .1s;
 }
 
-@keyframes shop-carousel-move-to-left{
+@keyframes shop-carousel-move-to-pre{
     0%{opacity: 0;}
-    
     100%{
         opacity: 1;
         transform: translateX(-100%);
     }
 }
-@keyframes shop-carousel-move-to-right{
+@keyframes shop-carousel-move-to-next{
     0%{opacity: 0;}
     
     100%{
@@ -800,14 +805,17 @@ footer .logo img{
 }
 footer .website-link ul{
     display: flex;
+    position: relative;
 }
 footer .website-link li a{
-    margin: 0 40px;
     font-size: 12px;
     letter-spacing: 2px;
     font-weight: 700;
     text-decoration: none;
     color: #000;
+}
+footer .website-link li a h4{
+    margin: 0 20px 0 40px;
 }
 footer .website-link li + li::before{
     content: '';
@@ -816,6 +824,8 @@ footer .website-link li + li::before{
     height: 1px;
     display: inline-block;
     vertical-align: middle;
+    position: absolute;
+    top: 50%;
 }
 footer .social-media-icon-list .social-media-icon{
     text-decoration: none;
@@ -919,7 +929,7 @@ footer #gotop:hover:before{
         position: absolute;
         z-index: 1;
     }
-    .banner .item-content h1{
+    .banner .item-content h2{
         font-size: 35px;
         font-weight: 100;
     }
@@ -936,7 +946,7 @@ footer #gotop:hover:before{
     .intro{
         margin-bottom: 50px;
     }
-    .intro h1{
+    .intro h2{
         font-size: 30px;
     }
     .intro em{
@@ -980,12 +990,9 @@ footer #gotop:hover:before{
         padding: 20px 20px 0 20px;
         margin: 50px 0 0 0;
     }
-    .banner-info .banner-info-content h1{
-        font-size: 25px;
-    }
     .banner-info .banner-info-video img{
         top: 20px;
-    left: 20px;
+        left: 20px;
     }
     .banner-info .banner-info-video .play-btn{
         transform: translate(-30%,-80%);
