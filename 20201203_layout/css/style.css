@@ -813,6 +813,10 @@ footer .website-link ul{
     display: flex;
     position: relative;
 }
+footer .website-link li{
+    margin: 0 35px;
+    position: relative;
+}
 footer .website-link li a{
     font-size: 12px;
     letter-spacing: 2px;
@@ -820,18 +824,15 @@ footer .website-link li a{
     text-decoration: none;
     color: #000;
 }
-footer .website-link li a h4{
-    margin: 0 20px 0 40px;
-}
+
 footer .website-link li + li::before{
     content: '';
     background-color: #aaa9a9;
-    width: 24px;
+    width: 30px;
     height: 1px;
-    display: inline-block;
-    vertical-align: middle;
     position: absolute;
     top: 40%;
+    left: -40%;
 }
 footer .social-media-icon-list .social-media-icon{
     text-decoration: none;
@@ -1018,7 +1019,6 @@ footer #gotop:hover:before{
         width: 0;
     }
     footer .website-link li a{
-        margin: 0 10px;
         font-size: 12px;
     }
     footer .website-link li a h4{
