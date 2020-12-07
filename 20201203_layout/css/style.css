@@ -402,7 +402,7 @@ nav.active{
     width: 1440px;
     margin: auto;
 }
-.merchandise .title{
+.merchandise .title h2{
     text-align: center;
     color: #518432;
     font-size: 40px;
@@ -825,7 +825,7 @@ footer .website-link li + li::before{
     display: inline-block;
     vertical-align: middle;
     position: absolute;
-    top: 50%;
+    top: 40%;
 }
 footer .social-media-icon-list .social-media-icon{
     text-decoration: none;
@@ -947,7 +947,8 @@ footer #gotop:hover:before{
         margin-bottom: 50px;
     }
     .intro h2{
-        font-size: 30px;
+        font-size: 35px;
+        color: #518432;
     }
     .intro em{
         padding: 40px 10px;
@@ -964,9 +965,6 @@ footer #gotop:hover:before{
     }
     .merchandise .wrapper{
         width: 100%;
-    }
-    .merchandise .title{
-        font-size: 30px;
     }
     .merchandise .item{
         width: calc(100% / 2);
