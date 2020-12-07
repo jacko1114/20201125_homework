@@ -741,6 +741,7 @@ nav.active{
 .shop-instagram .carousel-btn .btn.to-pre-btn{
     left: 4%;
     opacity: 0;
+    transition: .3s .1s;
 }
 .shop-instagram .carousel-btn .btn.to-pre-btn:before{
     transform: translate(-50%,-50%) rotate(-45deg);
@@ -748,35 +749,20 @@ nav.active{
 .shop-instagram .carousel-btn .btn.to-next-btn{
     right: 5%;
     opacity: 0;
+    transition: .5s .2s ease-out;
 }
 .shop-instagram .carousel-btn .btn.to-next-btn:before{
     transform: translate(-50%,-50%) rotate(135deg);
 }
 .shop-instagram:hover .btn.to-pre-btn{
-    animation: shop-carousel-move-to-pre 1s ease forwards alternate;
-    transition: .3s .1s;
+    opacity: 1;
+        transform: translateX(-100%);
+    transition: .5s .2s ease-out;
 }
 .shop-instagram:hover .btn.to-next-btn{
-    animation: shop-carousel-move-to-next 1s ease forwards alternate;    
-    transition: .3s .1s;
+    opacity: 1;
+    transform: translateX(100%);    
 }
-
-@keyframes shop-carousel-move-to-pre{
-    0%{opacity: 0;}
-    100%{
-        opacity: 1;
-        transform: translateX(-100%);
-    }
-}
-@keyframes shop-carousel-move-to-next{
-    0%{opacity: 0;}
-    
-    100%{
-        opacity: 1;
-        transform: translateX(100%);
-    }
-}
-
 .shop-instagram .title{
     text-align: center;
     letter-spacing: 3px;
