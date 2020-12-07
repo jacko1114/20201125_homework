@@ -94,13 +94,20 @@ nav .navigation-list .navigation-sublist
     width: 100%;
     padding: 10px;
 }
-nav .navigation-list .navigation-sublist
+nav .navigation-list .navigation-sublist.home
 .navigation-sublist-item p{
+    padding: 10px;
+    color:#518432;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+nav .navigation-list .navigation-sublist
+.navigation-sublist-item p.heading{
     color: #518432;
     padding: 10px 0 20px 0;
 }
 nav .navigation-list .navigation-sublist
-.navigation-sublist-item p:after{
+.navigation-sublist-item p.heading:after{
     content: "";
     display: block;
     width: 5em;
@@ -142,14 +149,6 @@ nav .navigation-list .navigation-sublist.home
 .navigation-sublist-item img:hover{
     box-shadow: 1px 1px 5px #0000001f,
                 2px 2px 8px #0000001f;
-}
-
-nav .navigation-list .navigation-sublist.home
-.navigation-sublist-item p{
-    padding: 10px;
-    color:#518432;
-    letter-spacing: 2px;
-    font-size: 12px;
 }
 nav .navigation-list .navigation-sublist.shop{
     width: 36vw;
@@ -817,6 +816,9 @@ footer .website-link li{
     margin: 0 35px;
     position: relative;
 }
+footer .website-link li:last-child{
+    padding-left: 15px;
+}
 footer .website-link li a{
     font-size: 12px;
     letter-spacing: 2px;
@@ -832,7 +834,7 @@ footer .website-link li + li::before{
     height: 1px;
     position: absolute;
     top: 40%;
-    left: -40%;
+    left: -35%;
 }
 footer .social-media-icon-list .social-media-icon{
     text-decoration: none;
@@ -940,9 +942,6 @@ footer #gotop:hover:before{
         font-size: 35px;
         font-weight: 100;
     }
-    .banner .item-pic{
-        padding: 0;
-    }
     .banner .item-pic img{
         position: absolute;
         top: 10%;
@@ -1021,8 +1020,8 @@ footer #gotop:hover:before{
     footer .website-link li a{
         font-size: 12px;
     }
-    footer .website-link li a h4{
-        margin: 0 10px 0 20px;
+    footer .website-link li{
+        margin: 0 20px;
     }
 
 }
