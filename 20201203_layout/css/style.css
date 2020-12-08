@@ -5,6 +5,9 @@
     font-family: 'Roboto', sans-serif;
     list-style: none;
 }
+body{
+    position: relative;
+}
 .wrapper{
     width: 100%;
     display: flex;
@@ -603,7 +606,9 @@ nav.active{
     color: #518432;
 }
 .banner-info{
-    background: url("../images/bg-video.png") no-repeat;
+    background: url("../images/bg-video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 70px;
     width: 100%;
 }
@@ -675,7 +680,7 @@ nav.active{
     height: 400px;
 }
 .banner-info .banner-info-video img{
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     width: 100%;
     z-index: 2;
@@ -903,7 +908,114 @@ footer #gotop:hover:before{
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
 }
-
+.popup{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.popup.active{
+    display: none;
+    visibility: hidden;
+    z-index: -1;
+}
+.popup .close-btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    top:-20px;
+    right: -70%;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline:0;
+}
+.popup .close-btn i{
+    font-size: 20px;
+}
+.popup .wrapper{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: rgba(0,0,0,.7);
+}
+.popup .subscription{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.popup .subscription .subscription-content{
+    width: 60%;
+    background: #fff;
+    padding: 68px 60px 30px 70px;
+    position: relative;
+}
+.popup .subscription .subscription-content h3{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+}
+.popup .subscription .subscription-content p{
+    color: #666;
+    line-height: 1.5;
+}
+.popup .subscription .subscription-content form{
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.popup .subscription .subscription-content form input{
+    margin: 10px 5px 10px 0;
+    padding: 10px;
+    width: 200px;
+}
+.popup .subscription .subscription-content form input:focus{
+    outline: 0;
+}
+.popup .subscription .subscription-content form button{
+    background: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0 45px;
+    margin: 10px 0 10px 5px;
+    border: 0;
+    cursor: pointer;
+}
+.popup .subscription .subscription-content strong{
+    display: block;
+    font-size: 12px;
+    padding: 30px 0;
+    letter-spacing: 1px;
+}
+.popup .subscription-content .social-media-list{
+    display: flex;
+    width: 100%;
+}
+.popup .subscription-content .social-media-list a{
+    color: #000;
+    padding : 0 10px 0 0;
+}
+.popup .subscription-content .social-media-list a:hover{
+    color: #518432;
+}
+.popup .subscription-content .social-media-list a + a{
+    padding : 0 10px;
+}
+.popup .subscription .subscription-pic{
+    width: 40%;
+}
+.popup .subscription .subscription-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
 @media screen and (max-width:768px){
     nav .wrapper{
         padding: 20px;
@@ -1009,5 +1121,26 @@ footer #gotop:hover:before{
     footer .website-link li{
         margin: 0 20px;
     }
-
+    .popup .close-btn{
+        right: -20px;
+    }
+    .popup .subscription .subscription-content{
+        width: 80%;
+        margin: auto;
+        padding: 30px;
+    }
+    .popup .subscription .subscription-pic{
+        display: none;
+    }
+    .popup .subscription .subscription-content form{
+        flex-direction: column;
+    }
+    .popup .subscription .subscription-content form input{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .popup .subscription .subscription-content form button{
+        padding: 15px 45px;
+        margin: 10px 0;
+    }
 }
