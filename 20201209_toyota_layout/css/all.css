@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "microsoft jhenghei",serif;
+  font-family: "microsoft jhenghei", serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  text-align: justify;
+  list-style: none;
 }
 
 body {
@@ -262,7 +264,10 @@ body {
   left: -2%;
 }
 
-.advantage-info, .advantage-colorlump, .advantage-colorlump-lg, .advantage-revolution {
+.advantage-info,
+.advantage-colorlump,
+.advantage-colorlump-lg,
+.advantage-revolution {
   position: absolute;
 }
 
@@ -309,7 +314,7 @@ body {
 }
 
 .advantage-list-item:nth-child(even) .advantage-info .info-topic span.rotate-word {
-  right: -7%;
+  right: -8%;
   left: auto;
 }
 
@@ -325,8 +330,90 @@ body {
   left: 0%;
 }
 
+.video-46things {
+  margin-bottom: 100px;
+}
+
+.video-46things video {
+  width: 100%;
+  position: relative;
+  left: 10px;
+  -webkit-mask-image: url("../images/things.svg");
+          mask-image: url("../images/things.svg");
+  -webkit-mask-position: center center;
+          mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+
+.video-46things .more-btn {
+  position: relative;
+}
+
+.video-46things .more-btn a {
+  text-decoration: none;
+  line-height: 100px;
+  background: #000;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+  padding: 38px 143px;
+}
+
+.video-46things .more-btn a:before {
+  content: "";
+  background: #000;
+  position: absolute;
+  background: #d30303;
+  width: 70%;
+  height: 66%;
+  left: 0;
+  top: 50%;
+  font-size: 25px;
+  text-align: right;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.video-46things .more-btn a span.more-btn_word {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  right: 36%;
+  bottom: -18%;
+}
+
+.video-46things .more-btn a span.more-btn_arrow {
+  position: absolute;
+  width: 130px;
+  height: 1px;
+  background: #fff;
+  bottom: 25%;
+  right: 25%;
+  -webkit-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.video-46things .more-btn a span.more-btn_arrow:after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateY(-4px) rotate(45deg);
+          transform: translateY(-4px) rotate(45deg);
+}
+
+.video-46things .more-btn:hover a span.more-btn_arrow {
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
 .video-display {
   width: 100%;
+  margin-bottom: 200px;
 }
 
 .video-display .wrapper {
@@ -334,17 +421,97 @@ body {
   height: 700px;
 }
 
-.video-display a {
+.video-display .pagination-btn-zone {
   width: 100%;
-  height: 100%;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video-display .pagination-btn-zone .pagination-btn {
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #f87979;
+  margin: 20px 10px;
+  border: 0;
+  outline: 0;
+}
+
+.video-display .pagination-btn-zone .pagination-btn.active {
+  background: #ae0014;
+}
+
+.cars .wrapper {
+  width: 100%;
+}
+
+.cars .cars-list {
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.cars .cars-list .car-item {
+  width: 206px;
+  height: 200px;
+  margin-right: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.cars .cars-list .car-item-img img {
+  width: 100%;
+}
+
+.cars .cars-list .car-item-name p {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 800;
+}
+
+.cars .cars-list .car-item-links {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.cars .cars-list .car-item-links a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #ae0014;
+  padding: 2px 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.cars .cars-list .car-item-links a:last-child {
+  margin-left: 10px;
+}
+
+.cars .cars-notice {
+  margin: 100px 150px;
+}
+
+.cars .cars-notice p {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
 }
 
 .side-menu {
   width: 190px;
   position: fixed;
   bottom: 6%;
-  right: -8%;
+  right: -9%;
   -webkit-transition: .4s ease-out;
   transition: .4s ease-out;
 }
@@ -420,5 +587,110 @@ body {
 .side-menu ul li:nth-child(n+5):hover span {
   background: #fff;
   color: #ae0014;
+}
+
+.side-menu ul li:not(:nth-child(2)) span {
+  padding: 15px 0 0 10px;
+}
+
+footer {
+  -webkit-box-shadow: 0 -6px 7px #0000001a;
+          box-shadow: 0 -6px 7px #0000001a;
+  padding-top: 60px;
+}
+
+footer .wrapper {
+  width: 1140px;
+}
+
+footer .site-map {
+  padding-bottom: 50px;
+}
+
+footer .site-map .site-map-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+footer .site-map .site-map-list-item {
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+footer .site-map .site-map-list-item .heading-title p {
+  color: #ae0014;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+footer .site-map .site-map-list-item .site-map-list-item-subitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+footer .site-map .site-map-list-item .site-map-list-item-subitem ul {
+  margin-right: 20px;
+}
+
+footer .site-map .site-map-list-item .site-map-list-item-subitem ul li {
+  margin: 5px 0;
+}
+
+footer .site-map .site-map-list-item .site-map-list-item-subitem ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .site-map .site-map-list-item .site-map-list-item-subitem ul li a:hover {
+  color: #ae0014;
+}
+
+footer .copyright-footer {
+  background: #333;
+  padding: 25px 0;
+}
+
+footer .copyright-footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .copyright-footer .wrapper .copy-info, footer .copyright-footer .wrapper .copyright {
+  width: 50%;
+  color: #fff;
+}
+
+footer .copyright-footer .wrapper .copy-info a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px;
+  position: relative;
+}
+
+footer .copyright-footer .wrapper .copy-info a + a:before {
+  content: "|";
+  position: absolute;
+  left: -9%;
+}
+
+footer .copyright-footer .wrapper .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .copyright-footer .wrapper .copyright img {
+  padding: 5px 10px 0 0;
 }
 /*# sourceMappingURL=all.css.map */
