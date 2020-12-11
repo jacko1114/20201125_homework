@@ -4,33 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build School</title>
+    <title>| 菜狗好窩 |</title>
     <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">
-                    Build School
-                </a>
+                <div class="logo">
+                    <a href="#">
+                        <h1>
+                            菜狗
+                            <img src="./images/Vetadog.jpg" alt="菜狗">
+                        </h1>
+                    </a>
+                </div>
                 <div class="menu">
                     <button class="menu-btn">
                         <i class="fas fa-bars"></i>
                     </button>
                     <ul class="header-menu">
                         <li><a href="#">
-                                Intro
+                                <i class="fas fa-paw"></i>
+                                入住流程
                             </a></li>
                         <li><a href="#">
-                                Serivices
+                                <i class="fas fa-cat"></i>
+                                關於我們
                             </a></li>
                         <li><a href="#">
-                                Pricing
+                                <i class="fas fa-kiwi-bird"></i>
+                                探索客房
                             </a></li>
                         <li><a href="#">
-                                Signup
+                                <i class="fas fa-fish"></i>
+                                精選客房
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fas fa-feather-alt"></i>
+                                聯絡我們
                             </a></li>
                     </ul>
                 </div>
@@ -39,96 +53,241 @@
     </header>
     <section class="banner">
         <div class="container">
-            <div class="banner-text">
-                <h2>Build School 是軟體開發教育的先鋒，為學生打造更有競爭力的職涯!</h2>
-                <h4>START CODING AND GET COACHED FROM MENTORS.</h4>
-                <p>
-                    <a href="#" class="signup-a">Apply Now</a>
-                </p>
+            <div class="banner-pics">
+                <div class="banner-pic-list">
+                    <div class="banner-pic-item">
+                        <img src="./images/banner-cat.jpg" alt="cat">
+                    </div>
+                    <div class="banner-pic-item">
+                        <img src="./images/banner-rabbit.jpg" alt="cat">
+                    </div>
+                    <div class="banner-pic-item">
+                        <img src="./images/banner-dog.jpg" alt="cat">
+                    </div>
+                    <div class="banner-pic-item">
+                        <img src="./images/banner-mouse.jpg" alt="cat">
+                    </div>
+                </div>
+            </div>
+            <div class="banner-form">
+                <form action="">
+                    <div class="input-group">
+                        <label><i class="fas fa-paw"></i>入住人/毛孩數<i class="fas fa-paw"></i></label>
+                        <input type="number">
+                    </div>
+                    <div class="input-group">
+                        <label><i class="fas fa-bone"></i>入住日期<i class="fas fa-bone"></i></label>
+                        <input type="date">
+                    </div>
+                    <div class="input-group">
+                        <label><i class="fas fa-dog"></i>退房日期<i class="fas fa-dog"></i></label>
+                        <input type="date">
+                    </div>
+                    <div class="input-group">
+                        <input type="submit" value="搜索">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-    <div class="content">
+    <section class="process">
         <div class="container">
-            <div class="feature-content">
-                <h3>這裡沒有考試，只有滿滿的程式碼</h3>
+            <div class="process_title">
+                <h2>簡易入住流程</h2>
             </div>
-            <div class="items">
-                <div class="item">
-                    <div>
-                        <div class="item-body">
-                            <h4>Fronted</h4>
-                            <h3>HTML, CSS, and JS framerwork.</h3>
-                        </div>
-                        <div class="item-footer">
-                            <a href="#">More Information</a>
-                        </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="process-step_pic">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20" height="20" viewBox="0 0 20 20">
+                            <path fill="#000000"
+                                d="M18.5 2h-2.5v-0.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v0.5h-10v-0.5c0-0.276-0.224-0.5-0.5-0.5s-0.5 0.224-0.5 0.5v0.5h-2.5c-0.827 0-1.5 0.673-1.5 1.5v14c0 0.827 0.673 1.5 1.5 1.5h17c0.827 0 1.5-0.673 1.5-1.5v-14c0-0.827-0.673-1.5-1.5-1.5zM1.5 3h2.5v1.5c0 0.276 0.224 0.5 0.5 0.5s0.5-0.224 0.5-0.5v-1.5h10v1.5c0 0.276 0.224 0.5 0.5 0.5s0.5-0.224 0.5-0.5v-1.5h2.5c0.276 0 0.5 0.224 0.5 0.5v2.5h-18v-2.5c0-0.276 0.224-0.5 0.5-0.5zM18.5 18h-17c-0.276 0-0.5-0.224-0.5-0.5v-10.5h18v10.5c0 0.276-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M7.5 10h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M10.5 10h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M13.5 10h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M16.5 10h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M4.5 12h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M7.5 12h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M10.5 12h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M13.5 12h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M16.5 12h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M4.5 14h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M7.5 14h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M10.5 14h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M13.5 14h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M16.5 14h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M4.5 16h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M7.5 16h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M10.5 16h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M13.5 16h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M16.5 16h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="process-step_txt">
+                        <p>STEP1 : 填選人/毛數與入住日期</p>
                     </div>
                 </div>
-                <div class="item">
-                    <div>
-                        <div class="item-body">
-
-                            <h4>Fronted</h4>
-                            <h3>HTML, CSS, and JS framerwork.</h3>
-                        </div>
-                        <div class="item-footer">
-                            <a href="#">More Information</a>
-                        </div>
+                <div class="process-step">
+                    <div class="process-step_pic">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20" height="20" viewBox="0 0 20 20">
+                            <path fill="#000000"
+                                d="M19.871 12.165l-8.829-9.758c-0.274-0.303-0.644-0.47-1.042-0.47-0 0 0 0 0 0-0.397 0-0.767 0.167-1.042 0.47l-8.829 9.758c-0.185 0.205-0.169 0.521 0.035 0.706 0.096 0.087 0.216 0.129 0.335 0.129 0.136 0 0.272-0.055 0.371-0.165l2.129-2.353v8.018c0 0.827 0.673 1.5 1.5 1.5h11c0.827 0 1.5-0.673 1.5-1.5v-8.018l2.129 2.353c0.185 0.205 0.501 0.221 0.706 0.035s0.221-0.501 0.035-0.706zM12 19h-4v-4.5c0-0.276 0.224-0.5 0.5-0.5h3c0.276 0 0.5 0.224 0.5 0.5v4.5zM16 18.5c0 0.276-0.224 0.5-0.5 0.5h-2.5v-4.5c0-0.827-0.673-1.5-1.5-1.5h-3c-0.827 0-1.5 0.673-1.5 1.5v4.5h-2.5c-0.276 0-0.5-0.224-0.5-0.5v-9.123l5.7-6.3c0.082-0.091 0.189-0.141 0.3-0.141s0.218 0.050 0.3 0.141l5.7 6.3v9.123z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="process-step_txt">
+                        <p>STEP2 : 選擇喜歡窩型</p>
                     </div>
                 </div>
-                <div class="item">
-                    <div>
-                        <div class="item-body">
+                <div class="process-step">
+                    <div class="process-step_pic">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20" height="20" viewBox="0 0 20 20">
+                            <path fill="#000000"
+                                d="M10.5 18h-1c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h1c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z">
+                            </path>
+                            <path fill="#000000"
+                                d="M14.5 20h-9c-0.827 0-1.5-0.673-1.5-1.5v-17c0-0.827 0.673-1.5 1.5-1.5h9c0.827 0 1.5 0.673 1.5 1.5v17c0 0.827-0.673 1.5-1.5 1.5zM5.5 1c-0.276 0-0.5 0.224-0.5 0.5v17c0 0.276 0.224 0.5 0.5 0.5h9c0.276 0 0.5-0.224 0.5-0.5v-17c0-0.276-0.224-0.5-0.5-0.5h-9z">
+                            </path>
+                            <path fill="#000000"
+                                d="M13.5 16h-7c-0.276 0-0.5-0.224-0.5-0.5v-13c0-0.276 0.224-0.5 0.5-0.5h7c0.276 0 0.5 0.224 0.5 0.5v13c0 0.276-0.224 0.5-0.5 0.5zM7 15h6v-12h-6v12z">
+                            </path>
+                        </svg>
 
-                            <h4>Fronted</h4>
-                            <h3>HTML, CSS, and JS framerwork.</h3>
-                        </div>
-                        <div class="item-footer">
-                            <a href="#">More Information</a>
-                        </div>
+                    </div>
+                    <div class="process-step_txt">
+                        <p>STEP3 : 填寫手機號碼</p>
                     </div>
                 </div>
-
+                <div class="process-step">
+                    <div class="process-step_pic">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="20" height="20" viewBox="0 0 20 20">
+                            <path fill="#000000"
+                                d="M17.5 6h-16c-0.827 0-1.5 0.673-1.5 1.5v9c0 0.827 0.673 1.5 1.5 1.5h16c0.827 0 1.5-0.673 1.5-1.5v-9c0-0.827-0.673-1.5-1.5-1.5zM17.5 7c0.030 0 0.058 0.003 0.087 0.008l-7.532 5.021c-0.29 0.193-0.819 0.193-1.109 0l-7.532-5.021c0.028-0.005 0.057-0.008 0.087-0.008h16zM17.5 17h-16c-0.276 0-0.5-0.224-0.5-0.5v-8.566l7.391 4.927c0.311 0.207 0.71 0.311 1.109 0.311s0.798-0.104 1.109-0.311l7.391-4.927v8.566c0 0.276-0.224 0.5-0.5 0.5z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="process-step_txt">
+                        <p>STEP4 : 收到簡訊通知，訂房成功!</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="story">
-        <div class="container story-area">
-            <div class="story-content">
-                <div class="story-img">
-                    <img src="https://picsum.photos/450/300/?random=1">
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about_txt">
+                <h2>關於我們</h2>
+                <p>生存電子郵件幹什麼，連結證明身材本帖時代，身影報告放棄設為中學是個的人，一週是個不大有可能影片用途醫學超級，想要零售幽默目的加快也不這麼開始即使召開作為傳說，寬頻股票統計不限廣告處於空中在於負責人轉移，把他顯卡堅決浪漫說是兩個力道標準，引擎改善，我就一般。
+                </p>
+                <a href="#">探索客房</a>
+            </div>
+            <div class="about_pic">
+                <img src="./images/about_us.jpg" alt="about us">
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <div class="featured-room_title">
+                <h2>精選客房</h2>
+            </div>
+            <div class="featured-room_item">
+                <div class="featured-room-item_pic">
+                    <img src="" alt="">
                 </div>
-                <div class="story-text">
-                    <h3>透過身經百戰的實務講師、各大企業的資深軟體工程師或CTO，帶領同學實作一個真正運作的產品開發，解決真實世界的問題，透過專題過程中的實作，培養解決問題的能力，這裡不只是程式教學或教育訓練，學的不只是技能，而是Learn
-                        how to learn，以因應變化多端的軟體開發技能，及自我尋找解答的能力。</h3>
-                    <p>Project-based Learning</p>
+                <div class="featured-room-item_content">
+                    <h3>名稱 : 獨守空閨</h3>
+                    <p>平日(一 - 四) : $ 1,000</p>
+                    <p>假日(五 - 日): $ 2,000</p>
+                </div>
+            </div>
+            <div class="featured-room_item">
+                <div class="featured-room-item_pic">
+                    <img src="" alt="">
+                </div>
+                <div class="featured-room-item_content">
+                    <h3>名稱 : 與之共眠 (2 - 3 人 / 毛)</h3>
+                    <p>平日(一 - 四) : 2,000</p>
+                    <p>假日(五 - 日) : 3,000</p>
+                </div>
+            </div>
+            <div class="featured-room_item">
+                <div class="featured-room-item_pic">
+                    <img src="" alt="">
+                </div>
+                <div class="featured-room-item_content">
+                    <h3>名稱 : 與之狂歡 (10人 / 毛↑)</h3>
+                    <p>平日(一 - 四) : 5,000</p>
+                    <p>假日(五 - 日) : 7,000</p>
                 </div>
             </div>
         </div>
-    </div>
-    <section class="join">
+    </section>
+    <section class="contact">
         <div class="container">
-            <div class="signup-content">
-                <h2>立刻加入</h2>
-                <p>welcome.</p>
-                <div class="sign-form">
-                    <div>
-                        <div class="input-div">
-                            <span><i class="fa fa-envelope"></i></span>
-                            <input type="email" placeholder="Enter your email address">
-                        </div>
-                        <div class="input-div">
-                            <span><i class="fa fa-lock"></i></span>
-                            <input type="password" placeholder="Create your password">
-                        </div>
-                        <div class="input-div">
-                            <span><i class="fa fa-phone"></i></span>
-                            <input type="text" placeholder="Enter mobile number">
-                        </div>
+            <div class="contact_title">
+                <h2>聯絡我們</h2>
+            </div>
+            <div class="sign-form">
+                <div>
+                    <div class="input-group">
+                        <span><i class="fa fa-lock"></i></span>
+                        <input type="text"" placeholder=" 輸入姓名">
                     </div>
-                    <p>By joining, you agree to the Terms & Conditions and Privacy Policy.</p>
-                    <a href="#">Sign up</a>
+                    <div class="input-group">
+                        <span><i class="fa fa-envelope"></i></span>
+                        <input type="email" placeholder="輸入Email">
+                    </div>
+                    <div class="input-group">
+                        <span><i class="fa fa-phone"></i></span>
+                        <textarea cols="30" rows="10" placeholder="想跟我們說些什麼...."></textarea>
+                    </div>
+                    <div class="input-div">
+                        <input type="submit" value="送出">
+                        <input type="reset" value="重寫">
+                    </div>
                 </div>
             </div>
         </div>
@@ -137,20 +296,25 @@
         <div class="container">
             <div class="footer-menu">
                 <ul>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact </a></li>
+                    <li><a href="#">入住流程</a></li>
+                    <li><a href="#">關於我們</a></li>
+                    <li><a href="#">探索客房</a></li>
+                    <li><a href="#">精選客房 </a></li>
                 </ul>
+                <p> &copy; 2020 菜狗好窩版權所有</p>
             </div>
             <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#">Build School</a>
+                <div class="footer-info">
+                    <p>好窩據點 : 台北市大安區忠孝東路三段96號11號樓</p>
+                    <p>好窩電話 : 02-7777-5566</p>
                 </div>
-                <div>
+                <div class="footer-lang">
                     <ul>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#">繁體中文</a></li>
+                        <li><a href="#">简体中文</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">日本語</a></li>
+                        <li><a href="#">한국어</a></li>
                     </ul>
                 </div>
             </div>
