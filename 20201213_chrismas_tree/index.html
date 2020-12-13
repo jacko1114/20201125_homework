@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下雪中</title>
+    <style>
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+        body {
+            overflow: hidden;
+            background: linear-gradient(#cfd9df, #9cd2f1, #e2ebf0);
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .ball {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #cecbcb, rgb(233, 232, 232), #fff);
+            border: 5px solid #2d3b8f;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .ball:before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #ffffff80;
+            top: 15%;
+            right: 20%;
+            z-index: 20;
+        }
+
+        .ball i {
+            position: absolute;
+            top: 0;
+            color: #fff;
+        }
+
+        @keyframes fall1 {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translate(100px, 500px) rotate(360deg);
+            }
+        }
+
+        @keyframes fall2 {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translate(-100px, 500px) rotate(360deg);
+            }
+        }
+
+
+        .base-up {
+            width: 360px;
+            height: 80px;
+            border-radius: 50px;
+            background: #ddc184;
+            position: absolute;
+            bottom: 11%;
+            z-index: 20;
+        }
+
+        .base-up:before {
+            content: "";
+            position: absolute;
+            width: 350px;
+            height: 9px;
+            border-radius: 20px;
+            background: #dab76c;
+            bottom: 27%;
+            left: 2%;
+            z-index: 1;
+        }
+
+        .base-down {
+            width: 400px;
+            height: 80px;
+            border-radius: 50px;
+            background: #ddc184;
+            position: absolute;
+            bottom: 4%;
+            z-index: 19;
+        }
+
+        .base-down:before {
+            content: "";
+            position: absolute;
+            width: 356px;
+            height: 9px;
+            border-radius: 20px;
+            background: #dab76c;
+            bottom: 1%;
+            left: 5%;
+            z-index: 1;
+        }
+
+        .tree {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tree-center {
+            left: 34%;
+            top: 18%;
+            z-index: 10;
+        }
+
+        .tree-right {
+            left: 54%;
+            top: 12%;
+        }
+
+        .tree-left {
+            left: 10%;
+            top: 13%;
+        }
+
+        .triangle-top {
+            border-radius: 20%;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .triangle-middle {
+            border-radius: 20%;
+            position: absolute;
+            z-index: 4;
+        }
+
+        .triangle-bottom {
+            border-radius: 20%;
+            position: absolute;
+            z-index: 3;
+        }
+
+        .rectangle {
+            background: #724810;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .rectangle:after {
+            content: "";
+            background: #724810;
+            display: block;
+            width: 100%;
+            height: 5px;
+            border-radius: 50%;
+            bottom: -3px;
+            position: absolute;
+        }
+
+        .shadow {
+            background: #aaa;
+            position: absolute;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .tree-center .triangle-top {
+            border-bottom: 70px solid #40661f;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            left: 10%;
+            top: 12%;
+        }
+
+        .tree-center .triangle-middle {
+            border-bottom: 120px solid #3d611d;
+            border-left: 70px solid transparent;
+            border-right: 70px solid transparent;
+            left: 4%;
+            top: 18%;
+        }
+
+        .tree-center .triangle-bottom {
+            border-bottom: 160px solid #36571a;
+            border-left: 90px solid transparent;
+            border-right: 90px solid transparent;
+            left: -6px;
+            top: 30%;
+
+        }
+
+        .tree-center .rectangle {
+            width: 50px;
+            height: 90px;
+            top: 66%;
+            left: 18%;
+            background: #815010;
+        }
+
+        .tree-center .shadow {
+            width: 150px;
+            height: 8px;
+            bottom: 2%;
+            left: 2%;
+        }
+
+        .tree-right .triangle-top {
+            border-bottom: 54px solid #253f0f;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            left: 14%;
+            top: 9%;
+        }
+
+        .tree-right .triangle-middle {
+            border-bottom: 100px solid #20350d;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            top: 12%;
+            left: 8%;
+        }
+
+        .tree-right .triangle-bottom {
+            border-bottom: 140px solid #1d310c;
+            border-left: 68px solid transparent;
+            border-right: 68px solid transparent;
+            position: absolute;
+            left: 6%;
+            top: 20%;
+        }
+
+        .tree-right .rectangle {
+            width: 36px;
+            height: 78px;
+            top: 58%;
+            left: 22%;
+        }
+
+        .tree-right .shadow {
+            width: 128px;
+            height: 5px;
+            bottom: 15%;
+            left: 2%;
+
+        }
+
+        .tree-left .triangle-top {
+            border-bottom: 60px solid #488a0e;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            left: 15%;
+            top: 4%;
+        }
+
+        .tree-left .triangle-middle {
+            border-bottom: 90px solid #427e0e;
+            border-left: 60px solid transparent;
+            border-right: 60px solid transparent;
+            left: 8%;
+            top: 13%;
+        }
+
+        .tree-left .triangle-bottom {
+            border-bottom: 124px solid #38690d;
+            border-left: 80px solid transparent;
+            border-right: 80px solid transparent;
+            left: 6px;
+            top: 23%;
+        }
+
+        .tree-left .rectangle {
+            width: 40px;
+            height: 74px;
+            top: 55%;
+            left: 21%;
+        }
+
+        .tree-left .shadow {
+            width: 101px;
+            height: 8px;
+            bottom: 19%;
+            left: 10%;
+        }
+
+        .snow-man {
+            position: relative;
+            left: 25%;
+            bottom: -65%;
+            z-index: 10;
+        }
+
+        .snow-ball-top {
+            width: 30px;
+            height: 25px;
+            position: absolute;
+            background: rgb(190, 188, 188);
+            border-radius: 50%;
+            top: -7px;
+            left: 3px;
+            z-index: 3;
+        }
+
+        .snow-ball-top .left-eye {
+            width: 3px;
+            height: 6px;
+            background: #000;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            top: -2px;
+            left: 27px;
+            z-index: 4;
+        }
+
+        .snow-ball-top .right-eye {
+            width: 3px;
+            height: 6px;
+            background: #000;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            z-index: 4;
+        }
+
+        .snow-ball-top .nose {
+            display: block;
+            border-left: 10px solid #f2a31b;
+            border-bottom: 2px solid transparent;
+            border-top: 2px solid transparent;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 4;
+            right: -5px;
+            top: 4px;
+            transform: rotate(-45deg);
+        }
+
+        .snow-ball-top:after {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 25px;
+            background: #fff;
+            border-radius: 50%;
+            top: -2px;
+            left: 2px;
+        }
+
+        .snow-ball-middle {
+            z-index: 1;
+            width: 45px;
+            height: 40px;
+            background: rgb(190, 188, 188);
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: -1px;
+        }
+
+        .snow-ball-middle .left-hand {
+            display: block;
+            width: 40px;
+            height: 2px;
+            background: #472702;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: rotate(40deg);
+        }
+
+        .snow-ball-middle .left-hand:before {
+            content: "";
+            display: block;
+            width: 8px;
+            height: 2px;
+            background: #472702;
+            position: absolute;
+            top: -2px;
+            left: 73%;
+            transform: rotate(-40deg);
+        }
+
+        .snow-ball-middle .right-hand {
+            display: block;
+            width: 32px;
+            height: 2px;
+            background: #472702;
+            position: absolute;
+            top: 77%;
+            left: -5%;
+            transform: rotate(287deg);
+            z-index: 4;
+        }
+
+        .snow-ball-middle .right-hand:before {
+            content: "";
+            display: block;
+            width: 11px;
+            height: 2px;
+            background: #472702;
+            position: absolute;
+            top: -2px;
+            left: 1px;
+            transform: rotate(206deg);
+            z-index: 4;
+        }
+
+        .snow-ball-middle:after {
+            content: "";
+            width: 45px;
+            height: 40px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: -1px;
+            left: 0px;
+        }
+
+        .snow-ball-bottom {
+            width: 60px;
+            height: 50px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 32px;
+            left: -7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="ball">
+            <div class="tree tree-center">
+                <div class="triangle-top"></div>
+                <div class="triangle-middle"></div>
+                <div class="triangle-bottom"></div>
+                <div class="rectangle"></div>
+                <div class="shadow"></div>
+            </div>
+            <div class="tree tree-left">
+                <div class="triangle-top"></div>
+                <div class="triangle-middle"></div>
+                <div class="triangle-bottom"></div>
+                <div class="rectangle"></div>
+                <div class="shadow"></div>
+            </div>
+            <div class=" tree tree-right">
+                <div class="triangle-top"></div>
+                <div class="triangle-middle"></div>
+                <div class="triangle-bottom"></div>
+                <div class="rectangle"></div>
+                <div class="shadow"></div>
+            </div>
+            <div class="snow-man">
+                <div class="snow-ball-top">
+                    <span class="left-eye"></span>
+                    <span class="right-eye"></span>
+                    <span class="nose"></span>
+                </div>
+                <div class="snow-ball-middle">
+                    <span class="left-hand"></span>
+                    <span class="right-hand"></span>
+                </div>
+                <div class="snow-ball-bottom"></div>
+            </div>
+        </div>
+        <div class="base-up"></div>
+        <div class="base-down"></div>
+
+    </div>
+    <script>
+        let count = 10;
+        let ball = document.querySelector(".ball");
+        function falling() {
+            let i = 0;
+            while (i < count) {
+                let snow = document.createElement("i");
+                snow.classList.add("fas");
+                snow.classList.add("fa-snowflake");
+                let x = Math.floor(Math.random() * window.innerWidth);
+                let duration = Math.random() * 10;
+                let size = Math.random() * 20 + 5;
+                let zIndex = Math.floor(Math.random() * 10 + 5);
+                let animation = Math.round(Math.random() + 1);
+                snow.style.left = `${x}px`;
+                snow.style.fontSize = `${size}px`;
+                snow.style.animation = `fall${animation} linear infinite`;
+                snow.style.animationDuration = `${duration}s`;
+                snow.style.zIndex = zIndex;
+                ball.appendChild(snow);
+                i++;
+            }
+        }
+        falling();
+        ball.addEventListener("click", function () {
+            count++;
+            if (count >= 30) {
+                return;
+            }
+            falling();
+        })
+    </script>
+</body>
+
+</html>
