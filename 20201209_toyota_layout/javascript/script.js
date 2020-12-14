@@ -20,8 +20,11 @@ $(document).ready(function () {
             $(".navigation-list").find(lists[2]).addClass("active");
         }else if(scroll_height>1820){
             $(".navigation-list").find(lists[1]).addClass("active");
-        }else{
+        }else if(scroll_height>680){
             $(".navigation-list").find("li").first().addClass("active");
+        }
+        else{
+            $(".navigation-list").find("li").siblings().removeClass("active");
         }
     });
     $(".navigation-list")
@@ -40,7 +43,7 @@ $(document).ready(function () {
     $(".advantage-tabs").find("a").on("click",function(e){
         e.preventDefault();
         let target = $(this).attr("href");
-        let offset =  $(target).offset().top;
+        let offset =  $(target).offset().top - 80;
         console.log(target);
         $("html,body").animate({scrollTop: offset},400);
     })
