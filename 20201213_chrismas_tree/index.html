@@ -45,10 +45,41 @@
             z-index: 20;
         }
 
+        .ball:after {
+            content: " 點我有意外驚喜呦!";
+            position: absolute;
+            left: 34%;
+            top: 8%;
+            letter-spacing: 1px;
+            animation: hightlight 1s infinite;
+            color: #000;
+            font-size: 20px;
+        }
+
+        @keyframes hightlight {
+            0% {
+                color: #000;
+            }
+
+            50% {
+                color: #eee;
+            }
+
+            100% {
+                color: #000;
+            }
+        }
+
         .ball i {
             position: absolute;
             top: 0;
             color: #fff;
+        }
+
+        .ball span.snow {
+            position: absolute;
+            background: #f1f0f080;
+            border-radius: 50%;
         }
 
         @keyframes fall1 {
@@ -179,7 +210,7 @@
             background: #aaa;
             position: absolute;
             border-radius: 50%;
-            z-index: 1;
+            z-index: 0;
         }
 
         .tree-center .triangle-top {
@@ -328,6 +359,7 @@
             top: -2px;
             left: 27px;
             z-index: 4;
+            transition: .4s ease-out;
         }
 
         .snow-ball-top .right-eye {
@@ -340,6 +372,7 @@
             top: 0;
             left: 20px;
             z-index: 4;
+            transition: .4s ease-out;
         }
 
         .snow-ball-top .nose {
@@ -354,7 +387,10 @@
             right: -5px;
             top: 4px;
             transform: rotate(-45deg);
+            transition: .4s ease-out;
         }
+
+
 
         .snow-ball-top:after {
             content: "";
@@ -387,6 +423,7 @@
             top: 50%;
             left: 50%;
             transform: rotate(40deg);
+            transition: .4s ease-out;
         }
 
         .snow-ball-middle .left-hand:before {
@@ -410,6 +447,7 @@
             top: 77%;
             left: -5%;
             transform: rotate(287deg);
+            transition: .4s ease-out;
             z-index: 4;
         }
 
@@ -446,12 +484,41 @@
             top: 32px;
             left: -7px;
         }
+
+        .snow-man:hover .right-eye {
+            top: 5px;
+            left: 14px;
+        }
+
+        .snow-man:hover .left-eye {
+            top: 2px;
+            left: 24px;
+        }
+
+        .snow-man:hover .nose {
+            right: 1px;
+            top: 12px;
+            transform: rotate(23deg);
+        }
+
+        .snow-man:hover .left-hand {
+            top: 9%;
+            left: 34%;
+            transform: rotate(-55deg);
+        }
+
+        .snow-man:hover .right-hand {
+            top: 37%;
+            left: -35%;
+            transform: rotate(386deg);
+        }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="ball">
+
             <div class="tree tree-center">
                 <div class="triangle-top"></div>
                 <div class="triangle-middle"></div>
@@ -487,11 +554,14 @@
             </div>
         </div>
         <div class="base-up"></div>
-        <div class="base-down"></div>
+        <div class="base-down">
+
+        </div>
 
     </div>
     <script>
         let count = 10;
+        let time = 2000;
         let ball = document.querySelector(".ball");
         function falling() {
             let i = 0;
@@ -500,9 +570,10 @@
                 snow.classList.add("fas");
                 snow.classList.add("fa-snowflake");
                 let x = Math.floor(Math.random() * window.innerWidth);
+
                 let duration = Math.random() * 10;
                 let size = Math.random() * 20 + 5;
-                let zIndex = Math.floor(Math.random() * 10 + 5);
+                let zIndex = Math.floor(Math.random() * 10 + 7);
                 let animation = Math.round(Math.random() + 1);
                 snow.style.left = `${x}px`;
                 snow.style.fontSize = `${size}px`;
@@ -513,13 +584,34 @@
                 i++;
             }
         }
+
+        function snow() {
+            let span = document.createElement("span");
+            span.classList.add("snow");
+            let width = Math.random() * 5 + 5;
+            let height = Math.random() * 5 + 5;
+            let x = Math.floor(Math.random() * 410);
+            let y = Math.floor(Math.random() * 100) + 310;
+            let zIndex = Math.floor(Math.random() * 10 + 5);
+            span.style.width = `${width}px`;
+            span.style.height = `${height}px`;
+            span.style.top = `${y}px`;
+            span.style.left = `${x}px`;
+            span.style.zIndex = zIndex;
+            ball.appendChild(span);
+        }
         falling();
+        let timer = setInterval(snow, time);
+
         ball.addEventListener("click", function () {
             count++;
             if (count >= 30) {
                 return;
             }
             falling();
+            timer.clearInterval();
+            time /= 2;
+            setInterval(snow, time);
         })
     </script>
 </body>
