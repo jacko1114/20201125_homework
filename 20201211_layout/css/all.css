@@ -257,6 +257,16 @@ ul {
     -webkit-transform: rotate(0) !important;
             transform: rotate(0) !important;
   }
+  .about-pic {
+    width: 50%;
+  }
+  .about-pic img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 400px !important;
+    display: block;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -817,6 +827,8 @@ header nav .menu a:hover {
   font-size: 14px;
   color: #fff;
   padding: 2px;
+  -webkit-box-shadow: 1px 1px 5px #accaa5;
+          box-shadow: 1px 1px 5px #accaa5;
 }
 
 .featured-room-list .featured-room-item-content p:last-of-type {
