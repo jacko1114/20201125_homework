@@ -20,7 +20,7 @@
             background: radial-gradient(circle at 0 100%, #ffdc7d, #f46f30 30%, #7232bd 60%, #4c5fd7 80%, #c32aa3 100%);
         }
 
-        .container {
+        .wrapper {
             width: 1000px;
             height: 100vh;
             margin: auto;
@@ -60,7 +60,7 @@
             position: relative;
         }
 
-        .card_item .card_movie-info .wrapper {
+        .card_item .card_movie-info .container {
             width: 100%;
             height: 100%;
             display: flex;
@@ -117,7 +117,7 @@
             z-index: 3;
         }
 
-        .card_item:hover>.card_movie-info .wrapper {
+        .card_item:hover>.card_movie-info .container {
             animation: move .5s ease-out forwards;
         }
 
@@ -165,13 +165,13 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="wrapper">
         <div class="card_item">
             <div class="card_movie-img">
                 <img src="./Monster_Hunter.jpg" alt="Monster Hunter">
             </div>
             <div class="card_movie-info">
-                <div class="wrapper">
+                <div class="container">
                     <h2>魔物獵人
                         <span>動作</span>
                         <span>冒險</span>
@@ -189,7 +189,7 @@
                 <img src="./Kimetsu_no_Yaiba_Mugen_Ressha-Hen.jpg" alt="Kimetsu no Yaiba : Mugen Ressha-Hen">
             </div>
             <div class="card_movie-info">
-                <div class="wrapper">
+                <div class="container">
                     <h2>鬼滅之刃劇場版<br>無限列車篇<span>動畫</span></h2>
                     <h3>Kimetsu no Yaiba: Mugen Ressha-Hen</h3>
                     <p>上映日期：2020-10-30</p>
@@ -203,7 +203,7 @@
                 <img src="./Classmates_Minus.jpg" alt="Classmates Minus">
             </div>
             <div class="card_movie-info">
-                <div class="wrapper">
+                <div class="container">
                     <h2>同學麥娜絲<span>劇情</span><span>喜劇</span></h2>
                     <h3>Classmates Minus</h3>
                     <p>上映日期：2020-11-20</p>
@@ -219,7 +219,7 @@
                 <img src="./Little_Big_Women.jpg" alt="Little Big Women">
             </div>
             <div class="card_movie-info">
-                <div class="wrapper">
+                <div class="container">
                     <h2>孤味<span>劇情</span></h2>
                     <h3>
                         Little Big Women

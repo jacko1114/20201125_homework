@@ -814,6 +814,8 @@ header nav .menu a:hover {
   padding: 5px 50px;
   -webkit-transform: rotate(45deg) translate(40px, -20px);
           transform: rotate(45deg) translate(40px, -20px);
+  -webkit-box-shadow: 1px 2px 3px #38383880;
+          box-shadow: 1px 2px 3px #38383880;
 }
 
 .featured-room-list .featured-room-item-content {
