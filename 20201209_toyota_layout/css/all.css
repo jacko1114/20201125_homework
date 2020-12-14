@@ -288,16 +288,16 @@ header .heading-banner .slogan h2 {
   border: 1px solid #fff;
   width: 1600px;
   height: 1600px;
-  top: -20%;
-  left: -3%;
+  top: -13%;
+  left: 8%;
 }
 
 .TNGA-core-content .circle.circle-heavy {
   border: 2px solid #fff;
   width: 1200px;
   height: 1200px;
-  top: 2%;
-  left: 7%;
+  top: 3%;
+  left: 18%;
 }
 
 .TNGA-core-content .circle.circle-dot {
@@ -305,7 +305,7 @@ header .heading-banner .slogan h2 {
   width: 1000px;
   height: 1000px;
   top: 11%;
-  left: 14%;
+  left: 24%;
 }
 
 .TNGA-core .slogan {
@@ -401,8 +401,8 @@ header .heading-banner .slogan h2 {
 }
 
 .TNGA-core .featured-strength {
-  top: 52%;
-  left: 33%;
+  top: 53%;
+  left: 37%;
 }
 
 .TNGA-core .featured-style {
@@ -472,12 +472,13 @@ header .heading-banner .slogan h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 50px;
 }
 
 .advantage .advantage-list .advantage-list-item {
   position: relative;
   height: 80vh;
-  margin: 100px 0 150px 0;
+  margin: 80px 0;
 }
 
 .advantage .advantage-info,
@@ -644,19 +645,19 @@ header .heading-banner .slogan h2 {
 }
 
 .advantage .advantage-list-item:nth-child(odd) .advantage-info {
-  top: -10px;
+  top: -63px;
   left: 0;
   z-index: 1;
 }
 
 .advantage .advantage-list-item:nth-child(odd) .advantage-colorlump {
-  top: -126%;
+  top: -109%;
   right: -520px;
   z-index: -1;
 }
 
 .advantage .advantage-list-item:nth-child(odd) .advantage-revolution {
-  top: -91%;
+  top: -81%;
   left: 8%;
   z-index: 1;
 }
@@ -687,13 +688,13 @@ header .heading-banner .slogan h2 {
 }
 
 .advantage .advantage-list-item:nth-child(even) .advantage-colorlump-lg {
-  top: -114%;
+  top: -91%;
   right: -29%;
   z-index: -1;
 }
 
 .advantage .advantage-list-item:nth-child(even) .advantage-revolution {
-  top: -103%;
+  top: -83%;
   right: -309px;
 }
 
@@ -708,11 +709,11 @@ header .heading-banner .slogan h2 {
 }
 
 .advantage .advantage-list-item:nth-child(3) .advantage-info {
-  top: 22px;
+  top: -28px;
 }
 
 .advantage .advantage-list-item:nth-child(4) .advantage-info {
-  top: 13%;
+  top: 11%;
 }
 
 .video-46things {
@@ -896,14 +897,14 @@ header .heading-banner .slogan h2 {
   width: 190px;
   position: fixed;
   bottom: 6%;
-  right: -9%;
+  right: -7%;
   z-index: 10;
   -webkit-transition: .4s ease-out;
   transition: .4s ease-out;
 }
 
 .side-menu:hover {
-  right: -2%;
+  right: -30px;
 }
 
 .side-menu ul {
