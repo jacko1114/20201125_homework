@@ -234,6 +234,8 @@ a {
   background: #fc8f44;
   font-weight: 800;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 nav {
@@ -300,7 +302,7 @@ nav .phone .contact-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 nav .phone .contact-icon a {
@@ -316,11 +318,12 @@ nav .phone .contact-icon a i {
           transform: rotate(90deg);
 }
 
+nav .tablet,
 nav .desktop {
   display: none;
 }
 
-.banner {
+.banner-opportunity {
   background: url("../images/banner_01.png"), -webkit-gradient(linear, left top, left bottom, from(#003c5a), to(#003c5a));
   background: url("../images/banner_01.png"), linear-gradient(#003c5a, #003c5a);
   padding: 5% 0 30%;
@@ -329,50 +332,50 @@ nav .desktop {
   background-repeat: no-repeat;
 }
 
-.banner-txt {
+.banner-opportunity-txt {
   text-align: center;
 }
 
-.banner-txt h2 {
+.banner-opportunity-txt h2 {
   color: #fff;
   font-size: 35px;
   font-weight: 400;
 }
 
-.banner-txt p {
+.banner-opportunity-txt p {
   color: #66b8e0;
   font-size: 14px;
   margin-top: 10px;
   font-weight: 300;
 }
 
-.banner-sec {
+.banner-studying {
   background: #edf4f8;
   text-align: center;
   padding: 30px 0;
 }
 
-.banner-sec-txt h2 {
+.banner-studying-txt h2 {
   font-size: 30px;
   color: #252525;
   margin: 10px 0;
   font-weight: 400;
 }
 
-.banner-sec-txt h3 {
+.banner-studying-txt h3 {
   color: #555555;
   font-size: 20px;
   padding: 30px 0;
   font-weight: 300;
 }
 
-.banner-sec-txt p {
+.banner-studying-txt p {
   font-weight: 300;
   color: #888;
   line-height: 1.5;
 }
 
-.banner-sec-pic img {
+.banner-studying-pic img {
   width: 100%;
 }
 
@@ -421,33 +424,33 @@ nav .desktop {
   line-height: 1.5;
 }
 
-.banner-third {
+.banner-book-center {
   padding: 30px 0;
   background: #eaf2f6;
   text-align: center;
 }
 
-.banner-third-pic img {
+.banner-book-center-pic img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.banner-third-content h2 {
+.banner-book-center-content h2 {
   font-size: 34px;
   font-weight: 300;
   margin-bottom: 20px;
   line-height: 1.5;
 }
 
-.banner-third-content h3 {
+.banner-book-center-content h3 {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
   color: #666;
 }
 
-.banner-third-content p {
+.banner-book-center-content p {
   font-size: 13px;
   font-weight: 300;
   color: #999;
@@ -590,7 +593,6 @@ footer .copyright p {
   text-indent: 5px;
   font-size: 13px;
   line-height: 1.5;
-  text-align: justify;
 }
 
 footer .copyright p a {
@@ -609,32 +611,116 @@ footer hr {
   width: 100%;
 }
 
+footer .gotop a {
+  padding: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background: #e07f4e;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  -webkit-box-shadow: 1px 1px 3px #e07f4e;
+          box-shadow: 1px 1px 3px #e07f4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .gotop a i {
+  font-size: 18px;
+}
+
 @media screen and (min-width: 768px) {
-  nav .phone .logo {
-    margin-left: -16px;
+  nav .phone {
+    display: none;
   }
-  nav .phone .contact-icon {
-    margin-left: 70px;
+  nav .tablet {
+    display: block;
   }
-  .banner-txt h2 {
+  nav .tablet .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 80px;
+  }
+  nav .tablet .logo a {
+    color: #edf4f8;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 132px;
+  }
+  nav .tablet .contact-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 25px 0 0 30px;
+  }
+  nav .tablet .contact-icon a {
+    padding: 8px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  nav .tablet .contact-icon a i {
+    font-size: 20px;
+    color: #003c5a;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  nav .tablet .navigation-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav .tablet .navigation-list ul li a {
+    color: #2379a3;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+  nav .tablet .navigation-list ul li:first-child a {
+    color: #fff;
+  }
+  .banner-opportunity-txt h2 {
     font-size: 40px;
   }
-  .banner-txt p {
+  .banner-opportunity-txt p {
     font-size: 16px;
   }
-  .banner-sec {
+  .banner-studying {
     padding: 30px 0 0;
   }
-  .banner-sec-txt h2 {
+  .banner-studying-txt h2 {
     font-size: 35px;
   }
-  .banner-sec-txt h3 {
+  .banner-studying-txt h3 {
     font-size: 25px;
   }
-  .banner-sec-pic {
+  .banner-studying-pic {
     margin-top: 30px;
   }
-  .banner-sec-pic img {
+  .banner-studying-pic img {
     width: 90%;
   }
   .intro-title h2 {
@@ -664,13 +750,13 @@ footer hr {
     font-size: 16px;
     font-weight: 100;
   }
-  .banner-third-pic img {
+  .banner-book-center-pic img {
     width: 65%;
   }
-  .banner-third-content h3 {
+  .banner-book-center-content h3 {
     font-size: 26px;
   }
-  .banner-third-content p {
+  .banner-book-center-content p {
     font-size: 16px;
   }
   .subscription-content h2 {
@@ -718,10 +804,20 @@ footer hr {
   footer .navigation-list ul li a {
     padding: 0 20px;
   }
+  footer .copyright p {
+    text-align: justify;
+  }
+  footer .gotop a {
+    bottom: 50px;
+    right: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  nav .phone {
+  body {
+    overflow-x: hidden;
+  }
+  nav .tablet {
     display: none;
   }
   nav .desktop {
@@ -761,25 +857,25 @@ footer hr {
     font-weight: 700;
     line-height: 60px;
   }
-  .banner {
+  .banner-opportunity {
     padding: 5% 0 20%;
   }
-  .banner-txt h2 {
+  .banner-opportunity-txt h2 {
     font-size: 50px;
   }
-  .banner-txt p {
+  .banner-opportunity-txt p {
     margin: 20px 0;
     font-size: 17px;
   }
-  .banner-sec {
+  .banner-studying {
     padding: 80px 0 0;
     text-align: left;
   }
-  .banner-sec-txt p {
+  .banner-studying-txt p {
     font-size: 15px;
     line-height: 1.8;
   }
-  .banner-sec-pic {
+  .banner-studying-pic {
     width: 120%;
   }
   .intro {
@@ -788,18 +884,18 @@ footer hr {
   .intro-item .intro-txt p {
     font-size: 14px;
   }
-  .banner-third {
+  .banner-book-center {
     padding: 80px 0;
     text-align: left;
   }
-  .banner-third-pic img {
+  .banner-book-center-pic img {
     width: 90%;
   }
-  .banner-third-content h2 {
+  .banner-book-center-content h2 {
     font-size: 45px;
     line-height: 1.4;
   }
-  .banner-third-content h3 {
+  .banner-book-center-content h3 {
     font-size: 35px;
   }
   .subscription {
