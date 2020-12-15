@@ -268,8 +268,8 @@ h3 {
 nav {
   width: 100%;
   background: #003c5a;
-  -webkit-box-shadow: 0 2px 5px #000;
-          box-shadow: 0 2px 5px #000;
+  -webkit-box-shadow: 0 2px 5px #00000080;
+          box-shadow: 0 2px 5px #00000080;
   position: fixed;
   top: 0;
   left: 0;
@@ -536,9 +536,8 @@ nav .desktop {
   margin-bottom: 10px;
 }
 
-.intro-item .intro-pic i {
-  font-size: 60px;
-  color: #fc8f44;
+.intro-item .intro-pic svg {
+  fill: #fc8f44;
 }
 
 .intro-item .intro-txt h3 {
@@ -805,7 +804,6 @@ footer .gotop:hover a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 80px;
   }
   nav .tablet .logo a {
     color: #edf4f8;
@@ -823,18 +821,23 @@ footer .gotop:hover a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 25px 0 0 30px;
+    margin: 5px 0 0 30px;
   }
   nav .tablet .contact-icon a {
     padding: 8px;
     border-radius: 50%;
     background: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
   }
   nav .tablet .contact-icon a i {
     font-size: 20px;
     color: #003c5a;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+  }
+  nav .tablet .contact-icon a:hover {
+    background: #97c7c8;
   }
   nav .tablet .navigation-list ul {
     display: -webkit-box;
@@ -847,7 +850,11 @@ footer .gotop:hover a {
   nav .tablet .navigation-list ul li a {
     color: #2379a3;
     padding: 0 20px;
-    line-height: 60px;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  nav .tablet .navigation-list ul li a:hover {
+    color: #ffffff;
   }
   nav .tablet .navigation-list ul li:first-child a {
     color: #fff;
@@ -869,9 +876,6 @@ footer .gotop:hover a {
   }
   .banner-studying-pic {
     margin-top: 30px;
-  }
-  .banner-studying-pic img {
-    width: 90%;
   }
   .intro-title h2 {
     font-size: 35px;
@@ -967,6 +971,9 @@ footer .gotop:hover a {
   body {
     overflow-x: hidden;
   }
+  nav {
+    height: 60px;
+  }
   nav .tablet {
     display: none;
   }
@@ -974,6 +981,7 @@ footer .gotop:hover a {
     display: block;
   }
   nav .desktop .logo {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -985,17 +993,27 @@ footer .gotop:hover a {
     color: #edf4f8;
     font-size: 30px;
     font-weight: 700;
-    line-height: 60px;
+  }
+  nav .desktop .navigation-list {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   nav .desktop .navigation-list ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   nav .desktop .navigation-list ul li a {
     color: #2379a3;
-    padding: 0 20px;
-    line-height: 60px;
+    padding: 20px 20px 0;
     -webkit-transition: .3s;
     transition: .3s;
   }
@@ -1005,11 +1023,22 @@ footer .gotop:hover a {
   nav .desktop .navigation-list ul li:hover a {
     color: #edf4f8;
   }
+  nav .desktop .contact-number {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
   nav .desktop .contact-number a {
     color: #edf4f8;
     font-size: 20px;
     font-weight: 700;
-    line-height: 60px;
     -webkit-transition: .3s;
     transition: .3s;
   }
@@ -1035,7 +1064,7 @@ footer .gotop:hover a {
     line-height: 1.8;
   }
   .banner-studying-pic {
-    width: 120%;
+    width: 100%;
   }
   .intro {
     padding: 80px 0;
