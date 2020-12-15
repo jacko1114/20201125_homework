@@ -455,7 +455,7 @@ nav .desktop {
 .banner-opportunity {
   background: url("../images/banner_01.png"), -webkit-gradient(linear, left top, left bottom, from(#003c5a), to(#003c5a));
   background: url("../images/banner_01.png"), linear-gradient(#003c5a, #003c5a);
-  padding: 5% 0 30%;
+  padding: 15% 0 50%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
