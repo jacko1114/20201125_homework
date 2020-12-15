@@ -1087,7 +1087,10 @@ footer .gotop:hover a {
     font-size: 35px;
   }
   .subscription {
-    padding: 80px 0;
+    padding: 100px 0;
+  }
+  .subscription h2 {
+    font-size: 38px;
   }
   .subscription input {
     width: 40%;
@@ -1106,6 +1109,17 @@ footer .gotop:hover a {
   }
   footer .navigation-list {
     height: 50px;
+  }
+  footer .social-media-list ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  footer .social-media-list ul li a {
+    padding: 0 0 0 24px;
+  }
+  footer .copyright {
+    padding: 20px 0;
   }
 }
 /*# sourceMappingURL=all.css.map */
