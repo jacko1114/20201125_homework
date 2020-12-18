@@ -15,7 +15,14 @@ const getAllPokemon = () => {
 }
 
 const getAllPokemonByAppendChild = () => {
-    getData();
+    for (let i = 2; i < 890; i++) {
+        img = document.createElement("img");
+        fileName = i.toString().padStart(3, "0");
+        pathName = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${fileName}.png`;
+        img.src = pathName;
+        row.appendChild(img);
+    }
+    
 }
 
 const createFirstPokemon = () => {
@@ -68,6 +75,7 @@ const getData = () => {
             for (let j = 0; j < res[i].type.length; j++) {
                 template += `<span class="type ${res[i].type[j]}">${res[i].type[j]}</span> `;
             }
+
             template += `</div>
                             <div class="pokemon-back">
                                 <div class="pokemon-back-content">
@@ -84,6 +92,7 @@ const getData = () => {
                     </div>
                 </div>`;
         }
+        
         row.innerHTML = template;
     })
 }
@@ -96,7 +105,7 @@ window.addEventListener("load", createFirstPokemon);
 
 btn.addEventListener("click", getData);
 
-btnByAppendChild.addEventListener("click", getAllPokemonByAppendChild);
+btnByAppendChild.addEventListener("click", getData);
 
 btnReset.addEventListener("click", reset);
 
