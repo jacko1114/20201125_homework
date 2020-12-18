@@ -1,0 +1,512 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.section-block {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+strong {
+  font-size: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+[class^="col-"] {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 0) {
+  .col-1 {
+    width: 8.33333%;
+  }
+  .col-2 {
+    width: 16.66667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333%;
+  }
+  .col-5 {
+    width: 41.66667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333%;
+  }
+  .col-8 {
+    width: 66.66667%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333%;
+  }
+  .col-11 {
+    width: 91.66667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-sm-1 {
+    width: 8.33333%;
+  }
+  .col-sm-2 {
+    width: 16.66667%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33333%;
+  }
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+  .col-sm-11 {
+    width: 91.66667%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33333%;
+  }
+  .col-md-2 {
+    width: 16.66667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33333%;
+  }
+  .col-md-5 {
+    width: 41.66667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33333%;
+  }
+  .col-md-8 {
+    width: 66.66667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33333%;
+  }
+  .col-md-11 {
+    width: 91.66667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33333%;
+  }
+  .col-xl-2 {
+    width: 16.66667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    width: 41.66667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33333%;
+  }
+  .col-xl-8 {
+    width: 66.66667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33333%;
+  }
+  .col-xl-11 {
+    width: 91.66667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+h2,
+h6,
+p,
+span,
+input,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section_contact {
+  background: #2b3238;
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.section_contact h6 {
+  color: #304ddd;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 1em 0;
+}
+
+.section_contact h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 400;
+  margin: .3em 0;
+}
+
+.section_contact .contact-detail p,
+.section_contact .contact-detail span {
+  color: #ffffff;
+}
+
+.section_contact .contact-detail p {
+  line-height: 1.6;
+}
+
+.section_contact .contact-detail li {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_contact .contact-detail li span {
+  margin-left: 20px;
+}
+
+.section_contact .contact-detail li i {
+  color: #25ebff;
+  font-size: 28px;
+  text-align: center;
+  -ms-flex-preferred-size: 28px;
+      flex-basis: 28px;
+}
+
+.section_contact .contact-detail li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.section_contact .contact-detail li a span {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.section_contact .contact-detail li a span:hover {
+  color: #25ebff;
+}
+
+.section_contact .contact-form p {
+  color: #ffffff;
+}
+
+.section_contact .contact-form form input,
+.section_contact .contact-form form textarea {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 1em 0;
+  border-bottom: 1px solid #fff;
+  margin: .5em 0 1em;
+  font-size: 16px;
+}
+
+.section_contact .contact-form form input::-webkit-input-placeholder,
+.section_contact .contact-form form textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.section_contact .contact-form form input:-ms-input-placeholder,
+.section_contact .contact-form form textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.section_contact .contact-form form input::-ms-input-placeholder,
+.section_contact .contact-form form textarea::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.section_contact .contact-form form input::placeholder,
+.section_contact .contact-form form textarea::placeholder {
+  color: #ffffff;
+}
+
+.section_contact .contact-form form button {
+  background: #1a81fd;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 20px 30px;
+  border: 0;
+  outline: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.section_contact .contact-form form button:hover {
+  background: #25ebff;
+}
+
+@media screen and (min-width: 768px) {
+  .section_contact {
+    padding: 60px 0 150px;
+  }
+  .section_contact .contact-detail {
+    padding-right: .8em;
+  }
+  .section_contact .contact-detail p {
+    font-size: 14px;
+    padding-bottom: 2em;
+    line-height: 1.8;
+  }
+  .section_contact .contact-detail span {
+    font-size: 18px;
+  }
+  .section_contact .contact-form form input,
+  .section_contact .contact-form form textarea {
+    padding: 0 0 .8em;
+    margin: .5em 0 3em;
+  }
+  .section_contact .contact-form form button {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_contact .contact-detail {
+    padding-right: 7em;
+  }
+}
+
+.section_pricing-plans {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.section_pricing-plans .pricing-item {
+  background: #5928dc;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 42px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.section_pricing-plans .pricing-item i {
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.section_pricing-plans .pricing-item h2 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.section_pricing-plans .pricing-item .price-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_pricing-plans .pricing-item .price-group .price-currency {
+  font-size: 14px;
+  padding-top: .8em;
+  padding-right: 0.2em;
+}
+
+.section_pricing-plans .pricing-item .price-group .price-number {
+  font-size: 48px;
+  font-weight: 500;
+  padding-right: 0.1em;
+}
+
+.section_pricing-plans .pricing-item .price-group .price-unit {
+  font-size: 14px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-bottom: .6em;
+}
+
+.section_pricing-plans .pricing-item p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.section_pricing-plans .pricing-item button {
+  background: transparent;
+  padding: 15px 45px;
+  border: 1px solid #fff;
+  outline: 0;
+  color: #ffffff;
+  border-radius: 30px;
+  margin: 20px 0 10px;
+  cursor: pointer;
+}
+
+.section_pricing-plans .pricing-item button:hover {
+  background: #ffffff;
+  color: #5928dc;
+}
+
+.section_pricing-plans .pricing-item .price-tag {
+  background: #1a81fd;
+  position: absolute;
+  top: 0;
+  right: 0;
+  letter-spacing: 1px;
+  padding: 5px 50px;
+  -webkit-transform: rotate(40deg) translate(40px, -20px);
+          transform: rotate(40deg) translate(40px, -20px);
+  font-size: 12px;
+}
+/*# sourceMappingURL=all.css.map */

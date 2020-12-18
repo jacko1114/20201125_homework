@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寶可夢圖鑑</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "microsoft jhenghei";
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+            background-blend-mode: multiply;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 50px;
+            color: #ffffff;
+            position: relative;
+        }
+
+        h1:after {
+            content: "";
+            width: 50%;
+            height: 5px;
+            background: #fff;
+            position: absolute;
+            bottom: -20%;
+            left: 25%;
+
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-radius: 50%;
+            background: -webkit-radial-gradient(30% 30%, circle, rgba(68, 67, 67, 0.1) 30%, rgba(0, 0, 0, 1) 90%), -webkit-linear-gradient(-90deg, rgba(221, 137, 137, 0.2) 25%, rgba(80, 79, 79, .2) 25%, rgb(63, 63, 63, .2) 40%, rgb(112, 111, 111, .2) 45%, rgba(255, 255, 255, .2) 45%);
+            filter: saturate(200%);
+
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn button {
+            margin-top: 15px;
+        }
+
+        button {
+            border: 0;
+            outline: 0;
+            background: transparent;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 12px;
+            border-radius: 20px;
+            box-shadow: inset 10px 10px 10px #ffffff1a,
+                inset -10px -10px 10px #0000000d,
+                -10px -10px 30px #00000020,
+                10px 10px 30px #ffffff0e;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+        }
+
+        button:hover {
+            box-shadow: inset 10px 10px 10px #0000001a,
+                inset -10px -10px 10px #ffffff0d;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .pokemon-item {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 10px 15px;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid #bbbbbb40;
+            border-radius: 10px;
+            background: #ffffff40;
+        }
+
+        .pokemon-front {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .pokemon-front .pokemon-pic {
+            width: 80%;
+            margin: 30px auto 0;
+        }
+
+        .pokemon-front .pokemon-pic img {
+            width: 100%;
+        }
+
+        .pokemon-front .pokemon-content .serial {
+            font-size: 13px;
+            color: #444;
+        }
+
+        .pokemon-front .pokemon-content h2 {
+            color: #ffffff;
+            margin: 10px 0;
+        }
+
+        .pokemon-front .pokemon-content .type {
+            font-size: 14px;
+            padding: 3px 5px;
+            border-radius: 2px;
+            color: #fff;
+            margin-right: 5px;
+        }
+
+        .Grass {
+            background: #9BCC50;
+        }
+
+        .Poison {
+            background: #B97FC9;
+        }
+
+        .Fire {
+            background: #FD7D24;
+        }
+
+        .Water {
+            background: #4693C5;
+        }
+
+        .Flying {
+            background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%);
+        }
+
+        .Bug {
+            background: #729F3F;
+        }
+
+        .Normal {
+            background: #A5ADB0;
+        }
+
+        .Electric {
+            background: #EED535;
+        }
+
+        .Ground {
+            background: linear-gradient(180deg, #F7DE3F 50%, #F7DE3F 50%);
+        }
+
+        .Fairy {
+            background: #FDB9E9;
+        }
+
+        .Rock {
+            background: #A38C21;
+        }
+
+        .Psychic {
+            background: #F366B9;
+        }
+
+        .Fighting {
+            background: #D66824;
+        }
+
+        .Dark {
+            background: #707070;
+        }
+
+        .Ice {
+            background: #51C4E7;
+        }
+
+        .Steel {
+            background: #9EB7B8;
+        }
+
+        .Ghost {
+            background: #7B62A3;
+        }
+
+        .Dragon {
+            background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%);
+        }
+
+        .pokemon-back {
+            position: absolute;
+            background-color: rgba(243, 238, 232, 0.8);
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            top: 150%;
+            left: 0;
+            transition: top .4s ease-out;
+        }
+
+        .pokemon-back-content {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 80%;
+            justify-content: center;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .pokemon-back-content h2 {
+            margin: 30px 0 10px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #000;
+            font-size: 24px;
+        }
+
+        .pokemon-back-content span {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .pokemon-item:hover .pokemon-back {
+            top: 0;
+        }
+
+        .pokemon-item:hover {
+            box-shadow: 1px 1px 10px #bbbbbb80;
+        }
+
+
+        @media screen and (min-width: 1024px) {
+            .btn {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .btn button+button {
+                margin-left: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>寶可夢圖鑑</h1>
+
+    <div class="btn">
+        <button id="getAllbtn">載入所有寶可夢圖鑑資料列表</button>
+        <button id="getAllbtnByAppendChild">載入所有寶可夢圖鑑資料列表(AppendChild)</button>
+        <button id="reset">清空</button>
+    </div>
+    <div id="container">
+        <div class="row">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
