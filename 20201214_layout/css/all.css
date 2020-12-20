@@ -245,6 +245,11 @@ a, button, em {
   font-family: 'Merriweather', serif;
 }
 
+.section-block {
+  overflow: hidden;
+  background: #f5f5f5e8;
+}
+
 .btn {
   display: inline-block;
   border-radius: 50px;
