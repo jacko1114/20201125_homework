@@ -14,6 +14,19 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+}
+
 h1 {
     text-align: center;
     margin: 50px 0;
@@ -119,8 +132,9 @@ button:hover {
     height: 20px;
     background: #d1d1d1;
 }
-.pokemon-front .pokemon-content .serial:after{
-    content:"";
+
+.pokemon-front .pokemon-content .serial:after {
+    content: "";
     border-right: 5px solid #333;
     border-bottom: 5px solid transparent;
     position: absolute;
@@ -262,22 +276,27 @@ button:hover {
     box-shadow: 1px 1px 10px #bbbbbb80;
 }
 
-.pokemon-item:hover .base-hp:before{
+.pokemon-item:hover .base-hp:before {
     width: 50px;
 }
-.pokemon-item:hover .base-at:before{
+
+.pokemon-item:hover .base-at:before {
     width: 70px;
 }
-.pokemon-item:hover .base-de:before{
+
+.pokemon-item:hover .base-de:before {
     width: 80px;
 }
-.pokemon-item:hover .base-sat:before{
+
+.pokemon-item:hover .base-sat:before {
     width: 90px;
 }
-.pokemon-item:hover .base-sde:before{
+
+.pokemon-item:hover .base-sde:before {
     width: 100px;
 }
-.pokemon-item:hover .base-sp:before{
+
+.pokemon-item:hover .base-sp:before {
     width: 75px;
 }
 
@@ -286,7 +305,7 @@ button:hover {
 .base-de,
 .base-sat,
 .base-sde,
-.base-sp{
+.base-sp {
     position: relative;
 }
 
@@ -295,7 +314,7 @@ button:hover {
 .base-de:before,
 .base-sat:before,
 .base-sde:before,
-.base-sp:before{
+.base-sp:before {
     content: "";
     width: 0;
     height: 30%;
@@ -304,6 +323,7 @@ button:hover {
     top: 70%;
     left: 0;
 }
+
 .base-hp:before {
     background: #ffaaee80;
     transition: .2s .3s ease-out;
