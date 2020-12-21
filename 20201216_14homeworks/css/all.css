@@ -1826,6 +1826,7 @@ button {
   background: #64b3d3;
   top: 20px;
   right: 20px;
+  cursor: pointer;
 }
 
 .section_banner .hamburger span {
@@ -1837,7 +1838,6 @@ button {
   margin: 20px auto 0;
   -webkit-box-shadow: 0px -8px 0 0px #fff, 0px 8px 0 0px #fff;
           box-shadow: 0px -8px 0 0px #fff, 0px 8px 0 0px #fff;
-  cursor: pointer;
 }
 
 .section_banner .banner-button a {
