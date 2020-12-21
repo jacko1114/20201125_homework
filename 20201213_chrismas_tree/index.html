@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>下雪中</title>
+    <title>⛄下雪中⛄</title>
     <style>
         @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 
@@ -29,8 +29,8 @@
             background: linear-gradient(45deg, #cecbcb, rgb(233, 232, 232), #fff);
             border: 5px solid #2d3b8f;
             position: relative;
-            overflow: hidden;
             cursor: pointer;
+            /* overflow: hidden; */
         }
 
         .ball:before {
@@ -102,6 +102,14 @@
             }
         }
 
+        .ball-inner {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: relative;
+        }
+
 
         .base-up {
             width: 360px;
@@ -109,7 +117,8 @@
             border-radius: 50px;
             background: #ddc184;
             position: absolute;
-            bottom: 19%;
+            bottom: 0%;
+            left: 12%;
             z-index: 20;
         }
 
@@ -131,7 +140,8 @@
             border-radius: 50px;
             background: #ddc184;
             position: absolute;
-            bottom: 13%;
+            bottom: -10%;
+            left: 8%;
             z-index: 19;
         }
 
@@ -334,7 +344,7 @@
         .snow-man {
             position: relative;
             left: 25%;
-            bottom: -65%;
+            bottom: 36%;
             z-index: 10;
         }
 
@@ -518,27 +528,28 @@
 <body>
     <div class="wrapper">
         <div class="ball">
-
-            <div class="tree tree-center">
-                <div class="triangle-top"></div>
-                <div class="triangle-middle"></div>
-                <div class="triangle-bottom"></div>
-                <div class="rectangle"></div>
-                <div class="shadow"></div>
-            </div>
-            <div class="tree tree-left">
-                <div class="triangle-top"></div>
-                <div class="triangle-middle"></div>
-                <div class="triangle-bottom"></div>
-                <div class="rectangle"></div>
-                <div class="shadow"></div>
-            </div>
-            <div class=" tree tree-right">
-                <div class="triangle-top"></div>
-                <div class="triangle-middle"></div>
-                <div class="triangle-bottom"></div>
-                <div class="rectangle"></div>
-                <div class="shadow"></div>
+            <div class="ball-inner">
+                <div class="tree tree-center">
+                    <div class="triangle-top"></div>
+                    <div class="triangle-middle"></div>
+                    <div class="triangle-bottom"></div>
+                    <div class="rectangle"></div>
+                    <div class="shadow"></div>
+                </div>
+                <div class="tree tree-left">
+                    <div class="triangle-top"></div>
+                    <div class="triangle-middle"></div>
+                    <div class="triangle-bottom"></div>
+                    <div class="rectangle"></div>
+                    <div class="shadow"></div>
+                </div>
+                <div class=" tree tree-right">
+                    <div class="triangle-top"></div>
+                    <div class="triangle-middle"></div>
+                    <div class="triangle-bottom"></div>
+                    <div class="rectangle"></div>
+                    <div class="shadow"></div>
+                </div>
             </div>
             <div class="snow-man">
                 <div class="snow-ball-top">
@@ -552,24 +563,22 @@
                 </div>
                 <div class="snow-ball-bottom"></div>
             </div>
-        </div>
-        <div class="base-up"></div>
-        <div class="base-down">
-
+            <div class="base-up"></div>
+            <div class="base-down">
+            </div>
         </div>
 
     </div>
     <script>
-        let count = 10;
-        let time = 2000;
-        let ball = document.querySelector(".ball");
+        let count = 5;
+        let time = 3000;
+        let ballInner = document.querySelector(".ball-inner");
         function falling() {
             let i = 0;
             while (i < count) {
                 let snow = document.createElement("i");
-                snow.classList.add("fas");
-                snow.classList.add("fa-snowflake");
-                let x = Math.floor(Math.random() * window.innerWidth);
+                snow.classList.add("fas", "fa-snowflake");
+                let x = Math.floor(Math.random() * 500);
 
                 let duration = Math.random() * 10;
                 let size = Math.random() * 20 + 5;
@@ -580,7 +589,7 @@
                 snow.style.animation = `fall${animation} linear infinite`;
                 snow.style.animationDuration = `${duration}s`;
                 snow.style.zIndex = zIndex;
-                ball.appendChild(snow);
+                ballInner.appendChild(snow);
                 i++;
             }
         }
@@ -598,14 +607,14 @@
             span.style.top = `${y}px`;
             span.style.left = `${x}px`;
             span.style.zIndex = zIndex;
-            ball.appendChild(span);
+            ballInner.appendChild(span);
         }
         falling();
         let timer = setInterval(snow, time);
 
-        ball.addEventListener("click", function () {
+        ballInner.addEventListener("click", function () {
             count++;
-            if (count >= 30) {
+            if (count >= 10) {
                 return;
             }
             falling();
