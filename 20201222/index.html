@@ -51,6 +51,9 @@
     .btn[disabled]{
       opacity: .55;
     }
+    br{
+      display: none;
+    }
 
     @media screen and (min-width: 1024px) {
       .p-lg-1 {
@@ -62,6 +65,11 @@
 
       .fs-2 {
         font-size: 2rem;
+      }
+    }
+    @media screen and (max-width:400px){
+      br{
+        display: block;
       }
     }
   </style>
@@ -136,38 +144,32 @@
                 <li class="list-group-item">
                   剩餘次數 : <span class="text-warning">5</span>/10
                   <span class="label label-danger mr-1 ml-1">0A1B</span>
-                  <!--<span class="badge">0A1B</span>-->
-                  猜測 : 1234
+                  <br>猜測 : 1234
                 </li>
                 <li class="list-group-item">
                   剩餘次數 : <span class="text-warning">4</span>/10
                   <span class="label label-danger mr-1 ml-1">0A3B</span>
-                  <!--<span class="badge">0A3B</span>-->
-                  猜測 : 3456
+                  <br>猜測 : 3456
                 </li>
                 <li class="list-group-item">
                   剩餘次數 : <span class="text-warning">3</span>/10
                   <span class="label label-danger mr-1 ml-1">0A2B</span>
-                  <!--<span class="badge">0A2B</span>-->
-                  猜測 : 4567
+                  <br>猜測 : 4567
                 </li>
                 <li class="list-group-item">
                   剩餘次數 :  <span class="text-warning">2</span>/10
                   <span class="label label-danger mr-1 ml-1">2A0B</span>
-                  <!--<span class="badge">2A0B</span>-->
-                  猜測 : 6089
+                  <br>猜測 : 6089
                 </li>
                 <li class="list-group-item ">
                   剩餘次數 : <span class="text-warning">1</span>/10
                   <span class="label label-danger mr-1 ml-1">3A0B</span>
-                  <!--<span class="badge">3A0B</span>-->
-                  猜測 : 6345
+                  <br>猜測 : 6345
                 </li>
                 <li class="list-group-item">
                   剩餘次數 : <span class="text-danger">0</span>/10
                   <span class="label label-success mr-1 ml-1">4A0B</span>
-                  <!--<span class="badge badge-success">4A0B</span>-->
-                  猜測 : 6385
+                  <br>猜測 : 6385
                 </li>
               </ul>
             </div>

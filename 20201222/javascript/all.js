@@ -64,19 +64,22 @@ const render = (A, B, input) => {
     let spanColor = document.createElement("span");
     spanColor.classList.add(`text-${colorClassName}`);
     spanColor.textContent = leftTimes;
+
+    let br = document.createElement("br");
     
-    li.append("剩餘次數 : ",spanColor,`/${totalTimes}`, span, `猜測 : ${input}`);
+    li.append("剩餘次數 : ",spanColor,`/${totalTimes}`, span, br, `猜測 : ${input}`);
     guessResults.appendChild(li);
 }
 const winGame = (A)=>{
     if(A == 4 && leftTimes == 0){
         setTimeout(function(){
-            alert("驚險過關!!!!");
+            let words = ["驚險過關!!!!👊🏻👊👊🏻", "壓線過關🤙", "你行，這樣也能過!!👍👍"]
+            alert(words[Math.floor(Math.random() * words.length)]);
             btnControl("pass");
         },500)
     }else if(A == 4){
         setTimeout(function(){
-            let words = ["猜對!! 很棒!!👊🏻👊🏻👊🏻", "幹! 超強的啦!!🤙", "唉唷!! 不錯喔!!👍👍", "對了，真的假的啦!!"]
+            let words = ["猜對!! 很棒!!👊🏻👊🏻👊🏻", "幹! 超強的啦!!🤙", "唉唷!! 不錯喔!!👍👍", "對了，真的假的啦!!","本当に素晴らしい(太厲害了)","牛逼"]
             alert(words[Math.floor(Math.random() * words.length)]);
             btnControl("end");
         },500);

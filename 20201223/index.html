@@ -10,13 +10,6 @@
             font-size: 20px;
             font-family: "microsoft jhenghei";
         }
-        li{
-            cursor: pointer;
-        }
-        span.detail{
-            /* opacity: 0; */
-            transition: .3s ease-in-out;
-        }
         span .padStart {
             width: 100px;
             display: inline-block;
@@ -25,8 +18,27 @@
         span .white {
             color: #ffffff;
         }
-        li:hover > span{
-            opacity: 1;
+        ul{
+            text-align: center;
+        }
+        li{
+            display: inline-block;
+            margin-right: 5rem;
+        }
+        li:nth-child(4n+2),li:nth-child(4n+3){
+            background: #ddd;
+        }
+        li:nth-child(4n+2) .white,li:nth-child(4n+3) .white{
+            color: #ddd;
+        }
+        li:last-child{
+            padding-right: 41.5rem;
+        }
+        li:hover{
+            background: #eee;
+        }
+        li:hover .white{
+            color: #eeeeee;
         }
     </style>
 </head>
@@ -66,14 +78,14 @@
                 let li = document.createElement("li");
                 let span = document.createElement("span");
                 span.classList.add("detail");
-                span.innerHTML = " - ID : " + `${item.id}`.padStart(3, "0")
-                    + ", 姓名 : " + `<span class="padStart">${item.name}</span>`
-                    + ", 攻擊 : " + `${item.attack >= 100 ? "" : item.attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.attack}`
-                    + ", 防禦 : " + `${item.defense >= 100 ? "" : item.defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.defense}`
-                    + ", 特攻 : " + `${item.sp_attack >= 100 ? "" : item.sp_attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_attack}`
-                    + ", 特防 : " + `${item.sp_defense >= 100 ? "" : item.sp_defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_defense}`
-                    + ", 速度 : " + `${item.speed >= 100 ? "" : item.speed >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.speed}`;
-                li.append(`${item.id}`.padStart(3, "0"), span);
+                span.innerHTML = " ID : " + `${item.id}`.padStart(3, "0")
+                    + ",   姓名 : " + `<span class="padStart">${item.name}</span>`
+                    + ",   攻擊 : " + `${item.attack >= 100 ? "" : item.attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.attack}`
+                    + ",   防禦 : " + `${item.defense >= 100 ? "" : item.defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.defense}`
+                    + ",   特攻 : " + `${item.sp_attack >= 100 ? "" : item.sp_attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_attack}`
+                    + ",   特防 : " + `${item.sp_defense >= 100 ? "" : item.sp_defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_defense}`
+                    + ",   速度 : " + `${item.speed >= 100 ? "" : item.speed >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.speed}`;
+                li.append(span);
                 ul.appendChild(li);
                 document.querySelector("body").appendChild(ul);
             })
