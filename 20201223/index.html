@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 20px;
+            font-family: "microsoft jhenghei";
+        }
+        li{
+            cursor: pointer;
+        }
+        span.detail{
+            /* opacity: 0; */
+            transition: .3s ease-in-out;
+        }
+        span .padStart {
+            width: 100px;
+            display: inline-block;
+            text-align: right;
+        }
+        span .white {
+            color: #ffffff;
+        }
+        li:hover > span{
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let pokemonArray = [];
+        let newPokemonArray = [];
+        const getPokemonJSON = () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "https://raw.githubusercontent.com/apprunner/pokemon.json/master/pokedex.json");
+            xhr.send();
+            xhr.addEventListener("load", function () {
+                pokemonArray = JSON.parse(this.responseText);
+                newPokemonArray = getNewPokemonData();
+                render();
+            })
+        }
+        const getNewPokemonData = () => {
+            let newArray = pokemonArray.map(item => {
+                return {
+                    id: item.id,
+                    name: item.name.chinese,
+                    hp: item.base.HP,
+                    attack: item.base.Attack,
+                    defense: item.base.Defense,
+                    sp_attack: item.base["Sp. Attack"],
+                    sp_defense: item.base["Sp. Defense"],
+                    speed: item.base.Speed
+                }
+            })
+            return newArray;
+        }
+        const render = () => {
+            let ul = document.createElement("ul");
+            newPokemonArray.forEach(item => {
+                let li = document.createElement("li");
+                let span = document.createElement("span");
+                span.classList.add("detail");
+                span.innerHTML = " - ID : " + `${item.id}`.padStart(3, "0")
+                    + ", 姓名 : " + `<span class="padStart">${item.name}</span>`
+                    + ", 攻擊 : " + `${item.attack >= 100 ? "" : item.attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.attack}`
+                    + ", 防禦 : " + `${item.defense >= 100 ? "" : item.defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.defense}`
+                    + ", 特攻 : " + `${item.sp_attack >= 100 ? "" : item.sp_attack >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_attack}`
+                    + ", 特防 : " + `${item.sp_defense >= 100 ? "" : item.sp_defense >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.sp_defense}`
+                    + ", 速度 : " + `${item.speed >= 100 ? "" : item.speed >= 10 ? "<span class='white'>0</span>" : "<span class='white'>0</span><span class='white'>0</span>"}${item.speed}`;
+                li.append(`${item.id}`.padStart(3, "0"), span);
+                ul.appendChild(li);
+                document.querySelector("body").appendChild(ul);
+            })
+        }
+
+        window.addEventListener("load", getPokemonJSON);
+    </script>
+</body>
+
+</html>
