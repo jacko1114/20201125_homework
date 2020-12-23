@@ -21,6 +21,7 @@ const startGame = () => {
     clear();
     answer = generateNumber();
     btnControl("start");
+    leftTimes = 10; 
 }
 const abortGame = () => {
     if(restart.getAttribute("disabled")) {return;}
