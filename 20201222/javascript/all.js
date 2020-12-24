@@ -1,6 +1,7 @@
 let answer; 
-let leftTimes = 10;
-let totalTimes = leftTimes;
+let leftTimes;
+let totalTimes;
+let level;
 const start = document.getElementById("start");
 const restart = document.getElementById("restart");
 const cheat = document.getElementById("cheat");
@@ -21,13 +22,13 @@ const startGame = () => {
     clear();
     answer = generateNumber();
     btnControl("start");
-    leftTimes = 10; 
+    choiceLevel(); 
 }
 const abortGame = () => {
     if(restart.getAttribute("disabled")) {return;}
     clear();
     btnControl("restart");
-    leftTimes = 10;
+    // leftTimes = 10;
 }
 const showAnswer = () => {
     if(!cheat.getAttribute("disabled")) alert(`答案為 : ${answer.join('')}`);
@@ -46,7 +47,7 @@ const doGuess = () => {
         return;
     }
 
-    leftTimes -= 1; //先過防呆，再扣次數
+    leftTimes == "∞" ? leftTimes : leftTimes -= 1; //先過防呆，再扣次數
     let A = answer.filter((e,i) => i == inputArrayNumber.indexOf(e)).length;
     let B = answer.filter(e => inputSet.has(e)).length;
     render(A,B-A,input,leftTimes);
@@ -68,7 +69,9 @@ const render = (A, B, input) => {
 
     let br = document.createElement("br");
     
-    li.append("剩餘次數 : ",spanColor,`/${totalTimes}`, span, br, `猜測 : ${input}`);
+    let totalTimesDisplay = leftTimes == "∞" ? "" : `/${totalTimes}`
+    
+    li.append("剩餘次數 : ", spanColor, totalTimesDisplay, span, br, `猜測 : ${input}`);
     guessResults.appendChild(li);
 }
 const winGame = (A)=>{
@@ -129,8 +132,27 @@ const btnControl = (status) =>{
     }
 }
 
+const choiceLevel = ()=>{
+    level = prompt("選擇難度等級: (1)輕鬆玩 (2)自我挑戰 (3)煉獄級");
+    switch(level){
+        case "1":
+            leftTimes =  "∞";
+            totalTimes = leftTimes;
+            break;
+        case "2":
+            leftTimes =  15;
+            totalTimes = leftTimes;
+            break;
+        case "3":
+            leftTimes = 5;
+            totalTimes = leftTimes;
+            break;
+        default:
+            alert("認真選😡 😡 😡")
+            choiceLevel();    
+    }
+}
 btnControl();
-
 start.addEventListener("click",startGame);
 restart.addEventListener("click",abortGame);
 cheat.addEventListener("click",showAnswer);
@@ -139,5 +161,5 @@ guess.addEventListener("click", function(){
 })
 userGuess.addEventListener("keyup",function(event){
     if(event.code == "Enter") doGuess();
-        // keyCode == 13，keyCode已被棄用
+        // keyCode == 13，keyCode已被棄用，雖然還是有用
 })

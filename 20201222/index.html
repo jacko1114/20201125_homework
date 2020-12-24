@@ -23,10 +23,12 @@
 
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
-    *{
+
+    * {
       font-family: 'Noto Sans TC', sans-serif;
       letter-spacing: 1px;
     }
+
     .mr-1 {
       margin-right: 1rem;
     }
@@ -39,26 +41,36 @@
     .label {
       font-size: 15px;
     }
-    .text-danger{
+
+    .text-danger {
       color: rgb(253, 20, 20);
     }
-    .text-warning{
+
+    .text-warning {
       color: rgb(128, 57, 0);
     }
-    ul{
+
+    ul {
       margin-top: 10px;
     }
-    .btn[disabled]{
+
+    .btn[disabled] {
       opacity: .55;
     }
-    br{
+
+    br {
       display: none;
+    }
+
+    .mt-2 {
+      margin-top: 2rem;
     }
 
     @media screen and (min-width: 1024px) {
       .p-lg-1 {
         padding: 1rem;
       }
+
       .p-lg-2 {
         padding: 2rem;
       }
@@ -67,8 +79,9 @@
         font-size: 2rem;
       }
     }
-    @media screen and (max-width:400px){
-      br{
+
+    @media screen and (max-width:400px) {
+      br {
         display: block;
       }
     }
@@ -132,8 +145,8 @@
                   data-bs-target=".modal">看答案</a>
               </div>
               <br>
-              
-              <div class="input-group">
+
+              <div class="input-group mt-2">
                 <span class="input-group-addon fs-2" id="sizing-addon1">猜答案</span>
                 <input id="userGuess" type="text" name="" class="form-control p-lg-2" value="" required="required">
                 <span class="input-group-btn">
@@ -157,7 +170,7 @@
                   <br>猜測 : 4567
                 </li>
                 <li class="list-group-item">
-                  剩餘次數 :  <span class="text-warning">2</span>/10
+                  剩餘次數 : <span class="text-warning">2</span>/10
                   <span class="label label-danger mr-1 ml-1">2A0B</span>
                   <br>猜測 : 6089
                 </li>
