@@ -175,6 +175,10 @@
             background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%);
         }
 
+        .w-80 {
+            width: 80%;
+        }
+
         @media screen and (max-width: 768px) {
             .h3 {
                 font-size: 16px;
@@ -225,7 +229,7 @@
                     </div>
                     <h3 class="modal-title mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-3">能力值
                     </h3>
-                    <table class="table mb-0 mx-5 w-75">
+                    <table class="table mb-0 mx-5 w-80">
                         <thead class="thead-light border border-secondary">
                             <tr>
                                 <th scope="col" class="border border-secondary">生命</th>
@@ -314,9 +318,10 @@
             xhr.send();
             xhr.addEventListener("load", function () {
                 pokemonArray = JSON.parse(this.responseText);
-
                 newPokemonArray = getNewPokemonData();
                 addPokemon(1);
+                getChineseData();
+                console.log(pokemonData);
             })
         }
         const getNewPokemonData = () => {
@@ -324,17 +329,17 @@
             let newArray = pokemonArray.map((item, index) => {
                 return {
                     id: item.id.toString().padStart(3, "0"),
-                    name: item.name,
+                    name: item.name.chinese,
                     hp: item.base.HP,
                     attack: item.base.Attack,
                     defense: item.base.Defense,
-                    sp_attack: item.base["Sp. Attack"],
-                    sp_defense: item.base["Sp. Defense"],
+                    sp_attack: item.base["Sp_Attack"],
+                    sp_defense: item.base["Sp_Defense"],
                     speed: item.base.Speed,
                     img: `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3, "0")}.png`,
                     type: item.type,
-                    // genus: pokemonData[index].genus,
                     evolution: item.evolution.id.toString().padStart(3, "0"),
+                    // genus: pokemonData[index].genus,
                 }
             })
             return newArray;
@@ -364,6 +369,8 @@
                     span.classList.add("type", `${type}`, "py-2", "px-3", "text-white", "mx-3", "rounded-pill", "h6");
                     types.appendChild(span);
                 })
+                let evolution = document.querySelector(".evolution");
+                evolution.innerHTML = newPokemonArray[index].evolution != "000" ? `<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${newPokemonArray[index].evolution}.png">` : '<span class="py-5 my-5">無法進化</span>';
             })
         }
 
@@ -407,11 +414,7 @@
                     return "蟲";
             }
         }
-        window.addEventListener("load",
-            function () {
-                // getChineseData();
-                getPokemonJSON();
-            })
+        window.addEventListener("load", getPokemonJSON())
         addOne.addEventListener("click", function () {
             index++;
             addPokemon(index);
@@ -429,31 +432,31 @@
             clean();
         });
 
-        // const getChineseData = () => {
-        //     for (let i = 1; i <= 809; i++) {
-        //         $.ajax({
-        //             url: `https://pokeapi.co/api/v2/pokemon-species/${i}/`,
-        //             method: "GET",
-        //             dataType: "json",
-        //             success: function (res) {
-        //                 if (i == res.id) {
-        //                     let data = {
-        //                         id: res.id,
-        //                         genus: res.genera[2].genus,
-        //                         name: res.names[3].name,
-        //                         engName: res.name,
-        //                         evolves_from_species: res.evolves_from_species != null ? res.evolves_from_species.name : "",
-        //                     }
-        //                     pokemonData.push(data);
-        //                 }
-        //                 getEvolutionTo(i);
-        //             },
-        //             error: function (err) {
-        //                 console.log(err);
-        //             }
-        //         });
-        //     }
-        // }
+        const getChineseData = () => {
+            for (let i = 1; i <= 809; i++) {
+                $.ajax({
+                    url: `https://pokeapi.co/api/v2/pokemon-species/${i}/`,
+                    method: "GET",
+                    dataType: "json",
+                    success: function (res) {
+                        //                 if (i == res.id) {
+                        //                     let data = {
+                        //                         id: res.id,
+                        data = { id: res.id, genus: res.genera[2].genus }
+                        //                         name: res.names[3].name,
+                        //                         engName: res.name,
+                        //                         evolves_from_species: res.evolves_from_species != null ? res.evolves_from_species.name : "",
+                        //                     }
+                        pokemonData.push(data);
+                        //                 }
+                        //                 getEvolutionTo(i);
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    }
+                });
+            }
+        }
 
         // const getEvolutionTo = (index) => {
         //     $.ajax({
