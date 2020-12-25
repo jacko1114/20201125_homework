@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寶可夢圖鑑</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .btn-group button {
+            position: relative;
+            overflow: hidden;
+            border: 0;
+        }
+
+        .btn-group button:after {
+            content: "";
+            width: 120%;
+            height: 120%;
+            background: #000;
+            position: absolute;
+            z-index: 1;
+            top: 90%;
+            left: 0;
+            transition: .2s ease;
+        }
+
+        .btn-group button span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .btn-group button:nth-child(1) {
+            color: #03a9f4;
+            background: #fff;
+            transition: .3s;
+            border-radius: 0;
+        }
+
+        .btn-group button:nth-child(1):after {
+            background: #03a9f4;
+        }
+
+        .btn-group button:hover:nth-child(1) span {
+            color: #fff;
+        }
+
+        .btn-group button:nth-child(2) {
+            color: #ff9600;
+            background: #fff;
+            transition: .3s;
+        }
+
+        .btn-group button:nth-child(2):after {
+            background: #ff9600;
+        }
+
+        .btn-group button:hover:nth-child(2) span {
+            color: #fff;
+        }
+
+        .btn-group button:nth-child(3) {
+            color: #4caf50;
+            background: #fff;
+            transition: .3s;
+        }
+
+        .btn-group button:nth-child(3):after {
+            background: #4caf50;
+        }
+
+        .btn-group button:hover:nth-child(3) span {
+            color: #fff;
+        }
+
+        .btn-group button:nth-child(4) {
+            color: #f44336;
+            background: #fff;
+            transition: .3s;
+            border-radius: 0;
+        }
+
+        .btn-group button:nth-child(4):after {
+            background: #f44336;
+        }
+
+        .btn-group button:hover:nth-child(4) span {
+            color: #fff;
+        }
+
+        .btn-group button:hover:after {
+            top: 0;
+        }
+
+        .btn:focus {
+            box-shadow: none;
+        }
+
+        .types {
+            margin-right: 1rem;
+            text-align: right;
+            text-shadow: 1px 1px 1px #000000ce;
+        }
+
+        .Grass {
+            background: #9BCC50;
+        }
+
+        .Poison {
+            background: #B97FC9;
+        }
+
+        .Fire {
+            background: #FD7D24;
+        }
+
+        .Water {
+            background: #4693C5;
+        }
+
+        .Flying {
+            background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%);
+        }
+
+        .Bug {
+            background: #729F3F;
+        }
+
+        .Normal {
+            background: #A5ADB0;
+        }
+
+        .Electric {
+            background: #EED535;
+        }
+
+        .Ground {
+            background: linear-gradient(180deg, #AB9842 50%, #F7DE3F 50%);
+        }
+
+        .Fairy {
+            background: #FDB9E9;
+        }
+
+        .Rock {
+            background: #A38C21;
+        }
+
+        .Psychic {
+            background: #F366B9;
+        }
+
+        .Fighting {
+            background: #D66824;
+        }
+
+        .Dark {
+            background: #707070;
+        }
+
+        .Ice {
+            background: #51C4E7;
+        }
+
+        .Steel {
+            background: #9EB7B8;
+        }
+
+        .Ghost {
+            background: #7B62A3;
+        }
+
+        .Dragon {
+            background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%);
+        }
+
+        @media screen and (max-width: 768px) {
+            .h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <div class="jumbotron">
+            <h1 class="text-center py-3 display-3 font-weight-bold">
+                寶可夢圖鑑
+            </h1>
+        </div>
+    </div>
+    </div>
+    <div class="container-lg p-0">
+        <div class="row m-0">
+            <div class="col-12">
+                <div class="btn-group">
+                    <button id="addOne" class="btn m-2"><span class="h3">加入一張</span></button>
+                    <button id="removeOne" class="btn m-2"><span class="h3">移除一張</span></button>
+                    <button id="addAll" class="btn m-2"><span class="h3">加入全部</span></button>
+                    <button id="reset" class="btn m-2"><span class="h3">重置</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0"></div>
+    </div>
+
+    <div class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h5 class="modal-title text-center text-white"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center p-0">
+                    <img src="" alt="" id="pokemonImage" class="d-block mx-auto">
+                    <div class="d-flex justify-content-center">
+                        <div class="types my-3"></div>
+                        <div class="genus my-3">
+                            <span class="py-2 px-4 bg-secondary text-white mx-3 rounded-pill h6"></span>
+                        </div>
+                    </div>
+                    <h3 class="modal-title mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-3">能力值
+                    </h3>
+                    <table class="table mb-0 mx-5 w-75">
+                        <thead class="thead-light border border-secondary">
+                            <tr>
+                                <th scope="col" class="border border-secondary">生命</th>
+                                <th scope="col" class="border border-secondary">攻擊</th>
+                                <th scope="col" class="border border-secondary">防禦</th>
+                                <th scope="col" class="border border-secondary">特攻</th>
+                                <th scope="col" class="border border-secondary">特防</th>
+                                <th scope="col" class="border border-secondary">速度</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border border-light">
+                                <td id="hp" class="border border-secondary"></td>
+                                <td id="attack" class="border border-secondary"></td>
+                                <td id="defense" class="border border-secondary"></td>
+                                <td id="spAttack" class="border border-secondary"></td>
+                                <td id="spDefense" class="border border-secondary"></td>
+                                <td id="speed" class="border border-secondary"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3
+                        class="modal-title mt-3 mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-3">
+                        進化
+                    </h3>
+                    <div class="evolution"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <template id="pokemonTemplate">
+        <div class="col-6 col-md-4 col-lg-3 my-3">
+            <div class="card bg-light">
+                <div class="card-body p-0">
+                    <div class="card-img">
+                        <img src="" class="card-img-top">
+                    </div>
+                    <h5 class="card-title rounded bg-dark text-light d-flex p-1 mx-3">
+                        <span class="pokemon-id pl-2"></span>
+                        <span>．</span>
+                        <span class="pokemon-name pr-2"></span>
+                    </h5>
+                </div>
+                <div class="card-footer text-center bg-light border-0">
+                    <a href="#" class="btn btn-secondary">詳細資訊</a>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        let index = 0;
+        let pokemonArray = [];
+        let newPokemonArray = [];
+        let pokemonData = [];
+        let newPokemonData = [];
+        const addOne = document.querySelector("#addOne");
+        const removeOne = document.querySelector("#removeOne");
+        const addAll = document.querySelector("#addAll");
+        const reset = document.querySelector("#reset");
+        const row = document.querySelector(".row:last-child");
+        const addPokemon = (id) => {
+            clean();
+            newPokemonArray.forEach((item, index) => {
+                if (index + 1 > id) return;
+                let card = document.querySelector("#pokemonTemplate");
+                let cloneContent = card.content.cloneNode(true);
+                cloneContent.querySelector(".pokemon-id").innerText = item.id;
+                cloneContent.querySelector(".pokemon-name").innerText = item.name;
+                cloneContent.querySelector("img").src = item.img;
+                cloneContent.querySelector(".btn").setAttribute("data-toggle", "modal");
+                cloneContent.querySelector(".btn").setAttribute("data-target", ".modal");
+
+                dataToModal(cloneContent, index);
+
+                row.appendChild(cloneContent);
+            })
+        }
+        const getPokemonJSON = () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/20201218_pokemon/js/pokemons.json");
+            xhr.send();
+            xhr.addEventListener("load", function () {
+                pokemonArray = JSON.parse(this.responseText);
+
+                newPokemonArray = getNewPokemonData();
+                addPokemon(1);
+            })
+        }
+        const getNewPokemonData = () => {
+            let data;
+            let newArray = pokemonArray.map((item, index) => {
+                return {
+                    id: item.id.toString().padStart(3, "0"),
+                    name: item.name,
+                    hp: item.base.HP,
+                    attack: item.base.Attack,
+                    defense: item.base.Defense,
+                    sp_attack: item.base["Sp. Attack"],
+                    sp_defense: item.base["Sp. Defense"],
+                    speed: item.base.Speed,
+                    img: `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3, "0")}.png`,
+                    type: item.type,
+                    // genus: pokemonData[index].genus,
+                    evolution: item.evolution.id.toString().padStart(3, "0"),
+                }
+            })
+            return newArray;
+        }
+        const clean = () => {
+            row.innerHTML = "";
+        }
+        const dataToModal = (clone, index) => {
+            clone.querySelector(".btn").addEventListener("click", function () {
+
+                let modal = document.querySelector(".modal");
+                modal.querySelector("h5").innerText = `No.${newPokemonArray[index].id} ． ${newPokemonArray[index].name}`;
+                modal.querySelector("#pokemonImage").src = newPokemonArray[index].img;
+                modal.querySelector("#hp").textContent = newPokemonArray[index].hp;
+                modal.querySelector("#attack").textContent = newPokemonArray[index].attack;
+                modal.querySelector("#defense").textContent = newPokemonArray[index].defense;
+                modal.querySelector("#spAttack").textContent = newPokemonArray[index].sp_attack;
+                modal.querySelector("#spDefense").textContent = newPokemonArray[index].sp_defense;
+                modal.querySelector("#speed").textContent = newPokemonArray[index].speed;
+                modal.querySelector(".genus span").textContent = newPokemonArray[index].genus
+
+                let types = document.querySelector(".types");
+                types.innerHTML = "";
+                newPokemonArray[index].type.forEach(type => {
+                    let span = document.createElement("span");
+                    span.textContent = attributeTransform(type);
+                    span.classList.add("type", `${type}`, "py-2", "px-3", "text-white", "mx-3", "rounded-pill", "h6");
+                    types.appendChild(span);
+                })
+            })
+        }
+
+        const attributeTransform = (eng) => {
+            switch (eng) {
+                case "Normal":
+                    return "一般";
+                case "Grass":
+                    return "草";
+                case "Poison":
+                    return "毒";
+                case "Fire":
+                    return "火焰";
+                case "Electric":
+                    return "雷電";
+                case "Dragon":
+                    return "龍";
+                case "Fighting":
+                    return "格鬥";
+                case "Ground":
+                    return "地面";
+                case "Ghost":
+                    return "鬼";
+                case "Water":
+                    return "水";
+                case "Psychic":
+                    return "超能力";
+                case "Dark":
+                    return "惡";
+                case "Flying":
+                    return "飛行";
+                case "Rock":
+                    return "岩石";
+                case "Steel":
+                    return "鋼鐵";
+                case "Ice":
+                    return "冰";
+                case "Fairy":
+                    return "妖精";
+                case "Bug":
+                    return "蟲";
+            }
+        }
+        window.addEventListener("load",
+            function () {
+                // getChineseData();
+                getPokemonJSON();
+            })
+        addOne.addEventListener("click", function () {
+            index++;
+            addPokemon(index);
+        })
+        removeOne.addEventListener("click", function () {
+            index = index <= 0 ? 0 : --index;
+            addPokemon(index);
+        });
+        addAll.addEventListener("click", function () {
+            index = newPokemonArray.length;
+            addPokemon(index);
+        });
+        reset.addEventListener("click", function () {
+            index = 0;
+            clean();
+        });
+
+        // const getChineseData = () => {
+        //     for (let i = 1; i <= 809; i++) {
+        //         $.ajax({
+        //             url: `https://pokeapi.co/api/v2/pokemon-species/${i}/`,
+        //             method: "GET",
+        //             dataType: "json",
+        //             success: function (res) {
+        //                 if (i == res.id) {
+        //                     let data = {
+        //                         id: res.id,
+        //                         genus: res.genera[2].genus,
+        //                         name: res.names[3].name,
+        //                         engName: res.name,
+        //                         evolves_from_species: res.evolves_from_species != null ? res.evolves_from_species.name : "",
+        //                     }
+        //                     pokemonData.push(data);
+        //                 }
+        //                 getEvolutionTo(i);
+        //             },
+        //             error: function (err) {
+        //                 console.log(err);
+        //             }
+        //         });
+        //     }
+        // }
+
+        // const getEvolutionTo = (index) => {
+        //     $.ajax({
+        //         url: `https://pokeapi.co/api/v2/pokemon-species/${index + 1}/`,
+        //         method: "GET",
+        //         dataType: "json",
+        //         success: function (res) {
+        //             if (pokemonData[index - 1].id == res.id - 1) {
+        //                 let data = {
+        //                     ...pokemonData[index - 1],
+        //                     evolves_to: res.evolves_from_species.name == pokemonData[index - 1].engName ? pokemonData[index].name : ""
+        //                 }
+        //                 // console.log(data);
+        //                 newPokemonData.push(data);
+        //             }
+        //             // console.log( "res : " + `${res.id - 1}` + " p :" + pokemonData[index-1].id)
+        //             // result = res.evolves_from_species != null ? res.evolves_from_species.name : ""
+        //         },
+        //         error: function (err) {
+        //             console.log(err);
+        //         }
+        //     });
+        // }
+    </script>
+</body>
+
+</html>

@@ -6,55 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             font-size: 20px;
             font-family: "microsoft jhenghei";
         }
+
         span .padStart {
             width: 100px;
             display: inline-block;
             text-align: right;
         }
+
         span .white {
             color: #ffffff;
         }
-        ul{
+
+        ul {
             text-align: center;
         }
-        li{
+
+        li {
             display: inline-block;
             margin-right: 5rem;
         }
-        li:nth-child(4n+2),li:nth-child(4n+3){
+
+        li:nth-child(4n+2),
+        li:nth-child(4n+3) {
             background: #ddd;
         }
-        li:nth-child(4n+2) .white,li:nth-child(4n+3) .white{
+
+        li:nth-child(4n+2) .white,
+        li:nth-child(4n+3) .white {
             color: #ddd;
         }
-        li:last-child{
+
+        li:last-child {
             padding-right: 41.5rem;
         }
-        li:hover{
+
+        li:hover {
             background: #eee;
         }
-        li:hover .white{
+
+        li:hover .white {
             color: #eeeeee;
+        }
+
+        table {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: .5rem 1rem;
+        }
+
+        img {
+            width: 60px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h1,
+        td {
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
         }
     </style>
 </head>
 
 <body>
+    <h1>寶可夢圖鑑</h1>
     <script>
         let pokemonArray = [];
-        let newPokemonArray = [];
+        let getNewPokemonArray = [];
         const getPokemonJSON = () => {
             let xhr = new XMLHttpRequest();
             xhr.open("GET", "https://raw.githubusercontent.com/apprunner/pokemon.json/master/pokedex.json");
             xhr.send();
             xhr.addEventListener("load", function () {
                 pokemonArray = JSON.parse(this.responseText);
-                newPokemonArray = getNewPokemonData();
-                render();
+                getNewPokemonArray = getNewPokemonData();
+                renderTable();
             })
         }
         const getNewPokemonData = () => {
@@ -67,14 +107,15 @@
                     defense: item.base.Defense,
                     sp_attack: item.base["Sp. Attack"],
                     sp_defense: item.base["Sp. Defense"],
-                    speed: item.base.Speed
+                    speed: item.base.Speed,
+                    img: `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3, "0")}.png`
                 }
             })
             return newArray;
         }
-        const render = () => {
+        const renderList = () => {
             let ul = document.createElement("ul");
-            newPokemonArray.forEach(item => {
+            getNewPokemonArray.forEach(item => {
                 let li = document.createElement("li");
                 let span = document.createElement("span");
                 span.classList.add("detail");
@@ -90,8 +131,47 @@
                 document.querySelector("body").appendChild(ul);
             })
         }
-        getPokemonJSON();
-        // window.addEventListener("load", getPokemonJSON);
+        const renderTable = () => {
+            let table = document.createElement("table");
+            let thead = document.createElement("thead");
+            let tbody = document.createElement("tbody");
+            table.appendChild(thead);
+            table.appendChild(tbody);
+            document.querySelector("body").appendChild(table);
+
+            //產生表頭
+            let headerTitle = Object.keys(getNewPokemonArray[0]);
+            let tr_title = document.createElement("tr");
+            thead.appendChild(tr_title);
+            headerTitle.forEach(item => {
+                let th = document.createElement("th");
+                th.textContent = `${item}`.charAt(0).toUpperCase() + `${item}`.substring(1);
+                tr_title.appendChild(th);
+            })
+
+            getNewPokemonArray.forEach(item => {
+                addTbodyData(Object.values(item), tbody);
+            })
+        }
+
+        const addTbodyData = (rowData, tbody) => {
+            let tr = document.createElement("tr");
+            rowData.forEach(item => {
+                let td = document.createElement("td");
+                td.textContent = item;
+                if (item.toString().endsWith(".png")) {
+                    let tdImg = document.createElement("td");
+                    let img = document.createElement("img");
+                    img.src = item;
+                    tdImg.appendChild(img);
+                    tr.appendChild(tdImg);
+                    return;
+                }
+                tr.appendChild(td);
+            })
+            tbody.appendChild(tr);
+        }
+        window.addEventListener("load", getPokemonJSON);
     </script>
 </body>
 

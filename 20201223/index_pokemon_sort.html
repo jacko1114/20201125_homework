@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寶可夢 + 篩選功能</title>
+    <style>
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+        * {
+            font-size: 20px;
+            font-family: "microsoft jhenghei";
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid #000;
+            padding: .5rem .8rem;
+        }
+
+        th {
+            width: 100px;
+        }
+
+        img {
+            width: 60px;
+        }
+
+        i {
+            padding-left: 0.5rem;
+            cursor: pointer;
+            position: absolute;
+            right: -40px;
+            width: 100%;
+        }
+
+        th {
+            position: relative;
+        }
+
+        tr:nth-child(odd) {
+            background: #ccc;
+        }
+
+        tr:hover {
+            background: #dddddd73;
+        }
+
+        thead th {
+            background: #fff;
+        }
+
+        thead th:hover {
+            background: #fff;
+        }
+
+        th i {
+            transition: .3s ease-in;
+            transform: rotate(180deg) translateX(-10px);
+        }
+
+        th.dsc i {
+            transform: rotate(0) translateX(0) translateY(10px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>寶可夢圖鑑</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>編號<i class="fas fa-sort-up"></i></th>
+                <th>姓名</th>
+                <th>生命<i class="fas fa-sort-up"></i></th>
+                <th>攻擊<i class="fas fa-sort-up"></i></th>
+                <th>防禦<i class="fas fa-sort-up"></i></th>
+                <th>特攻<i class="fas fa-sort-up"></i></th>
+                <th>特防<i class="fas fa-sort-up"></i></th>
+                <th>速度<i class="fas fa-sort-up"></i></th>
+                <th>圖片</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script>
+        let pokemonArray = [];
+        let getNewPokemonArray = [];
+        let id = document.querySelector("thead tr th:nth-child(1)");
+        let hp = document.querySelector("thead tr th:nth-child(3)");
+        let attack = document.querySelector("thead tr th:nth-child(4)");
+        let defense = document.querySelector("thead tr th:nth-child(5)");
+        let sp_attack = document.querySelector("thead tr th:nth-child(6)");
+        let sp_defense = document.querySelector("thead tr th:nth-child(7)");
+        let speed = document.querySelector("thead tr th:nth-child(8)");
+        const getPokemonJSON = () => {
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET", "https://raw.githubusercontent.com/apprunner/pokemon.json/master/pokedex.json");
+            xhr.send();
+            xhr.addEventListener("load", function () {
+                pokemonArray = JSON.parse(this.responseText);
+                getNewPokemonArray = getNewPokemonData();
+                renderTable();
+            })
+        }
+        const getNewPokemonData = () => {
+            let newArray = pokemonArray.map(item => {
+                return {
+                    id: item.id.toString().padStart(3, "0"),
+                    name: item.name.chinese,
+                    hp: item.base.HP,
+                    attack: item.base.Attack,
+                    defense: item.base.Defense,
+                    sp_attack: item.base["Sp. Attack"],
+                    sp_defense: item.base["Sp. Defense"],
+                    speed: item.base.Speed,
+                    img: `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3, "0")}.png`
+                }
+            })
+            return newArray;
+        }
+        const renderTable = () => {
+            let tbody = document.querySelector("tbody");
+            let table = document.querySelector("table");
+            tbody.innerHTML = "";
+            table.appendChild(tbody);
+            document.querySelector("body").appendChild(table);
+
+            getNewPokemonArray.forEach(item => {
+                addTbodyData(Object.values(item), tbody);
+            })
+
+        }
+        const addTbodyData = (rowData, tbody) => {
+            let tr = document.createElement("tr");
+            rowData.forEach(item => {
+                let td = document.createElement("td");
+                td.textContent = item;
+                if (item.toString().endsWith(".png")) {
+                    let tdImg = document.createElement("td");
+                    let img = document.createElement("img");
+                    img.src = item;
+                    tdImg.appendChild(img);
+                    tr.appendChild(tdImg);
+                    return;
+                }
+                tr.appendChild(td);
+            })
+            tbody.appendChild(tr);
+        }
+        const addFakeClassName = (target) => {
+            if (target.classList.contains("dsc")) {
+                getNewPokemonArray.reverse();
+                target.classList.remove("dsc")
+            } else {
+                target.classList.add("dsc");
+            }
+        }
+        window.addEventListener("load", getPokemonJSON);
+        id.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.id - b.id)
+            addFakeClassName(id);
+            renderTable();
+        })
+        hp.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.hp - b.hp)
+            addFakeClassName(hp);
+            renderTable();
+        })
+        attack.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.attack - b.attack)
+            addFakeClassName(attack);
+            renderTable();
+        })
+        defense.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.defense - b.defense)
+            addFakeClassName(defense);
+            renderTable();
+        })
+        sp_attack.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.sp_attack - b.sp_attack)
+            addFakeClassName(sp_attack);
+            renderTable();
+        })
+        sp_defense.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.sp_defense - b.sp_defense)
+            addFakeClassName(sp_defense);
+            renderTable();
+        })
+        speed.addEventListener("click", function () {
+            getNewPokemonArray.sort((a, b) => a.speed - b.speed)
+            addFakeClassName(speed);
+            renderTable();
+        })
+
+
+    </script>
+</body>
+
+</html>

@@ -17,6 +17,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"妙蛙草",
+    "id":2
   }
 },
 {
@@ -38,6 +42,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"妙蛙花",
+    "id":3
   }
 },
 {
@@ -59,6 +67,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -79,6 +91,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"火恐龍",
+    "id":5
   }
 },
 {
@@ -99,6 +115,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 65,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"噴火龍",
+    "id":6
   }
 },
 {
@@ -120,6 +140,10 @@
     "Sp_Attack": 109,
     "Sp_Defense": 85,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -140,6 +164,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 64,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"卡咪龜",
+    "id":8
   }
 },
 {
@@ -160,6 +188,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 80,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"水箭龜",
+    "id":9
   }
 },
 {
@@ -180,6 +212,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 105,
     "Speed": 78
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -200,6 +236,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 20,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"鐵甲蛹",
+    "id":11
   }
 },
 {
@@ -220,6 +260,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"巴大蝶",
+    "id":12
   }
 },
 {
@@ -241,6 +285,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 80,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -262,6 +310,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 20,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"鐵殼蛹",
+    "id":14
   }
 },
 {
@@ -283,6 +335,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"大針蜂",
+    "id":15
   }
 },
 {
@@ -304,6 +360,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 80,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -325,6 +385,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 56
+  },
+  "evolution":{
+    "name":"比比鳥",
+    "id":17
   }
 },
 {
@@ -346,6 +410,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 71
+  },
+  "evolution":{
+    "name":"大比鳥",
+    "id":18
   }
 },
 {
@@ -367,6 +435,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 70,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -387,6 +459,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 35,
     "Speed": 72
+  },
+  "evolution":{
+    "name":"拉達",
+    "id":20
   }
 },
 {
@@ -407,6 +483,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 70,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -428,6 +508,10 @@
     "Sp_Attack": 31,
     "Sp_Defense": 31,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"大嘴雀",
+    "id":22
   }
 },
 {
@@ -449,6 +533,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 61,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -469,6 +557,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 54,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"阿柏怪",
+    "id":24
   }
 },
 {
@@ -489,6 +581,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 79,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -509,6 +605,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"雷丘",
+    "id":26
   }
 },
 {
@@ -529,6 +629,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 80,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -549,6 +653,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 30,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"穿山王",
+    "id":28
   }
 },
 {
@@ -569,6 +677,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -589,6 +701,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 41
+  },
+  "evolution":{
+    "name":"尼多娜",
+    "id":30
   }
 },
 {
@@ -609,6 +725,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 56
+  },
+  "evolution":{
+    "name":"尼多后",
+    "id":31
   }
 },
 {
@@ -616,7 +736,7 @@
   "name": {
     "english": "Nidoqueen",
     "japanese": "ニドクイン",
-    "chinese": "尼多後",
+    "chinese": "尼多后",
     "french": "Nidoqueen"
   },
   "type": [
@@ -630,6 +750,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 85,
     "Speed": 76
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -650,6 +774,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"尼多力諾",
+    "id":33
   }
 },
 {
@@ -670,6 +798,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"尼多王",
+    "id":34
   }
 },
 {
@@ -691,6 +823,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -711,6 +847,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 65,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"皮可西",
+    "id":36
   }
 },
 {
@@ -731,6 +871,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 90,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -751,6 +895,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 65,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"九尾",
+    "id":38
   }
 },
 {
@@ -771,6 +919,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -792,6 +944,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 25,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"胖可丁",
+    "id":40
   }
 },
 {
@@ -813,6 +969,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 50,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -834,6 +994,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 40,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"大嘴蝠",
+    "id":""
   }
 },
 {
@@ -855,6 +1019,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 75,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -876,6 +1044,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 65,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"臭臭花",
+    "id":44
   }
 },
 {
@@ -897,6 +1069,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"霸王花",
+    "id":45
   }
 },
 {
@@ -918,6 +1094,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 90,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -939,6 +1119,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"派拉斯特",
+    "id":47
   }
 },
 {
@@ -960,6 +1144,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 80,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -981,6 +1169,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 55,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"摩魯蛾",
+    "id":49
   }
 },
 {
@@ -1002,6 +1194,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 75,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1022,6 +1218,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 45,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"三地鼠",
+    "id":51
   }
 },
 {
@@ -1042,6 +1242,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 70,
     "Speed": 120
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1062,6 +1266,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"貓老大",
+    "id":53
   }
 },
 {
@@ -1082,6 +1290,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1102,6 +1314,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 50,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"哥達鴨",
+    "id":55
   }
 },
 {
@@ -1122,6 +1338,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 80,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1142,6 +1362,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 45,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"火暴猴",
+    "id":57
   }
 },
 {
@@ -1162,6 +1386,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1182,6 +1410,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 50,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"風速狗",
+    "id":59
   }
 },
 {
@@ -1202,6 +1434,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 80,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1222,6 +1458,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"蚊香君",
+    "id":61
   }
 },
 {
@@ -1242,6 +1482,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"蚊香泳士",
+    "id":62
   }
 },
 {
@@ -1263,6 +1507,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 90,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1283,6 +1531,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 55,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"勇基拉",
+    "id":64
   }
 },
 {
@@ -1303,6 +1555,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 70,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"胡地",
+    "id":65
   }
 },
 {
@@ -1323,6 +1579,10 @@
     "Sp_Attack": 135,
     "Sp_Defense": 95,
     "Speed": 120
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1343,6 +1603,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"豪力",
+    "id":67
   }
 },
 {
@@ -1363,6 +1627,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 60,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"怪力",
+    "id":68
   }
 },
 {
@@ -1383,6 +1651,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 85,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1404,6 +1676,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 30,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"口呆花",
+    "id":70
   }
 },
 {
@@ -1425,6 +1701,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 45,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"大食花",
+    "id":71
   }
 },
 {
@@ -1446,6 +1726,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1467,6 +1751,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 100,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"毒刺水母",
+    "id":73
   }
 },
 {
@@ -1488,6 +1776,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 120,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1509,6 +1801,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"隆隆石",
+    "id":75
   }
 },
 {
@@ -1530,6 +1826,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"隆隆巖",
+    "id":76
   }
 },
 {
@@ -1551,6 +1851,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1571,6 +1875,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"烈焰馬",
+    "id":78
   }
 },
 {
@@ -1591,6 +1899,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1612,6 +1924,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"呆殼獸",
+    "id":80
   }
 },
 {
@@ -1633,6 +1949,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 80,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1654,6 +1974,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 55,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"三合一磁怪",
+    "id":82
   }
 },
 {
@@ -1675,6 +1999,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1696,6 +2024,10 @@
     "Sp_Attack": 58,
     "Sp_Defense": 62,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1717,6 +2049,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"嘟嘟利",
+    "id":85
   }
 },
 {
@@ -1738,6 +2074,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1758,6 +2098,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 70,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"白海獅",
+    "id":87
   }
 },
 {
@@ -1779,6 +2123,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 95,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1799,6 +2147,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"臭臭泥",
+    "id":89
   }
 },
 {
@@ -1819,6 +2171,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 100,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1839,6 +2195,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 25,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"刺甲貝",
+    "id":91
   }
 },
 {
@@ -1860,6 +2220,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 45,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1881,6 +2245,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 35,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"鬼斯通",
+    "id":93
   }
 },
 {
@@ -1902,6 +2270,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 55,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"耿鬼",
+    "id":94
   }
 },
 {
@@ -1923,6 +2295,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 75,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1944,6 +2320,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 45,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -1964,6 +2344,10 @@
     "Sp_Attack": 43,
     "Sp_Defense": 90,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"引夢貘人",
+    "id":97
   }
 },
 {
@@ -1984,6 +2368,10 @@
     "Sp_Attack": 73,
     "Sp_Defense": 115,
     "Speed": 67
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2004,6 +2392,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"巨鉗蟹",
+    "id":99
   }
 },
 {
@@ -2024,6 +2416,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2044,6 +2440,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"頑皮雷彈",
+    "id":""
   }
 },
 {
@@ -2064,6 +2464,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 150
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2085,6 +2489,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 45,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2106,6 +2514,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 75,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2126,6 +2538,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2146,6 +2562,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 80,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2166,6 +2586,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 110,
     "Speed": 87
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2186,6 +2610,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 110,
     "Speed": 76
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2206,6 +2634,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 75,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2226,6 +2658,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 45,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2246,6 +2682,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 70,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2267,6 +2707,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2288,6 +2732,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2308,6 +2756,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 105,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2328,6 +2780,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2348,6 +2804,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 80,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2368,6 +2828,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 25,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2388,6 +2852,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 45,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2408,6 +2876,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 50,
     "Speed": 63
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2428,6 +2900,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 80,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2448,6 +2924,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 55,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2469,6 +2949,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 85,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2490,6 +2974,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 120,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2511,6 +2999,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 80,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2532,6 +3024,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 95,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2552,6 +3048,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 85,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2572,6 +3072,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 85,
     "Speed": 93
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2592,6 +3096,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 70,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2612,6 +3120,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 70,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2632,6 +3144,10 @@
     "Sp_Attack": 15,
     "Sp_Defense": 20,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2653,6 +3169,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 100,
     "Speed": 81
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2674,6 +3194,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 95,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2694,6 +3218,10 @@
     "Sp_Attack": 48,
     "Sp_Defense": 48,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2714,6 +3242,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 65,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2734,6 +3266,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 95,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2754,6 +3290,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 95,
     "Speed": 130
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2774,6 +3314,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 110,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2794,6 +3338,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2815,6 +3363,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 55,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2836,6 +3388,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 70,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2857,6 +3413,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 45,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2878,6 +3438,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 70,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2899,6 +3463,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 75,
     "Speed": 130
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2919,6 +3487,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 110,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2940,6 +3512,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 125,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2961,6 +3537,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 90,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -2982,6 +3562,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 85,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3002,6 +3586,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3022,6 +3610,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3043,6 +3635,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3063,6 +3659,10 @@
     "Sp_Attack": 154,
     "Sp_Defense": 90,
     "Speed": 130
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3083,6 +3683,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3103,6 +3707,10 @@
     "Sp_Attack": 49,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3123,6 +3731,10 @@
     "Sp_Attack": 63,
     "Sp_Defense": 80,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3143,6 +3755,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 100,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3163,6 +3779,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3183,6 +3803,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 65,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3203,6 +3827,10 @@
     "Sp_Attack": 109,
     "Sp_Defense": 85,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3223,6 +3851,10 @@
     "Sp_Attack": 44,
     "Sp_Defense": 48,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3243,6 +3875,10 @@
     "Sp_Attack": 59,
     "Sp_Defense": 63,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3263,6 +3899,10 @@
     "Sp_Attack": 79,
     "Sp_Defense": 83,
     "Speed": 78
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3283,6 +3923,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 45,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3303,6 +3947,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3324,6 +3972,10 @@
     "Sp_Attack": 36,
     "Sp_Defense": 56,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3345,6 +3997,10 @@
     "Sp_Attack": 86,
     "Sp_Defense": 96,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3366,6 +4022,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 80,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3387,6 +4047,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 110,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3408,6 +4072,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3429,6 +4097,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3450,6 +4122,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 80,
     "Speed": 130
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3471,6 +4147,10 @@
     "Sp_Attack": 56,
     "Sp_Defense": 56,
     "Speed": 67
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3492,6 +4172,10 @@
     "Sp_Attack": 76,
     "Sp_Defense": 76,
     "Speed": 67
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3512,6 +4196,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3532,6 +4220,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3553,6 +4245,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 20,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3573,6 +4269,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 65,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3594,6 +4294,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 105,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3615,6 +4319,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 45,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3636,6 +4344,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 70,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3656,6 +4368,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 45,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3676,6 +4392,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 60,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3696,6 +4416,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 90,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3716,6 +4440,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 100,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3737,6 +4465,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 50,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3758,6 +4490,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 80,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3778,6 +4514,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 65,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3798,6 +4538,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 100,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3819,6 +4563,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 55,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3840,6 +4588,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 65,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3861,6 +4613,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 95,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3881,6 +4637,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 55,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3901,6 +4661,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3921,6 +4685,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 85,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3942,6 +4710,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 45,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3963,6 +4735,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -3984,6 +4760,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4004,6 +4784,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 95,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4024,6 +4808,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 130,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4045,6 +4833,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 42,
     "Speed": 91
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4066,6 +4858,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 110,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4086,6 +4882,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 85,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4106,6 +4906,10 @@
     "Sp_Attack": 72,
     "Sp_Defense": 48,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4126,6 +4930,10 @@
     "Sp_Attack": 33,
     "Sp_Defense": 58,
     "Speed": 33
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4147,6 +4955,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 65,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4167,6 +4979,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4188,6 +5004,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4208,6 +5028,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4229,6 +5053,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 65,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4250,6 +5078,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4270,6 +5102,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4290,6 +5126,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4311,6 +5151,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4332,6 +5176,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 80,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4353,6 +5201,10 @@
     "Sp_Attack": 10,
     "Sp_Defense": 230,
     "Speed": 5
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4374,6 +5226,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 95,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4395,6 +5251,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 75,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4415,6 +5275,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4435,6 +5299,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 75,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4455,6 +5323,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 40,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4476,6 +5348,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 80,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4497,6 +5373,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4518,6 +5398,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4539,6 +5423,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 95,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4559,6 +5447,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 35,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4579,6 +5471,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 75,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4600,6 +5496,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 45,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4621,6 +5521,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 140,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4642,6 +5546,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4663,6 +5571,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4684,6 +5596,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 80,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4705,6 +5621,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 95,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4725,6 +5645,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4745,6 +5669,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4765,6 +5693,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 95,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4785,6 +5717,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 65,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4805,6 +5741,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 45,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4825,6 +5765,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4845,6 +5789,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 110,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4866,6 +5814,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 65,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4886,6 +5838,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4906,6 +5862,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 55,
     "Speed": 83
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4926,6 +5886,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 70,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4946,6 +5910,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 135,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4966,6 +5934,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 100,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -4986,6 +5958,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 75,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5006,6 +5982,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 115,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5027,6 +6007,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 50,
     "Speed": 41
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5048,6 +6032,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 70,
     "Speed": 51
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5069,6 +6057,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 100,
     "Speed": 61
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5090,6 +6082,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 154,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5111,6 +6107,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 154,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5132,6 +6132,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5152,6 +6156,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5172,6 +6180,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 65,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5192,6 +6204,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 85,
     "Speed": 120
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5212,6 +6228,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 50,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5233,6 +6253,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 60,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5254,6 +6278,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 70,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5274,6 +6302,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5295,6 +6327,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5316,6 +6352,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 90,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5336,6 +6376,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5356,6 +6400,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5376,6 +6424,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 41,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5396,6 +6448,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 61,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5416,6 +6472,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 30,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5436,6 +6496,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5457,6 +6521,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5477,6 +6545,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5498,6 +6570,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 90,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5519,6 +6595,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5540,6 +6620,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5561,6 +6645,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 100,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5581,6 +6669,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5602,6 +6694,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5623,6 +6719,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 60,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5644,6 +6744,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5665,6 +6769,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 50,
     "Speed": 125
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5686,6 +6794,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 30,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5707,6 +6819,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 70,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5728,6 +6844,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 35,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5749,6 +6869,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5770,6 +6894,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 115,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5791,6 +6919,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 52,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5812,6 +6944,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 82,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5832,6 +6968,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 60,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5853,6 +6993,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5873,6 +7017,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5893,6 +7041,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5913,6 +7065,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 65,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5934,6 +7090,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5955,6 +7115,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 160
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5976,6 +7140,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -5996,6 +7164,10 @@
     "Sp_Attack": 51,
     "Sp_Defense": 23,
     "Speed": 28
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6016,6 +7188,10 @@
     "Sp_Attack": 71,
     "Sp_Defense": 43,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6036,6 +7212,10 @@
     "Sp_Attack": 91,
     "Sp_Defense": 73,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6056,6 +7236,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 30,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6076,6 +7260,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 60,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6097,6 +7285,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 40,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6117,6 +7309,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 90,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6137,6 +7333,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6157,6 +7357,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6178,6 +7382,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 65,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6199,6 +7407,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6220,6 +7432,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6241,6 +7457,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6262,6 +7482,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6283,6 +7507,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 55,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6304,6 +7532,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 75,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6324,6 +7556,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 40,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6344,6 +7580,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 60,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6364,6 +7604,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6384,6 +7628,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 85,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6404,6 +7652,10 @@
     "Sp_Attack": 47,
     "Sp_Defense": 85,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6424,6 +7676,10 @@
     "Sp_Attack": 73,
     "Sp_Defense": 85,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6445,6 +7701,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 80,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6465,6 +7725,10 @@
     "Sp_Attack": 43,
     "Sp_Defense": 53,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6485,6 +7749,10 @@
     "Sp_Attack": 73,
     "Sp_Defense": 83,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6506,6 +7774,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 20,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6527,6 +7799,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 40,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6547,6 +7823,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 35,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6567,6 +7847,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 45,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6588,6 +7872,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 45,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6609,6 +7897,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 75,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6629,6 +7921,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 70,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6649,6 +7945,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 80,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6669,6 +7969,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 110,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6689,6 +7993,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6709,6 +8017,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 10
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6730,6 +8042,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6751,6 +8067,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6771,6 +8091,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 40,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6792,6 +8116,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 60,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6813,6 +8141,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 75,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6834,6 +8166,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 105,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6854,6 +8190,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6874,6 +8214,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 60,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6895,6 +8239,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 85,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6916,6 +8264,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6937,6 +8289,10 @@
     "Sp_Attack": 46,
     "Sp_Defense": 41,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6958,6 +8314,10 @@
     "Sp_Attack": 76,
     "Sp_Defense": 71,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6978,6 +8338,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 35,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -6999,6 +8363,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 55,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7020,6 +8388,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 70,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7041,6 +8413,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 120,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7062,6 +8438,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 87,
     "Speed": 23
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7083,6 +8463,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 107,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7104,6 +8488,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7125,6 +8513,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 80,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7145,6 +8537,10 @@
     "Sp_Attack": 10,
     "Sp_Defense": 55,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7165,6 +8561,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 125,
     "Speed": 81
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7185,6 +8585,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7205,6 +8609,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 120,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7225,6 +8633,10 @@
     "Sp_Attack": 63,
     "Sp_Defense": 33,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7245,6 +8657,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 63,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7265,6 +8681,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 90,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7285,6 +8705,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 130,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7306,6 +8730,10 @@
     "Sp_Attack": 72,
     "Sp_Defense": 87,
     "Speed": 51
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7326,6 +8754,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 90,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7346,6 +8778,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 60,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7366,6 +8802,10 @@
     "Sp_Attack": 23,
     "Sp_Defense": 48,
     "Speed": 23
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7386,6 +8826,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7406,6 +8850,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7427,6 +8875,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 50,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7448,6 +8900,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 70,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7469,6 +8925,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 90,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7489,6 +8949,10 @@
     "Sp_Attack": 74,
     "Sp_Defense": 55,
     "Speed": 32
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7509,6 +8973,10 @@
     "Sp_Attack": 94,
     "Sp_Defense": 75,
     "Speed": 52
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7529,6 +8997,10 @@
     "Sp_Attack": 114,
     "Sp_Defense": 75,
     "Speed": 52
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7550,6 +9022,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 65,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7570,6 +9046,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 65,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7590,6 +9070,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 30,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7610,6 +9094,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 50,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7631,6 +9119,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 80,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7652,6 +9144,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 60,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7673,6 +9169,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 80,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7694,6 +9194,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 90,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7714,6 +9218,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 100,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7734,6 +9242,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 200,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7754,6 +9266,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 150,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7775,6 +9291,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 130,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7796,6 +9316,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 110,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7816,6 +9340,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 140,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7836,6 +9364,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 90,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7857,6 +9389,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 90,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7878,6 +9414,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7898,6 +9438,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 50,
     "Speed": 150
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7918,6 +9462,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 31
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7938,6 +9486,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7959,6 +9511,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 85,
     "Speed": 56
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -7979,6 +9535,10 @@
     "Sp_Attack": 58,
     "Sp_Defense": 44,
     "Speed": 61
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8000,6 +9560,10 @@
     "Sp_Attack": 78,
     "Sp_Defense": 52,
     "Speed": 81
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8021,6 +9585,10 @@
     "Sp_Attack": 104,
     "Sp_Defense": 71,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8041,6 +9609,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 56,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8061,6 +9633,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 76,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8082,6 +9658,10 @@
     "Sp_Attack": 111,
     "Sp_Defense": 101,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8103,6 +9683,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8124,6 +9708,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8145,6 +9733,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 60,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8165,6 +9757,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 40,
     "Speed": 31
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8186,6 +9782,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 60,
     "Speed": 71
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8206,6 +9806,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 41,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8226,6 +9830,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 51,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8246,6 +9854,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 34,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8266,6 +9878,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 49,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8286,6 +9902,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 79,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8307,6 +9927,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 70,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8328,6 +9952,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 105,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8348,6 +9976,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8368,6 +10000,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 50,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8389,6 +10025,10 @@
     "Sp_Attack": 42,
     "Sp_Defense": 88,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8410,6 +10050,10 @@
     "Sp_Attack": 47,
     "Sp_Defense": 138,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8430,6 +10074,10 @@
     "Sp_Attack": 29,
     "Sp_Defense": 45,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8451,6 +10099,10 @@
     "Sp_Attack": 79,
     "Sp_Defense": 105,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8472,6 +10124,10 @@
     "Sp_Attack": 94,
     "Sp_Defense": 50,
     "Speed": 66
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8493,6 +10149,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 42,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8514,6 +10174,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 102,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8534,6 +10198,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 90,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8554,6 +10222,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 30,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8574,6 +10246,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 50,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8594,6 +10270,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 53,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8614,6 +10294,10 @@
     "Sp_Attack": 87,
     "Sp_Defense": 78,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8634,6 +10318,10 @@
     "Sp_Attack": 57,
     "Sp_Defense": 62,
     "Speed": 34
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8655,6 +10343,10 @@
     "Sp_Attack": 92,
     "Sp_Defense": 82,
     "Speed": 39
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8675,6 +10367,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 66,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8696,6 +10392,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 44,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8717,6 +10417,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 54,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8737,6 +10441,10 @@
     "Sp_Attack": 44,
     "Sp_Defense": 56,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8757,6 +10465,10 @@
     "Sp_Attack": 54,
     "Sp_Defense": 96,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8777,6 +10489,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 105,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8798,6 +10514,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 52,
     "Speed": 71
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8818,6 +10538,10 @@
     "Sp_Attack": 42,
     "Sp_Defense": 37,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8838,6 +10562,10 @@
     "Sp_Attack": 64,
     "Sp_Defense": 59,
     "Speed": 112
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8858,6 +10586,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 50,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8879,6 +10611,10 @@
     "Sp_Attack": 41,
     "Sp_Defense": 41,
     "Speed": 74
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8900,6 +10636,10 @@
     "Sp_Attack": 71,
     "Sp_Defense": 61,
     "Speed": 84
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8921,6 +10661,10 @@
     "Sp_Attack": 24,
     "Sp_Defense": 86,
     "Speed": 23
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8942,6 +10686,10 @@
     "Sp_Attack": 79,
     "Sp_Defense": 116,
     "Speed": 33
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8962,6 +10710,10 @@
     "Sp_Attack": 10,
     "Sp_Defense": 45,
     "Speed": 10
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -8983,6 +10735,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 90,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9003,6 +10759,10 @@
     "Sp_Attack": 15,
     "Sp_Defense": 65,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9024,6 +10784,10 @@
     "Sp_Attack": 92,
     "Sp_Defense": 42,
     "Speed": 91
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9045,6 +10809,10 @@
     "Sp_Attack": 92,
     "Sp_Defense": 108,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9066,6 +10834,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 45,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9087,6 +10859,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 55,
     "Speed": 82
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9108,6 +10884,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 85,
     "Speed": 102
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9128,6 +10908,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 85,
     "Speed": 5
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9148,6 +10932,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9169,6 +10957,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 70,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9189,6 +10981,10 @@
     "Sp_Attack": 38,
     "Sp_Defense": 42,
     "Speed": 32
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9209,6 +11005,10 @@
     "Sp_Attack": 68,
     "Sp_Defense": 72,
     "Speed": 47
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9230,6 +11030,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 55,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9251,6 +11055,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 75,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9272,6 +11080,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 40,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9293,6 +11105,10 @@
     "Sp_Attack": 86,
     "Sp_Defense": 65,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9313,6 +11129,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 72,
     "Speed": 46
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9333,6 +11153,10 @@
     "Sp_Attack": 49,
     "Sp_Defense": 61,
     "Speed": 66
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9353,6 +11177,10 @@
     "Sp_Attack": 69,
     "Sp_Defense": 86,
     "Speed": 91
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9374,6 +11202,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 120,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9395,6 +11227,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 60,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9416,6 +11252,10 @@
     "Sp_Attack": 92,
     "Sp_Defense": 85,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9437,6 +11277,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 85,
     "Speed": 125
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9458,6 +11302,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 90,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9478,6 +11326,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 95,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9499,6 +11351,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9519,6 +11375,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 50,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9539,6 +11399,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 85,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9559,6 +11423,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 95,
     "Speed": 83
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9580,6 +11448,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 115,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9601,6 +11473,10 @@
     "Sp_Attack": 116,
     "Sp_Defense": 56,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9621,6 +11497,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 65,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9641,6 +11521,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 95,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9662,6 +11546,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 75,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9683,6 +11571,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 60,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9703,6 +11595,10 @@
     "Sp_Attack": 135,
     "Sp_Defense": 75,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9724,6 +11620,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 115,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9745,6 +11645,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 150,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9765,6 +11669,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 135,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9786,6 +11694,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 70,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9807,6 +11719,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 77,
     "Speed": 91
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9827,6 +11743,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 130,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9847,6 +11767,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 105,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9867,6 +11791,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 70,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9888,6 +11816,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 100,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9909,6 +11841,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 120,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9930,6 +11866,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 106,
     "Speed": 77
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9950,6 +11890,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 110,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9971,6 +11915,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 120,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -9991,6 +11939,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 130,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10011,6 +11963,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 80,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10031,6 +11987,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10051,6 +12011,10 @@
     "Sp_Attack": 135,
     "Sp_Defense": 90,
     "Speed": 125
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10071,6 +12035,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10091,6 +12059,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 120,
     "Speed": 120
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10112,6 +12084,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10132,6 +12108,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 63
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10152,6 +12132,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 75,
     "Speed": 83
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10172,6 +12156,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 95,
     "Speed": 113
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10192,6 +12180,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10213,6 +12205,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 55,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10234,6 +12230,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 65,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10254,6 +12254,10 @@
     "Sp_Attack": 63,
     "Sp_Defense": 45,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10274,6 +12278,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 60,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10294,6 +12302,10 @@
     "Sp_Attack": 108,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10314,6 +12326,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 39,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10334,6 +12350,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 69,
     "Speed": 77
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10354,6 +12374,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 45,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10374,6 +12398,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 65,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10394,6 +12422,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 90,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10414,6 +12446,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 37,
     "Speed": 66
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10434,6 +12470,10 @@
     "Sp_Attack": 88,
     "Sp_Defense": 50,
     "Speed": 106
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10454,6 +12494,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 48,
     "Speed": 64
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10474,6 +12518,10 @@
     "Sp_Attack": 98,
     "Sp_Defense": 63,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10494,6 +12542,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 48,
     "Speed": 64
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10514,6 +12566,10 @@
     "Sp_Attack": 98,
     "Sp_Defense": 63,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10534,6 +12590,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 48,
     "Speed": 64
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10554,6 +12614,10 @@
     "Sp_Attack": 98,
     "Sp_Defense": 63,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10574,6 +12638,10 @@
     "Sp_Attack": 67,
     "Sp_Defense": 55,
     "Speed": 24
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10594,6 +12662,10 @@
     "Sp_Attack": 107,
     "Sp_Defense": 95,
     "Speed": 29
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10615,6 +12687,10 @@
     "Sp_Attack": 36,
     "Sp_Defense": 30,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10636,6 +12712,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 42,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10657,6 +12737,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 93
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10677,6 +12761,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 32,
     "Speed": 76
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10697,6 +12785,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 63,
     "Speed": 116
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10717,6 +12809,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10737,6 +12833,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 40,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10757,6 +12857,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 80,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10778,6 +12882,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 43,
     "Speed": 72
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10799,6 +12907,10 @@
     "Sp_Attack": 77,
     "Sp_Defense": 55,
     "Speed": 114
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10819,6 +12931,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 45,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10840,6 +12956,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 65,
     "Speed": 88
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10860,6 +12980,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 86,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10880,6 +13004,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 35,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10900,6 +13028,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10920,6 +13052,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10940,6 +13076,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 40,
     "Speed": 64
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10961,6 +13101,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 69
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -10982,6 +13126,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 74
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11002,6 +13150,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 85,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11022,6 +13174,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 75,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11043,6 +13199,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 60,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11064,6 +13224,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 80,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11085,6 +13249,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 80,
     "Speed": 92
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11106,6 +13274,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 39,
     "Speed": 57
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11127,6 +13299,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 79,
     "Speed": 47
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11148,6 +13324,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 69,
     "Speed": 112
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11169,6 +13349,10 @@
     "Sp_Attack": 37,
     "Sp_Defense": 50,
     "Speed": 66
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11190,6 +13374,10 @@
     "Sp_Attack": 77,
     "Sp_Defense": 75,
     "Speed": 116
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11210,6 +13398,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 50,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11230,6 +13422,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 75,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11250,6 +13446,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 55,
     "Speed": 98
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11271,6 +13471,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11292,6 +13496,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 74
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11313,6 +13521,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 70,
     "Speed": 92
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11333,6 +13545,10 @@
     "Sp_Attack": 15,
     "Sp_Defense": 45,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11353,6 +13569,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 55,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11373,6 +13593,10 @@
     "Sp_Attack": 106,
     "Sp_Defense": 67,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11394,6 +13618,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 35,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11415,6 +13643,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 75,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11436,6 +13668,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 70,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11457,6 +13693,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 115,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11478,6 +13718,10 @@
     "Sp_Attack": 103,
     "Sp_Defense": 80,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11498,6 +13742,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11518,6 +13766,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 105,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11539,6 +13791,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 45,
     "Speed": 22
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11560,6 +13816,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 65,
     "Speed": 32
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11581,6 +13841,10 @@
     "Sp_Attack": 74,
     "Sp_Defense": 45,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11602,6 +13866,10 @@
     "Sp_Attack": 112,
     "Sp_Defense": 65,
     "Speed": 110
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11622,6 +13890,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 62,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11642,6 +13914,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 82,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11662,6 +13938,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 40,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11682,6 +13962,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 60,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11702,6 +13986,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11722,6 +14010,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 60,
     "Speed": 115
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11742,6 +14034,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11762,6 +14058,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 85,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11782,6 +14082,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 110,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11802,6 +14106,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 50,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11822,6 +14130,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 60,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11842,6 +14154,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 85,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11863,6 +14179,10 @@
     "Sp_Attack": 44,
     "Sp_Defense": 50,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11884,6 +14204,10 @@
     "Sp_Attack": 87,
     "Sp_Defense": 63,
     "Speed": 98
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11904,6 +14228,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 60,
     "Speed": 44
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11924,6 +14252,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 75,
     "Speed": 59
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11944,6 +14276,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 95,
     "Speed": 79
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11965,6 +14301,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -11986,6 +14326,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12007,6 +14351,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 60,
     "Speed": 103
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12027,6 +14375,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 45,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12048,6 +14400,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 105,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12069,6 +14425,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 55,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12090,6 +14450,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 80,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12111,6 +14475,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 85,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12132,6 +14500,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 105,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12152,6 +14524,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 45,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12173,6 +14549,10 @@
     "Sp_Attack": 57,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12194,6 +14574,10 @@
     "Sp_Attack": 97,
     "Sp_Defense": 60,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12215,6 +14599,10 @@
     "Sp_Attack": 24,
     "Sp_Defense": 86,
     "Speed": 10
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12236,6 +14624,10 @@
     "Sp_Attack": 54,
     "Sp_Defense": 116,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12256,6 +14648,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 60,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12276,6 +14672,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 85,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12296,6 +14696,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 85,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12316,6 +14720,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12336,6 +14744,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 70,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12356,6 +14768,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 80,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12376,6 +14792,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 55,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12396,6 +14816,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 95,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12417,6 +14841,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 55,
     "Speed": 20
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12438,6 +14866,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 60,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12459,6 +14891,10 @@
     "Sp_Attack": 145,
     "Sp_Defense": 90,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12479,6 +14915,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 40,
     "Speed": 57
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12499,6 +14939,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 67
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12519,6 +14963,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12539,6 +14987,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 40,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12559,6 +15011,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 80,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12579,6 +15035,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 135,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12599,6 +15059,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 65,
     "Speed": 25
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12619,6 +15083,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 60,
     "Speed": 145
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12640,6 +15108,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 99,
     "Speed": 32
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12660,6 +15132,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 50,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12680,6 +15156,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 60,
     "Speed": 105
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12700,6 +15180,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 90,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12721,6 +15205,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 50,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12742,6 +15230,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 80,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12763,6 +15255,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12784,6 +15280,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 70,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12804,6 +15304,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 95,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12825,6 +15329,10 @@
     "Sp_Attack": 37,
     "Sp_Defense": 50,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12846,6 +15354,10 @@
     "Sp_Attack": 57,
     "Sp_Defense": 75,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12867,6 +15379,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 65,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12888,6 +15404,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 95,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12908,6 +15428,10 @@
     "Sp_Attack": 105,
     "Sp_Defense": 66,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12929,6 +15453,10 @@
     "Sp_Attack": 48,
     "Sp_Defense": 48,
     "Speed": 109
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12950,6 +15478,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 50,
     "Speed": 38
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12971,6 +15503,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 70,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -12992,6 +15528,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 90,
     "Speed": 98
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13013,6 +15553,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 55,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13034,6 +15578,10 @@
     "Sp_Attack": 135,
     "Sp_Defense": 105,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13055,6 +15603,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 72,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13076,6 +15628,10 @@
     "Sp_Attack": 72,
     "Sp_Defense": 90,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13097,6 +15653,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 129,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13117,6 +15677,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 80,
     "Speed": 111
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13138,6 +15702,10 @@
     "Sp_Attack": 125,
     "Sp_Defense": 80,
     "Speed": 111
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13159,6 +15727,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 120,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13180,6 +15752,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 100,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13201,6 +15777,10 @@
     "Sp_Attack": 115,
     "Sp_Defense": 80,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13222,6 +15802,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 90,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13243,6 +15827,10 @@
     "Sp_Attack": 129,
     "Sp_Defense": 90,
     "Speed": 108
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13264,6 +15852,10 @@
     "Sp_Attack": 128,
     "Sp_Defense": 128,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13285,6 +15877,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 95,
     "Speed": 99
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13305,6 +15901,10 @@
     "Sp_Attack": 48,
     "Sp_Defense": 45,
     "Speed": 38
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13325,6 +15925,10 @@
     "Sp_Attack": 56,
     "Sp_Defense": 58,
     "Speed": 57
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13346,6 +15950,10 @@
     "Sp_Attack": 74,
     "Sp_Defense": 75,
     "Speed": 64
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13366,6 +15974,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 60,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13386,6 +15998,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 70,
     "Speed": 73
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13407,6 +16023,10 @@
     "Sp_Attack": 114,
     "Sp_Defense": 100,
     "Speed": 104
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13427,6 +16047,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 44,
     "Speed": 71
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13447,6 +16071,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 56,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13468,6 +16096,10 @@
     "Sp_Attack": 103,
     "Sp_Defense": 71,
     "Speed": 122
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13488,6 +16120,10 @@
     "Sp_Attack": 32,
     "Sp_Defense": 36,
     "Speed": 57
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13509,6 +16145,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 77,
     "Speed": 78
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13530,6 +16170,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 38,
     "Speed": 62
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13551,6 +16195,10 @@
     "Sp_Attack": 56,
     "Sp_Defense": 52,
     "Speed": 84
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13572,6 +16220,10 @@
     "Sp_Attack": 74,
     "Sp_Defense": 69,
     "Speed": 126
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13592,6 +16244,10 @@
     "Sp_Attack": 27,
     "Sp_Defense": 25,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13612,6 +16268,10 @@
     "Sp_Attack": 27,
     "Sp_Defense": 30,
     "Speed": 29
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13633,6 +16293,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 50,
     "Speed": 89
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13654,6 +16318,10 @@
     "Sp_Attack": 73,
     "Sp_Defense": 54,
     "Speed": 72
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13675,6 +16343,10 @@
     "Sp_Attack": 109,
     "Sp_Defense": 66,
     "Speed": 106
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13695,6 +16367,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 79,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13715,6 +16391,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 98,
     "Speed": 52
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13735,6 +16415,10 @@
     "Sp_Attack": 112,
     "Sp_Defense": 154,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13755,6 +16439,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 57,
     "Speed": 52
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13775,6 +16463,10 @@
     "Sp_Attack": 97,
     "Sp_Defense": 81,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13795,6 +16487,10 @@
     "Sp_Attack": 46,
     "Sp_Defense": 48,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13816,6 +16512,10 @@
     "Sp_Attack": 69,
     "Sp_Defense": 71,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13836,6 +16536,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 90,
     "Speed": 102
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13856,6 +16560,10 @@
     "Sp_Attack": 63,
     "Sp_Defense": 60,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13876,6 +16584,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 81,
     "Speed": 104
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13897,6 +16609,10 @@
     "Sp_Attack": 35,
     "Sp_Defense": 37,
     "Speed": 28
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13918,6 +16634,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 49,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13939,6 +16659,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 150,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13959,6 +16683,10 @@
     "Sp_Attack": 63,
     "Sp_Defense": 65,
     "Speed": 23
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13979,6 +16707,10 @@
     "Sp_Attack": 99,
     "Sp_Defense": 89,
     "Speed": 29
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -13999,6 +16731,10 @@
     "Sp_Attack": 59,
     "Sp_Defense": 57,
     "Speed": 49
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14019,6 +16755,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 75,
     "Speed": 72
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14040,6 +16780,10 @@
     "Sp_Attack": 37,
     "Sp_Defense": 46,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14061,6 +16805,10 @@
     "Sp_Attack": 68,
     "Sp_Defense": 75,
     "Speed": 73
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14082,6 +16830,10 @@
     "Sp_Attack": 39,
     "Sp_Defense": 56,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14103,6 +16855,10 @@
     "Sp_Attack": 54,
     "Sp_Defense": 86,
     "Speed": 68
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14124,6 +16880,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 60,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14145,6 +16905,10 @@
     "Sp_Attack": 97,
     "Sp_Defense": 123,
     "Speed": 44
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14165,6 +16929,10 @@
     "Sp_Attack": 58,
     "Sp_Defense": 63,
     "Speed": 44
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14185,6 +16953,10 @@
     "Sp_Attack": 120,
     "Sp_Defense": 89,
     "Speed": 59
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14206,6 +16978,10 @@
     "Sp_Attack": 61,
     "Sp_Defense": 43,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14227,6 +17003,10 @@
     "Sp_Attack": 109,
     "Sp_Defense": 94,
     "Speed": 109
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14248,6 +17028,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 48
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14269,6 +17053,10 @@
     "Sp_Attack": 69,
     "Sp_Defense": 59,
     "Speed": 71
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14290,6 +17078,10 @@
     "Sp_Attack": 67,
     "Sp_Defense": 63,
     "Speed": 46
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14311,6 +17103,10 @@
     "Sp_Attack": 99,
     "Sp_Defense": 92,
     "Speed": 58
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14331,6 +17127,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 130,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14352,6 +17152,10 @@
     "Sp_Attack": 74,
     "Sp_Defense": 63,
     "Speed": 118
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14373,6 +17177,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 67,
     "Speed": 101
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14394,6 +17202,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 150,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14414,6 +17226,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 75,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14434,6 +17250,10 @@
     "Sp_Attack": 83,
     "Sp_Defense": 113,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14454,6 +17274,10 @@
     "Sp_Attack": 110,
     "Sp_Defense": 150,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14475,6 +17299,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 87,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14496,6 +17324,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 60,
     "Speed": 38
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14517,6 +17349,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 82,
     "Speed": 56
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14538,6 +17374,10 @@
     "Sp_Attack": 44,
     "Sp_Defense": 55,
     "Speed": 41
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14559,6 +17399,10 @@
     "Sp_Attack": 58,
     "Sp_Defense": 75,
     "Speed": 54
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14579,6 +17423,10 @@
     "Sp_Attack": 32,
     "Sp_Defense": 35,
     "Speed": 28
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14599,6 +17447,10 @@
     "Sp_Attack": 44,
     "Sp_Defense": 46,
     "Speed": 28
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14620,6 +17472,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 40,
     "Speed": 55
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14641,6 +17497,10 @@
     "Sp_Attack": 97,
     "Sp_Defense": 80,
     "Speed": 123
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14661,6 +17521,10 @@
     "Sp_Attack": 131,
     "Sp_Defense": 98,
     "Speed": 99
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14682,6 +17546,10 @@
     "Sp_Attack": 131,
     "Sp_Defense": 98,
     "Speed": 99
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14703,6 +17571,10 @@
     "Sp_Attack": 81,
     "Sp_Defense": 95,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14724,6 +17596,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 150,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14745,6 +17621,10 @@
     "Sp_Attack": 150,
     "Sp_Defense": 130,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14766,6 +17646,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 90,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14787,6 +17671,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 50,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14808,6 +17696,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 70,
     "Speed": 52
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14829,6 +17721,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 100,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14849,6 +17745,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 40,
     "Speed": 70
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14869,6 +17769,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 50,
     "Speed": 90
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14890,6 +17794,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 90,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14910,6 +17818,10 @@
     "Sp_Attack": 66,
     "Sp_Defense": 56,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14930,6 +17842,10 @@
     "Sp_Attack": 91,
     "Sp_Defense": 81,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14951,6 +17867,10 @@
     "Sp_Attack": 126,
     "Sp_Defense": 116,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14972,6 +17892,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -14993,6 +17917,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 50,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15014,6 +17942,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 75,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15034,6 +17966,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 30,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15054,6 +17990,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 60,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15074,6 +18014,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 45,
     "Speed": 46
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15095,6 +18039,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 75,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15116,6 +18064,10 @@
     "Sp_Attack": 145,
     "Sp_Defense": 75,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15136,6 +18088,10 @@
     "Sp_Attack": 42,
     "Sp_Defense": 47,
     "Speed": 63
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15157,6 +18113,10 @@
     "Sp_Attack": 62,
     "Sp_Defense": 67,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15178,6 +18138,10 @@
     "Sp_Attack": 98,
     "Sp_Defense": 70,
     "Speed": 93
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15199,6 +18163,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 40,
     "Speed": 84
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15220,6 +18188,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 70,
     "Speed": 124
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15240,6 +18212,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 40,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15260,6 +18236,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 65,
     "Speed": 112
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15280,6 +18260,10 @@
     "Sp_Attack": 25,
     "Sp_Defense": 25,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15301,6 +18285,10 @@
     "Sp_Attack": 43,
     "Sp_Defense": 52,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15322,6 +18310,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 142,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15342,6 +18334,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 55,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15362,6 +18358,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 85,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15383,6 +18383,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 72,
     "Speed": 27
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15404,6 +18408,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 132,
     "Speed": 42
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15424,6 +18432,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 35,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15444,6 +18456,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 90,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15465,6 +18481,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 75,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15486,6 +18506,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 100,
     "Speed": 30
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15507,6 +18531,10 @@
     "Sp_Attack": 71,
     "Sp_Defense": 40,
     "Speed": 77
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15528,6 +18556,10 @@
     "Sp_Attack": 111,
     "Sp_Defense": 60,
     "Speed": 117
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15549,6 +18581,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 50,
     "Speed": 50
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15570,6 +18606,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 60,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15590,6 +18630,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 38,
     "Speed": 32
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15610,6 +18654,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 48,
     "Speed": 62
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15630,6 +18678,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 98,
     "Speed": 72
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15650,6 +18702,10 @@
     "Sp_Attack": 82,
     "Sp_Defense": 110,
     "Speed": 100
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15671,6 +18727,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 110,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15691,6 +18751,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 60,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15712,6 +18776,10 @@
     "Sp_Attack": 20,
     "Sp_Defense": 30,
     "Speed": 80
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15733,6 +18801,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 90,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15754,6 +18826,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 45,
     "Speed": 15
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15775,6 +18851,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 75,
     "Speed": 35
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15795,6 +18875,10 @@
     "Sp_Attack": 30,
     "Sp_Defense": 130,
     "Speed": 5
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15815,6 +18899,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 95,
     "Speed": 59
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15835,6 +18923,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 95,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15856,6 +18948,10 @@
     "Sp_Attack": 60,
     "Sp_Defense": 100,
     "Speed": 60
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15876,6 +18972,10 @@
     "Sp_Attack": 75,
     "Sp_Defense": 95,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15897,6 +18997,10 @@
     "Sp_Attack": 91,
     "Sp_Defense": 85,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15918,6 +19022,10 @@
     "Sp_Attack": 40,
     "Sp_Defense": 73,
     "Speed": 96
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15939,6 +19047,10 @@
     "Sp_Attack": 50,
     "Sp_Defense": 105,
     "Speed": 96
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15960,6 +19072,10 @@
     "Sp_Attack": 70,
     "Sp_Defense": 70,
     "Speed": 92
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -15981,6 +19097,10 @@
     "Sp_Attack": 135,
     "Sp_Defense": 91,
     "Speed": 36
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16002,6 +19122,10 @@
     "Sp_Attack": 86,
     "Sp_Defense": 90,
     "Speed": 40
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16022,6 +19146,10 @@
     "Sp_Attack": 45,
     "Sp_Defense": 45,
     "Speed": 45
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16043,6 +19171,10 @@
     "Sp_Attack": 65,
     "Sp_Defense": 70,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16064,6 +19196,10 @@
     "Sp_Attack": 100,
     "Sp_Defense": 105,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16085,6 +19221,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 75,
     "Speed": 130
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16106,6 +19246,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 115,
     "Speed": 95
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16127,6 +19271,10 @@
     "Sp_Attack": 85,
     "Sp_Defense": 95,
     "Speed": 75
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16148,6 +19296,10 @@
     "Sp_Attack": 95,
     "Sp_Defense": 130,
     "Speed": 85
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16168,6 +19320,10 @@
     "Sp_Attack": 29,
     "Sp_Defense": 31,
     "Speed": 37
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16188,6 +19344,10 @@
     "Sp_Attack": 29,
     "Sp_Defense": 131,
     "Speed": 37
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16209,6 +19369,10 @@
     "Sp_Attack": 113,
     "Sp_Defense": 89,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16230,6 +19394,10 @@
     "Sp_Attack": 137,
     "Sp_Defense": 107,
     "Speed": 97
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16251,6 +19419,10 @@
     "Sp_Attack": 127,
     "Sp_Defense": 131,
     "Speed": 103
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16272,6 +19444,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 53,
     "Speed": 79
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16293,6 +19469,10 @@
     "Sp_Attack": 137,
     "Sp_Defense": 37,
     "Speed": 151
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16313,6 +19493,10 @@
     "Sp_Attack": 173,
     "Sp_Defense": 71,
     "Speed": 83
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16334,6 +19518,10 @@
     "Sp_Attack": 107,
     "Sp_Defense": 101,
     "Speed": 61
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16355,6 +19543,10 @@
     "Sp_Attack": 59,
     "Sp_Defense": 31,
     "Speed": 109
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16376,6 +19568,10 @@
     "Sp_Attack": 97,
     "Sp_Defense": 53,
     "Speed": 43
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16396,6 +19592,10 @@
     "Sp_Attack": 127,
     "Sp_Defense": 89,
     "Speed": 79
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16417,6 +19617,10 @@
     "Sp_Attack": 130,
     "Sp_Defense": 115,
     "Speed": 65
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16438,6 +19642,10 @@
     "Sp_Attack": 90,
     "Sp_Defense": 90,
     "Speed": 125
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16458,6 +19666,10 @@
     "Sp_Attack": 73,
     "Sp_Defense": 67,
     "Speed": 73
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16479,6 +19691,10 @@
     "Sp_Attack": 127,
     "Sp_Defense": 73,
     "Speed": 121
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16500,6 +19716,10 @@
     "Sp_Attack": 53,
     "Sp_Defense": 101,
     "Speed": 13
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16521,6 +19741,10 @@
     "Sp_Attack": 151,
     "Sp_Defense": 79,
     "Speed": 107
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16541,6 +19765,10 @@
     "Sp_Attack": 102,
     "Sp_Defense": 80,
     "Speed": 143
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16561,6 +19789,10 @@
     "Sp_Attack": 55,
     "Sp_Defense": 35,
     "Speed": 34
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 },
 {
@@ -16581,6 +19813,10 @@
     "Sp_Attack": 80,
     "Sp_Defense": 65,
     "Speed": 34
+  },
+  "evolution":{
+    "name":"",
+    "id":""
   }
 }
 ]
