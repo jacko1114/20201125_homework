@@ -7,7 +7,11 @@ const addOne = document.querySelector("#addOne");
 const removeOne = document.querySelector("#removeOne");
 const addAll = document.querySelector("#addAll");
 const reset = document.querySelector("#reset");
-const row = document.querySelector(".row:last-child");
+const row = document.querySelector(".render");
+const topLeftImg = document.querySelector(".jumbotron img:nth-of-type(1)");
+const bottomLeftImg = document.querySelector(".jumbotron img:nth-of-type(2)");
+const topRightImg = document.querySelector(".jumbotron img:nth-of-type(3)");
+const bottomRightImg = document.querySelector(".jumbotron img:nth-of-type(4)");
 
 const addPokemon = (id) => {
     clean();
@@ -33,12 +37,10 @@ const getPokemonJSON = () => {
     xhr.addEventListener("load", function () {
         pokemonArray = JSON.parse(this.responseText);
         newPokemonArray = getNewPokemonData();
-        addPokemon(1);
-        console.log(newPokemonArray);
     })
 }
 const getNewPokemonData = () => {
-    let newArray = pokemonArray.map((item, index) => {
+    let newArray = pokemonArray.map(item => {
         return {
             id: item.id.toString().padStart(3, "0"),
             name: item.name.chinese,
@@ -59,7 +61,6 @@ const getNewPokemonData = () => {
 
 const dataToModal = (clone, index) => {
     clone.querySelector(".btn").addEventListener("click", function () {
-        
         let modal = document.querySelector(".modal");
         modal.querySelector("h5").innerText = `No.${newPokemonArray[index].id} ． ${newPokemonArray[index].name}`;
         modal.querySelector("#pokemonImage").src = newPokemonArray[index].img;
@@ -69,27 +70,32 @@ const dataToModal = (clone, index) => {
         modal.querySelector("#spAttack").textContent = newPokemonArray[index].sp_attack;
         modal.querySelector("#spDefense").textContent = newPokemonArray[index].sp_defense;
         modal.querySelector("#speed").textContent = newPokemonArray[index].speed;
-        modal.querySelector(".genus span").textContent = newPokemonArray[index].genus
+        modal.querySelector(".genus span").textContent = newPokemonArray[index].genus;
         
         let types = document.querySelector(".types");
         types.innerHTML = "";
         newPokemonArray[index].type.forEach(type => {
             let span = document.createElement("span");
             span.textContent = attributeTransform(type);
-            span.classList.add("type", `${type}`, "py-2", "px-3", "text-white", "mx-3", "rounded-pill", "h6");
+            span.classList.add("type", `${type}`, "py-2", "px-3", "text-white", "mx-1", "rounded-pill", "h6");
             types.appendChild(span);
         })
+
         let evolution = document.querySelector(".evolution");
-        newPokemonArray[index].evolution.forEach(item=>{
+        evolution.innerHTML = "";
+        newPokemonArray[index].evolution.forEach((item)=>{
             let img = document.createElement("img");
             let div = document.createElement("div");
-            div.classList.add("py-5","my-5","h4");
+            div.classList.add("p-5","my-5","h4");
 
-            img.src = item.id.toString().padStart(3,"0") != "000" ? `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${newPokemonArray[index].evolution}.png` : null
-
-            div.innerText = item.id.toString().padStart(3,"0") == "000" ? "無法進化" : null
-
-            evolution.append(img,div);
+            if(item.id.toString().padStart(3,"0") != "000"){
+                img.src = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3,"0")}.png`
+                evolution.appendChild(img)
+            }
+            else{
+                div.innerText = "無法進化"
+                evolution.appendChild(div);
+            }
         })  
     })
 }
@@ -156,3 +162,16 @@ reset.addEventListener("click", function () {
     index = 0;
     clean();
 });
+
+topRightImg.addEventListener("click",function(){
+    this.setAttribute("style","top:-100%;");
+    setTimeout(function(){
+        topRightImg.removeAttribute("style");
+    },2000)
+})
+bottomRightImg.addEventListener("click",function(){
+    this.setAttribute("style","transform: scale(1) translateY(90px) translateX(-100px);");
+    setTimeout(function(){
+        bottomRightImg.removeAttribute("style");
+    },2500)
+})

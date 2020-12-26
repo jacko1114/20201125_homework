@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- genus 799-->
 
 <head>
     <meta charset="UTF-8">
@@ -11,11 +12,15 @@
 </head>
 
 <body>
-    <div class="container-fluid px-0">
-        <div class="jumbotron">
+    <div class="container-fluid px-0 overflow-hidden">
+        <div class="jumbotron position-relative mb-0">
             <h1 class="text-center py-3 display-3 font-weight-bold">
                 寶可夢圖鑑
             </h1>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/722.png" alt="" class="position-absolute">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/722.png" alt="" class="position-absolute">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/722.png" alt="" class="position-absolute">
+            <img src="./images/bottomRight.png" alt="" class="position-absolute">
         </div>
     </div>
     </div>
@@ -30,10 +35,13 @@
                 </div>
             </div>
         </div>
-        <div class="row m-0"></div>
     </div>
-    <div class="modal fade" tabindex="-1">
-        <div class="modal-dialog">
+    <hr>
+    <div class="container-lg p-0">
+        <div class="row m-0 render"></div>
+    </div>
+    <div class="modal fade pt-md-5" tabindex="-1">
+        <div class="modal-dialog mt-md-5">
             <div class="modal-content">
                 <div class="modal-header bg-dark">
                     <h5 class="modal-title text-center text-white"></h5>
@@ -41,43 +49,50 @@
                         <span aria-hidden="true" class="text-white">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body text-center p-0">
-                    <img src="" alt="" id="pokemonImage" class="d-block mx-auto">
-                    <div class="d-flex justify-content-center">
-                        <div class="types my-3"></div>
-                        <div class="genus my-3">
-                            <span class="py-2 px-4 bg-secondary text-white mx-3 rounded-pill h6"></span>
+                <div class="modal-body text-center p-0 d-md-flex">
+                    <div class="col-12 col-md-5 border-right border-secondary  flex-md-column justify-content-center">
+                        <img src="" alt="" id="pokemonImage" class="d-block mx-auto w-100">
+                        <div class="d-flex justify-content-center">
+                            <div class="types my-3"></div>
+                            <div class="genus my-3">
+                                <span class="py-2 px-4 bg-secondary text-white rounded-pill h6"></span>
+                            </div>
                         </div>
                     </div>
-                    <h3 class="modal-title mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-3">能力值
-                    </h3>
-                    <table class="table mb-0 mx-5 w-80">
-                        <thead class="thead-light border border-secondary">
-                            <tr>
-                                <th scope="col" class="border border-secondary">生命</th>
-                                <th scope="col" class="border border-secondary">攻擊</th>
-                                <th scope="col" class="border border-secondary">防禦</th>
-                                <th scope="col" class="border border-secondary">特攻</th>
-                                <th scope="col" class="border border-secondary">特防</th>
-                                <th scope="col" class="border border-secondary">速度</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="border border-light">
-                                <td id="hp" class="border border-secondary"></td>
-                                <td id="attack" class="border border-secondary"></td>
-                                <td id="defense" class="border border-secondary"></td>
-                                <td id="spAttack" class="border border-secondary"></td>
-                                <td id="spDefense" class="border border-secondary"></td>
-                                <td id="speed" class="border border-secondary"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3
-                        class="modal-title mt-3 mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-3">
-                        進化
-                    </h3>
-                    <div class="evolution"></div>
+                    <div class="col-12 col-md-7">
+                        <h3 class="modal-title my-3 text-white bg-dark w-25 border-right rounded-right text-right pr-1">
+                            能力值
+                        </h3>
+                        <table class="table mb-0 mx-5 w-80">
+                            <thead class="thead-light border border-secondary">
+                                <tr>
+                                    <th scope="col" class="border border-secondary">生命</th>
+                                    <th scope="col" class="border border-secondary">攻擊</th>
+                                    <th scope="col" class="border border-secondary">防禦</th>
+                                    <th scope="col" class="border border-secondary">特攻</th>
+                                    <th scope="col" class="border border-secondary">特防</th>
+                                    <th scope="col" class="border border-secondary">速度</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border border-light">
+                                    <td id="hp" class="border border-secondary"></td>
+                                    <td id="attack" class="border border-secondary"></td>
+                                    <td id="defense" class="border border-secondary"></td>
+                                    <td id="spAttack" class="border border-secondary"></td>
+                                    <td id="spDefense" class="border border-secondary"></td>
+                                    <td id="speed" class="border border-secondary"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3
+                            class="modal-title mt-3 mb-3 text-white bg-dark w-25 border-right rounded-right text-right pr-1">
+                            進化
+                        </h3>
+                        <div class="evolution d-flex"></div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
