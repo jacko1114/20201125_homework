@@ -1,3 +1,20 @@
+
+.loading{
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+    transition: .3s ease-in-out;
+}
+.loading.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading .spinner-border{
+    width: 5rem;
+    height: 5rem;
+}
+
 .jumbotron:after{
     content: "";
     position: absolute;
@@ -11,34 +28,73 @@
 }
 .jumbotron img:nth-of-type(1){
     z-index: 2;
-    top: -50%;
-    left: -5%;
-    transform: rotate(128deg);
-    cursor: pointer;
+    top: -130%;
+    left: -65%;
+    transform: rotate(100deg);
+    transform-origin: 100% 100%;    
     transition: .1s cubic-bezier(0, 1.15, 0.86, 1.18);
+    animation: hide 3s ease-in-out infinite alternate-reverse;
 }
 .jumbotron img:nth-of-type(2){
     z-index: 2;
-    bottom: -70%;
+    bottom: -96%;
     left: 0;
-    cursor: pointer;
     transition: .1s cubic-bezier(0, 1.15, 0.86, 1.18);
 }
 .jumbotron img:nth-of-type(3){
     z-index: 2;
     top: -50%;
-    right: 0;
+    right: -22%;
     transform: rotate(180deg);
     cursor: pointer;
     transition: .1s cubic-bezier(0, 1.15, 0.86, 1.18);
 }
 .jumbotron img:nth-of-type(4){
     z-index: 2;
-    bottom: -75%;
-    right: 0;
+    bottom: -105%;
+    right: -40%;
     cursor: pointer;
     transition: .1s cubic-bezier(0, 1.15, 0.86, 1.18);
     transform: scale(.5) translateY(490px);
+}
+
+@keyframes hide{
+    0%{
+        transform: rotate(100deg);
+    }
+    100%{
+        transform: rotate(150deg);
+    }
+}
+.jumbotron span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #b1b1b1;
+    border-radius: 50% 50% 50% 10%;
+    border:1px solid #000;
+    left: 25%;
+    bottom: -5%;
+    animation: growup 2s infinite alternate-reverse;
+}
+.jumbotron span:after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ffffff80;
+    border: 1px solid #000;
+    position: absolute;
+    top: 4px;
+    left: 25px;
+}
+@keyframes growup{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5) rotate(30deg);
+    }
 }
 
 .btn-group button {
@@ -214,6 +270,10 @@
 .w-75{
     width: 75%;
 }
+
+#pokemonImage{
+    width: 50%;
+}
 .evolution{
     overflow-y: hidden;
 }
@@ -238,16 +298,44 @@
     .border-right{
         border-color: transparent!important;
     }
-    .w-100{
-        width: 50%!important;
+}
+@media screen and (min-width:576px){
+    .jumbotron img:nth-of-type(1){
+        top: -95%;
+        left: -56%;
     }
+    .jumbotron img:nth-of-type(2){
+        bottom: -70%;
+    }
+    .jumbotron img:nth-of-type(3){
+        top: -50%;
+        right: 0;
+    }
+    .jumbotron img:nth-of-type(4){
+        bottom: -75%;
+        right: -30%;
+    }
+
 }
 @media screen and (min-width:768px){
+    .jumbotron img:nth-of-type(1){
+        left: -17%;
+    }
+    .jumbotron img:nth-of-type(4){
+        bottom: -75%;
+        right: 0;
+    }
+    .jumbotron span{
+        left: 7%;
+    }
     .modal-dialog{
         max-width: 800px;
     }
     .modal-content{
         max-height: 550px;
         overflow: hidden;
+    }
+    #pokemonImage{
+        width: 100%;
     }
 }

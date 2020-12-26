@@ -1,17 +1,14 @@
 let index = 0;
 let pokemonArray = [];
 let newPokemonArray = [];
-let pokemonData = [];
-let newPokemonData = [];
 const addOne = document.querySelector("#addOne");
 const removeOne = document.querySelector("#removeOne");
 const addAll = document.querySelector("#addAll");
 const reset = document.querySelector("#reset");
 const row = document.querySelector(".render");
-const topLeftImg = document.querySelector(".jumbotron img:nth-of-type(1)");
-const bottomLeftImg = document.querySelector(".jumbotron img:nth-of-type(2)");
 const topRightImg = document.querySelector(".jumbotron img:nth-of-type(3)");
 const bottomRightImg = document.querySelector(".jumbotron img:nth-of-type(4)");
+const loading = document.querySelector(".loading");
 
 const addPokemon = (id) => {
     clean();
@@ -30,7 +27,7 @@ const addPokemon = (id) => {
         row.appendChild(cloneContent);
     })
 }
-const getPokemonJSON = () => {
+const getPokemonFfromJSON = () => {
     let xhr = new XMLHttpRequest();
     xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/20201218_pokemon/js/pokemons.json");
     xhr.send();
@@ -103,6 +100,7 @@ const clean = () => {
     row.innerHTML = "";
 }
 
+//屬性轉中文
 const attributeTransform = (eng) => {
     switch (eng) {
         case "Normal":
@@ -145,7 +143,7 @@ const attributeTransform = (eng) => {
 }
 
 //事件監聽
-window.addEventListener("load", getPokemonJSON)
+window.addEventListener("load", getPokemonFfromJSON);
 addOne.addEventListener("click", function () {
     index++;
     addPokemon(index);
@@ -155,8 +153,18 @@ removeOne.addEventListener("click", function () {
     addPokemon(index);
 });
 addAll.addEventListener("click", function () {
-    index = newPokemonArray.length;
-    addPokemon(index);
+    setTimeout(function(){
+        loading.classList.add("active");
+    },0)
+
+    setTimeout(function(){
+        index = newPokemonArray.length;
+        addPokemon(index);
+    },500)
+
+    setTimeout(function(){
+        loading.classList.remove("active");
+    },5000)
 });
 reset.addEventListener("click", function () {
     index = 0;
