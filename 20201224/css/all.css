@@ -1,0 +1,176 @@
+.btn-group button {
+    position: relative;
+    overflow: hidden;
+    border: 0;
+}
+
+.btn-group button:after {
+    content: "";
+    width: 120%;
+    height: 120%;
+    background: #000;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 0;
+    transition: .2s ease;
+}
+
+.btn-group button span {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-group button:nth-child(1) {
+    color: #03a9f4;
+    background: #fff;
+    transition: .3s;
+    border-radius: 0;
+}
+
+.btn-group button:nth-child(1):after {
+    background: #03a9f4;
+}
+
+.btn-group button:hover:nth-child(1) span {
+    color: #fff;
+}
+
+.btn-group button:nth-child(2) {
+    color: #ff9600;
+    background: #fff;
+    transition: .3s;
+}
+
+.btn-group button:nth-child(2):after {
+    background: #ff9600;
+}
+
+.btn-group button:hover:nth-child(2) span {
+    color: #fff;
+}
+
+.btn-group button:nth-child(3) {
+    color: #4caf50;
+    background: #fff;
+    transition: .3s;
+}
+
+.btn-group button:nth-child(3):after {
+    background: #4caf50;
+}
+
+.btn-group button:hover:nth-child(3) span {
+    color: #fff;
+}
+
+.btn-group button:nth-child(4) {
+    color: #f44336;
+    background: #fff;
+    transition: .3s;
+    border-radius: 0;
+}
+
+.btn-group button:nth-child(4):after {
+    background: #f44336;
+}
+
+.btn-group button:hover:nth-child(4) span {
+    color: #fff;
+}
+
+.btn-group button:hover:after {
+    top: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.types {
+    margin-right: 1rem;
+    text-align: right;
+    text-shadow: 1px 1px 1px #000000ce;
+}
+
+.Grass {
+    background: #9BCC50;
+}
+
+.Poison {
+    background: #B97FC9;
+}
+
+.Fire {
+    background: #FD7D24;
+}
+
+.Water {
+    background: #4693C5;
+}
+
+.Flying {
+    background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%);
+}
+
+.Bug {
+    background: #729F3F;
+}
+
+.Normal {
+    background: #A5ADB0;
+}
+
+.Electric {
+    background: #EED535;
+}
+
+.Ground {
+    background: linear-gradient(180deg, #AB9842 50%, #F7DE3F 50%);
+}
+
+.Fairy {
+    background: #FDB9E9;
+}
+
+.Rock {
+    background: #A38C21;
+}
+
+.Psychic {
+    background: #F366B9;
+}
+
+.Fighting {
+    background: #D66824;
+}
+
+.Dark {
+    background: #707070;
+}
+
+.Ice {
+    background: #51C4E7;
+}
+
+.Steel {
+    background: #9EB7B8;
+}
+
+.Ghost {
+    background: #7B62A3;
+}
+
+.Dragon {
+    background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%);
+}
+
+.w-80 {
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .h3 {
+        font-size: 16px;
+    }
+}

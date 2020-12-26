@@ -18,10 +18,10 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"妙蛙草",
     "id":2
-  },
+  }],
   "genus":"種子寶可夢"
 },
 {
@@ -44,10 +44,10 @@
     "Sp_Defense": 80,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"妙蛙花",
     "id":3
-  },
+  }],
   "genus":"種子寶可夢"
 },
 {
@@ -70,10 +70,10 @@
     "Sp_Defense": 100,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"種子寶可夢"
 },
 {
@@ -95,10 +95,10 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"火恐龍",
     "id":5
-  },
+  }],
   "genus":"蜥蜴寶可夢"
 },
 {
@@ -120,10 +120,10 @@
     "Sp_Defense": 65,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"噴火龍",
     "id":6
-  },
+  }],
   "genus":"火焰寶可夢"
 },
 {
@@ -146,10 +146,10 @@
     "Sp_Defense": 85,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"火焰寶可夢"
 },
 {
@@ -171,10 +171,10 @@
     "Sp_Defense": 64,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"卡咪龜",
     "id":8
-  },
+  }],
   "genus":"小龜寶可夢"
 },
 {
@@ -196,10 +196,10 @@
     "Sp_Defense": 80,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"水箭龜",
     "id":9
-  },
+  }],
   "genus":"龜寶可夢"
 },
 {
@@ -221,10 +221,10 @@
     "Sp_Defense": 105,
     "Speed": 78
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"甲殼寶可夢"
 },
 {
@@ -246,10 +246,10 @@
     "Sp_Defense": 20,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"鐵甲蛹",
     "id":11
-  },
+  }],
   "genus":"蟲寶寶寶可夢"
 },
 {
@@ -271,10 +271,10 @@
     "Sp_Defense": 25,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"巴大蝶",
     "id":12
-  },
+  }],
   "genus":"蛹寶可夢"
 },
 {
@@ -297,10 +297,10 @@
     "Sp_Defense": 80,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"蝴蝶寶可夢"
 },
 {
@@ -323,10 +323,10 @@
     "Sp_Defense": 20,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"鐵殼蛹",
     "id":14
-  },
+  }],
   "genus":"毛毛蟲寶可夢"
 },
 {
@@ -349,10 +349,10 @@
     "Sp_Defense": 25,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"大針蜂",
     "id":15
-  },
+  }],
   "genus":"蛹寶可夢"
 },
 {
@@ -375,10 +375,10 @@
     "Sp_Defense": 80,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"毒蜂寶可夢"
 },
 {
@@ -401,10 +401,10 @@
     "Sp_Defense": 35,
     "Speed": 56
   },
-  "evolution":{
+  "evolution":[{
     "name":"比比鳥",
     "id":17
-  },
+  }],
   "genus":"小鳥寶可夢"
 },
 {
@@ -427,10 +427,10 @@
     "Sp_Defense": 50,
     "Speed": 71
   },
-  "evolution":{
+  "evolution":[{
     "name":"大比鳥",
     "id":18
-  },
+  }],
   "genus":"鳥寶可夢"
 },
 {
@@ -453,10 +453,10 @@
     "Sp_Defense": 70,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鳥寶可夢"
 },
 {
@@ -478,10 +478,10 @@
     "Sp_Defense": 35,
     "Speed": 72
   },
-  "evolution":{
+  "evolution":[{
     "name":"拉達",
     "id":20
-  },
+  }],
   "genus":"鼠寶可夢"
 },
 {
@@ -503,10 +503,10 @@
     "Sp_Defense": 70,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鼠寶可夢"
 },
 {
@@ -529,10 +529,10 @@
     "Sp_Defense": 31,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"大嘴雀",
     "id":22
-  },
+  }],
   "genus":"小鳥寶可夢"
 },
 {
@@ -555,10 +555,10 @@
     "Sp_Defense": 61,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鳥嘴寶可夢"
 },
 {
@@ -580,10 +580,10 @@
     "Sp_Defense": 54,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"阿柏怪",
     "id":24
-  },
+  }],
   "genus":"蛇寶可夢"
 },
 {
@@ -605,10 +605,10 @@
     "Sp_Defense": 79,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"眼鏡蛇寶可夢"
 },
 {
@@ -630,10 +630,10 @@
     "Sp_Defense": 50,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"雷丘",
     "id":26
-  },
+  }],
   "genus":"鼠寶可夢"
 },
 {
@@ -655,10 +655,10 @@
     "Sp_Defense": 80,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鼠寶可夢"
 },
 {
@@ -680,10 +680,10 @@
     "Sp_Defense": 30,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"穿山王",
     "id":28
-  },
+  }],
   "genus":"鼠寶可夢"
 },
 {
@@ -705,10 +705,10 @@
     "Sp_Defense": 55,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"毒針寶可夢"
 },
 {
@@ -730,10 +730,10 @@
     "Sp_Defense": 40,
     "Speed": 41
   },
-  "evolution":{
+  "evolution":[{
     "name":"尼多娜",
     "id":30
-  },
+  }],
   "genus":"毒針寶可夢"
 },
 {
@@ -755,10 +755,10 @@
     "Sp_Defense": 55,
     "Speed": 56
   },
-  "evolution":{
+  "evolution":[{
     "name":"尼多后",
     "id":31
-  },
+  }],
   "genus":"鑽錐寶可夢"
 },
 {
@@ -781,10 +781,10 @@
     "Sp_Defense": 85,
     "Speed": 76
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"毒針寶可夢"
 },
 {
@@ -806,10 +806,10 @@
     "Sp_Defense": 40,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"尼多力諾",
     "id":33
-  },
+  }],
   "genus":"毒針寶可夢"
 },
 {
@@ -831,10 +831,10 @@
     "Sp_Defense": 55,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"尼多王",
     "id":34
-  },
+  }],
   "genus":"鑽錐寶可夢"
 },
 {
@@ -857,10 +857,10 @@
     "Sp_Defense": 75,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"妖精寶可夢"
 },
 {
@@ -882,10 +882,10 @@
     "Sp_Defense": 65,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"皮可西",
     "id":36
-  },
+  }],
   "genus":"妖精寶可夢"
 },
 {
@@ -907,10 +907,10 @@
     "Sp_Defense": 90,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"妖精寶可夢"
 },
 {
@@ -932,10 +932,10 @@
     "Sp_Defense": 65,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"九尾",
     "id":38
-  },
+  }],
   "genus":"狐狸寶可夢"
 },
 {
@@ -957,10 +957,10 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"狐狸寶可夢"
 },
 {
@@ -983,10 +983,10 @@
     "Sp_Defense": 25,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"胖可丁",
     "id":40
-  },
+  }],
   "genus":"氣球寶可夢"
 },
 {
@@ -1009,10 +1009,10 @@
     "Sp_Defense": 50,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"氣球寶可夢"
 },
 {
@@ -1035,10 +1035,10 @@
     "Sp_Defense": 40,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"大嘴蝠",
     "id":""
-  },
+  }],
   "genus":"蝙蝠寶可夢"
 },
 {
@@ -1061,10 +1061,10 @@
     "Sp_Defense": 75,
     "Speed": 90
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
+  "evolution":[{
+    "name":"叉字蝠",
+    "id":169
+  }],
   "genus":"蝙蝠寶可夢"
 },
 {
@@ -1087,10 +1087,10 @@
     "Sp_Defense": 65,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"臭臭花",
     "id":44
-  },
+  }],
   "genus":"雜草寶可夢"
 },
 {
@@ -1113,10 +1113,10 @@
     "Sp_Defense": 75,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"霸王花",
     "id":45
-  },
+  }],
   "genus":"雜草寶可夢"
 },
 {
@@ -1139,10 +1139,10 @@
     "Sp_Defense": 90,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"花寶可夢"
 },
 {
@@ -1165,10 +1165,10 @@
     "Sp_Defense": 55,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"派拉斯特",
     "id":47
-  },
+  }],
   "genus":"蘑菇寶可夢"
 },
 {
@@ -1191,10 +1191,10 @@
     "Sp_Defense": 80,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"蘑菇寶可夢"
 },
 {
@@ -1217,10 +1217,10 @@
     "Sp_Defense": 55,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"摩魯蛾",
     "id":49
-  },
+  }],
   "genus":"昆蟲寶可夢"
 },
 {
@@ -1243,10 +1243,10 @@
     "Sp_Defense": 75,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"毒蛾寶可夢"
 },
 {
@@ -1268,10 +1268,10 @@
     "Sp_Defense": 45,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"三地鼠",
     "id":51
-  },
+  }],
   "genus":"鼴鼠寶可夢"
 },
 {
@@ -1293,10 +1293,10 @@
     "Sp_Defense": 70,
     "Speed": 120
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鼴鼠寶可夢"
 },
 {
@@ -1318,10 +1318,10 @@
     "Sp_Defense": 40,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"貓老大",
     "id":53
-  },
+  }],
   "genus":"妖怪貓寶可夢"
 },
 {
@@ -1343,10 +1343,10 @@
     "Sp_Defense": 65,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"暹羅貓寶可夢"
 },
 {
@@ -1368,10 +1368,10 @@
     "Sp_Defense": 50,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"哥達鴨",
     "id":55
-  },
+  }],
   "genus":"鴨寶可夢"
 },
 {
@@ -1393,10 +1393,10 @@
     "Sp_Defense": 80,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鴨寶可夢"
 },
 {
@@ -1418,10 +1418,10 @@
     "Sp_Defense": 45,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"火暴猴",
     "id":57
-  },
+  }],
   "genus":"豬猴寶可夢"
 },
 {
@@ -1443,10 +1443,10 @@
     "Sp_Defense": 70,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"豬猴寶可夢"
 },
 {
@@ -1468,10 +1468,10 @@
     "Sp_Defense": 50,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"風速狗",
     "id":59
-  },
+  }],
   "genus":"小狗寶可夢"
 },
 {
@@ -1493,10 +1493,10 @@
     "Sp_Defense": 80,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"傳說寶可夢"
 },
 {
@@ -1518,10 +1518,10 @@
     "Sp_Defense": 40,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"蚊香君",
     "id":61
-  },
+  }],
   "genus":"蝌蚪寶可夢"
 },
 {
@@ -1543,10 +1543,10 @@
     "Sp_Defense": 50,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"蚊香泳士",
     "id":62
-  },
+  }],
   "genus":"蝌蚪寶可夢"
 },
 {
@@ -1569,10 +1569,10 @@
     "Sp_Defense": 90,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"蝌蚪寶可夢"
 },
 {
@@ -1594,10 +1594,10 @@
     "Sp_Defense": 55,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"勇基拉",
     "id":64
-  },
+  }],
   "genus":"念力寶可夢"
 },
 {
@@ -1619,10 +1619,10 @@
     "Sp_Defense": 70,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"胡地",
     "id":65
-  },
+  }],
   "genus":"念力寶可夢"
 },
 {
@@ -1644,10 +1644,10 @@
     "Sp_Defense": 95,
     "Speed": 120
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"念力寶可夢"
 },
 {
@@ -1669,10 +1669,10 @@
     "Sp_Defense": 35,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"豪力",
     "id":67
-  },
+  }],
   "genus":"怪力寶可夢"
 },
 {
@@ -1694,10 +1694,10 @@
     "Sp_Defense": 60,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"怪力",
     "id":68
-  },
+  }],
   "genus":"怪力寶可夢"
 },
 {
@@ -1719,10 +1719,10 @@
     "Sp_Defense": 85,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"怪力寶可夢"
 },
 {
@@ -1745,10 +1745,10 @@
     "Sp_Defense": 30,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"口呆花",
     "id":70
-  },
+  }],
   "genus":"花寶可夢"
 },
 {
@@ -1771,10 +1771,10 @@
     "Sp_Defense": 45,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"大食花",
     "id":71
-  },
+  }],
   "genus":"捕蠅寶可夢"
 },
 {
@@ -1797,10 +1797,10 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"捕蠅寶可夢"
 },
 {
@@ -1823,10 +1823,10 @@
     "Sp_Defense": 100,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"毒刺水母",
     "id":73
-  },
+  }],
   "genus":"水母寶可夢"
 },
 {
@@ -1849,10 +1849,10 @@
     "Sp_Defense": 120,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"水母寶可夢"
 },
 {
@@ -1875,10 +1875,10 @@
     "Sp_Defense": 30,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"隆隆石",
     "id":75
-  },
+  }],
   "genus":"岩石寶可夢"
 },
 {
@@ -1901,10 +1901,10 @@
     "Sp_Defense": 45,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"隆隆巖",
     "id":76
-  },
+  }],
   "genus":"岩石寶可夢"
 },
 {
@@ -1927,10 +1927,10 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"重量級寶可夢"
 },
 {
@@ -1952,10 +1952,10 @@
     "Sp_Defense": 65,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"烈焰馬",
     "id":78
-  },
+  }],
   "genus":"火馬寶可夢"
 },
 {
@@ -1977,10 +1977,10 @@
     "Sp_Defense": 80,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"憨憨寶可夢"
 },
 {
@@ -2003,10 +2003,10 @@
     "Sp_Defense": 40,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"呆殼獸",
     "id":80
-  },
+  }],
   "genus":"寄居蟹寶可夢"
 },
 {
@@ -2029,10 +2029,10 @@
     "Sp_Defense": 80,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"寄居蟹寶可夢"
 },
 {
@@ -2055,10 +2055,10 @@
     "Sp_Defense": 55,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"三合一磁怪",
     "id":82
-  },
+  }],
   "genus":"磁鐵寶可夢"
 },
 {
@@ -2081,10 +2081,10 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"磁鐵寶可夢"
 },
 {
@@ -2107,10 +2107,10 @@
     "Sp_Defense": 62,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"黃嘴鴨寶可夢"
 },
 {
@@ -2133,10 +2133,10 @@
     "Sp_Defense": 35,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"嘟嘟利",
     "id":85
-  },
+  }],
   "genus":"兩頭鳥寶可夢"
 },
 {
@@ -2159,10 +2159,10 @@
     "Sp_Defense": 60,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"三頭鳥寶可夢"
 },
 {
@@ -2184,10 +2184,10 @@
     "Sp_Defense": 70,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"白海獅",
     "id":87
-  },
+  }],
   "genus":"海獅寶可夢"
 },
 {
@@ -2210,10 +2210,10 @@
     "Sp_Defense": 95,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"海獅寶可夢"
 },
 {
@@ -2235,10 +2235,10 @@
     "Sp_Defense": 50,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"臭臭泥",
     "id":89
-  },
+  }],
   "genus":"污泥寶可夢"
 },
 {
@@ -2260,10 +2260,10 @@
     "Sp_Defense": 100,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"污泥寶可夢"
 },
 {
@@ -2285,10 +2285,10 @@
     "Sp_Defense": 25,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"刺甲貝",
     "id":91
-  },
+  }],
   "genus":"雙殼貝寶可夢"
 },
 {
@@ -2311,10 +2311,10 @@
     "Sp_Defense": 45,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"雙殼貝寶可夢"
 },
 {
@@ -2337,10 +2337,10 @@
     "Sp_Defense": 35,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"鬼斯通",
     "id":93
-  },
+  }],
   "genus":"氣體狀寶可夢"
 },
 {
@@ -2363,10 +2363,10 @@
     "Sp_Defense": 55,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"耿鬼",
     "id":94
-  },
+  }],
   "genus":"氣體狀寶可夢"
 },
 {
@@ -2389,10 +2389,10 @@
     "Sp_Defense": 75,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"影子寶可夢"
 },
 {
@@ -2415,10 +2415,10 @@
     "Sp_Defense": 45,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"岩蛇寶可夢"
 },
 {
@@ -2440,10 +2440,10 @@
     "Sp_Defense": 90,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"引夢貘人",
     "id":97
-  },
+  }],
   "genus":"催眠寶可夢"
 },
 {
@@ -2465,10 +2465,10 @@
     "Sp_Defense": 115,
     "Speed": 67
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"催眠寶可夢"
 },
 {
@@ -2490,10 +2490,10 @@
     "Sp_Defense": 25,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"巨鉗蟹",
     "id":99
-  },
+  }],
   "genus":"清水蟹寶可夢"
 },
 {
@@ -2515,10 +2515,10 @@
     "Sp_Defense": 50,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"鉗子寶可夢"
 },
 {
@@ -2540,10 +2540,10 @@
     "Sp_Defense": 55,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"頑皮雷彈",
-    "id":""
-  },
+    "id":101
+  }],
   "genus":"球寶可夢"
 },
 {
@@ -2565,10 +2565,10 @@
     "Sp_Defense": 80,
     "Speed": 150
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":"球寶可夢"
 },
 {
@@ -2591,10 +2591,10 @@
     "Sp_Defense": 45,
     "Speed": 40
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
+  "evolution":[{
+    "name":"椰蛋樹",
+    "id":103
+  }],
   "genus":"蛋寶可夢"
 },
 {
@@ -2617,11 +2617,11 @@
     "Sp_Defense": 75,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"椰子寶可夢"
 },
 {
   "id": 104,
@@ -2642,11 +2642,11 @@
     "Sp_Defense": 50,
     "Speed": 35
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"嘎啦嘎啦",
+    "id":105
+  }],
+  "genus":"孤獨寶可夢"
 },
 {
   "id": 105,
@@ -2667,11 +2667,11 @@
     "Sp_Defense": 80,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"愛骨寶可夢"
 },
 {
   "id": 106,
@@ -2692,11 +2692,11 @@
     "Sp_Defense": 110,
     "Speed": 87
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"踢腿寶可夢"
 },
 {
   "id": 107,
@@ -2717,11 +2717,11 @@
     "Sp_Defense": 110,
     "Speed": 76
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"拳擊寶可夢"
 },
 {
   "id": 108,
@@ -2742,11 +2742,11 @@
     "Sp_Defense": 75,
     "Speed": 30
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"大舌舔",
+    "id":463
+  }],
+  "genus":"舔舔寶可夢"
 },
 {
   "id": 109,
@@ -2767,11 +2767,11 @@
     "Sp_Defense": 45,
     "Speed": 35
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"雙彈瓦斯",
+    "id":110
+  }],
+  "genus":"毒氣寶可夢"
 },
 {
   "id": 110,
@@ -2792,11 +2792,11 @@
     "Sp_Defense": 70,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"毒氣寶可夢"
 },
 {
   "id": 111,
@@ -2818,11 +2818,11 @@
     "Sp_Defense": 30,
     "Speed": 25
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"鑽角犀獸",
+    "id":112
+  }],
+  "genus":"尖尖寶可夢"
 },
 {
   "id": 112,
@@ -2844,11 +2844,11 @@
     "Sp_Defense": 45,
     "Speed": 40
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"超甲狂犀",
+    "id":464
+  }],
+  "genus":"鑽錐寶可夢"
 },
 {
   "id": 113,
@@ -2869,11 +2869,11 @@
     "Sp_Defense": 105,
     "Speed": 50
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"幸福蛋",
+    "id":242
+  }],
+  "genus":"蛋寶可夢"
 },
 {
   "id": 114,
@@ -2894,11 +2894,11 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"巨蔓藤",
+    "id":465
+  }],
+  "genus":"藤蔓狀寶可夢"
 },
 {
   "id": 115,
@@ -2919,11 +2919,11 @@
     "Sp_Defense": 80,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"親子寶可夢"
 },
 {
   "id": 116,
@@ -2944,11 +2944,11 @@
     "Sp_Defense": 25,
     "Speed": 60
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"海刺龍",
+    "id":117
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 117,
@@ -2969,11 +2969,11 @@
     "Sp_Defense": 45,
     "Speed": 85
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"刺龍王",
+    "id":230
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 118,
@@ -2994,11 +2994,11 @@
     "Sp_Defense": 50,
     "Speed": 63
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"金魚王",
+    "id":119
+  }],
+  "genus":"金魚寶可夢"
 },
 {
   "id": 119,
@@ -3019,11 +3019,11 @@
     "Sp_Defense": 80,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"金魚寶可夢"
 },
 {
   "id": 120,
@@ -3044,11 +3044,11 @@
     "Sp_Defense": 55,
     "Speed": 85
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"寶石海星",
+    "id":121
+  }],
+  "genus":"星形寶可夢"
 },
 {
   "id": 121,
@@ -3070,11 +3070,11 @@
     "Sp_Defense": 85,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"謎寶可夢"
 },
 {
   "id": 122,
@@ -3096,11 +3096,11 @@
     "Sp_Defense": 120,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"屏障寶可夢"
 },
 {
   "id": 123,
@@ -3122,11 +3122,11 @@
     "Sp_Defense": 80,
     "Speed": 105
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"巨鉗螳螂",
+    "id":212
+  }],
+  "genus":"螳螂寶可夢"
 },
 {
   "id": 124,
@@ -3148,11 +3148,11 @@
     "Sp_Defense": 95,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"人形寶可夢"
 },
 {
   "id": 125,
@@ -3173,11 +3173,11 @@
     "Sp_Defense": 85,
     "Speed": 105
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"電擊魔獸",
+    "id":466
+  }],
+  "genus":"電擊寶可夢"
 },
 {
   "id": 126,
@@ -3198,11 +3198,11 @@
     "Sp_Defense": 85,
     "Speed": 93
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"鴨嘴炎獸",
+    "id":467
+  }],
+  "genus":"吐火寶可夢"
 },
 {
   "id": 127,
@@ -3223,11 +3223,11 @@
     "Sp_Defense": 70,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鍬形蟲寶可夢"
 },
 {
   "id": 128,
@@ -3248,11 +3248,11 @@
     "Sp_Defense": 70,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"暴牛寶可夢"
 },
 {
   "id": 129,
@@ -3273,11 +3273,11 @@
     "Sp_Defense": 20,
     "Speed": 80
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"暴鯉龍",
+    "id":130
+  }],
+  "genus":"魚寶可夢"
 },
 {
   "id": 130,
@@ -3299,11 +3299,11 @@
     "Sp_Defense": 100,
     "Speed": 81
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"凶惡寶可夢"
 },
 {
   "id": 131,
@@ -3325,11 +3325,11 @@
     "Sp_Defense": 95,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"乘載寶可夢"
 },
 {
   "id": 132,
@@ -3350,11 +3350,11 @@
     "Sp_Defense": 48,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"變身寶可夢"
 },
 {
   "id": 133,
@@ -3375,11 +3375,32 @@
     "Sp_Defense": 65,
     "Speed": 55
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"水伊布",
+    "id":134
+  },{
+    "name":"雷伊布",
+    "id":135
+  },{
+    "name":"火伊布",
+    "id" : 136
+  },{
+    "name":"太陽伊布",
+    "id" : 196
+  },{
+    "name":"月亮伊布",
+    "id" : 197
+  },{
+    "name":"葉伊布",
+    "id" : 470
+  },{
+    "name":"冰伊布",
+    "id" : 471
+  },{
+    "name":"仙子伊布",
+    "id" : 700
+  }],
+  "genus":"進化寶可夢"
 },
 {
   "id": 134,
@@ -3400,11 +3421,11 @@
     "Sp_Defense": 95,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"吐泡寶可夢"
 },
 {
   "id": 135,
@@ -3425,11 +3446,11 @@
     "Sp_Defense": 95,
     "Speed": 130
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"雷寶可夢"
 },
 {
   "id": 136,
@@ -3450,11 +3471,11 @@
     "Sp_Defense": 110,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"火寶可夢"
 },
 {
   "id": 137,
@@ -3475,11 +3496,11 @@
     "Sp_Defense": 75,
     "Speed": 40
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"多邊獸II",
+    "id":233
+  }],
+  "genus":"虛擬寶可夢"
 },
 {
   "id": 138,
@@ -3501,11 +3522,11 @@
     "Sp_Defense": 55,
     "Speed": 35
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"多刺菊石獸",
+    "id":139
+  }],
+  "genus":"漩渦寶可夢"
 },
 {
   "id": 139,
@@ -3527,11 +3548,11 @@
     "Sp_Defense": 70,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"漩渦寶可夢"
 },
 {
   "id": 140,
@@ -3553,11 +3574,11 @@
     "Sp_Defense": 45,
     "Speed": 55
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"鐮刀盔",
+    "id":141
+  }],
+  "genus":"甲殼寶可夢"
 },
 {
   "id": 141,
@@ -3579,11 +3600,11 @@
     "Sp_Defense": 70,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"甲殼寶可夢"
 },
 {
   "id": 142,
@@ -3605,11 +3626,11 @@
     "Sp_Defense": 75,
     "Speed": 130
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"化石寶可夢"
 },
 {
   "id": 143,
@@ -3630,11 +3651,11 @@
     "Sp_Defense": 110,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"瞌睡寶可夢"
 },
 {
   "id": 144,
@@ -3656,11 +3677,11 @@
     "Sp_Defense": 125,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"冰凍寶可夢"
 },
 {
   "id": 145,
@@ -3682,11 +3703,11 @@
     "Sp_Defense": 90,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"電擊寶可夢"
 },
 {
   "id": 146,
@@ -3708,11 +3729,11 @@
     "Sp_Defense": 85,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"火焰寶可夢"
 },
 {
   "id": 147,
@@ -3733,11 +3754,11 @@
     "Sp_Defense": 50,
     "Speed": 50
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"哈克龍",
+    "id":148
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 148,
@@ -3758,11 +3779,11 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"快龍",
+    "id":149
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 149,
@@ -3784,11 +3805,11 @@
     "Sp_Defense": 100,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 150,
@@ -3809,11 +3830,11 @@
     "Sp_Defense": 90,
     "Speed": 130
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"基因寶可夢"
 },
 {
   "id": 151,
@@ -3834,11 +3855,11 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"新種寶可夢"
 },
 {
   "id": 152,
@@ -3859,11 +3880,11 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"月桂葉",
+    "id":153
+  }],
+  "genus":"葉子寶可夢"
 },
 {
   "id": 153,
@@ -3884,11 +3905,11 @@
     "Sp_Defense": 80,
     "Speed": 60
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"大竺葵",
+    "id":154
+  }],
+  "genus":"葉子寶可夢"
 },
 {
   "id": 154,
@@ -3909,11 +3930,11 @@
     "Sp_Defense": 100,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"芳草寶可夢"
 },
 {
   "id": 155,
@@ -3934,11 +3955,11 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"火巖鼠",
+    "id":156
+  }],
+  "genus":"火鼠寶可夢"
 },
 {
   "id": 156,
@@ -3959,11 +3980,11 @@
     "Sp_Defense": 65,
     "Speed": 80
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"火暴獸",
+    "id":157
+  }],
+  "genus":"火山寶可夢"
 },
 {
   "id": 157,
@@ -3984,11 +4005,11 @@
     "Sp_Defense": 85,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"火山寶可夢"
 },
 {
   "id": 158,
@@ -4009,11 +4030,11 @@
     "Sp_Defense": 48,
     "Speed": 43
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"藍鱷",
+    "id":159
+  }],
+  "genus":"大顎寶可夢"
 },
 {
   "id": 159,
@@ -4034,11 +4055,11 @@
     "Sp_Defense": 63,
     "Speed": 58
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"大力鱷",
+    "id":160
+  }],
+  "genus":"大顎寶可夢"
 },
 {
   "id": 160,
@@ -4059,11 +4080,11 @@
     "Sp_Defense": 83,
     "Speed": 78
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"大顎寶可夢"
 },
 {
   "id": 161,
@@ -4084,11 +4105,11 @@
     "Sp_Defense": 45,
     "Speed": 20
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"大尾立",
+    "id":162
+  }],
+  "genus":"放哨寶可夢"
 },
 {
   "id": 162,
@@ -4109,11 +4130,11 @@
     "Sp_Defense": 55,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"長軀幹寶可夢"
 },
 {
   "id": 163,
@@ -4135,11 +4156,11 @@
     "Sp_Defense": 56,
     "Speed": 50
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"貓頭夜鷹",
+    "id":164
+  }],
+  "genus":"貓頭鷹寶可夢"
 },
 {
   "id": 164,
@@ -4161,11 +4182,11 @@
     "Sp_Defense": 96,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"貓頭鷹寶可夢"
 },
 {
   "id": 165,
@@ -4187,11 +4208,11 @@
     "Sp_Defense": 80,
     "Speed": 55
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"安瓢蟲",
+    "id":166
+  }],
+  "genus":"五星寶可夢"
 },
 {
   "id": 166,
@@ -4213,11 +4234,11 @@
     "Sp_Defense": 110,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"五星寶可夢"
 },
 {
   "id": 167,
@@ -4239,11 +4260,11 @@
     "Sp_Defense": 40,
     "Speed": 30
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"阿利多斯",
+    "id":168
+  }],
+  "genus":"吐絲寶可夢"
 },
 {
   "id": 168,
@@ -4265,11 +4286,11 @@
     "Sp_Defense": 70,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"長腿寶可夢"
 },
 {
   "id": 169,
@@ -4291,11 +4312,11 @@
     "Sp_Defense": 80,
     "Speed": 130
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蝙蝠寶可夢"
 },
 {
   "id": 170,
@@ -4317,11 +4338,11 @@
     "Sp_Defense": 56,
     "Speed": 67
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"電燈怪",
+    "id":171
+  }],
+  "genus":"琵琶魚寶可夢"
 },
 {
   "id": 171,
@@ -4343,11 +4364,11 @@
     "Sp_Defense": 76,
     "Speed": 67
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"燈寶可夢"
 },
 {
   "id": 172,
@@ -4368,11 +4389,11 @@
     "Sp_Defense": 35,
     "Speed": 60
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"皮卡丘",
+    "id":25
+  }],
+  "genus":"小鼠寶可夢"
 },
 {
   "id": 173,
@@ -4393,11 +4414,11 @@
     "Sp_Defense": 55,
     "Speed": 15
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"皮皮",
+    "id":35
+  }],
+  "genus":"星形寶可夢"
 },
 {
   "id": 174,
@@ -4419,11 +4440,11 @@
     "Sp_Defense": 20,
     "Speed": 15
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"胖丁",
+    "id":39
+  }],
+  "genus":"氣球寶可夢"
 },
 {
   "id": 175,
@@ -4444,11 +4465,11 @@
     "Sp_Defense": 65,
     "Speed": 20
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"波克基古",
+    "id":176
+  }],
+  "genus":"針球寶可夢"
 },
 {
   "id": 176,
@@ -4470,11 +4491,11 @@
     "Sp_Defense": 105,
     "Speed": 40
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"波克基斯",
+    "id":468
+  }],
+  "genus":"幸福寶可夢"
 },
 {
   "id": 177,
@@ -4496,11 +4517,11 @@
     "Sp_Defense": 45,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"小鳥寶可夢"
 },
 {
   "id": 178,
@@ -4522,11 +4543,11 @@
     "Sp_Defense": 70,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"神秘寶可夢"
 },
 {
   "id": 179,
@@ -4547,11 +4568,11 @@
     "Sp_Defense": 45,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"綿毛寶可夢"
 },
 {
   "id": 180,
@@ -4572,11 +4593,11 @@
     "Sp_Defense": 60,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"綿毛寶可夢"
 },
 {
   "id": 181,
@@ -4597,11 +4618,11 @@
     "Sp_Defense": 90,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"燈寶可夢"
 },
 {
   "id": 182,
@@ -4622,11 +4643,11 @@
     "Sp_Defense": 100,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"花寶可夢"
 },
 {
   "id": 183,
@@ -4648,11 +4669,11 @@
     "Sp_Defense": 50,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水鼠寶可夢"
 },
 {
   "id": 184,
@@ -4674,11 +4695,11 @@
     "Sp_Defense": 80,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水兔寶可夢"
 },
 {
   "id": 185,
@@ -4699,11 +4720,11 @@
     "Sp_Defense": 65,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"模仿寶可夢"
 },
 {
   "id": 186,
@@ -4724,11 +4745,11 @@
     "Sp_Defense": 100,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蛙寶可夢"
 },
 {
   "id": 187,
@@ -4750,11 +4771,11 @@
     "Sp_Defense": 55,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"棉草寶可夢"
 },
 {
   "id": 188,
@@ -4776,11 +4797,11 @@
     "Sp_Defense": 65,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"棉草寶可夢"
 },
 {
   "id": 189,
@@ -4802,11 +4823,11 @@
     "Sp_Defense": 95,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"棉草寶可夢"
 },
 {
   "id": 190,
@@ -4827,11 +4848,11 @@
     "Sp_Defense": 55,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"長尾寶可夢"
 },
 {
   "id": 191,
@@ -4852,11 +4873,11 @@
     "Sp_Defense": 30,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"種子寶可夢"
 },
 {
   "id": 192,
@@ -4877,11 +4898,11 @@
     "Sp_Defense": 85,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"太陽寶可夢"
 },
 {
   "id": 193,
@@ -4903,11 +4924,11 @@
     "Sp_Defense": 45,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"薄翼寶可夢"
 },
 {
   "id": 194,
@@ -4929,11 +4950,11 @@
     "Sp_Defense": 25,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水魚寶可夢"
 },
 {
   "id": 195,
@@ -4955,11 +4976,11 @@
     "Sp_Defense": 65,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水魚寶可夢"
 },
 {
   "id": 196,
@@ -4980,11 +5001,11 @@
     "Sp_Defense": 95,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"太陽寶可夢"
 },
 {
   "id": 197,
@@ -5005,11 +5026,11 @@
     "Sp_Defense": 130,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"月光寶可夢"
 },
 {
   "id": 198,
@@ -5031,11 +5052,11 @@
     "Sp_Defense": 42,
     "Speed": 91
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"黑暗寶可夢"
 },
 {
   "id": 199,
@@ -5057,11 +5078,11 @@
     "Sp_Defense": 110,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"王者寶可夢"
 },
 {
   "id": 200,
@@ -5082,11 +5103,11 @@
     "Sp_Defense": 85,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"夜啼寶可夢"
 },
 {
   "id": 201,
@@ -5107,11 +5128,11 @@
     "Sp_Defense": 48,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"象徵寶可夢"
 },
 {
   "id": 202,
@@ -5132,11 +5153,11 @@
     "Sp_Defense": 58,
     "Speed": 33
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"忍耐寶可夢"
 },
 {
   "id": 203,
@@ -5158,11 +5179,11 @@
     "Sp_Defense": 65,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"長頸寶可夢"
 },
 {
   "id": 204,
@@ -5183,11 +5204,11 @@
     "Sp_Defense": 35,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蓑衣蟲寶可夢"
 },
 {
   "id": 205,
@@ -5209,11 +5230,11 @@
     "Sp_Defense": 60,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蓑衣蟲寶可夢"
 },
 {
   "id": 206,
@@ -5234,11 +5255,11 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"地蛇寶可夢"
 },
 {
   "id": 207,
@@ -5260,11 +5281,11 @@
     "Sp_Defense": 65,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"飛蠍寶可夢"
 },
 {
   "id": 208,
@@ -5286,11 +5307,11 @@
     "Sp_Defense": 65,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鐵蛇寶可夢"
 },
 {
   "id": 209,
@@ -5311,11 +5332,11 @@
     "Sp_Defense": 40,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"妖精寶可夢"
 },
 {
   "id": 210,
@@ -5336,11 +5357,11 @@
     "Sp_Defense": 60,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"妖精寶可夢"
 },
 {
   "id": 211,
@@ -5362,11 +5383,11 @@
     "Sp_Defense": 55,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"氣球寶可夢"
 },
 {
   "id": 212,
@@ -5388,11 +5409,11 @@
     "Sp_Defense": 80,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鉗子寶可夢"
 },
 {
   "id": 213,
@@ -5414,11 +5435,11 @@
     "Sp_Defense": 230,
     "Speed": 5
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"發酵寶可夢"
 },
 {
   "id": 214,
@@ -5440,11 +5461,11 @@
     "Sp_Defense": 95,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"獨角寶可夢"
 },
 {
   "id": 215,
@@ -5466,11 +5487,11 @@
     "Sp_Defense": 75,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鉤爪寶可夢"
 },
 {
   "id": 216,
@@ -5491,11 +5512,11 @@
     "Sp_Defense": 50,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"小熊寶可夢"
 },
 {
   "id": 217,
@@ -5516,11 +5537,11 @@
     "Sp_Defense": 75,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"冬眠寶可夢"
 },
 {
   "id": 218,
@@ -5541,11 +5562,11 @@
     "Sp_Defense": 40,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"熔岩寶可夢"
 },
 {
   "id": 219,
@@ -5567,11 +5588,11 @@
     "Sp_Defense": 80,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"熔岩寶可夢"
 },
 {
   "id": 220,
@@ -5593,11 +5614,11 @@
     "Sp_Defense": 30,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"小豬寶可夢"
 },
 {
   "id": 221,
@@ -5619,11 +5640,11 @@
     "Sp_Defense": 60,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"野豬寶可夢"
 },
 {
   "id": 222,
@@ -5645,11 +5666,11 @@
     "Sp_Defense": 95,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"珊瑚寶可夢"
 },
 {
   "id": 223,
@@ -5670,11 +5691,11 @@
     "Sp_Defense": 35,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"噴射寶可夢"
 },
 {
   "id": 224,
@@ -5695,11 +5716,11 @@
     "Sp_Defense": 75,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"噴射寶可夢"
 },
 {
   "id": 225,
@@ -5721,11 +5742,11 @@
     "Sp_Defense": 45,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"搬運寶可夢"
 },
 {
   "id": 226,
@@ -5747,11 +5768,11 @@
     "Sp_Defense": 140,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"風箏寶可夢"
 },
 {
   "id": 227,
@@ -5773,11 +5794,11 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鋼甲鳥寶可夢"
 },
 {
   "id": 228,
@@ -5799,11 +5820,11 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"陰暗寶可夢"
 },
 {
   "id": 229,
@@ -5825,11 +5846,11 @@
     "Sp_Defense": 80,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"陰暗寶可夢"
 },
 {
   "id": 230,
@@ -5851,11 +5872,11 @@
     "Sp_Defense": 95,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"龍寶可夢"
 },
 {
   "id": 231,
@@ -5876,11 +5897,11 @@
     "Sp_Defense": 40,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"長鼻寶可夢"
 },
 {
   "id": 232,
@@ -5901,11 +5922,11 @@
     "Sp_Defense": 60,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鎧甲寶可夢"
 },
 {
   "id": 233,
@@ -5926,11 +5947,11 @@
     "Sp_Defense": 95,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"虛擬寶可夢"
 },
 {
   "id": 234,
@@ -5951,11 +5972,11 @@
     "Sp_Defense": 65,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"大角寶可夢"
 },
 {
   "id": 235,
@@ -5976,11 +5997,11 @@
     "Sp_Defense": 45,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"畫畫寶可夢"
 },
 {
   "id": 236,
@@ -6001,11 +6022,11 @@
     "Sp_Defense": 35,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"打鬥寶可夢"
 },
 {
   "id": 237,
@@ -6026,11 +6047,11 @@
     "Sp_Defense": 110,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"倒立寶可夢"
 },
 {
   "id": 238,
@@ -6052,11 +6073,11 @@
     "Sp_Defense": 65,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"親吻寶可夢"
 },
 {
   "id": 239,
@@ -6077,11 +6098,11 @@
     "Sp_Defense": 55,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"電氣寶可夢"
 },
 {
   "id": 240,
@@ -6102,11 +6123,11 @@
     "Sp_Defense": 55,
     "Speed": 83
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"火種寶可夢"
 },
 {
   "id": 241,
@@ -6127,11 +6148,11 @@
     "Sp_Defense": 70,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"乳牛寶可夢"
 },
 {
   "id": 242,
@@ -6152,11 +6173,11 @@
     "Sp_Defense": 135,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"幸福寶可夢"
 },
 {
   "id": 243,
@@ -6177,11 +6198,11 @@
     "Sp_Defense": 100,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"天雷寶可夢"
 },
 {
   "id": 244,
@@ -6202,11 +6223,11 @@
     "Sp_Defense": 75,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"火山寶可夢"
 },
 {
   "id": 245,
@@ -6227,11 +6248,11 @@
     "Sp_Defense": 115,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"極光寶可夢"
 },
 {
   "id": 246,
@@ -6253,11 +6274,11 @@
     "Sp_Defense": 50,
     "Speed": 41
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"岩石膚寶可夢"
 },
 {
   "id": 247,
@@ -6279,11 +6300,11 @@
     "Sp_Defense": 70,
     "Speed": 51
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"子彈寶可夢"
 },
 {
   "id": 248,
@@ -6305,11 +6326,11 @@
     "Sp_Defense": 100,
     "Speed": 61
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"鎧甲寶可夢"
 },
 {
   "id": 249,
@@ -6331,11 +6352,11 @@
     "Sp_Defense": 154,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"潛水寶可夢"
 },
 {
   "id": 250,
@@ -6357,11 +6378,11 @@
     "Sp_Defense": 154,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"虹色寶可夢"
 },
 {
   "id": 251,
@@ -6383,11 +6404,11 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"時空穿越寶可夢"
 },
 {
   "id": 252,
@@ -6408,11 +6429,11 @@
     "Sp_Defense": 55,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"林蜥寶可夢"
 },
 {
   "id": 253,
@@ -6433,11 +6454,11 @@
     "Sp_Defense": 65,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"林蜥寶可夢"
 },
 {
   "id": 254,
@@ -6458,11 +6479,11 @@
     "Sp_Defense": 85,
     "Speed": 120
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"密林寶可夢"
 },
 {
   "id": 255,
@@ -6483,11 +6504,11 @@
     "Sp_Defense": 50,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"雛雞寶可夢"
 },
 {
   "id": 256,
@@ -6509,11 +6530,11 @@
     "Sp_Defense": 60,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"幼雞寶可夢"
 },
 {
   "id": 257,
@@ -6535,11 +6556,11 @@
     "Sp_Defense": 70,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"猛火寶可夢"
 },
 {
   "id": 258,
@@ -6560,11 +6581,11 @@
     "Sp_Defense": 50,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"沼魚寶可夢"
 },
 {
   "id": 259,
@@ -6586,11 +6607,11 @@
     "Sp_Defense": 70,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"沼魚寶可夢"
 },
 {
   "id": 260,
@@ -6612,11 +6633,11 @@
     "Sp_Defense": 90,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"沼魚寶可夢"
 },
 {
   "id": 261,
@@ -6637,11 +6658,11 @@
     "Sp_Defense": 30,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"緊咬寶可夢"
 },
 {
   "id": 262,
@@ -6662,11 +6683,11 @@
     "Sp_Defense": 60,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"緊咬寶可夢"
 },
 {
   "id": 263,
@@ -6687,11 +6708,11 @@
     "Sp_Defense": 41,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"豆貍寶可夢"
 },
 {
   "id": 264,
@@ -6712,11 +6733,11 @@
     "Sp_Defense": 61,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"猛衝寶可夢"
 },
 {
   "id": 265,
@@ -6737,11 +6758,11 @@
     "Sp_Defense": 30,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蟲寶寶寶可夢"
 },
 {
   "id": 266,
@@ -6762,11 +6783,11 @@
     "Sp_Defense": 25,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蛹寶可夢"
 },
 {
   "id": 267,
@@ -6788,11 +6809,11 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蝴蝶寶可夢"
 },
 {
   "id": 268,
@@ -6813,11 +6834,11 @@
     "Sp_Defense": 25,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蛹寶可夢"
 },
 {
   "id": 269,
@@ -6839,11 +6860,11 @@
     "Sp_Defense": 90,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"毒蛾寶可夢"
 },
 {
   "id": 270,
@@ -6865,11 +6886,11 @@
     "Sp_Defense": 50,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"浮萍寶可夢"
 },
 {
   "id": 271,
@@ -6891,11 +6912,11 @@
     "Sp_Defense": 70,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"爽朗寶可夢"
 },
 {
   "id": 272,
@@ -6917,11 +6938,11 @@
     "Sp_Defense": 100,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"樂天寶可夢"
 },
 {
   "id": 273,
@@ -6942,11 +6963,11 @@
     "Sp_Defense": 30,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"橡實寶可夢"
 },
 {
   "id": 274,
@@ -6968,11 +6989,11 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"捉弄寶可夢"
 },
 {
   "id": 275,
@@ -6994,11 +7015,11 @@
     "Sp_Defense": 60,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"邪惡寶可夢"
 },
 {
   "id": 276,
@@ -7020,11 +7041,11 @@
     "Sp_Defense": 30,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"幼燕寶可夢"
 },
 {
   "id": 277,
@@ -7046,11 +7067,11 @@
     "Sp_Defense": 50,
     "Speed": 125
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"燕子寶可夢"
 },
 {
   "id": 278,
@@ -7072,11 +7093,11 @@
     "Sp_Defense": 30,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"海鷗寶可夢"
 },
 {
   "id": 279,
@@ -7098,11 +7119,11 @@
     "Sp_Defense": 70,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水鳥寶可夢"
 },
 {
   "id": 280,
@@ -7124,11 +7145,11 @@
     "Sp_Defense": 35,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"心情寶可夢"
 },
 {
   "id": 281,
@@ -7150,11 +7171,11 @@
     "Sp_Defense": 55,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"感情寶可夢"
 },
 {
   "id": 282,
@@ -7176,11 +7197,11 @@
     "Sp_Defense": 115,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"包容寶可夢"
 },
 {
   "id": 283,
@@ -7202,11 +7223,11 @@
     "Sp_Defense": 52,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水黽寶可夢"
 },
 {
   "id": 284,
@@ -7228,11 +7249,11 @@
     "Sp_Defense": 82,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"眼珠寶可夢"
 },
 {
   "id": 285,
@@ -7253,11 +7274,11 @@
     "Sp_Defense": 60,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蘑菇寶可夢"
 },
 {
   "id": 286,
@@ -7279,11 +7300,11 @@
     "Sp_Defense": 60,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"蘑菇寶可夢"
 },
 {
   "id": 287,
@@ -7304,11 +7325,11 @@
     "Sp_Defense": 35,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"懶人寶可夢"
 },
 {
   "id": 288,
@@ -7329,11 +7350,11 @@
     "Sp_Defense": 55,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"暴猿寶可夢"
 },
 {
   "id": 289,
@@ -7354,11 +7375,11 @@
     "Sp_Defense": 65,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"怕麻煩寶可夢"
 },
 {
   "id": 290,
@@ -7380,11 +7401,11 @@
     "Sp_Defense": 30,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"入門寶可夢"
 },
 {
   "id": 291,
@@ -7406,11 +7427,11 @@
     "Sp_Defense": 50,
     "Speed": 160
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"忍者寶可夢"
 },
 {
   "id": 292,
@@ -7432,11 +7453,11 @@
     "Sp_Defense": 30,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"空殼寶可夢"
 },
 {
   "id": 293,
@@ -7457,11 +7478,11 @@
     "Sp_Defense": 23,
     "Speed": 28
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"細語寶可夢"
 },
 {
   "id": 294,
@@ -7482,11 +7503,11 @@
     "Sp_Defense": 43,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"大聲寶可夢"
 },
 {
   "id": 295,
@@ -7507,11 +7528,11 @@
     "Sp_Defense": 73,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"噪音寶可夢"
 },
 {
   "id": 296,
@@ -7532,11 +7553,11 @@
     "Sp_Defense": 30,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"毅力寶可夢"
 },
 {
   "id": 297,
@@ -7557,11 +7578,11 @@
     "Sp_Defense": 60,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"猛推寶可夢"
 },
 {
   "id": 298,
@@ -7583,11 +7604,11 @@
     "Sp_Defense": 40,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"水珠寶可夢"
 },
 {
   "id": 299,
@@ -7608,11 +7629,11 @@
     "Sp_Defense": 90,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"羅盤寶可夢"
 },
 {
   "id": 300,
@@ -7633,10 +7654,10 @@
     "Sp_Defense": 35,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7658,10 +7679,10 @@
     "Sp_Defense": 55,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7684,10 +7705,10 @@
     "Sp_Defense": 65,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7710,10 +7731,10 @@
     "Sp_Defense": 55,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7736,10 +7757,10 @@
     "Sp_Defense": 40,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7762,10 +7783,10 @@
     "Sp_Defense": 50,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7788,10 +7809,10 @@
     "Sp_Defense": 60,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7814,10 +7835,10 @@
     "Sp_Defense": 55,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7840,10 +7861,10 @@
     "Sp_Defense": 75,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7865,10 +7886,10 @@
     "Sp_Defense": 40,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7890,10 +7911,10 @@
     "Sp_Defense": 60,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7915,10 +7936,10 @@
     "Sp_Defense": 75,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7940,10 +7961,10 @@
     "Sp_Defense": 85,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7965,10 +7986,10 @@
     "Sp_Defense": 85,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -7990,10 +8011,10 @@
     "Sp_Defense": 85,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8016,10 +8037,10 @@
     "Sp_Defense": 80,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8041,10 +8062,10 @@
     "Sp_Defense": 53,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8066,10 +8087,10 @@
     "Sp_Defense": 83,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8092,10 +8113,10 @@
     "Sp_Defense": 20,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8118,10 +8139,10 @@
     "Sp_Defense": 40,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8143,10 +8164,10 @@
     "Sp_Defense": 35,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8168,10 +8189,10 @@
     "Sp_Defense": 45,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8194,10 +8215,10 @@
     "Sp_Defense": 45,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8220,10 +8241,10 @@
     "Sp_Defense": 75,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8245,10 +8266,10 @@
     "Sp_Defense": 70,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8270,10 +8291,10 @@
     "Sp_Defense": 80,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8295,10 +8316,10 @@
     "Sp_Defense": 110,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8320,10 +8341,10 @@
     "Sp_Defense": 60,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8345,10 +8366,10 @@
     "Sp_Defense": 45,
     "Speed": 10
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8371,10 +8392,10 @@
     "Sp_Defense": 50,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8397,10 +8418,10 @@
     "Sp_Defense": 80,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8422,10 +8443,10 @@
     "Sp_Defense": 40,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8448,10 +8469,10 @@
     "Sp_Defense": 60,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8474,10 +8495,10 @@
     "Sp_Defense": 75,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8500,10 +8521,10 @@
     "Sp_Defense": 105,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8525,10 +8546,10 @@
     "Sp_Defense": 60,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8550,10 +8571,10 @@
     "Sp_Defense": 60,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8576,10 +8597,10 @@
     "Sp_Defense": 85,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8602,10 +8623,10 @@
     "Sp_Defense": 65,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8628,10 +8649,10 @@
     "Sp_Defense": 41,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8654,10 +8675,10 @@
     "Sp_Defense": 71,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8679,10 +8700,10 @@
     "Sp_Defense": 35,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8705,10 +8726,10 @@
     "Sp_Defense": 55,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8731,10 +8752,10 @@
     "Sp_Defense": 70,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8757,10 +8778,10 @@
     "Sp_Defense": 120,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8783,10 +8804,10 @@
     "Sp_Defense": 87,
     "Speed": 23
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8809,10 +8830,10 @@
     "Sp_Defense": 107,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8835,10 +8856,10 @@
     "Sp_Defense": 50,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8861,10 +8882,10 @@
     "Sp_Defense": 80,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8886,10 +8907,10 @@
     "Sp_Defense": 55,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8911,10 +8932,10 @@
     "Sp_Defense": 125,
     "Speed": 81
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8936,10 +8957,10 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8961,10 +8982,10 @@
     "Sp_Defense": 120,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -8986,10 +9007,10 @@
     "Sp_Defense": 33,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9011,10 +9032,10 @@
     "Sp_Defense": 63,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9036,10 +9057,10 @@
     "Sp_Defense": 90,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9061,10 +9082,10 @@
     "Sp_Defense": 130,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9087,10 +9108,10 @@
     "Sp_Defense": 87,
     "Speed": 51
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9112,10 +9133,10 @@
     "Sp_Defense": 90,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9137,10 +9158,10 @@
     "Sp_Defense": 60,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9162,10 +9183,10 @@
     "Sp_Defense": 48,
     "Speed": 23
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9187,10 +9208,10 @@
     "Sp_Defense": 50,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9212,10 +9233,10 @@
     "Sp_Defense": 80,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9238,10 +9259,10 @@
     "Sp_Defense": 50,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9264,10 +9285,10 @@
     "Sp_Defense": 70,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9290,10 +9311,10 @@
     "Sp_Defense": 90,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9315,10 +9336,10 @@
     "Sp_Defense": 55,
     "Speed": 32
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9340,10 +9361,10 @@
     "Sp_Defense": 75,
     "Speed": 52
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9365,10 +9386,10 @@
     "Sp_Defense": 75,
     "Speed": 52
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9391,10 +9412,10 @@
     "Sp_Defense": 65,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9416,10 +9437,10 @@
     "Sp_Defense": 65,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9441,10 +9462,10 @@
     "Sp_Defense": 30,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9466,10 +9487,10 @@
     "Sp_Defense": 50,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9492,10 +9513,10 @@
     "Sp_Defense": 80,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9518,10 +9539,10 @@
     "Sp_Defense": 60,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9544,10 +9565,10 @@
     "Sp_Defense": 80,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9570,10 +9591,10 @@
     "Sp_Defense": 90,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9595,10 +9616,10 @@
     "Sp_Defense": 100,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9620,10 +9641,10 @@
     "Sp_Defense": 200,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9645,10 +9666,10 @@
     "Sp_Defense": 150,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9671,10 +9692,10 @@
     "Sp_Defense": 130,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9697,10 +9718,10 @@
     "Sp_Defense": 110,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9722,10 +9743,10 @@
     "Sp_Defense": 140,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9747,10 +9768,10 @@
     "Sp_Defense": 90,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9773,10 +9794,10 @@
     "Sp_Defense": 90,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9799,10 +9820,10 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9824,10 +9845,10 @@
     "Sp_Defense": 50,
     "Speed": 150
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9849,10 +9870,10 @@
     "Sp_Defense": 55,
     "Speed": 31
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9874,10 +9895,10 @@
     "Sp_Defense": 65,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9900,10 +9921,10 @@
     "Sp_Defense": 85,
     "Speed": 56
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9925,10 +9946,10 @@
     "Sp_Defense": 44,
     "Speed": 61
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9951,10 +9972,10 @@
     "Sp_Defense": 52,
     "Speed": 81
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -9977,10 +9998,10 @@
     "Sp_Defense": 71,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10002,10 +10023,10 @@
     "Sp_Defense": 56,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10027,10 +10048,10 @@
     "Sp_Defense": 76,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10053,10 +10074,10 @@
     "Sp_Defense": 101,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10079,10 +10100,10 @@
     "Sp_Defense": 30,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10105,10 +10126,10 @@
     "Sp_Defense": 40,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10131,10 +10152,10 @@
     "Sp_Defense": 60,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10156,10 +10177,10 @@
     "Sp_Defense": 40,
     "Speed": 31
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10182,10 +10203,10 @@
     "Sp_Defense": 60,
     "Speed": 71
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10207,10 +10228,10 @@
     "Sp_Defense": 41,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10232,10 +10253,10 @@
     "Sp_Defense": 51,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10257,10 +10278,10 @@
     "Sp_Defense": 34,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10282,10 +10303,10 @@
     "Sp_Defense": 49,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10307,10 +10328,10 @@
     "Sp_Defense": 79,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10333,10 +10354,10 @@
     "Sp_Defense": 70,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10359,10 +10380,10 @@
     "Sp_Defense": 105,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10384,10 +10405,10 @@
     "Sp_Defense": 30,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10409,10 +10430,10 @@
     "Sp_Defense": 50,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10435,10 +10456,10 @@
     "Sp_Defense": 88,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10461,10 +10482,10 @@
     "Sp_Defense": 138,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10486,10 +10507,10 @@
     "Sp_Defense": 45,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10512,10 +10533,10 @@
     "Sp_Defense": 105,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10538,10 +10559,10 @@
     "Sp_Defense": 50,
     "Speed": 66
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10564,10 +10585,10 @@
     "Sp_Defense": 42,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10590,10 +10611,10 @@
     "Sp_Defense": 102,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10615,10 +10636,10 @@
     "Sp_Defense": 90,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10640,10 +10661,10 @@
     "Sp_Defense": 30,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10665,10 +10686,10 @@
     "Sp_Defense": 50,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10690,10 +10711,10 @@
     "Sp_Defense": 53,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10715,10 +10736,10 @@
     "Sp_Defense": 78,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10740,10 +10761,10 @@
     "Sp_Defense": 62,
     "Speed": 34
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10766,10 +10787,10 @@
     "Sp_Defense": 82,
     "Speed": 39
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10791,10 +10812,10 @@
     "Sp_Defense": 66,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10817,10 +10838,10 @@
     "Sp_Defense": 44,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10843,10 +10864,10 @@
     "Sp_Defense": 54,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10868,10 +10889,10 @@
     "Sp_Defense": 56,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10893,10 +10914,10 @@
     "Sp_Defense": 96,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10918,10 +10939,10 @@
     "Sp_Defense": 105,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10944,10 +10965,10 @@
     "Sp_Defense": 52,
     "Speed": 71
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10969,10 +10990,10 @@
     "Sp_Defense": 37,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -10994,10 +11015,10 @@
     "Sp_Defense": 59,
     "Speed": 112
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11019,10 +11040,10 @@
     "Sp_Defense": 50,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11045,10 +11066,10 @@
     "Sp_Defense": 41,
     "Speed": 74
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11071,10 +11092,10 @@
     "Sp_Defense": 61,
     "Speed": 84
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11097,10 +11118,10 @@
     "Sp_Defense": 86,
     "Speed": 23
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11123,10 +11144,10 @@
     "Sp_Defense": 116,
     "Speed": 33
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11148,10 +11169,10 @@
     "Sp_Defense": 45,
     "Speed": 10
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11174,10 +11195,10 @@
     "Sp_Defense": 90,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11199,10 +11220,10 @@
     "Sp_Defense": 65,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11225,10 +11246,10 @@
     "Sp_Defense": 42,
     "Speed": 91
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11251,10 +11272,10 @@
     "Sp_Defense": 108,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11277,10 +11298,10 @@
     "Sp_Defense": 45,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11303,10 +11324,10 @@
     "Sp_Defense": 55,
     "Speed": 82
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11329,10 +11350,10 @@
     "Sp_Defense": 85,
     "Speed": 102
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11354,10 +11375,10 @@
     "Sp_Defense": 85,
     "Speed": 5
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11379,10 +11400,10 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11405,10 +11426,10 @@
     "Sp_Defense": 70,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11430,10 +11451,10 @@
     "Sp_Defense": 42,
     "Speed": 32
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11455,10 +11476,10 @@
     "Sp_Defense": 72,
     "Speed": 47
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11481,10 +11502,10 @@
     "Sp_Defense": 55,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11507,10 +11528,10 @@
     "Sp_Defense": 75,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11533,10 +11554,10 @@
     "Sp_Defense": 40,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11559,10 +11580,10 @@
     "Sp_Defense": 65,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11584,10 +11605,10 @@
     "Sp_Defense": 72,
     "Speed": 46
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11609,10 +11630,10 @@
     "Sp_Defense": 61,
     "Speed": 66
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11634,10 +11655,10 @@
     "Sp_Defense": 86,
     "Speed": 91
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11660,10 +11681,10 @@
     "Sp_Defense": 120,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11686,10 +11707,10 @@
     "Sp_Defense": 60,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11712,10 +11733,10 @@
     "Sp_Defense": 85,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11738,10 +11759,10 @@
     "Sp_Defense": 85,
     "Speed": 125
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11764,10 +11785,10 @@
     "Sp_Defense": 90,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11789,10 +11810,10 @@
     "Sp_Defense": 95,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11815,10 +11836,10 @@
     "Sp_Defense": 55,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11840,10 +11861,10 @@
     "Sp_Defense": 50,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11865,10 +11886,10 @@
     "Sp_Defense": 85,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11890,10 +11911,10 @@
     "Sp_Defense": 95,
     "Speed": 83
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11916,10 +11937,10 @@
     "Sp_Defense": 115,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11942,10 +11963,10 @@
     "Sp_Defense": 56,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11967,10 +11988,10 @@
     "Sp_Defense": 65,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -11992,10 +12013,10 @@
     "Sp_Defense": 95,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12018,10 +12039,10 @@
     "Sp_Defense": 75,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12044,10 +12065,10 @@
     "Sp_Defense": 60,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12069,10 +12090,10 @@
     "Sp_Defense": 75,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12095,10 +12116,10 @@
     "Sp_Defense": 115,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12121,10 +12142,10 @@
     "Sp_Defense": 150,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12146,10 +12167,10 @@
     "Sp_Defense": 135,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12172,10 +12193,10 @@
     "Sp_Defense": 70,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12198,10 +12219,10 @@
     "Sp_Defense": 77,
     "Speed": 91
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12223,10 +12244,10 @@
     "Sp_Defense": 130,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12248,10 +12269,10 @@
     "Sp_Defense": 105,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12273,10 +12294,10 @@
     "Sp_Defense": 70,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12299,10 +12320,10 @@
     "Sp_Defense": 100,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12325,10 +12346,10 @@
     "Sp_Defense": 120,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12351,10 +12372,10 @@
     "Sp_Defense": 106,
     "Speed": 77
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12376,10 +12397,10 @@
     "Sp_Defense": 110,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12402,10 +12423,10 @@
     "Sp_Defense": 120,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12427,10 +12448,10 @@
     "Sp_Defense": 130,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12452,10 +12473,10 @@
     "Sp_Defense": 80,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12477,10 +12498,10 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12502,10 +12523,10 @@
     "Sp_Defense": 90,
     "Speed": 125
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12527,10 +12548,10 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12552,10 +12573,10 @@
     "Sp_Defense": 120,
     "Speed": 120
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12578,10 +12599,10 @@
     "Sp_Defense": 100,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12603,10 +12624,10 @@
     "Sp_Defense": 55,
     "Speed": 63
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12628,10 +12649,10 @@
     "Sp_Defense": 75,
     "Speed": 83
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12653,10 +12674,10 @@
     "Sp_Defense": 95,
     "Speed": 113
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12678,10 +12699,10 @@
     "Sp_Defense": 45,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12704,10 +12725,10 @@
     "Sp_Defense": 55,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12730,10 +12751,10 @@
     "Sp_Defense": 65,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12755,10 +12776,10 @@
     "Sp_Defense": 45,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12780,10 +12801,10 @@
     "Sp_Defense": 60,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12805,10 +12826,10 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12830,10 +12851,10 @@
     "Sp_Defense": 39,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12855,10 +12876,10 @@
     "Sp_Defense": 69,
     "Speed": 77
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12880,10 +12901,10 @@
     "Sp_Defense": 45,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12905,10 +12926,10 @@
     "Sp_Defense": 65,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12930,10 +12951,10 @@
     "Sp_Defense": 90,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12955,10 +12976,10 @@
     "Sp_Defense": 37,
     "Speed": 66
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -12980,10 +13001,10 @@
     "Sp_Defense": 50,
     "Speed": 106
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13005,10 +13026,10 @@
     "Sp_Defense": 48,
     "Speed": 64
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13030,10 +13051,10 @@
     "Sp_Defense": 63,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13055,10 +13076,10 @@
     "Sp_Defense": 48,
     "Speed": 64
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13080,10 +13101,10 @@
     "Sp_Defense": 63,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13105,10 +13126,10 @@
     "Sp_Defense": 48,
     "Speed": 64
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13130,10 +13151,10 @@
     "Sp_Defense": 63,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13155,10 +13176,10 @@
     "Sp_Defense": 55,
     "Speed": 24
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13180,10 +13201,10 @@
     "Sp_Defense": 95,
     "Speed": 29
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13206,10 +13227,10 @@
     "Sp_Defense": 30,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13232,10 +13253,10 @@
     "Sp_Defense": 42,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13258,10 +13279,10 @@
     "Sp_Defense": 55,
     "Speed": 93
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13283,10 +13304,10 @@
     "Sp_Defense": 32,
     "Speed": 76
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13308,10 +13329,10 @@
     "Sp_Defense": 63,
     "Speed": 116
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13333,10 +13354,10 @@
     "Sp_Defense": 25,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13358,10 +13379,10 @@
     "Sp_Defense": 40,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13383,10 +13404,10 @@
     "Sp_Defense": 80,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13409,10 +13430,10 @@
     "Sp_Defense": 43,
     "Speed": 72
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13435,10 +13456,10 @@
     "Sp_Defense": 55,
     "Speed": 114
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13460,10 +13481,10 @@
     "Sp_Defense": 45,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13486,10 +13507,10 @@
     "Sp_Defense": 65,
     "Speed": 88
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13511,10 +13532,10 @@
     "Sp_Defense": 86,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13536,10 +13557,10 @@
     "Sp_Defense": 35,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13561,10 +13582,10 @@
     "Sp_Defense": 50,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13586,10 +13607,10 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13611,10 +13632,10 @@
     "Sp_Defense": 40,
     "Speed": 64
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13637,10 +13658,10 @@
     "Sp_Defense": 55,
     "Speed": 69
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13663,10 +13684,10 @@
     "Sp_Defense": 75,
     "Speed": 74
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13688,10 +13709,10 @@
     "Sp_Defense": 85,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13713,10 +13734,10 @@
     "Sp_Defense": 75,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13739,10 +13760,10 @@
     "Sp_Defense": 60,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13765,10 +13786,10 @@
     "Sp_Defense": 80,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13791,10 +13812,10 @@
     "Sp_Defense": 80,
     "Speed": 92
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13817,10 +13838,10 @@
     "Sp_Defense": 39,
     "Speed": 57
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13843,10 +13864,10 @@
     "Sp_Defense": 79,
     "Speed": 47
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13869,10 +13890,10 @@
     "Sp_Defense": 69,
     "Speed": 112
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13895,10 +13916,10 @@
     "Sp_Defense": 50,
     "Speed": 66
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13921,10 +13942,10 @@
     "Sp_Defense": 75,
     "Speed": 116
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13946,10 +13967,10 @@
     "Sp_Defense": 50,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13971,10 +13992,10 @@
     "Sp_Defense": 75,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -13996,10 +14017,10 @@
     "Sp_Defense": 55,
     "Speed": 98
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14022,10 +14043,10 @@
     "Sp_Defense": 35,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14048,10 +14069,10 @@
     "Sp_Defense": 45,
     "Speed": 74
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14074,10 +14095,10 @@
     "Sp_Defense": 70,
     "Speed": 92
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14099,10 +14120,10 @@
     "Sp_Defense": 45,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14124,10 +14145,10 @@
     "Sp_Defense": 55,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14149,10 +14170,10 @@
     "Sp_Defense": 67,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14175,10 +14196,10 @@
     "Sp_Defense": 35,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14201,10 +14222,10 @@
     "Sp_Defense": 75,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14227,10 +14248,10 @@
     "Sp_Defense": 70,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14253,10 +14274,10 @@
     "Sp_Defense": 115,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14279,10 +14300,10 @@
     "Sp_Defense": 80,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14304,10 +14325,10 @@
     "Sp_Defense": 65,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14329,10 +14350,10 @@
     "Sp_Defense": 105,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14355,10 +14376,10 @@
     "Sp_Defense": 45,
     "Speed": 22
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14381,10 +14402,10 @@
     "Sp_Defense": 65,
     "Speed": 32
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14407,10 +14428,10 @@
     "Sp_Defense": 45,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14433,10 +14454,10 @@
     "Sp_Defense": 65,
     "Speed": 110
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14458,10 +14479,10 @@
     "Sp_Defense": 62,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14483,10 +14504,10 @@
     "Sp_Defense": 82,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14508,10 +14529,10 @@
     "Sp_Defense": 40,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14533,10 +14554,10 @@
     "Sp_Defense": 60,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14558,10 +14579,10 @@
     "Sp_Defense": 40,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14583,10 +14604,10 @@
     "Sp_Defense": 60,
     "Speed": 115
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14608,10 +14629,10 @@
     "Sp_Defense": 65,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14633,10 +14654,10 @@
     "Sp_Defense": 85,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14658,10 +14679,10 @@
     "Sp_Defense": 110,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14683,10 +14704,10 @@
     "Sp_Defense": 50,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14708,10 +14729,10 @@
     "Sp_Defense": 60,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14733,10 +14754,10 @@
     "Sp_Defense": 85,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14759,10 +14780,10 @@
     "Sp_Defense": 50,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14785,10 +14806,10 @@
     "Sp_Defense": 63,
     "Speed": 98
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14810,10 +14831,10 @@
     "Sp_Defense": 60,
     "Speed": 44
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14835,10 +14856,10 @@
     "Sp_Defense": 75,
     "Speed": 59
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14860,10 +14881,10 @@
     "Sp_Defense": 95,
     "Speed": 79
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14886,10 +14907,10 @@
     "Sp_Defense": 50,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14912,10 +14933,10 @@
     "Sp_Defense": 70,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14938,10 +14959,10 @@
     "Sp_Defense": 60,
     "Speed": 103
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14963,10 +14984,10 @@
     "Sp_Defense": 45,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -14989,10 +15010,10 @@
     "Sp_Defense": 105,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15015,10 +15036,10 @@
     "Sp_Defense": 55,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15041,10 +15062,10 @@
     "Sp_Defense": 80,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15067,10 +15088,10 @@
     "Sp_Defense": 85,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15093,10 +15114,10 @@
     "Sp_Defense": 105,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15118,10 +15139,10 @@
     "Sp_Defense": 45,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15144,10 +15165,10 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15170,10 +15191,10 @@
     "Sp_Defense": 60,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15196,10 +15217,10 @@
     "Sp_Defense": 86,
     "Speed": 10
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15222,10 +15243,10 @@
     "Sp_Defense": 116,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15247,10 +15268,10 @@
     "Sp_Defense": 60,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15272,10 +15293,10 @@
     "Sp_Defense": 85,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15297,10 +15318,10 @@
     "Sp_Defense": 85,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15322,10 +15343,10 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15347,10 +15368,10 @@
     "Sp_Defense": 70,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15372,10 +15393,10 @@
     "Sp_Defense": 80,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15397,10 +15418,10 @@
     "Sp_Defense": 55,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15422,10 +15443,10 @@
     "Sp_Defense": 95,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15448,10 +15469,10 @@
     "Sp_Defense": 55,
     "Speed": 20
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15474,10 +15495,10 @@
     "Sp_Defense": 60,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15500,10 +15521,10 @@
     "Sp_Defense": 90,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15525,10 +15546,10 @@
     "Sp_Defense": 40,
     "Speed": 57
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15550,10 +15571,10 @@
     "Sp_Defense": 50,
     "Speed": 67
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15575,10 +15596,10 @@
     "Sp_Defense": 70,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15600,10 +15621,10 @@
     "Sp_Defense": 40,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15625,10 +15646,10 @@
     "Sp_Defense": 80,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15650,10 +15671,10 @@
     "Sp_Defense": 135,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15675,10 +15696,10 @@
     "Sp_Defense": 65,
     "Speed": 25
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15700,10 +15721,10 @@
     "Sp_Defense": 60,
     "Speed": 145
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15726,10 +15747,10 @@
     "Sp_Defense": 99,
     "Speed": 32
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15751,10 +15772,10 @@
     "Sp_Defense": 50,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15776,10 +15797,10 @@
     "Sp_Defense": 60,
     "Speed": 105
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15801,10 +15822,10 @@
     "Sp_Defense": 90,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15827,10 +15848,10 @@
     "Sp_Defense": 50,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15853,10 +15874,10 @@
     "Sp_Defense": 80,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15879,10 +15900,10 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15905,10 +15926,10 @@
     "Sp_Defense": 70,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15930,10 +15951,10 @@
     "Sp_Defense": 95,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15956,10 +15977,10 @@
     "Sp_Defense": 50,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -15982,10 +16003,10 @@
     "Sp_Defense": 75,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16008,10 +16029,10 @@
     "Sp_Defense": 65,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16034,10 +16055,10 @@
     "Sp_Defense": 95,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16059,10 +16080,10 @@
     "Sp_Defense": 66,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16085,10 +16106,10 @@
     "Sp_Defense": 48,
     "Speed": 109
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16111,10 +16132,10 @@
     "Sp_Defense": 50,
     "Speed": 38
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16137,10 +16158,10 @@
     "Sp_Defense": 70,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16163,10 +16184,10 @@
     "Sp_Defense": 90,
     "Speed": 98
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16189,10 +16210,10 @@
     "Sp_Defense": 55,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16215,10 +16236,10 @@
     "Sp_Defense": 105,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16241,10 +16262,10 @@
     "Sp_Defense": 72,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16267,10 +16288,10 @@
     "Sp_Defense": 90,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16293,10 +16314,10 @@
     "Sp_Defense": 129,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16318,10 +16339,10 @@
     "Sp_Defense": 80,
     "Speed": 111
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16344,10 +16365,10 @@
     "Sp_Defense": 80,
     "Speed": 111
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16370,10 +16391,10 @@
     "Sp_Defense": 120,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16396,10 +16417,10 @@
     "Sp_Defense": 100,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16422,10 +16443,10 @@
     "Sp_Defense": 80,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16448,10 +16469,10 @@
     "Sp_Defense": 90,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16474,10 +16495,10 @@
     "Sp_Defense": 90,
     "Speed": 108
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16500,10 +16521,10 @@
     "Sp_Defense": 128,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16526,10 +16547,10 @@
     "Sp_Defense": 95,
     "Speed": 99
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16551,10 +16572,10 @@
     "Sp_Defense": 45,
     "Speed": 38
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16576,10 +16597,10 @@
     "Sp_Defense": 58,
     "Speed": 57
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16602,10 +16623,10 @@
     "Sp_Defense": 75,
     "Speed": 64
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16627,10 +16648,10 @@
     "Sp_Defense": 60,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16652,10 +16673,10 @@
     "Sp_Defense": 70,
     "Speed": 73
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16678,10 +16699,10 @@
     "Sp_Defense": 100,
     "Speed": 104
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16703,10 +16724,10 @@
     "Sp_Defense": 44,
     "Speed": 71
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16728,10 +16749,10 @@
     "Sp_Defense": 56,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16754,10 +16775,10 @@
     "Sp_Defense": 71,
     "Speed": 122
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16779,10 +16800,10 @@
     "Sp_Defense": 36,
     "Speed": 57
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16805,10 +16826,10 @@
     "Sp_Defense": 77,
     "Speed": 78
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16831,10 +16852,10 @@
     "Sp_Defense": 38,
     "Speed": 62
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16857,10 +16878,10 @@
     "Sp_Defense": 52,
     "Speed": 84
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16883,10 +16904,10 @@
     "Sp_Defense": 69,
     "Speed": 126
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16908,10 +16929,10 @@
     "Sp_Defense": 25,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16933,10 +16954,10 @@
     "Sp_Defense": 30,
     "Speed": 29
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16959,10 +16980,10 @@
     "Sp_Defense": 50,
     "Speed": 89
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -16985,10 +17006,10 @@
     "Sp_Defense": 54,
     "Speed": 72
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17011,10 +17032,10 @@
     "Sp_Defense": 66,
     "Speed": 106
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17036,10 +17057,10 @@
     "Sp_Defense": 79,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17061,10 +17082,10 @@
     "Sp_Defense": 98,
     "Speed": 52
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17086,10 +17107,10 @@
     "Sp_Defense": 154,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17111,10 +17132,10 @@
     "Sp_Defense": 57,
     "Speed": 52
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17136,10 +17157,10 @@
     "Sp_Defense": 81,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17161,10 +17182,10 @@
     "Sp_Defense": 48,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17187,10 +17208,10 @@
     "Sp_Defense": 71,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17212,10 +17233,10 @@
     "Sp_Defense": 90,
     "Speed": 102
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17237,10 +17258,10 @@
     "Sp_Defense": 60,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17262,10 +17283,10 @@
     "Sp_Defense": 81,
     "Speed": 104
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17288,10 +17309,10 @@
     "Sp_Defense": 37,
     "Speed": 28
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17314,10 +17335,10 @@
     "Sp_Defense": 49,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17340,10 +17361,10 @@
     "Sp_Defense": 150,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17365,10 +17386,10 @@
     "Sp_Defense": 65,
     "Speed": 23
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17390,10 +17411,10 @@
     "Sp_Defense": 89,
     "Speed": 29
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17415,10 +17436,10 @@
     "Sp_Defense": 57,
     "Speed": 49
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17440,10 +17461,10 @@
     "Sp_Defense": 75,
     "Speed": 72
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17466,10 +17487,10 @@
     "Sp_Defense": 46,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17492,10 +17513,10 @@
     "Sp_Defense": 75,
     "Speed": 73
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17518,10 +17539,10 @@
     "Sp_Defense": 56,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17544,10 +17565,10 @@
     "Sp_Defense": 86,
     "Speed": 68
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17570,10 +17591,10 @@
     "Sp_Defense": 60,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17596,10 +17617,10 @@
     "Sp_Defense": 123,
     "Speed": 44
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17621,10 +17642,10 @@
     "Sp_Defense": 63,
     "Speed": 44
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17646,10 +17667,10 @@
     "Sp_Defense": 89,
     "Speed": 59
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17672,10 +17693,10 @@
     "Sp_Defense": 43,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17698,10 +17719,10 @@
     "Sp_Defense": 94,
     "Speed": 109
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17724,10 +17745,10 @@
     "Sp_Defense": 45,
     "Speed": 48
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17750,10 +17771,10 @@
     "Sp_Defense": 59,
     "Speed": 71
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17776,10 +17797,10 @@
     "Sp_Defense": 63,
     "Speed": 46
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17802,10 +17823,10 @@
     "Sp_Defense": 92,
     "Speed": 58
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17827,10 +17848,10 @@
     "Sp_Defense": 130,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17853,10 +17874,10 @@
     "Sp_Defense": 63,
     "Speed": 118
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17879,10 +17900,10 @@
     "Sp_Defense": 67,
     "Speed": 101
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17905,10 +17926,10 @@
     "Sp_Defense": 150,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17930,10 +17951,10 @@
     "Sp_Defense": 75,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17955,10 +17976,10 @@
     "Sp_Defense": 113,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -17980,10 +18001,10 @@
     "Sp_Defense": 150,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18006,10 +18027,10 @@
     "Sp_Defense": 87,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18032,10 +18053,10 @@
     "Sp_Defense": 60,
     "Speed": 38
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18058,10 +18079,10 @@
     "Sp_Defense": 82,
     "Speed": 56
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18084,10 +18105,10 @@
     "Sp_Defense": 55,
     "Speed": 41
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18110,10 +18131,10 @@
     "Sp_Defense": 75,
     "Speed": 54
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18135,10 +18156,10 @@
     "Sp_Defense": 35,
     "Speed": 28
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18160,10 +18181,10 @@
     "Sp_Defense": 46,
     "Speed": 28
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18186,10 +18207,10 @@
     "Sp_Defense": 40,
     "Speed": 55
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18212,10 +18233,10 @@
     "Sp_Defense": 80,
     "Speed": 123
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18237,10 +18258,10 @@
     "Sp_Defense": 98,
     "Speed": 99
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18263,10 +18284,10 @@
     "Sp_Defense": 98,
     "Speed": 99
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18289,10 +18310,10 @@
     "Sp_Defense": 95,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18315,10 +18336,10 @@
     "Sp_Defense": 150,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18341,10 +18362,10 @@
     "Sp_Defense": 130,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18367,10 +18388,10 @@
     "Sp_Defense": 90,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18393,10 +18414,10 @@
     "Sp_Defense": 50,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18419,10 +18440,10 @@
     "Sp_Defense": 70,
     "Speed": 52
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18445,10 +18466,10 @@
     "Sp_Defense": 100,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18470,10 +18491,10 @@
     "Sp_Defense": 40,
     "Speed": 70
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18495,10 +18516,10 @@
     "Sp_Defense": 50,
     "Speed": 90
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18521,10 +18542,10 @@
     "Sp_Defense": 90,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18546,10 +18567,10 @@
     "Sp_Defense": 56,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18571,10 +18592,10 @@
     "Sp_Defense": 81,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18597,10 +18618,10 @@
     "Sp_Defense": 116,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18623,10 +18644,10 @@
     "Sp_Defense": 30,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18649,10 +18670,10 @@
     "Sp_Defense": 50,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18675,10 +18696,10 @@
     "Sp_Defense": 75,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18700,10 +18721,10 @@
     "Sp_Defense": 30,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18725,10 +18746,10 @@
     "Sp_Defense": 60,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18750,10 +18771,10 @@
     "Sp_Defense": 45,
     "Speed": 46
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18776,10 +18797,10 @@
     "Sp_Defense": 75,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18802,10 +18823,10 @@
     "Sp_Defense": 75,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18827,10 +18848,10 @@
     "Sp_Defense": 47,
     "Speed": 63
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18853,10 +18874,10 @@
     "Sp_Defense": 67,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18879,10 +18900,10 @@
     "Sp_Defense": 70,
     "Speed": 93
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18905,10 +18926,10 @@
     "Sp_Defense": 40,
     "Speed": 84
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18931,10 +18952,10 @@
     "Sp_Defense": 70,
     "Speed": 124
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18956,10 +18977,10 @@
     "Sp_Defense": 40,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -18981,10 +19002,10 @@
     "Sp_Defense": 65,
     "Speed": 112
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19006,10 +19027,10 @@
     "Sp_Defense": 25,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19032,10 +19053,10 @@
     "Sp_Defense": 52,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19058,10 +19079,10 @@
     "Sp_Defense": 142,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19083,10 +19104,10 @@
     "Sp_Defense": 55,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19108,10 +19129,10 @@
     "Sp_Defense": 85,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19134,10 +19155,10 @@
     "Sp_Defense": 72,
     "Speed": 27
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19160,10 +19181,10 @@
     "Sp_Defense": 132,
     "Speed": 42
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19185,10 +19206,10 @@
     "Sp_Defense": 35,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19210,10 +19231,10 @@
     "Sp_Defense": 90,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19236,10 +19257,10 @@
     "Sp_Defense": 75,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19262,10 +19283,10 @@
     "Sp_Defense": 100,
     "Speed": 30
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19288,10 +19309,10 @@
     "Sp_Defense": 40,
     "Speed": 77
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19314,10 +19335,10 @@
     "Sp_Defense": 60,
     "Speed": 117
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19340,10 +19361,10 @@
     "Sp_Defense": 50,
     "Speed": 50
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19366,10 +19387,10 @@
     "Sp_Defense": 60,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19391,10 +19412,10 @@
     "Sp_Defense": 38,
     "Speed": 32
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19416,10 +19437,10 @@
     "Sp_Defense": 48,
     "Speed": 62
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19441,10 +19462,10 @@
     "Sp_Defense": 98,
     "Speed": 72
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19466,10 +19487,10 @@
     "Sp_Defense": 110,
     "Speed": 100
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19492,10 +19513,10 @@
     "Sp_Defense": 110,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19517,10 +19538,10 @@
     "Sp_Defense": 60,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19543,10 +19564,10 @@
     "Sp_Defense": 30,
     "Speed": 80
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19569,10 +19590,10 @@
     "Sp_Defense": 90,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19595,10 +19616,10 @@
     "Sp_Defense": 45,
     "Speed": 15
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19621,10 +19642,10 @@
     "Sp_Defense": 75,
     "Speed": 35
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19646,10 +19667,10 @@
     "Sp_Defense": 130,
     "Speed": 5
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19671,10 +19692,10 @@
     "Sp_Defense": 95,
     "Speed": 59
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19696,10 +19717,10 @@
     "Sp_Defense": 95,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19722,10 +19743,10 @@
     "Sp_Defense": 100,
     "Speed": 60
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19747,10 +19768,10 @@
     "Sp_Defense": 95,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19773,10 +19794,10 @@
     "Sp_Defense": 85,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19799,10 +19820,10 @@
     "Sp_Defense": 73,
     "Speed": 96
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19825,10 +19846,10 @@
     "Sp_Defense": 105,
     "Speed": 96
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19851,10 +19872,10 @@
     "Sp_Defense": 70,
     "Speed": 92
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19877,10 +19898,10 @@
     "Sp_Defense": 91,
     "Speed": 36
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19903,10 +19924,10 @@
     "Sp_Defense": 90,
     "Speed": 40
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19928,10 +19949,10 @@
     "Sp_Defense": 45,
     "Speed": 45
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19954,10 +19975,10 @@
     "Sp_Defense": 70,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -19980,10 +20001,10 @@
     "Sp_Defense": 105,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20006,10 +20027,10 @@
     "Sp_Defense": 75,
     "Speed": 130
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20032,10 +20053,10 @@
     "Sp_Defense": 115,
     "Speed": 95
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20058,10 +20079,10 @@
     "Sp_Defense": 95,
     "Speed": 75
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20084,10 +20105,10 @@
     "Sp_Defense": 130,
     "Speed": 85
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20109,10 +20130,10 @@
     "Sp_Defense": 31,
     "Speed": 37
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20134,10 +20155,10 @@
     "Sp_Defense": 131,
     "Speed": 37
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20160,10 +20181,10 @@
     "Sp_Defense": 89,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20186,10 +20207,10 @@
     "Sp_Defense": 107,
     "Speed": 97
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20212,10 +20233,10 @@
     "Sp_Defense": 131,
     "Speed": 103
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20238,10 +20259,10 @@
     "Sp_Defense": 53,
     "Speed": 79
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20264,10 +20285,10 @@
     "Sp_Defense": 37,
     "Speed": 151
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20289,10 +20310,10 @@
     "Sp_Defense": 71,
     "Speed": 83
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20315,10 +20336,10 @@
     "Sp_Defense": 101,
     "Speed": 61
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20341,10 +20362,10 @@
     "Sp_Defense": 31,
     "Speed": 109
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20367,10 +20388,10 @@
     "Sp_Defense": 53,
     "Speed": 43
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
+  }],
   "genus":""
 },
 {
@@ -20392,11 +20413,11 @@
     "Sp_Defense": 89,
     "Speed": 79
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"稜鏡寶可夢"
 },
 {
   "id": 801,
@@ -20418,11 +20439,11 @@
     "Sp_Defense": 115,
     "Speed": 65
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"人造寶可夢"
 },
 {
   "id": 802,
@@ -20444,11 +20465,11 @@
     "Sp_Defense": 90,
     "Speed": 125
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"棲影寶可夢"
 },
 {
   "id": 803,
@@ -20469,11 +20490,11 @@
     "Sp_Defense": 67,
     "Speed": 73
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"四顎針龍",
+    "id":804
+  }],
+  "genus":"毒針寶可夢"
 },
 {
   "id": 804,
@@ -20495,11 +20516,11 @@
     "Sp_Defense": 73,
     "Speed": 121
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"毒針寶可夢"
 },
 {
   "id": 805,
@@ -20521,11 +20542,11 @@
     "Sp_Defense": 101,
     "Speed": 13
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"石牆寶可夢"
 },
 {
   "id": 806,
@@ -20547,11 +20568,11 @@
     "Sp_Defense": 79,
     "Speed": 107
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"煙火寶可夢"
 },
 {
   "id": 807,
@@ -20572,11 +20593,11 @@
     "Sp_Defense": 80,
     "Speed": 143
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"奔雷寶可夢"
 },
 {
   "id": 808,
@@ -20597,11 +20618,11 @@
     "Sp_Defense": 35,
     "Speed": 34
   },
-  "evolution":{
-    "name":"",
-    "id":""
-  },
-  "genus":""
+  "evolution":[{
+    "name":"美錄梅塔",
+    "id":809
+  }],
+  "genus":"螺帽寶可夢"
 },
 {
   "id": 809,
@@ -20622,10 +20643,10 @@
     "Sp_Defense": 65,
     "Speed": 34
   },
-  "evolution":{
+  "evolution":[{
     "name":"",
     "id":""
-  },
-  "genus":""
+  }],
+  "genus":"螺帽寶可夢"
 }
 ]
