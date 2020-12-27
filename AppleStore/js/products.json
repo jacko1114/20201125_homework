@@ -9,13 +9,13 @@
                         "black",
                         "red"
                     ],
-                    "memory": {
-                        "64GB": "NT$13,900",
-                        "128GB": "NT$15,500",
-                        "256GB": "NT$19,000"
-                    },
-                    "description":"4.7吋顯示器"
-                    ,"base_price":"NT$13,900起"
+                    "memory": [
+                        {"64GB": "NT$13,900"},
+                        {"128GB": "NT$15,500"},
+                        {"256GB": "NT$19,000"}
+                    ],
+                    "description":"4.7吋顯示器",
+                    "base_price":"NT$13,900起"
                 }
             },
             "iPhone XR": {
@@ -28,12 +28,12 @@
                         "coral",
                         "red"
                     ],
-                    "memory": {
-                        "64GB": "NT$16,900",
-                        "128GB": "NT$185,00"
-                    },
-                    "description":"6.1吋顯示器"
-                    ,"base_price":"NT$16,900起"
+                    "memory": [
+                        {"64GB": "NT$16,900"},
+                        {"128GB": "NT$185,00"}
+                    ],
+                    "description":"6.1吋顯示器",
+                    "base_price":"NT$16,900起"
                 }
             },
             "iPhone 11": {
@@ -46,13 +46,13 @@
                         "purple",
                         "red"
                     ],
-                    "memory": {
-                        "64GB": "NT$19,900",
-                        "128GB": "NT$21,500",
-                        "256GB": "NT$25,000"
-                    },
-                    "description":"6.1吋顯示器"
-                    ,"base_price":"NT$19,900起"
+                    "memory":[ 
+                        {"64GB": "NT$19,900"},
+                        {"128GB": "NT$21,500"},
+                        {"256GB": "NT$25,000"}
+                    ],
+                    "description":"6.1吋顯示器",
+                    "base_price":"NT$19,900起"
                 }
                 
             },
@@ -65,13 +65,13 @@
                         "green",
                         "red"
                     ],
-                    "memory": {
-                        "64GB": "NT$23,900",
-                        "128GB": "NT$25,500",
-                        "256GB": "NT$29,000"
-                    },
-                    "description":"5.4吋顯示器"
-                    ,"base_price":"NT$23,900起"
+                    "memory": [
+                        {"64GB": "NT$23,900"},
+                        {"128GB": "NT$25,500"},
+                        {"256GB": "NT$29,000"}
+                    ],
+                    "description":"5.4吋顯示器",
+                    "base_price":"NT$23,900起"
                 },
                 "iPhone 12": {
                     "color": [
@@ -81,13 +81,12 @@
                         "green",
                         "red"
                     ],
-                    "memory": {
-                        "64GB": "NT$26,900",
-                        "128GB": "NT$28,500",
-                        "256GB": "NT$32,000"
-                    },
-                    "description":"6.1吋顯示器"
-                    ,"base_price":"NT$26,900起"
+                    "memory": [
+                        {"64GB": "NT$26,900"},
+                        {"128GB": "NT$28,500"},
+                        {"256GB": "NT$32,000"}],
+                    "description":"6.1吋顯示器",
+                    "base_price":"NT$26,900起"
                 }
             },
             "iPhone 12 Pro":{
@@ -98,13 +97,13 @@
                         "gold",
                         "blue"
                     ],
-                    "memory": {
-                        "128GB": "NT$33,900",
-                        "256GB": "NT$37,400",
-                        "512GB": "NT$44,400"
-                    },
-                    "description": "6.1吋顯示器"
-                    ,"base_price":"NT$33,900起"
+                    "memory":[ 
+                        {"128GB": "NT$33,900"},
+                        {"256GB": "NT$37,400"},
+                        {"512GB": "NT$44,400"}
+                    ],
+                    "description": "6.1吋顯示器",
+                    "base_price":"NT$33,900起"
                 },
                 "iPhone 12 Pro Max": {
                     "color": [
@@ -113,13 +112,13 @@
                         "gold",
                         "blue"
                     ],
-                    "memory": {
-                        "64GB": "NT$37,900",
-                        "128GB": "NT$41,400",
-                        "256GB": "NT$48,400"
-                    },
-                    "description": "6.7吋顯示器"
-                    ,"base_price":"NT$37,900起"
+                    "memory":[ 
+                        {"64GB": "NT$37,900"},
+                        {"128GB": "NT$41,400"},
+                        {"256GB": "NT$48,400"}
+                    ],
+                    "description": "6.7吋顯示器",
+                    "base_price":"NT$37,900起"
                 }
             }
         },
@@ -131,12 +130,12 @@
                         "silver",
                         "gold"
                     ],
-                    "memory": {
-                        "64GB": "NT$12,900",
-                        "256GB": "NT$17,900"
-                    },
-                    "description":"7.9吋顯示器"
-                    ,"base_price":"NT$12,900起"
+                    "memory": [
+                        {"64GB": "NT$12,900"},
+                        {"256GB": "NT$17,900"}
+                    ],
+                    "description":"7.9吋顯示器",
+                    "base_price":"NT$12,900起"
                 },
                 "iPad mini Wi-Fi + 行動網路":{
                     "color": [
@@ -144,12 +143,12 @@
                         "silver",
                         "gold"
                     ],
-                    "memory": {
-                        "64GB": "NT$17,400",
-                        "256GB": "NT$22,400"
-                    },
-                    "description":"7.9吋顯示器"
-                    ,"base_price":"NT$17,400起"
+                    "memory": [
+                        {"64GB": "NT$17,400"},
+                        {"256GB": "NT$22,400"}
+                    ],
+                    "description":"7.9吋顯示器",
+                    "base_price":"NT$17,400起"
                 }
             },
             "iPad": {
@@ -159,12 +158,12 @@
                         "silver",
                         "gold"
                     ],
-                    "memory": {
-                        "32GB": "NT$10,500",
-                        "128GB": "NT$13,500"
-                    },
-                    "description":"10.2吋顯示器"
-                    ,"base_price":"NT$10,500起"
+                    "memory": [
+                        {"32GB": "NT$10,500"},
+                        {"128GB": "NT$13,500"}
+                    ],
+                    "description":"10.2吋顯示器",
+                    "base_price":"NT$10,500起"
                 },
                 "iPad Wi-Fi + 行動網路":{
                     "color": [
@@ -172,12 +171,12 @@
                         "silver",
                         "gold"
                     ],
-                    "memory": {
-                        "32GB": "NT$14,800",
-                        "128GB": "NT$17,800"
-                    },
-                    "description":"10.2吋顯示器"
-                    ,"base_price":"NT14,800起"
+                    "memory": [
+                        {"32GB": "NT$14,800"},
+                        {"128GB": "NT$17,800"}
+                    ],
+                    "description":"10.2吋顯示器",
+                    "base_price":"NT14,800起"
                 }
             },
             "iPad Air": {
@@ -189,12 +188,12 @@
                         "green",
                         "blue"
                     ],
-                    "memory": {
-                        "64GB": "NT$18,900",
-                        "256GB": "NT$23,900"
-                    },
-                    "description":"10.9吋顯示器"
-                    ,"base_price":"NT$18,900起"
+                    "memory": [
+                        {"64GB": "NT$18,900"},
+                        {"256GB": "NT$23,900"}
+                    ],
+                    "description":"10.9吋顯示器",
+                    "base_price":"NT$18,900起"
                 }
             },
             "iPad Pro": {
@@ -203,28 +202,28 @@
                         "gray",
                         "silver"
                     ],
-                    "memory": {
-                        "128GB": "NT$25,900",
-                        "256GB": "NT$29,400",
-                        "512GB": "NT$36,400",
-                        "1TB": "NT$43,400"
-                    },
-                    "description":"11吋顯示器"
-                    ,"base_price":"NT$25,900起"
+                    "memory": [
+                        {"128GB": "NT$25,900"},
+                        {"256GB": "NT$29,400"},
+                        {"512GB": "NT$36,400"},
+                        {"1TB": "NT$43,400"}
+                    ],
+                    "description":"11吋顯示器",
+                    "base_price":"NT$25,900起"
                 },
                 "iPad Pro'12.9":{
                     "color": [
                         "gray",
                         "silver"
                     ],
-                    "memory": {
-                        "128GB": "NT$32,900",
-                        "256GB": "NT$36,400",
-                        "512GB": "NT$43,400",
-                        "1TB": "NT$50,400"
-                    },
-                    "description":"12.9吋顯示器"
-                    ,"base_price":"NT$32,900起"
+                    "memory": [
+                        {"128GB": "NT$32,900"},
+                        {"256GB": "NT$36,400"},
+                        {"512GB": "NT$43,400"},
+                        {"1TB": "NT$50,400"}
+                    ],
+                    "description":"12.9吋顯示器",
+                    "base_price":"NT$32,900起"
                 }
             }
         },
@@ -236,12 +235,12 @@
                         "gold",
                         "silver"
                     ],
-                    "memory": {
-                        "256GB": "NT$30,900",
-                        "512GB": "NT$38,900"
-                    },
-                    "description":"13吋顯示器"
-                    ,"base_price":"NT$30,900起"
+                    "memory": [
+                        {"256GB": "NT$30,900"},
+                        {"512GB": "NT$38,900"}
+                    ],
+                    "description":"13吋顯示器",
+                    "base_price":"NT$30,900起"
                 }
             },
             "MacBook Pro'13": {
@@ -250,12 +249,12 @@
                         "gray",
                         "silver"
                     ],
-                    "memory": {
-                        "256GB": "NT$39,900",
-                        "512GB": "NT$45,900"
-                    },
-                    "description":"13吋顯示器"
-                    ,"base_price":"NT$39,900起"
+                    "memory": [
+                        {"256GB": "NT$39,900"},
+                        {"512GB": "NT$45,900"}
+                    ],
+                    "description":"13吋顯示器",
+                    "base_price":"NT$39,900起"
                 }
                 
             },
@@ -265,12 +264,12 @@
                         "gray",
                         "silver"
                     ],
-                    "memory": {
-                        "512GB": "NT$77,900",
-                        "1TB": "NT$89,900"
-                    },
-                    "description":"16吋顯示器"
-                    ,"base_price":"NT$77,900起"
+                    "memory": [
+                        {"512GB": "NT$77,900"},
+                        {"1TB": "NT$89,900"}
+                    ],
+                    "description":"16吋顯示器",
+                    "base_price":"NT$77,900起"
                 }
                 
             }
