@@ -1,0 +1,262 @@
+
+[
+    {
+        "iPhone": {
+            "iPhone SE": {
+                "iPhone SE":{
+                    "color": [
+                        "white",
+                        "black",
+                        "red"
+                    ],
+                    "memory": {
+                        "64GB": 13900,
+                        "128GB": 15500,
+                        "256GB": 19000
+                    },
+                    "description":"4.7吋顯示器"
+                }
+            },
+            "iPhone XR": {
+                "iPhone XR":{
+                    "color": [
+                        "white",
+                        "black",
+                        "blue",
+                        "yellow",
+                        "coral",
+                        "red"
+                    ],
+                    "memory": {
+                        "64GB": 16900,
+                        "128GB": 18500
+                    },
+                    "description":"6.1吋顯示器"
+                }
+            },
+            "iPhone 11": {
+                "iPhone 11":{
+                    "color": [
+                        "white",
+                        "black",
+                        "green",
+                        "yellow",
+                        "purple",
+                        "red"
+                    ],
+                    "memory": {
+                        "64GB": 19900,
+                        "128GB": 21500,
+                        "256GB": 25000
+                    },
+                    "description":"6.1吋顯示器"
+                }
+                
+            },
+            "iPhone 12":{            
+                "iPhone 12 mini": {
+                    "color": [
+                        "white",
+                        "black",
+                        "blue",
+                        "green",
+                        "red"
+                    ],
+                    "memory": {
+                        "64GB": 23900,
+                        "128GB": 25500,
+                        "256GB": 29000
+                    },
+                    "description":"5.4吋顯示器"
+                },
+                "iPhone 12": {
+                    "color": [
+                        "white",
+                        "black",
+                        "blue",
+                        "green",
+                        "red"
+                    ],
+                    "memory": {
+                        "64GB": 26900,
+                        "128GB": 28500,
+                        "256GB": 32000
+                    },
+                    "description":"6.1吋顯示器"
+                }
+            },
+            "iPhone 12 Pro":{
+                "iPhone 12 Pro": {
+                    "color": [
+                        "graphite",
+                        "silver",
+                        "gold",
+                        "blue"
+                    ],
+                    "memory": {
+                        "128GB": 33900,
+                        "256GB": 37400,
+                        "512GB": 44400
+                    },
+                    "description": "6.1吋顯示器"
+                },
+                "iPhone 12 Pro Max": {
+                    "color": [
+                        "graphite",
+                        "silver",
+                        "gold",
+                        "blue"
+                    ],
+                    "memory": {
+                        "64GB": 37900,
+                        "128GB": 41400,
+                        "256GB": 48400
+                    },
+                    "description": "6.7吋顯示器"
+                }
+            }
+        },
+        "iPad": {
+            "iPad mini": {
+                "iPad mini Wi-Fi":{
+                    "color": [
+                        "gray",
+                        "silver",
+                        "gold"
+                    ],
+                    "memory": {
+                        "64GB": 12900,
+                        "256GB": 17900
+                    },
+                    "description":"7.9吋顯示器"
+                },
+                "iPad mini Wi-Fi + 行動網路":{
+                    "color": [
+                        "gray",
+                        "silver",
+                        "gold"
+                    ],
+                    "memory": {
+                        "64GB": 17400,
+                        "256GB": 22400
+                    },
+                    "description":"7.9吋顯示器"
+                }
+            },
+            "iPad": {
+                "iPad Wi-Fi":{
+                    "color": [
+                        "gray",
+                        "silver",
+                        "gold"
+                    ],
+                    "memory": {
+                        "32GB": 10500,
+                        "128GB": 13500
+                    },
+                    "description":"10.2吋顯示器"
+                },
+                "iPad Wi-Fi + 行動網路":{
+                    "color": [
+                        "gray",
+                        "silver",
+                        "gold"
+                    ],
+                    "memory": {
+                        "32GB": 14800,
+                        "128GB": 17800
+                    },
+                    "description":"10.2吋顯示器"
+                }
+            },
+            "iPad Air": {
+                "iPad Air":{
+                    "color": [
+                        "gray",
+                        "silver",
+                        "gold",
+                        "green",
+                        "blue"
+                    ],
+                    "memory": {
+                        "64GB": 18900,
+                        "256GB": 23900
+                    },
+                    "description":"10.9吋顯示器"
+                }
+            },
+            "iPad Pro": {
+                "iPad Pro'11":{
+                    "color": [
+                        "gray",
+                        "silver"
+                    ],
+                    "memory": {
+                        "128GB": 25900,
+                        "256GB": 29400,
+                        "512GB": 36400,
+                        "1TB": 43400
+                    },
+                    "description":"11吋顯示器"
+                },
+                "iPad Pro'12.9":{
+                    "color": [
+                        "gray",
+                        "silver"
+                    ],
+                    "memory": {
+                        "128GB": 32900,
+                        "256GB": 36400,
+                        "512GB": 43400,
+                        "1TB": 50400
+                    },
+                    "description":"12.9吋顯示器"
+                }
+            }
+        },
+        "Mac": {
+            "MacBook Air": {
+                "MacBook Air":{
+                    "color": [
+                        "gray",
+                        "gold",
+                        "silver"
+                    ],
+                    "memory": {
+                        "256GB": 30900,
+                        "512GB": 38900
+                    },
+                    "description":"13吋顯示器"
+                }
+            },
+            "MacBook Pro'13": {
+                "MacBook Pro'13":{
+                    "color": [
+                        "gray",
+                        "silver"
+                    ],
+                    "memory": {
+                        "256GB": 39900,
+                        "512GB": 45900
+                    },
+                    "description":"13吋顯示器"
+                }
+                
+            },
+            "MacBook Pro'16": {
+                "MacBook Pro'16":{
+                    "color": [
+                        "gray",
+                        "silver"
+                    ],
+                    "memory": {
+                        "512GB": 77900,
+                        "1TB": 89900
+                    },
+                    "description":"16吋顯示器"
+                }
+                
+            }
+        }
+    }
+]
