@@ -164,7 +164,7 @@ addAll.addEventListener("click", function () {
 
     setTimeout(function(){
         loading.classList.remove("active");
-    },5000)
+    },3000)
 });
 reset.addEventListener("click", function () {
     index = 0;
