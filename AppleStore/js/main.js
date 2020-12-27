@@ -92,16 +92,7 @@ const choiceIcon = (device) => {
 
     return i;
 }
-const priceDisplay = (price) =>{
-    let reversedArray = price.toString().split("").reverse()
-    let length = reversedArray.lenth;
-    for(let i = length - 1; i > 0; i-=3){
-        reversedArray.push(",")
-    }
-    return price.toString().split("").reverse()
-}
 
-console.log(priceDisplay(1234))
 
 
 
