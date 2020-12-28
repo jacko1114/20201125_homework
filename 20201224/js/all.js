@@ -10,6 +10,16 @@ const topRightImg = document.querySelector(".jumbotron img:nth-of-type(3)");
 const bottomRightImg = document.querySelector(".jumbotron img:nth-of-type(4)");
 const loading = document.querySelector(".loading");
 
+const getPokemonFromJSON = () => {
+    let xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/20201218_pokemon/js/pokemons.json");
+    xhr.send();
+    xhr.addEventListener("load", function () {
+        pokemonArray = JSON.parse(this.responseText);
+        newPokemonArray = getNewPokemonData();
+    })
+}
+
 const addPokemon = (id) => {
     clean();
     newPokemonArray.forEach((item, index) => {
@@ -27,18 +37,10 @@ const addPokemon = (id) => {
         row.appendChild(cloneContent);
     })
 }
-const getPokemonFfromJSON = () => {
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/20201218_pokemon/js/pokemons.json");
-    xhr.send();
-    xhr.addEventListener("load", function () {
-        pokemonArray = JSON.parse(this.responseText);
-        newPokemonArray = getNewPokemonData();
-    })
-}
+
 const getNewPokemonData = () => {
-    let newArray = pokemonArray.map(item => {
-        return {
+    return pokemonArray.map( item => 
+        ({
             id: item.id.toString().padStart(3, "0"),
             name: item.name.chinese,
             hp: item.base.HP,
@@ -51,9 +53,8 @@ const getNewPokemonData = () => {
             type: item.type,
             evolution: item.evolution,
             genus: item.genus,
-        }
-    })
-    return newArray;
+        })
+    )
 }
 
 const dataToModal = (clone, index) => {

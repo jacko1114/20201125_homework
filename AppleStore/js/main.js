@@ -168,14 +168,14 @@ const createMemorySelector = (category,product) => {
 
     let products = Object.values(JsonData[category][product]);
 
-        products[0].memory.forEach(item=>{
-            let memorySelector = $g("#memorySelector");
-            let clonedSelector = memorySelector.content.cloneNode(true);
-            clonedSelector.querySelector("a .memorySelector-memory").textContent = Object.keys(item)[0];
-            clonedSelector.querySelector("a .memorySelector-price").textContent = Object.values(item)[0];
-            clonedSelector.querySelector("a").setAttribute("data-item",`${Object.values(item)[0]}`);
-            productMemorySelector.appendChild(clonedSelector);
-        })
+    products[0].memory.forEach(item=>{
+        let memorySelector = $g("#memorySelector");
+        let clonedSelector = memorySelector.content.cloneNode(true);
+        clonedSelector.querySelector("a .memorySelector-memory").textContent = Object.keys(item)[0];
+        clonedSelector.querySelector("a .memorySelector-price").textContent = Object.values(item)[0];
+        clonedSelector.querySelector("a").setAttribute("data-item",`${Object.values(item)[0]}`);
+        productMemorySelector.appendChild(clonedSelector);
+    })
 
     $g(".product-memory").classList.add("non-selected");
 }
