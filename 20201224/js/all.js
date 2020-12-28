@@ -87,6 +87,7 @@ const dataToModal = (clone, index) => {
 
             if(item.id.toString().padStart(3,"0") != "000"){
                 img.src = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3,"0")}.png`
+                img.classList.add("w-50")
                 evolution.appendChild(img)
             }
             else{
@@ -99,6 +100,12 @@ const dataToModal = (clone, index) => {
 const clean = () => { 
     row.innerHTML = "";
 }
+
+// const removeOneByRemoveChild = () =>{
+//     let lastOne = document.querySelector(".row:last-of-type .col-6:last-of-type");
+//     let parent = document.querySelector(".render");
+//     parent.removeChild(lastOne);
+// }
 
 //屬性轉中文
 const attributeTransform = (eng) => {
