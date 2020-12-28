@@ -86,3 +86,7 @@ a.border.selected{
 .fa-heart{
     cursor: pointer;
 }
+
+.w-33{
+    width: calc(100% / 3);
+}

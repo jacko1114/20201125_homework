@@ -22,7 +22,7 @@ const createNav = () => {
         a.setAttribute("href","javascript:;");
         a.textContent = item;
         a.setAttribute("data-item",`${item}`);
-        a.classList.add("text-decoration-none","mx-5","text-light","fs-5");
+        a.classList.add("text-decoration-none","mx-3","mx-lg-5","text-light","fs-5","fs-lg-2");
         li.appendChild(a);
         ul.appendChild(li);
         createSubNav(a,item);
@@ -44,8 +44,9 @@ const createSubNav = (target, category) => {
             a.append(choiceIcon(item.toString()),span);
             a.setAttribute("data-category",`${category}`);
             a.setAttribute("data-item",`${item}`);
-            a.classList.add("text-decoration-none","mx-5","py-2","text-light","text-center","fs-5","d-flex","flex-column","align-items-center");
+            a.classList.add("text-decoration-none","mx-3","py-3","text-light","text-center","fs-5","d-flex","flex-column","align-items-center");
             li.appendChild(a);
+            li.classList.add("w-33")
             cloneContent.querySelector("ul").appendChild(li);
 
             createProduct(a);
