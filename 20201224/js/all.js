@@ -26,8 +26,11 @@ const addPokemon = (id) => {
         if (index + 1 > id) return;
         let card = document.querySelector("#pokemonTemplate");
         let cloneContent = card.content.cloneNode(true);
+        let padding = item.name.length > 4 ? "pr-0" : "pr-1"
+        let fontSize = item.name.length > 3 ? "h6" : "h4"
         cloneContent.querySelector(".pokemon-id").innerText = item.id;
         cloneContent.querySelector(".pokemon-name").innerText = item.name;
+        cloneContent.querySelector(".pokemon-name").classList.add(padding,fontSize);
         cloneContent.querySelector("img").src = item.img;
         cloneContent.querySelector(".btn").setAttribute("data-toggle", "modal");
         cloneContent.querySelector(".btn").setAttribute("data-target", ".modal");
@@ -95,7 +98,7 @@ const dataToModal = (clone, index) => {
                 div.innerText = "無法進化"
                 evolution.appendChild(div);
             }
-        })  
+        }) 
     })
 }
 const clean = () => { 
@@ -186,8 +189,8 @@ topRightImg.addEventListener("click",function(){
     },2000)
 })
 bottomRightImg.addEventListener("click",function(){
-    this.setAttribute("style","transform: scale(1) translateY(90px) translateX(-100px);");
+    this.classList.add("active");
     setTimeout(function(){
-        bottomRightImg.removeAttribute("style");
+        bottomRightImg.classList.remove("active");
     },2500)
 })
