@@ -151,7 +151,7 @@ const attributeTransform = (eng) => {
 }
 
 //事件監聽
-window.addEventListener("load", getPokemonFfromJSON);
+window.addEventListener("load", getPokemonFromJSON);
 addOne.addEventListener("click", function () {
     index++;
     addPokemon(index);
