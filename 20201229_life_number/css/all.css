@@ -12,6 +12,8 @@ body{
     width: 100%;
     height: 100vh;
     background: linear-gradient(#6a79ff,#ff1717);
+    background-repeat: no-repeat;
+    background-position: fixed;
     overflow: hidden;
     box-sizing: border-box;
     display: flex;
@@ -112,10 +114,10 @@ body{
     color: rgb(233, 66, 224);
 }
 .Capricorn{
-    color: rgb(240, 39, 140);
+    color: rgb(255, 202, 229);
 }
 .Scorpio{
-    color: rgb(191, 117, 251);
+    color: rgb(189, 133, 235);
 }
 span{
     text-shadow: 1px 1px 1px #0000007a,
@@ -173,7 +175,65 @@ span{
     opacity: 0;
     transition: .2s;
 }
+h2{
+    display: flex;
+    align-items: center;
+}
+.quadrant{
+    margin: .6rem .5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0.2rem .3rem;
+    background: #000000;
+    line-height: 1.1rem;
+    cursor: pointer;
+    text-shadow: none;
+    font-weight: 400;
+    position: relative;
+}
+.quadrant.earth{
+    background: #f8bc78;
+}
+.quadrant.wind{
+    background: #c0f8ff;
+    text-shadow: 1px 1px 1px #00000080;
+}
+.quadrant.fire{
+    background: #f1345d;
+}
+.quadrant.water{
+    background: #3772fa;
+}
+.quadrant:hover p.quadrant_word{
+    opacity: 1;
+}
+.quadrant:hover p.quadrant_word:after{
+    opacity: 1;
+}
 
+p.quadrant_word{
+    position: absolute;
+    bottom: -110px;
+    left: -50px;
+    color: #000000;
+    background: #e2e2e2;
+    width: 250px;
+    padding: 0.5rem;
+    font-size: 0.5rem;  
+    opacity: 0; 
+    transition: .2s;
+}
+p.quadrant_word:after{
+    content:"";
+    position: absolute;
+    top: -5px;
+    left: 60px;
+    border-bottom: 8px solid #e2e2e2;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    opacity: 0;
+    transition: .2s;
+}
 @media screen and (min-width:768px){
     .container{
         max-width: 700px;
