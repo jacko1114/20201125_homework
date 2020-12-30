@@ -218,6 +218,7 @@ p.quadrant_word{
     color: #000000;
     background: #e2e2e2;
     width: 250px;
+    height: 100px;
     padding: 0.5rem;
     font-size: 0.5rem;  
     opacity: 0; 
