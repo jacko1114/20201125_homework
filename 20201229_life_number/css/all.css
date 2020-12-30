@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#6a79ff,#ff1717);
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-width: 300px;
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    transition: .3s ease-in;
+}
+.row{
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 320px;
+    transition: height .3s ease-in-out;
+}
+.row.growup{
+    height: 500px;
+}
+.title{
+    padding: 10px 0;
+}
+.title h2{
+    font-size: 2rem;
+    padding: .5rem 0 .5rem 2rem;
+    margin: .5rem 0;
+    border-left: 10px solid #ff1717;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem 0;
+}
+.input-group input{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+.input-group button{
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #6a79ff;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background: #ffffff;
+    color: #6a79ff;
+}
+.info h3{
+    margin-top: 0.5rem;
+}
+.Aquarius{
+    color: rgb(221, 57, 57);
+}
+.Pisces{
+    color: rgb(241, 133, 83);
+}
+.Aries{
+    color: rgb(243, 228, 141);
+}
+.Taurus{
+    color: rgb(169, 248, 66);
+}
+.Gemini{
+    color: rgb(127, 238, 136);
+}
+.Cancer{
+    color: rgb(55, 255, 238);
+}
+.Leo{
+    color: rgb(36, 172, 226);
+}
+.Virgo{
+    color: rgb(19, 157, 236);
+}
+.Libra{
+    color: rgb(106, 90, 255);
+}
+.Sagittarius{
+    color: rgb(233, 66, 224);
+}
+.Capricorn{
+    color: rgb(240, 39, 140);
+}
+.Scorpio{
+    color: rgb(191, 117, 251);
+}
+span{
+    text-shadow: 1px 1px 1px #0000007a,
+                -1px -1px 1px #0000009d;
+    font-weight: 500;
+}
+
+@media screen and (min-width:768px){
+    * {
+        font-family: 'Noto Sans TC', sans-serif;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(#6a79ff,#ff1717);
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        min-width: 300px;
+        max-width: 700px;
+        width: 600px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: auto;
+        transition: .3s ease-in;
+    }
+    .row{
+        width: 100%;
+        background: #fff;
+        border-radius: 15px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 320px;
+        transition: height .3s ease-in-out;
+    }
+    .row.growup{
+        height: 500px;
+    }
+    .title{
+        padding: 10px 0;
+    }
+    .title h2{
+        font-size: 2rem;
+        padding: .5rem 0 .5rem 2rem;
+        margin: 1rem 0;
+        border-left: 10px solid #ff1717;
+    
+    }
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 1rem 0;
+    }
+    .input-group input{
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin: 1.5rem 0;
+        padding: .5rem 1rem;
+        width: 100%;
+    }
+    .input-group button{
+        padding: .5rem 1.5rem;
+        border-radius: .5rem;
+        border: 1px solid #6a79ff;
+        outline: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        background: #ffffff;
+        color: #6a79ff;
+    }
+}
