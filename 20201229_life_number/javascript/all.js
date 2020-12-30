@@ -87,7 +87,6 @@ const allProcedures = () =>{
     constellation = getConstellation(selectedDate);
     lifeNumber = getLifeNumber(selectedDate);
     quadrant = quadrantArray[(new Date(selectedDate).getMonth() + 1 ) % 4];
-    console.log(quadrant);
     if(constellation == undefined){
         alert("請輸入正確日期格式!");
         return;
