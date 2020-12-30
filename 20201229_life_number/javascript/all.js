@@ -42,12 +42,11 @@ const displayInfo = () => {
         span.classList.add(`${constellation.eng}`);
         document.querySelector(".info-birthday").innerHTML = "";
         document.querySelector(".info-birthday").append(span," 出生的您，");
-
         span_constellation.classList.add(`${constellation.eng}`);
         span_constellation.innerText = constellation.cht;
         document.querySelector(".info-constellation").innerHTML = "";
         document.querySelector(".info-constellation").append("星座 : ",span_constellation);
-        document.querySelector(".info-words").innerHTML = info;
+        document.querySelector(".info-words").innerHTML = `生命剖析 : ${info}`;
         document.querySelector(".info-lifeNumber").innerHTML = `你的生命靈數 : ${lifeNumber}`;
     },250)
 }
@@ -71,8 +70,7 @@ const ajax = (key,value) => {
         }
     })
 }
-
-submit.addEventListener("click",function(){
+const allProcedures = () =>{
     selectedDate = dateTimePicker.value;
     constellation = getConstellation(selectedDate);
     lifeNumber = getLifeNumber(selectedDate);
@@ -83,17 +81,12 @@ submit.addEventListener("click",function(){
         let engConstellation = constellation.eng.toLowerCase();
         ajax(engConstellation,lifeNumber);
     }
-})
+}
+
+submit.addEventListener("click",allProcedures);
 
 dateTimePicker.addEventListener("keyup",function(event){
-    if(event.code == "Enter"){
-        selectedDate = dateTimePicker.value;
-        constellation = getConstellation(selectedDate);
-
-        lifeNumber = getLifeNumber(selectedDate);
-        let engConstellation = constellation.eng.toLowerCase();
-        ajax(engConstellation,lifeNumber);
-    }
+    if(event.code == "Enter") allProcedures();
 })
 
 
