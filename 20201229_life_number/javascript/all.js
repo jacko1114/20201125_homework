@@ -22,10 +22,10 @@ let contellationArray = [
     {start:{month:12,date:21},end:{month:1,date:20},eng:"Capricorn",cht:"摩羯座"}
 ]
 let quadrantArray = [
-    {name:"土象星座", className : "earth", words: "──代表身體\n人生觀:是踏實的，他們追求實質的生活保障，重視看的見的東西，重視物質甚於精神，他們認為麵包比愛情重要。"},
-    {name:"風象星座", className : "wind", words: "──代表頭腦\n風象星座最擅長抽象的語言思考能力—邏輯推理、理性分析、溝通表達……標準的我思故我在！好像在腦海中把念頭想清楚了就真的看見它們被實現的樣子。"},
-    {name:"火象星座", className : "fire", words:"──代表能量\n就像太陽高高掛在天空上賜給宇宙萬物生命力，火象星座總是給人自信、意志力強、熱力四射、直來直往、樂觀積極的感覺。"},
-    {name:"水象星座", className : "water", words: "──代表情緒\n天生就是水做的，不管那是喜怒哀樂的淚水還是欲望橫流的口水，總是被情緒與慾望驅動的水象天生比其他星座纖細敏感。"}];
+    {name:"土象星座", className : "earth", words: "──代表<span class=\"tag earth\">身體</span>\n人生觀:是踏實的，他們追求實質的生活保障，重視看的見的東西，重視物質甚於精神，他們認為麵包比愛情重要。"},
+    {name:"風象星座", className : "wind", words: "──代表<span class=\"tag wind\">頭腦</span>\n風象星座最擅長抽象的語言思考能力—邏輯推理、理性分析、溝通表達……標準的我思故我在！好像在腦海中把念頭想清楚了就真的看見它們被實現的樣子。"},
+    {name:"火象星座", className : "fire", words:"──代表<span class=\"tag fire\">能量</span>\n就像太陽高高掛在天空上賜給宇宙萬物生命力，火象星座總是給人自信、意志力強、熱力四射、直來直往、樂觀積極的感覺。"},
+    {name:"水象星座", className : "water", words: "──代表<span class=\"tag water\">情緒</span>\n天生就是水做的，不管那是喜怒哀樂的淚水還是欲望橫流的口水，總是被情緒與慾望驅動的水象天生比其他星座纖細敏感。"}];
 let quadrant;
 
 const getConstellation = (selectedDate) => {
@@ -54,12 +54,12 @@ const displayInfo = () => {
         span_constellation.innerText = constellation.cht;
         span_quadrant.classList.add(`${quadrant.className}`,"quadrant");
         p_quadrant.classList.add("quadrant_word");   
-        p_quadrant.innerText = quadrant.words;   
+        p_quadrant.innerHTML = quadrant.words;   
         span_quadrant.append(`${quadrant.name}`,p_quadrant);
         document.querySelector(".info-constellation").innerHTML = "";
         document.querySelector(".info-constellation").append("星座 : ",span_quadrant,span_constellation);
+        document.querySelector(".info-lifeNumber").innerHTML = `生命靈數 : ${lifeNumber}`;
         document.querySelector(".info-words").innerHTML = `生命剖析 : ${info}`;
-        document.querySelector(".info-lifeNumber").innerHTML = `你的生命靈數 : ${lifeNumber}`;
     },250)
 }
 

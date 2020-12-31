@@ -85,50 +85,84 @@ body{
     margin-top: 0.5rem;
 }
 .Aquarius{
-    color: rgb(255, 241, 119);
+    color: #fff177;
+    text-shadow: 1px 1px 1px #f3de25,
+                1.5px 1.5px 1px #fff177,
+                -1px -1px 1px #f3de25;
 }
 .Pisces{
-    color: rgb(241, 133, 83);
+    color: #f18553;
+    text-shadow: 1px 1px 1px #f86521,
+                1.5px 1.5px 1px #f18553,
+                -1px -1px 1px #f86521;
 }
 .Aries{
-    color: rgb(243, 228, 141);
+    color: #f3e48d;
+    text-shadow: 1px 1px 1px #eecf22,
+                1.5px 1.5px 1px #f3e48d,
+                -1px -1px 1px #fada23;
 }
 .Taurus{
-    color: rgb(169, 248, 66);
+    color: #a9f842;
+    text-shadow: 1px 1px 1px #8cee0b,
+                1.5px 1.5px 1px #a9f842,
+                -1px -1px 1px #8cee0b;
 }
 .Gemini{
-    color: rgb(127, 238, 136);
+    color: #66eb71;
+    text-shadow: 1px 1px 1px #4aa151,
+                1.5px 1.5px 1px #66eb71,
+                -1px -1px 1px #4aa151;
 }
 .Cancer{
-    color: rgb(245, 156, 201);
+    color: #f59cc9;
+    text-shadow: 1px 1px 1px #f83e9b,
+                1.5px 1.5px 1px #f59cc9,
+                -1px -1px 1px #f53193;
 }
 .Leo{
-    color: rgb(36, 172, 226);
+    color: #42bae9;
+    text-shadow: 1px 1px 1px #028dc3,
+                1.5px 1.5px 1px #42bae9,
+                -1px -1px 1px #028dc3;
 }
 .Virgo{
-    color: rgb(19, 157, 236);
+    color: #4c96eb;
+    text-shadow: 1px 1px 1px #0764ce,
+                1.5px 1.5px 1px #ff5277,
+                -1px -1px 1px #0764ce;
 }
 .Libra{
-    color: rgb(106, 90, 255);
+    color: #6a5aff;
+    text-shadow: 1px 1px 1px #230fd6,
+                1.5px 1.5px 1px #ff5277,
+                -1px -1px 1px #230fd6;
 }
 .Sagittarius{
-    color: rgb(255, 82, 119);
+    color: #ff5277;
+    text-shadow: 1px 1px 1px #f00c3d,
+                1.5px 1.5px 1px #ff5277,
+                -1px -1px 1px #f00c3d;
 }
 .Capricorn{
-    color: rgb(85, 245, 170);
+    color: #55f5aa;
+    text-shadow: 1px 1px 1px #047540,
+                1.5px 1.5px 1px #55f5aa,
+                -1px -1px 1px #047540;
 }
 .Scorpio{
-    color: rgb(189, 133, 235);
+    color: #bd85eb;
+    text-shadow: 1px 1px 1px #871bdf,
+                1.5px 1.5px 1px #d6b8f0,
+                -1px -1px 1px #871bdf;
 }
 span{
-    text-shadow: 1px 1px 1px #0000007a,
-                -1px -1px 1px #0000009d;
-    font-weight: 500;
+    font-weight: 400;
 }
 .rule{
     position: absolute;
     top: 1rem;
-    right: 2rem;
+    right: 1rem;
 }
 .rule i {
     width: 24px;
@@ -212,6 +246,23 @@ h2{
     opacity: 1;
 }
 
+.tag.earth{
+    color: #f8bc78;
+    text-shadow: 1px 1px 1px #00000080;
+}
+.tag.wind{
+    color: #c0f8ff;
+    text-shadow: 1px 1px 1px #00000080;
+}
+.tag.fire{
+    color: #f1345d;
+    text-shadow: 1px 1px 1px #00000080;
+}
+.tag.water{
+    color: #3772fa;
+    text-shadow: 1px 1px 1px #00000080;
+}
+
 p.quadrant_word{
     position: absolute;
     bottom: -110px;
@@ -224,6 +275,7 @@ p.quadrant_word{
     font-size: 0.5rem;  
     opacity: 0; 
     transition: .2s;
+    pointer-events: none;
 }
 p.quadrant_word:after{
     content:"";
