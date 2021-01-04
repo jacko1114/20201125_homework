@@ -25,18 +25,18 @@
     </nav>
     <section class="products">
         <div class="container-lg">
-            <div class="row">
+            <div class="row position-sticky top-0 zindex-100 bg-white">
                 <div class="col-12">
                     <div class="products-title d-flex justify-content-between">
                         <div class="product-name"></div>
                         <div class="product-price"></div>
                     </div>
                 </div>
-                <hr>
+                <hr class="m-0 p-0">
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <div class="product-pic text-center pt-3">
+                    <div class="product-pic text-center pt-3 position-sticky top-0 zindex-50">
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -54,7 +54,7 @@
                             <div class="product-memory-selector d-flex flex-wrap"></div>
                         </div>
                         <div class="product-total d-flex flex-column justify-content-center align-items-center
-                        pt-3 pb-5 non-selected">
+                        pt-3 pb-5 mb-5 non-selected">
                         </div>
                     </div>
                 </div>
@@ -108,6 +108,9 @@
 
     <template id="continue">
         <div class="product-total-price w-100 p-4">
+            <h6 class="fs-5 fw-bolder detail-item"></h6>
+            <h6 class="fs-5 fw-bolder detail-appearance"></h6>
+            <h6 class="fs-5 fw-bolder detail-memory"></h6>
             <h3 class="fs-2 fw-bolder"></h3>
         </div>
         <div class="product-total-btngrouping d-flex w-100">
