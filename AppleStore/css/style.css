@@ -1,79 +1,94 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
 
-*{
-    font-family: "Noto Sans TC",sans-serif;
+* {
+    font-family: "Noto Sans TC", sans-serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
-.bg-gray-dark{
-    background: #444!important;
+.bg-gray-dark {
+    background: #444 !important;
 }
 
-a.border{
-    border-width: 2px!important;
-}
-a.border:hover{
-    border:2px solid #333!important;
+a.border {
+    border-width: 2px !important;
 }
 
-a.border.selected{
-    border:2px solid #347aca!important;
+a.border:hover {
+    border: 2px solid #333 !important;
 }
 
-.colorSelector-plantium{
+a.border.selected {
+    border: 2px solid #347aca !important;
+}
+
+.colorSelector-plantium {
     width: 25px;
     height: 25px;
     box-shadow: inset -1px -1px 10px #00000080;
 }
 
-.white{
+.white {
     background: #F7F3F0;
 }
-.black{
+
+.black {
     background: #34313A;
 }
-.red{
+
+.red {
     background: #DB4242;
 }
-.blue{
+
+.blue {
     background: #12486C;
 }
-.yellow{
+
+.yellow {
     background: #FFE681;
 }
-.coral{
+
+.coral {
     background: #FF6E5B;
 }
-.green{
+
+.green {
     background: #CBE0C8;
 }
-.graphite{
+
+.graphite {
     background: #605F5B;
 }
-.silver{
+
+.silver {
     background: #E0E2E1;
 }
-.gray{
+
+.gray {
     background: #ACAFB2;
 }
-.purple{
+
+.purple {
     background: #D1CDDB;
 }
-.gold{
+
+.gold {
     background: #EECFC0;
 }
 
-.product-memory,.product-appearance,.product-total{
+.product-memory,
+.product-appearance,
+.product-total {
     position: relative;
 }
+
 .product-memory.non-selected:before,
 .product-appearance.non-selected:before,
-.product-total.non-selected:before
-{
-    content:"";
+.product-total.non-selected:before {
+    content: "";
     position: absolute;
     z-index: 10;
     width: 100%;
@@ -81,18 +96,24 @@ a.border.selected{
     background: #ffffffd8;
     top: 0;
     left: 0;
-} 
+}
 
-.fa-heart{
+.fa-heart {
     cursor: pointer;
 }
 
-.w-33{
+.w-33 {
     width: calc(100% / 3);
 }
-.zindex-100{
+
+.zindex-100 {
     z-index: 100;
 }
-.zindex-50{
+
+.zindex-50 {
     z-index: 50;
+}
+
+.top-20 {
+    top: 20px;
 }
