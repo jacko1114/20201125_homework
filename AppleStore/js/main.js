@@ -8,13 +8,13 @@ import {
 let JsonData = [];
 
 const getJSONdata = () => {
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/AppleStore/js/products.json", true);
-    xhr.addEventListener("load", function () {
-        JsonData = JSON.parse(this.responseText)[0];
-        createNav();
-    })
-    xhr.send();
+    let url = "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/AppleStore/js/products.json";
+    fetch(url)
+        .then(res=>res.json())
+        .then(result => {
+            JsonData = result[0];
+            createNav();
+        })
 }
 
 const createNav = () => {
