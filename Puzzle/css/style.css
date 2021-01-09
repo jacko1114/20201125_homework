@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.row:first-of-type {
+    max-width: 900px;
+    margin: auto;
+}
+
+.row:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fileupload {
+    padding: 10px 0;
+}
+
+.fileupload .btn {
+    background-color: #4db6f3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.fileupload .btn:hover {
+    background: #2a99da;
+    box-shadow: 1px 1px 1px #696969;
+}
+
+.level {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.level #select {
+    outline: none;
+    margin-left: 10px;
+}
+
+.level #start {
+    margin-left: 10px;
+    background-color: #4db6f3;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    border: none;
+}
+
+.level #start:hover {
+    background: #2a99da;
+    box-shadow: 1px 1px 1px #696969;
+}
+
+.count {
+    padding: 10px 0;
+}
+
+.count p {
+    display: flex;
+    align-items: center;
+}
+
+.count b {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.count b.normal {
+    color: #259234;
+}
+
+.count b.warning {
+    color: #ffa237;
+}
+
+.count b.danger {
+    color: #ee1c1c;
+    animation: spark .5s ease infinite alternate-reverse;
+}
+
+.count b.death {
+    color: #bbbaba;
+    animation: none;
+}
+
+@keyframes spark {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+
+
+
+.puzzle {
+    position: relative;
+    background: #d8d8d8;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.block {
+    border: 1px solid #b3b1b1;
+    background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    z-index: 3;
+    box-sizing: border-box;
+    margin: 1px 1.5px;
+}
+
+img {
+    display: block;
+    width: 99%;
+    height: 99%;
+    border: 1px solid #000;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 3;
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 3.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.answer {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #eee;
+    background: #eee;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-size: 100% 100%;
+}
+
+.puzzle span {
+    position: absolute;
+}
+
+.puzzle span.border_1 {
+    top: -3px;
+    right: 0;
+    width: 0%;
+    height: 5px;
+    z-index: 5;
+    background: linear-gradient(to right, #111, #000);
+    animation: run1 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes run1 {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.puzzle span.border_2 {
+    bottom: 0;
+    right: 0;
+    width: 5px;
+    height: 0%;
+    z-index: 5;
+    background: linear-gradient(to right, #111, #000);
+    animation: run2 1s ease-out forwards;
+}
+
+@keyframes run2 {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+.puzzle span.border_3 {
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 5px;
+    z-index: 5;
+    background: linear-gradient(to right, #111, #000);
+    animation: run3 1s ease-out forwards;
+}
+
+@keyframes run3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.puzzle span.border_4 {
+    bottom: 0;
+    left: -1px;
+    width: 5px;
+    height: 0%;
+    z-index: 5;
+    background: linear-gradient(to right, #111, #000);
+    animation: run4 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes run4 {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+.puzzle .win_block {
+    position: absolute;
+    width: 200%;
+    height: 40%;
+    background: rgb(255, 255, 255);
+    left: -100%;
+    transform: rotate(225deg) translateX(200%);
+    animation: run5 7s cubic-bezier(0, 0.71, 0.58, 1) forwards;
+    z-index: 3;
+}
+
+.puzzle .win_block_1 {
+    top: -120%;
+    animation-delay: 2.6s;
+}
+
+.puzzle .win_block_2 {
+    top: -100%;
+    animation-delay: 2.7s;
+}
+
+.puzzle .win_block_3 {
+    top: -80%;
+    animation-delay: 2.8s;
+}
+
+.puzzle .win_block_4 {
+    top: -60%;
+    animation-delay: 2.9s;
+}
+
+.puzzle .win_block_5 {
+    top: -40%;
+    animation-delay: 3s;
+}
+
+.puzzle .win_block_6 {
+    top: -20%;
+    animation-delay: 3.1s;
+}
+
+.puzzle .win_block_7 {
+    top: 0%;
+    animation-delay: 3.2s;
+}
+
+.puzzle .win_block_8 {
+    top: 20%;
+    animation-delay: 3.3s;
+}
+
+.puzzle .win_block_9 {
+    top: 40%;
+    animation-delay: 3.4s;
+}
+
+.puzzle .win_block_10 {
+    top: 60%;
+    animation-delay: 3.5s;
+}
+
+.puzzle .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ffffffd7;
+    width: 0%;
+    height: 20%;
+    transform: translateY(-50%);
+    transform-origin: center center;
+    z-index: 4;
+    opacity: 0;
+    animation: move 1s ease forwards;
+    animation-delay: 4.5s;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        width: 0%;
+        left: 50%;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+
+    100% {
+        opacity: 1;
+        width: 100%;
+        left: 0%;
+    }
+}
+
+@keyframes run5 {
+    0% {
+        transform: rotate(225deg) translateX(200%);
+    }
+
+    100% {
+        transform: rotate(225deg) translateX(-400%);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .row:last-of-type {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .answer {
+        margin-top: 0;
+        margin-left: 20px;
+        width: 250px;
+        height: 250px;
+        background-size: 100% 100%;
+    }
+}
