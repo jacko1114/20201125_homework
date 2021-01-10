@@ -1,7 +1,7 @@
 const weekArray = [{ch:"日",eng:"Sun"}, {ch:"一",eng:"Mon"},{ch:"二",eng:"Tue"},{ch:"三",eng:"Wed"},{ch:"四",eng:"Thu"},{ch:"五",eng:"Fri"},{ch:"六",eng:"Sat"}];
 const festivals = [{month:0,festival:"1/1(五) 元旦"},{month:1,festival:"2/10(三) 除夕"},{month:1,festival:"2/11(四) 春節"},,{month:1,festival:"2/26(五) 元宵節"},{month:1,festival:"2/28(日) 和平紀念日"},{month:2,festival:"3/8(一) 婦女節"},{month:3,festival:"4/4(日) 清明節"},{month:3,festival:"4/5(一) 兒童節"},{month:4,festival:"5/1(六) 勞動節"},{month:4,festival:"5/9(日) 母親節"},{month:5,festival:"6/14(一) 端午節"},{month:7,festival:"8/8(日) 父親節"},{month:8,festival:"9/21(二) 中秋節"},{month:8,festival:"9/28(二) 教師節"},{month:9,festival:"10/10(日) 國慶日"},{month:9,festival:"10/14(四) 重陽節"},{month:11,festival:"12/25(六) 聖誕節"}]
 let today = {}
-let calenderDay = {}
+let calendarDay = {}
 let dayArray = []
 let monthEng = {
     0: "January",
@@ -29,7 +29,7 @@ const createWeek = () => {
         const clonedWeek = weekTemplate.content.cloneNode(true);
         clonedWeek.querySelector(".week").innerHTML =`<span>${item.ch}</span><span class="eng">${item.eng}</span>`;;
 
-        document.querySelector(".calender-weeks-title").appendChild(clonedWeek);
+        document.querySelector(".calendar-weeks-title").appendChild(clonedWeek);
     })
 }
 const setToday = () => {
@@ -48,14 +48,14 @@ const getThisMonthFirstDay = ({
     let day = new Date(year, month, 1);
     return day.getDay();
 }
-const getThisCalenderFirstDay = ({
+const getThisCalendarFirstDay = ({
     year,
     month
 }) => {
     dayArray = [];
 
     for (let i = 0; i < 42; i++) {
-        let day = new Date(year, month, 1 - getThisMonthFirstDay(calenderDay) + i);
+        let day = new Date(year, month, 1 - getThisMonthFirstDay(calendarDay) + i);
         dayArray.push({
             year: day.getFullYear(),
             month: day.getMonth(),
@@ -64,14 +64,14 @@ const getThisCalenderFirstDay = ({
         })
     }
 }
-const createCalender = (calenderDay) => {
-    getThisCalenderFirstDay(calenderDay);
-    document.querySelector(".calender-weeks-day").innerHTML = "";
+const createCalendar = (calendarDay) => {
+    getThisCalendarFirstDay(calendarDay);
+    document.querySelector(".calendar-weeks-day").innerHTML = "";
     const dayTemplate = document.querySelector("#day");
     dayArray.forEach(item => {
         const clonedDay = dayTemplate.content.cloneNode(true);
         let color = item.year == today.year && item.month == today.month && item.date == today.date ? "today" : 
-            item.month != calenderDay.month ? "other-month" :
+            item.month != calendarDay.month ? "other-month" :
             item.weekDay == 0 || item.weekDay == 6 ? "weekend" : "this-month";
 
         clonedDay.querySelector(".day .day-item-list").setAttribute("data-year", item.year);
@@ -79,12 +79,12 @@ const createCalender = (calenderDay) => {
         clonedDay.querySelector(".day .day-item-list").setAttribute("data-day", item.date);
         clonedDay.querySelector(".day .day-date").setAttribute("data-day", item.date);
         clonedDay.querySelector(".day").classList.add(color);
-        document.querySelector(".calender-weeks-day").appendChild(clonedDay);
+        document.querySelector(".calendar-weeks-day").appendChild(clonedDay);
     })
 
-    document.querySelector(".calender-heading-title h2 .title-year").textContent = calenderDay.year;
-    document.querySelector(".calender-heading-title h2 .title-mon").textContent = `${monthEng[calenderDay.month]}`;
-    document.querySelector(".calender-heading-title h2 .title-mon-num").textContent = calenderDay.month + 1;
+    document.querySelector(".calendar-heading-title h2 .title-year").textContent = calendarDay.year;
+    document.querySelector(".calendar-heading-title h2 .title-mon").textContent = `${monthEng[calendarDay.month]}`;
+    document.querySelector(".calendar-heading-title h2 .title-mon-num").textContent = calendarDay.month + 1;
 
     showTodos();
     addItemBydblClick();
@@ -96,14 +96,14 @@ const createBackground = () => {
         if (i != 0) div.classList.add("opacity");
         div.setAttribute("style", `background:url('./images/${i + 1}.jpg') no-repeat center center;position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;`);
         div.setAttribute("data-month", i);
-        document.querySelector(".calender-title").appendChild(div);
+        document.querySelector(".calendar-title").appendChild(div);
         i++;
     }
 }
 const showFestival = () => {
     let festivalDay = document.querySelector(".festival-day");
     festivalDay.innerHTML = "";
-    festivals.filter(item=> item.month == calenderDay.month).forEach(item=>{
+    festivals.filter(item=> item.month == calendarDay.month).forEach(item=>{
         let li = document.createElement("li")
         li.textContent = item.festival;
         festivalDay.appendChild(li);
@@ -221,54 +221,54 @@ const addItemBydblClick = () => {
 
 window.addEventListener("load", function () {
     createWeek();
-    calenderDay = setToday();
+    calendarDay = setToday();
     today = setToday();
-    createCalender(calenderDay);
+    createCalendar(calendarDay);
     createBackground();
     showFestival();
 })
 document.querySelector(".btn-today button").addEventListener("click", function () {
-    calenderDay = setToday();
-    createCalender(calenderDay);
+    calendarDay = setToday();
+    createCalendar(calendarDay);
     showFestival();
 });
 document.querySelector(".btn-preYear button").addEventListener("click", function () {
-    calenderDay.year -= 1;
-    createCalender(calenderDay);
+    calendarDay.year -= 1;
+    createCalendar(calendarDay);
     showFestival();
 })
 document.querySelector(".btn-preMonth button").addEventListener("click", function () {
-    if (calenderDay.month == 0) {
-        calenderDay.year -= 1;
-        calenderDay.month = 11;
+    if (calendarDay.month == 0) {
+        calendarDay.year -= 1;
+        calendarDay.month = 11;
     } else {
-        calenderDay.month -= 1;
+        calendarDay.month -= 1;
     }
-    if (calenderDay.month == 11) document.querySelector(`[data-month="${0}"]`).classList.add("opacity");
-    else document.querySelector(`[data-month="${calenderDay.month + 1}"]`).classList.add("opacity");
-    document.querySelector(`[data-month="${calenderDay.month}"]`).classList.remove("opacity");
+    if (calendarDay.month == 11) document.querySelector(`[data-month="${0}"]`).classList.add("opacity");
+    else document.querySelector(`[data-month="${calendarDay.month + 1}"]`).classList.add("opacity");
+    document.querySelector(`[data-month="${calendarDay.month}"]`).classList.remove("opacity");
 
-    createCalender(calenderDay);
+    createCalendar(calendarDay);
     showFestival();
 })
 document.querySelector(".btn-nextMonth button").addEventListener("click", function () {
-    if (calenderDay.month == 11) {
-        calenderDay.year += 1;
-        calenderDay.month = 0;
+    if (calendarDay.month == 11) {
+        calendarDay.year += 1;
+        calendarDay.month = 0;
     } else {
-        calenderDay.month += 1;
+        calendarDay.month += 1;
     }
 
-    if (calenderDay.month == 0) document.querySelector(`[data-month="${11}"]`).classList.add("opacity");
-    else document.querySelector(`[data-month="${calenderDay.month - 1}"]`).classList.add("opacity");
-    document.querySelector(`[data-month="${calenderDay.month}"]`).classList.remove("opacity");
+    if (calendarDay.month == 0) document.querySelector(`[data-month="${11}"]`).classList.add("opacity");
+    else document.querySelector(`[data-month="${calendarDay.month - 1}"]`).classList.add("opacity");
+    document.querySelector(`[data-month="${calendarDay.month}"]`).classList.remove("opacity");
 
-    createCalender(calenderDay);
+    createCalendar(calendarDay);
     showFestival();
 })
 document.querySelector(".btn-nextYear button").addEventListener("click", function () {
-    calenderDay.year += 1;
-    createCalender(calenderDay);
+    calendarDay.year += 1;
+    createCalendar(calendarDay);
     showFestival();
 })
 document.querySelector(".form-body button.save").addEventListener("click", function () {
