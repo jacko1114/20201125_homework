@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行事曆</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="w-100 h-100vh position-relative">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 col-md-2 bg-dark p-0 d-none d-md-block">
+                    <div class="banner">
+                        <div class="festival">
+                            <div class="festival-title">
+                                重要節慶
+                            </div>
+                            <ul class="festival-day"></ul>
+                        </div>
+                        <div class="slogan  d-flex align-items-center">
+                            <div class="title">笑 / 看 / 人 / 間</div>
+                            <div class="content">
+                                <p>時間有限</p>
+                                <p>別停留原地太久</p>
+                                <p>許多問題</p>
+                                <p>走著走著就有答案</p>
+                                <p>生命有盡</p>
+                                <p>別停留煩惱太久</p>
+                                <p>許多幸福</p>
+                                <p>笑著笑著終見光明</p>
+                            </div>
+                            <p>@噗哈哈</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-10 p-0">
+                    <div class="calender-title d-flex flex-column">
+                        <div
+                            class="calender-heading-title text-center d-flex justify-content-between position-relative">
+                            <h2 class="mt-2 mb-3 ps-3 text-white text-shadow"><span
+                                    class="title-mon-num fs-large fw-bolder"></span></h2>
+                            <h2 class="mt-2 mb-3 d-flex flex-column pe-4 align-items-end text-white text-shadow"><span
+                                    class="title-mon fs-1 fw-bolder"></span><span class="title-year fs-5 pt-1"></span>
+                            </h2>
+                        </div>
+                        <div class="btn-group w-100 d-flex justify-content-around mb-1">
+                            <div class="btn-preYear">
+                                <button class="btn text-white text-shadow fz-12 fz-md-20 fw-bolder"><i
+                                        class="fas fa-chevron-left pe-1"></i>上一年</button>
+                            </div>
+                            <div class="btn-preMonth">
+                                <button class="btn text-white text-shadow fz-12 fz-md-20 fw-bolder"><i
+                                        class="fas fa-chevron-left pe-1"></i>上個月</button>
+                            </div>
+                            <div class="btn-today">
+                                <button class="btn text-white text-shadow fz-12 fz-md-20 fw-bolder">今日</button>
+                            </div>
+                            <div class="btn-nextMonth">
+                                <button class="btn text-white text-shadow fz-12 fz-md-20 fw-bolder">下個月<i
+                                        class="fas fa-chevron-right ps-1"></i></button>
+                            </div>
+                            <div class="btn-nextYear">
+                                <button class="btn text-white text-shadow fz-12 fz-md-20 fw-bolder">下一年<i
+                                        class="fas fa-chevron-right ps-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calender-weeks-title d-flex justify-content-between ">
+                    </div>
+                    <div class="calender-weeks-day d-flex flex-wrap"></div>
+                </div>
+            </div>
+        </div>
+        <button type="button"
+            class="btn btn-blue add-item position-absolute d-flex justify-content-center align-items-center"
+            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="modal fade form" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header form-title">
+                        <h5 class="add-title text-white">新增行程</h5>
+                        <h5 class="edit-title text-white">修改行程</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body form-body">
+                        <label for="date" class="my-3 text-white">
+                            日期 :
+                            <input type="date" id="date" class="ms-3">
+                        </label>
+                        <label for="time" class="my-3 text-white">
+                            時間 :
+                            <input type="time" id="time" class="ms-3">
+                        </label>
+                        <label for="text" class="my-3 text-white">
+                            事項 :
+                            <input type="text" id="text" class=" ms-3">
+                        </label>
+
+                        <div class="button-group d-flex justify-content-end">
+                            <button class="btn btn-blue close" data-bs-dismiss="modal">關閉</button>
+                            <button class="btn btn-blue ms-3 save">儲存</button>
+                            <button class="btn btn-blue ms-3 edit">修改</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <template id="week">
+        <div class="week flex-grow-1 text-center border border-secondary px-3 py-2 bg-light"></div>
+    </template>
+    <template id="day">
+        <div class="day border border-secondary d-flex">
+            <div class="day-item-list w-md-80 w-70 w-lg-90"></div>
+            <div class="day-date w-md-20 w-30 w-lg-10"></div>
+        </div>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/all.js"></script>
+</body>
+
+</html>
