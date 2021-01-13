@@ -6,7 +6,7 @@ let markersArr = [];
 let dark = false;
 new TwCitySelector(); //使用套件產生縣市選取器
 const createMarker = (region) => {
-    let result = data.filter(item => item.Region == region)
+    let result = data.filter(item => item.Add.includes(region))
     let markers = L.markerClusterGroup();
     result.forEach(item => {
         let info = `<h1>${item.Name}</h1> 
@@ -70,7 +70,7 @@ const cleanMarker = () => {
 const createFilterResult = (region) => {
     let result = document.querySelector(".result");
     result.innerHTML = "";
-    data.filter(item => item.Region == region).forEach(item => {
+    data.filter(item=>item.Add.includes(region)).forEach(item => {
         let div = document.createElement("div");
         div.className = "result-item";
         div.innerHTML =
@@ -127,12 +127,12 @@ document.querySelector(".button-all").addEventListener("click", function () {
         let markers = L.markerClusterGroup();
         data.forEach(item => {
             let info = `<h1>${item.Name}</h1> 
-        <h3>連絡電話 : ${item.Tel.replace("886-","0")}</h3>
-        <h4>地址 : ${item.Add}</h4>
-        ${item.Website != ""? `<h4>官網 : <a href="${item.Website}" target="_blank">${item.Website}</a></h4>`:""}
-        <h4>開放時間 : ${item.Opentime}</h4>
-        ${item.Ticketinfo == "" || item.Ticketinfo == null ? "" :`<h4>門票資訊 :  ${item.Ticketinfo}</h4>`}
-        <p>${item.Description == null ? "": item.Description.length > 40 ? `${item.Description.substring(0,40)}...`:item.Description}</p>`
+            <h3>連絡電話 : ${item.Tel.replace("886-","0")}</h3>
+            <h4>地址 : ${item.Add}</h4>
+            ${item.Website != ""? `<h4>官網 : <a href="${item.Website}" target="_blank">${item.Website}</a></h4>`:""}
+            <h4>開放時間 : ${item.Opentime}</h4>
+            ${item.Ticketinfo == "" || item.Ticketinfo == null ? "" :`<h4>門票資訊 :  ${item.Ticketinfo}</h4>`}
+            <p>${item.Description == null ? "": item.Description.length > 40 ? `${item.Description.substring(0,40)}...`:item.Description}</p>`
 
             let icon = L.divIcon({
                 className: 'custom-div-icon',
