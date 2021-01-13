@@ -33,12 +33,14 @@ const fetchData = async () => {
             data = result.XML_Head.Infos.Info;
             createMarker("臺北市");
             createFilterResult("臺北市");
+            
         })
+    return true
 }
 const createMap = () => {
     map = L.map('map', {
         center: center,
-        zoom:20,
+        zoom:18,
         attributionControl: false
     });
     L.control.zoom({
@@ -92,8 +94,14 @@ const getPosSuccess = location => {
 const getPosFail = () => {}
 
 window.addEventListener("load", function () {
-    fetchData();
+    document.querySelector(".loading").style.opacity = 1;
+    let finished = fetchData();
     createMap();
+    console.log(finished)
+    if(finished)
+    setTimeout(()=>{
+        document.querySelector(".loading").style.opacity = 0;
+    },3000)
 })
 
 document.querySelector(".button-select").addEventListener("click", function () {
@@ -104,9 +112,8 @@ document.querySelector(".button-select").addEventListener("click", function () {
 })
 
 document.querySelector(".button-all").addEventListener("click", function () {
-    setTimeout(() => {
+
         document.querySelector(".loading").style.opacity = 1;
-    }, 0)
     setTimeout(() => {
         let markers = L.markerClusterGroup();
         data.forEach(item => {
@@ -136,8 +143,9 @@ document.querySelector(".button-all").addEventListener("click", function () {
 
 document.querySelector("label[for='themes']").addEventListener("click", function () {
     let checked = !document.querySelector("#themes").checked
-    if (checked) document.querySelector("body").classList.add("dark-theme")
-    else document.querySelector("body").classList.remove("dark-theme")
+    if (checked) document.querySelector("body").classList.add("dark-theme");
+    else document.querySelector("body").classList.remove("dark-theme");
+
     dark = !dark;
     if (dark) {
         let Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
