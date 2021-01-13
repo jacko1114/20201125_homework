@@ -222,7 +222,21 @@ label {
 #map.close {
     filter: brightness(.6);
 }
-
+.card-title h2{
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+.card-title h2.long span{
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .8s ease-in-out;
+}
+.card-title h2.long:hover span{
+    transform: translateX(-150px);
+}
 .btn-search {
     text-decoration: none;
     background: #ffffff;
@@ -233,6 +247,9 @@ label {
     margin-top: 3px;
     color: #5fb9d4;
     transition: .3s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .btn-search:hover {
@@ -339,6 +356,43 @@ label {
 
 .leaflet-left {
     display: none;
+}
+
+.marker-pin {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 50% 0;
+    background: #c30b82;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin: -15px 0 0 -15px;
+}
+
+.marker-pin::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin: 3px 0 0 3px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.custom-div-icon i {
+    position: absolute;
+    width: 21px;
+    font-size: 18px;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.custom-div-icon i.awesome {
+    margin: 12px auto;
+    font-size: 17px;
 }
 
 @keyframes rotate {

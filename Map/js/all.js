@@ -16,9 +16,15 @@ const createMarker = (region) => {
         ${item.Ticketinfo == "" || item.Ticketinfo == null ? "" :`<h4>門票資訊 :  ${item.Ticketinfo}</h4>`}
         <p>${item.Description == null ? "": item.Description.length > 40 ? item.Description.substring(0,40) + "...":item.Description}</p>`
 
+        let icon = L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div style='background-color:#299de6;' class='marker-pin'></div>${iconPicker(item.Orgclass)}`,
+            iconSize: [30, 42],
+            iconAnchor: [15, 42]
+        });
         let marker = L.marker([item.Py, item.Px], {
             title: item.Name,
-            opacity: 1.0
+            icon: icon
         })
         marker.bindPopup(info).openPopup();
         markers.addLayer(marker)
@@ -33,7 +39,6 @@ const fetchData = async () => {
             data = result.XML_Head.Infos.Info;
             createMarker("臺北市");
             createFilterResult("臺北市");
-
         })
     return true
 }
@@ -66,7 +71,7 @@ const createFilterResult = (region) => {
         div.className = "result-item";
         div.innerHTML =
             `<div class="card-title">
-        <h2>${item.Name}<a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}">查詢地點</a></h2> 
+            ${item.Name.length > 11 ? `<h2 class="long"><span>${item.Name}</span><a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}">查詢地點</a></h2>`:`<h2>${item.Name}<a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}">查詢地點</a></h2>`}
         </div>
         <div class="card-body">
         <h4>連絡電話 : ${item.Tel.replace("886-","0")}</h4>
@@ -125,9 +130,15 @@ document.querySelector(".button-all").addEventListener("click", function () {
         ${item.Ticketinfo == "" || item.Ticketinfo == null ? "" :`<h4>門票資訊 :  ${item.Ticketinfo}</h4>`}
         <p>${item.Description == null ? "": item.Description.length > 40 ? `${item.Description.substring(0,40)}...`:item.Description}</p>`
 
+            let icon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div style='background-color:#299de6;' class='marker-pin'></div>${iconPicker(item.Orgclass)}`,
+                iconSize: [30, 42],
+                iconAnchor: [15, 42]
+            });
             let marker = L.marker([item.Py, item.Px], {
                 title: item.Name,
-                opacity: 1.0
+                icon: icon
             })
             marker.bindPopup(info).openPopup();
             markers.addLayer(marker)
@@ -155,3 +166,24 @@ document.querySelector(".side-menu-btn").addEventListener("click", function () {
     document.querySelector(".side-menu").classList.toggle("close");
     document.querySelector(".side-menu-btn").classList.toggle("close");
 })
+
+const iconPicker = (target) => {
+    target = `${target}`
+    console.log(target)
+    return target.includes("廟") ? '<i class="fas fa-vihara"></i>' :
+        target.includes("街") ? '<i class="fas fa-road"></i>' :
+        target.includes("呼") ? '<i class="fas fa-tree"></i>' :
+        target.includes("廠") ? '<i class="fas fa-industry"></i>' :
+        target.includes("藝") ? '<i class="fas fa-hammer"></i>' :
+        target.includes("親") ? '<i class="fas fa-baby"></i>' :
+        target.includes("田") ? '<i class="fas fa-mountain"></i>' :
+        target.includes("展") ? '<i class="fab fa-fort-awesome"></i>' :
+        target.includes("文") ? '<i class="fas fa-synagogue"></i>' :
+        target.includes("鐵") ? '<i class="fas fa-subway"></i>' :
+        target.includes("特") ? '<i class="fas fa-hotel"></i>' :
+        target.includes("休") ? '<i class="fa-golf-ball"></i>' :
+        target.includes("海") ? '<i class="fas fa-umbrella-beach"></i>' :
+        target.includes("車") ? '<i class="fas fa-bicycle"></i>' :
+        target.includes("生") ? '<i class="fas fa-caravan"></i>' :
+        '<i class="fas fa-star"></i>'
+}
