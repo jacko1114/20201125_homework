@@ -98,7 +98,6 @@ window.addEventListener("load", function () {
     document.querySelector(".loading").style.opacity = 1;
     let finished = fetchData();
     createMap();
-    console.log(finished)
     if (finished)
         setTimeout(() => {
             document.querySelector(".loading").style.opacity = 0;
@@ -152,10 +151,8 @@ document.querySelector("label[for='themes']").addEventListener("click", function
         darkLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
             maxZoom: 20,
         });
-        map.removeLayer(titleLayer)
         map.addLayer(darkLayer)
     } else {
-        map.removeLayer(darkLayer)
         map.addLayer(titleLayer)
     }
 })
