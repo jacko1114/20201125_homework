@@ -15,6 +15,8 @@ p {
     margin: .5rem 0;
 }
 
+
+
 .container .row {
     position: relative;
 }
@@ -26,6 +28,7 @@ p {
     z-index: 1000;
     transition: .3s ease-out;
     float: left;
+    box-shadow: 1px 0 3px #00000080;
 }
 
 .side-menu.close {
@@ -166,6 +169,20 @@ label {
     height: calc(100vh - 70px);
     background: #ffffff;
 }
+.result::-webkit-scrollbar {
+    width: 12px;
+}
+.result::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.result::-webkit-scrollbar-thumb {
+    background: #52b2cf;
+    box-shadow: -1px -1px 5px #00000080;
+    border-radius: 12px;
+}
+.result::-webkit-scrollbar-thumb:hover {
+    background: #49a4c0;
+}
 
 .result-item {
     margin: 15px 10px;
@@ -256,6 +273,12 @@ label {
 .dark-theme .side-menu-btn {
     background: #eeeeee;
     color: #333333;
+}
+.dark-theme .result::-webkit-scrollbar-thumb {
+    background: #687275;
+}
+.dark-theme .result::-webkit-scrollbar-thumb:hover {
+    background: #3a3f41;
 }
 
 .loading {

@@ -1,7 +1,7 @@
 let url = "https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions";
 let data = [];
 let center = [25.03484, 121.51763];
-let map;
+let map, tileLayer, darkLayer;
 let dark = false;
 new TwCitySelector(); //使用套件產生縣市選取器
 const createMarker = (region) => {
@@ -33,20 +33,21 @@ const fetchData = async () => {
             data = result.XML_Head.Infos.Info;
             createMarker("臺北市");
             createFilterResult("臺北市");
-            
+
         })
     return true
 }
 const createMap = () => {
     map = L.map('map', {
         center: center,
-        zoom:18,
+        zoom: 18,
         attributionControl: false
     });
     L.control.zoom({
         position: 'topright'
     }).addTo(map);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    titleLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+    map.addLayer(titleLayer)
 
 }
 
@@ -98,10 +99,10 @@ window.addEventListener("load", function () {
     let finished = fetchData();
     createMap();
     console.log(finished)
-    if(finished)
-    setTimeout(()=>{
-        document.querySelector(".loading").style.opacity = 0;
-    },3000)
+    if (finished)
+        setTimeout(() => {
+            document.querySelector(".loading").style.opacity = 0;
+        }, 3000)
 })
 
 document.querySelector(".button-select").addEventListener("click", function () {
@@ -113,7 +114,7 @@ document.querySelector(".button-select").addEventListener("click", function () {
 
 document.querySelector(".button-all").addEventListener("click", function () {
 
-        document.querySelector(".loading").style.opacity = 1;
+    document.querySelector(".loading").style.opacity = 1;
     setTimeout(() => {
         let markers = L.markerClusterGroup();
         data.forEach(item => {
@@ -148,12 +149,15 @@ document.querySelector("label[for='themes']").addEventListener("click", function
 
     dark = !dark;
     if (dark) {
-        let Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+        darkLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
             maxZoom: 20,
-            attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
         });
-        map.addLayer(Stadia_AlidadeSmoothDark)
-    } else L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        map.removeLayer(titleLayer)
+        map.addLayer(darkLayer)
+    } else {
+        map.removeLayer(darkLayer)
+        map.addLayer(titleLayer)
+    }
 })
 document.querySelector(".side-menu-btn").addEventListener("click", function () {
     document.querySelector(".side-menu").classList.toggle("close");
