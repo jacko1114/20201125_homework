@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>觀光景點查詢</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="side-menu">
+                <span class="side-menu-btn fas fa-chevron-left"></span>
+                <div class="selector-group">
+                    <div role="tw-city-selector" class="selector" data-county-value="臺北市" data-standard-words>
+                    </div>
+                    <button class="button-select">選擇</button>
+                    <button class="button-all">顯示全部</button>
+                    <input type="checkbox" id="themes">
+                    <label for="themes">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </label>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div id="map"></div>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="circle">
+        </div>
+        <span> 讀取中...</span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-city-selector@2.1.1/dist/tw-city-selector.min.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
