@@ -143,17 +143,12 @@ document.querySelector(".button-all").addEventListener("click", function () {
 
 document.querySelector("label[for='themes']").addEventListener("click", function () {
     let checked = !document.querySelector("#themes").checked
-    if (checked) document.querySelector("body").classList.add("dark-theme");
-    else document.querySelector("body").classList.remove("dark-theme");
-
-    dark = !dark;
-    if (dark) {
-        darkLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-            maxZoom: 20,
-        });
-        map.addLayer(darkLayer)
+    if (checked) {
+        document.querySelector("body").classList.add("dark-theme");
+        document.querySelector("#map").style.filter = "brightness(.8)";
     } else {
-        map.addLayer(titleLayer)
+        document.querySelector("body").classList.remove("dark-theme");
+        document.querySelector("#map").style.filter = "brightness(1)";
     }
 })
 document.querySelector(".side-menu-btn").addEventListener("click", function () {

@@ -55,6 +55,7 @@ p {
     transform: scale(-1);
 }
 
+
 .selector {
     display: flex;
     justify-content: center;
@@ -189,6 +190,9 @@ label {
     border-radius: 5px;
     border: 1px solid #5fb9d4;
 }
+.result-item:hover {
+    box-shadow: 1px 1px 5px #00000080;
+}
 
 .card-title {
     background: #5fb9d4;
@@ -207,6 +211,9 @@ label {
     right: 0;
     top: 0;
     transition: .3s ease-in;
+}
+#map.close{
+    filter: brightness(.6);
 }
 
 .btn-search {
@@ -279,6 +286,12 @@ label {
 }
 .dark-theme .result::-webkit-scrollbar-thumb:hover {
     background: #3a3f41;
+}
+.dark-theme .result::-webkit-scrollbar-track {
+    background: #c2c1c1;
+}
+.dark-theme .result-item:hover {
+    box-shadow: 0 1px 5px #ffffff3a;
 }
 
 .loading {
