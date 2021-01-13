@@ -94,7 +94,7 @@ const createPuzzle = () => {
       blockDiv.setAttribute("style", `background: url(${image}) no-repeat; background-size: ${puzzleSize}px ${puzzleSize}px;background-position: ${col * - Math.floor(eachBlockSize)}px ${row * - Math.floor(eachBlockSize)}px;width:${Math.floor(eachBlockSize-2)}px;height:${Math.floor(eachBlockSize-2)}px; left:${colPosition * Math.floor(eachBlockSize)}px; top:${rowPosition *  Math.floor(eachBlockSize)}px`);
     }
     document.querySelector(".puzzle").appendChild(blockDiv);
-    document.querySelector(".puzzle").removeEventListener("click",click);
+    document.querySelector(".puzzle").removeEventListener("click", click);
   })
 };
 
@@ -188,23 +188,29 @@ const changePuzzle = (target) => {
   let emptyIndex = block.findIndex(x => x == "empty");
   let empty = document.querySelector("[data-id='empty']");
   let eachBlockSize = puzzleSize / level;
-  if (targetIndex + 1 == emptyIndex) {
+  console.log(targetIndex)
+  if (targetIndex + 1 == emptyIndex && targetIndex % level != level - 1 && emptyIndex % level != 0) {
     target.style.left = stringHandle(target.style.left, eachBlockSize);
     empty.style.left = stringHandle(empty.style.left, -eachBlockSize);
-  } else if (targetIndex - 1 == emptyIndex) {
+    steps++;
+    countSteps();
+  } else if (targetIndex - 1 == emptyIndex && emptyIndex % level != level - 1 && targetIndex % level != 0) {
     target.style.left = stringHandle(target.style.left, -eachBlockSize);
     empty.style.left = stringHandle(empty.style.left, eachBlockSize);
+    steps++;
+    countSteps();
   } else if (targetIndex + level == emptyIndex) {
     target.style.top = stringHandle(target.style.top, eachBlockSize);
     empty.style.top = stringHandle(empty.style.top, -eachBlockSize);
+    steps++;
+    countSteps();
   } else if (targetIndex - level == emptyIndex) {
     target.style.top = stringHandle(target.style.top, -eachBlockSize);
     empty.style.top = stringHandle(empty.style.top, eachBlockSize);
-  }
-  if (target.dataset.id != "empty") {
     steps++;
     countSteps();
   }
+
 }
 const stringHandle = (ori, fluctuation) => {
   return `${parseInt(ori.replace("px","")) + fluctuation}px`;
@@ -214,7 +220,7 @@ const createPuzzleFrame = () => {
   document.querySelector(".puzzle").innerHTML = "<b>(1)可由上面按鈕上傳圖片</b><b>(2)或從此區點擊或拖曳圖片上傳</b>";
   document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px; display:flex; flex-direction:column;justify-content:center;align-items:center; cursor:pointer;`)
 }
-const createFinsishedPuzzleFrame = () =>{
+const createFinsishedPuzzleFrame = () => {
   puzzleSize = $(window).width() >= 800 ? 600 : $(window).width() >= 600 ? 540 : $(window).width() - 20;
   document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px;`)
   let img = document.createElement("img");
@@ -271,7 +277,7 @@ const drop = e => {
   }
   image = URL.createObjectURL(files[0]);
   createBackgroundImage();
-  document.querySelector(".puzzle").removeEventListener("click",click);
+  document.querySelector(".puzzle").removeEventListener("click", click);
 }
 const createBackgroundImage = () => {
   document.querySelector(".puzzle").setAttribute("style", `background: url("${image}") no-repeat; background-size: ${puzzleSize}px ${puzzleSize}px; width: ${puzzleSize}px;height:${puzzleSize}px; pointer-events:none;`);
@@ -284,7 +290,7 @@ document.querySelector("#upload_img").addEventListener("change", function (e) {
   let imageFile = e.target.files[0];
   image = URL.createObjectURL(imageFile);
   createBackgroundImage();
-  document.querySelector(".puzzle").removeEventListener("click", click,false);
+  document.querySelector(".puzzle").removeEventListener("click", click, false);
 })
 
 document.querySelector(".puzzle").addEventListener("click", click, false);
@@ -305,7 +311,7 @@ window.addEventListener("resize", function () {
   if (isFinished) createFinsishedPuzzleFrame();
   else if (image) createPuzzle();
   else createPuzzleFrame();
-  
+
 })
 
 document.querySelector("#start").addEventListener("click", function () {
@@ -348,7 +354,7 @@ const winGameAnimation = () => {
   img.src = image;
   let banner = document.createElement("div");
   banner.classList.add("banner");
-  banner.setAttribute("style","display:flex;justify-content:center;align-items:center;font-size:20px;")
+  banner.setAttribute("style", "display:flex;justify-content:center;align-items:center;font-size:20px;")
   banner.innerHTML = `<p>恭喜勝利，使用步數為 : <span style="color:#f00;font-size:25px;padding-left:10px;">${steps} </span></p>`;
   document.querySelector(".puzzle").append(img, banner);
   setTimeout(() => {
