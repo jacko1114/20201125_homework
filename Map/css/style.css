@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Microsoft Jhenhei";
+    user-select: none;
 }
 
 h2,
@@ -170,17 +171,21 @@ label {
     height: calc(100vh - 70px);
     background: #ffffff;
 }
+
 .result::-webkit-scrollbar {
     width: 12px;
 }
+
 .result::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 .result::-webkit-scrollbar-thumb {
     background: #52b2cf;
     box-shadow: -1px -1px 5px #00000080;
     border-radius: 12px;
 }
+
 .result::-webkit-scrollbar-thumb:hover {
     background: #49a4c0;
 }
@@ -190,6 +195,7 @@ label {
     border-radius: 5px;
     border: 1px solid #5fb9d4;
 }
+
 .result-item:hover {
     box-shadow: 1px 1px 5px #00000080;
 }
@@ -212,7 +218,8 @@ label {
     top: 0;
     transition: .3s ease-in;
 }
-#map.close{
+
+#map.close {
     filter: brightness(.6);
 }
 
@@ -281,15 +288,19 @@ label {
     background: #eeeeee;
     color: #333333;
 }
+
 .dark-theme .result::-webkit-scrollbar-thumb {
     background: #687275;
 }
+
 .dark-theme .result::-webkit-scrollbar-thumb:hover {
     background: #3a3f41;
 }
+
 .dark-theme .result::-webkit-scrollbar-track {
     background: #c2c1c1;
 }
+
 .dark-theme .result-item:hover {
     box-shadow: 0 1px 5px #ffffff3a;
 }
