@@ -1,4 +1,4 @@
-let url = "http://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions";
+let url = "https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions";
 let data = [];
 let center = [25.03484, 121.51763];
 let map;
