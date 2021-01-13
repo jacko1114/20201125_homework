@@ -2,6 +2,7 @@ let url = "https://bsopendata.azurewebsites.net/api/LeisureTravel/Attractions";
 let data = [];
 let center = [25.03484, 121.51763];
 let map, tileLayer, darkLayer;
+let markersArr = [];
 let dark = false;
 new TwCitySelector(); //使用套件產生縣市選取器
 const createMarker = (region) => {
@@ -28,7 +29,9 @@ const createMarker = (region) => {
         })
         marker.bindPopup(info).openPopup();
         markers.addLayer(marker)
+
     })
+    markersArr.push(markers)
     map.addLayer(markers)
     map.setView([result[result.length - 1].Py, result[result.length - 1].Px], 13);
 }
@@ -57,6 +60,7 @@ const createMap = () => {
 }
 
 const cleanMarker = () => {
+    markersArr.forEach(item => item.clearLayers())
     map.eachLayer(layer => {
         if (layer instanceof L.Marker) {
             map.removeLayer(layer)
@@ -143,6 +147,7 @@ document.querySelector(".button-all").addEventListener("click", function () {
             marker.bindPopup(info).openPopup();
             markers.addLayer(marker)
         })
+        markersArr.push(markers)
         map.addLayer(markers)
 
         map.setView(center, 10);
@@ -169,7 +174,6 @@ document.querySelector(".side-menu-btn").addEventListener("click", function () {
 
 const iconPicker = (target) => {
     target = `${target}`
-    console.log(target)
     return target.includes("廟") ? '<i class="fas fa-vihara"></i>' :
         target.includes("街") ? '<i class="fas fa-road"></i>' :
         target.includes("呼") ? '<i class="fas fa-tree"></i>' :
