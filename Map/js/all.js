@@ -70,7 +70,7 @@ const cleanMarker = () => {
 const createFilterResult = (region) => {
     let result = document.querySelector(".result");
     result.innerHTML = "";
-    data.filter(item=>item.Add.includes(region)).forEach(item => {
+    data.filter(item => item.Add.includes(region)).forEach(item => {
         let div = document.createElement("div");
         div.className = "result-item";
         div.innerHTML =
@@ -105,12 +105,16 @@ const getPosFail = () => {}
 
 window.addEventListener("load", function () {
     document.querySelector(".loading").style.opacity = 1;
-    let finished = fetchData();
-    createMap();
-    if (finished)
-        setTimeout(() => {
-            document.querySelector(".loading").style.opacity = 0;
-        }, 3000)
+    let finished;
+    fetchData().then(res => {
+        finished = res;
+        if (finished)
+            setTimeout(() => {
+                document.querySelector(".loading").style.opacity = 0;
+            }, 1500)
+        })
+        createMap();
+
 })
 
 document.querySelector(".button-select").addEventListener("click", function () {
@@ -121,7 +125,6 @@ document.querySelector(".button-select").addEventListener("click", function () {
 })
 
 document.querySelector(".button-all").addEventListener("click", function () {
-
     document.querySelector(".loading").style.opacity = 1;
     setTimeout(() => {
         let markers = L.markerClusterGroup();
