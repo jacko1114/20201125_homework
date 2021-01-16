@@ -2,8 +2,9 @@ let timer, puzzleSize, level, image;
 let block = [],
   answer = [];
 let isUpload = false,
-  steps = 0;
-let isFinished = null;
+  steps = 0,
+  start = false,
+  isFinished = null;
 const createBlockArray = () => {
   level = parseInt(document.querySelector("#select").value);
   block = [];
@@ -73,10 +74,14 @@ const createBlockArray = () => {
   } while (answer.every((item, index) => index == block.indexOf(item)))
 }
 const createPuzzle = () => {
-  puzzleSize = $(window).width() >= 800 ? 600 : $(window).width() >= 600 ? 540 : $(window).width() - 20;
+  puzzleSize = window.innerWidth >= 800 ? 600 : window.innerWidth >= 600 ? 540 : window.innerWidth - 20;
 
   document.querySelector(".puzzle").innerHTML = "";
-  document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px;`)
+  if (start) {
+    document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px;`)
+  } else {
+    document.querySelector(".puzzle").setAttribute("style", `background: url("${image}") no-repeat; background-size: ${puzzleSize}px ${puzzleSize}px; width: ${puzzleSize}px;height:${puzzleSize}px; pointer-events:none;`);
+  }
 
   block.forEach((item, index) => {
     let blockDiv = document.createElement("div");
@@ -188,7 +193,6 @@ const changePuzzle = (target) => {
   let emptyIndex = block.findIndex(x => x == "empty");
   let empty = document.querySelector("[data-id='empty']");
   let eachBlockSize = puzzleSize / level;
-  console.log(targetIndex)
   if (targetIndex + 1 == emptyIndex && targetIndex % level != level - 1 && emptyIndex % level != 0) {
     target.style.left = stringHandle(target.style.left, eachBlockSize);
     empty.style.left = stringHandle(empty.style.left, -eachBlockSize);
@@ -216,12 +220,12 @@ const stringHandle = (ori, fluctuation) => {
   return `${parseInt(ori.replace("px","")) + fluctuation}px`;
 }
 const createPuzzleFrame = () => {
-  puzzleSize = $(window).width() >= 800 ? 600 : $(window).width() >= 600 ? 540 : $(window).width() - 20;
+  puzzleSize = window.innerWidth >= 800 ? 600 : window.innerWidth >= 600 ? 540 : window.innerWidth - 20;
   document.querySelector(".puzzle").innerHTML = "<b>(1)可由上面按鈕上傳圖片</b><b>(2)或從此區點擊或拖曳圖片上傳</b>";
   document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px; display:flex; flex-direction:column;justify-content:center;align-items:center; cursor:pointer;`)
 }
 const createFinsishedPuzzleFrame = () => {
-  puzzleSize = $(window).width() >= 800 ? 600 : $(window).width() >= 600 ? 540 : $(window).width() - 20;
+  puzzleSize = window.innerWidth >= 800 ? 600 : window.innerWidth >= 600 ? 540 : window.innerWidth - 20;
   document.querySelector(".puzzle").setAttribute("style", `width:${puzzleSize}px;height:${puzzleSize}px;`)
   let img = document.createElement("img");
   img.src = image;
@@ -280,6 +284,7 @@ const drop = e => {
   document.querySelector(".puzzle").removeEventListener("click", click);
 }
 const createBackgroundImage = () => {
+  puzzleSize = window.innerWidth >= 800 ? 600 : window.innerWidth >= 600 ? 540 : window.innerWidth - 20;
   document.querySelector(".puzzle").setAttribute("style", `background: url("${image}") no-repeat; background-size: ${puzzleSize}px ${puzzleSize}px; width: ${puzzleSize}px;height:${puzzleSize}px; pointer-events:none;`);
   document.querySelector(".puzzle").innerHTML = "";
   document.querySelector(".answer").innerHTML = "";
@@ -309,9 +314,17 @@ window.addEventListener("load", function () {
 window.addEventListener("resize", function () {
   isFinished = answer.length > 0 && block.length && answer.every((item, index) => index == block.indexOf(item));
   if (isFinished) createFinsishedPuzzleFrame();
-  else if (image) createPuzzle();
+  else if (image != undefined) createPuzzle();
   else createPuzzleFrame();
 
+  document.querySelectorAll(".block").forEach(item => {
+    item.addEventListener("click", function () {
+      timer = null;
+      changePuzzle(item);
+      changePosition(item.dataset.id);
+      if (answer.every((item, index) => index == block.indexOf(item))) winGame();
+    })
+  })
 })
 
 document.querySelector("#start").addEventListener("click", function () {
@@ -319,9 +332,11 @@ document.querySelector("#start").addEventListener("click", function () {
     alert("請先上傳任一圖檔!")
   } else {
     steps = 0;
+    start = !start;
     countSteps();
     createBlockArray();
     createPuzzle();
+
     this.innerText = "重新開始";
 
     document.querySelectorAll(".block").forEach(item => {
@@ -332,7 +347,6 @@ document.querySelector("#start").addEventListener("click", function () {
         if (answer.every((item, index) => index == block.indexOf(item))) winGame();
       })
     })
-
   }
 })
 
