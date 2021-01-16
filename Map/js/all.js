@@ -52,7 +52,7 @@ const createMap = () => {
         attributionControl: false
     });
     L.control.zoom({
-        position: 'topright'
+        position: 'bottomright'
     }).addTo(map);
     titleLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
     map.addLayer(titleLayer)
@@ -75,7 +75,7 @@ const createFilterResult = (region) => {
         div.className = "result-item";
         div.innerHTML =
             `<div class="card-title">
-            ${item.Name.length > 11 ? `<h2 class="long"><span>${item.Name}</span><a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}">查詢地點</a></h2>`:`<h2>${item.Name}<a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}">查詢地點</a></h2>`}
+            ${item.Name.length > 11 ? `<h2 class="long"><span>${item.Name}</span><a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}"><i class="fas fa-search-location"></i><span>查詢地點</span></a></h2>`:`<h2>${item.Name}<a href="javascript:;" class="btn-search" data-Px="${item.Px}" data-Py="${item.Py}"><i class="fas fa-search-location"></i><span>查詢地點</span></a></h2>`}
         </div>
         <div class="card-body">
         <h4>連絡電話 : ${item.Tel.replace("886-","0")}</h4>
@@ -87,6 +87,13 @@ const createFilterResult = (region) => {
     document.querySelectorAll(".btn-search").forEach(item => {
         item.addEventListener("click", function () {
             searchLocation(item);
+            if (window.innerWidth >= 768) {
+                document.querySelector(".side-menu").classList.toggle("close");
+                document.querySelector(".side-menu-btn").classList.toggle("close");
+            } else {
+                document.querySelector(".result").classList.toggle("close");
+                document.querySelector(".side-menu-btn").classList.toggle("close");
+            }
         })
     })
 }
@@ -104,16 +111,16 @@ const getPosSuccess = location => {
 const getPosFail = () => {}
 
 window.addEventListener("load", function () {
-    document.querySelector(".loading").style.opacity = 1;
+    document.querySelector(".loading").classList.add("open");
     let finished;
     fetchData().then(res => {
         finished = res;
         if (finished)
             setTimeout(() => {
-                document.querySelector(".loading").style.opacity = 0;
+                document.querySelector(".loading").classList.remove("open");
             }, 1500)
-        })
-        createMap();
+    })
+    createMap();
 
 })
 
@@ -125,7 +132,7 @@ document.querySelector(".button-select").addEventListener("click", function () {
 })
 
 document.querySelector(".button-all").addEventListener("click", function () {
-    document.querySelector(".loading").style.opacity = 1;
+    document.querySelector(".loading").classList.add("open");
     setTimeout(() => {
         let markers = L.markerClusterGroup();
         data.forEach(item => {
@@ -156,7 +163,7 @@ document.querySelector(".button-all").addEventListener("click", function () {
         map.setView(center, 10);
     }, 1000)
     setTimeout(() => {
-        document.querySelector(".loading").style.opacity = 0;
+        document.querySelector(".loading").classList.remove("open");
     }, 3000)
 })
 
@@ -171,8 +178,13 @@ document.querySelector("label[for='themes']").addEventListener("click", function
     }
 })
 document.querySelector(".side-menu-btn").addEventListener("click", function () {
-    document.querySelector(".side-menu").classList.toggle("close");
-    document.querySelector(".side-menu-btn").classList.toggle("close");
+    if (window.innerWidth >= 768) {
+        document.querySelector(".side-menu").classList.toggle("close");
+        document.querySelector(".side-menu-btn").classList.toggle("close");
+    } else {
+        document.querySelector(".result").classList.toggle("close");
+        document.querySelector(".side-menu-btn").classList.toggle("close");
+    }
 })
 
 const iconPicker = (target) => {
