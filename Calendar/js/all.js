@@ -129,7 +129,7 @@ const getMother_Day = (dateObj) => {
 
     return {
         month: firstSunday.getMonth(),
-        day: firstSunday.getDate(),
+        day: firstSunday.getDate() + 7,
         weekday: firstSunday.getDay(),
         festival: " 母親節"
     }
