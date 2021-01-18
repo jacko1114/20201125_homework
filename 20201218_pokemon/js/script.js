@@ -100,7 +100,7 @@ const createFirstPokemon = () => {
 }
 
 const getData = () => {
-    $.getJSON("./js/pokemons.json", function (res) {
+    $.getJSON("~/Asserts/js/pack", function (res) {
         let template = "";
 
         for (let i = 0; i < res.length; i++) {

@@ -105,8 +105,8 @@ input:focus {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   border: 2px solid rgba(255, 255, 255, 0.1);
-  -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
@@ -155,8 +155,8 @@ input:focus {
 
 .calendar .calendar-body .calendar-weeks-title .week {
   width: calc(100% / 7);
-  -webkit-box-shadow: 0 0 80px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
-          box-shadow: 0 0 80px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
 }
 
 .calendar .calendar-body .calendar-weeks-title .week .eng {
@@ -172,8 +172,9 @@ input:focus {
   height: calc(100% / 6);
   cursor: pointer;
   position: relative;
-  -webkit-box-shadow: 1px 1px 3px #333;
-          box-shadow: 1px 1px 3px #333;
+  border: 1px solid rgba(19, 72, 218, 0.555);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 1px 1px 3px #33333380;
   background: #ffffff21;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -323,6 +324,20 @@ input:focus {
   border-color: #0b56ce42;
 }
 
+.calendar .calendar-body .calendar-weeks-day .day:hover {
+  -webkit-box-shadow: inset 3px 3px 1px #74737380, 1px 1px 3px rgba(195, 195, 195, 0.835), 0 0 10px #0000008a;
+          box-shadow: inset 3px 3px 1px #74737380, 1px 1px 3px rgba(195, 195, 195, 0.835), 0 0 10px #0000008a;
+  opacity: .5;
+}
+
+.calendar .calendar-body .calendar-weeks-day .day:hover .day-date .count {
+  opacity: .3;
+}
+
+.calendar .calendar-body .calendar-weeks-day .day:hover.today {
+  opacity: .3;
+}
+
 .item-list {
   position: absolute;
   width: 100%;
@@ -371,10 +386,10 @@ input:focus {
   height: 85%;
 }
 
-.item-list .item-list-dialog .item-list-content .item-list-display h3 {
+.item-list .item-list-dialog .item-list-content .item-list-display h2 {
   padding: 10px 0 10px 15px;
-  text-decoration: underline;
-  font-size: 16px;
+  border-bottom: 1px solid #000;
+  margin: 0 20px;
 }
 
 .item-list .item-list-dialog .item-list-content .item-list-display ul {
@@ -409,7 +424,7 @@ input:focus {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .item-list .item-list-dialog .item-list-content .item-list-display ul li span {
@@ -541,57 +556,13 @@ input:focus {
 }
 
 .item-list.open .item-list-dialog {
-  -webkit-transform: translate(-95%, -50%) perspective(2000px) rotate(-10deg);
-          transform: translate(-95%, -50%) perspective(2000px) rotate(-10deg);
+  -webkit-transform: translate(-95%, -50%) perspective(2000px);
+          transform: translate(-95%, -50%) perspective(2000px);
 }
 
 .item-list.open .item-list-dialog .item-list-content .item-list-front {
   -webkit-transform: rotateY(-120deg);
           transform: rotateY(-120deg);
-}
-
-@-webkit-keyframes rotateToRight {
-  0% {
-    -webkit-transform: translate(-350%, 350%) rotate(0deg);
-            transform: translate(-350%, 350%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(800%, -100%) rotate(360deg);
-            transform: translate(800%, -100%) rotate(360deg);
-  }
-}
-
-@keyframes rotateToRight {
-  0% {
-    -webkit-transform: translate(-350%, 350%) rotate(0deg);
-            transform: translate(-350%, 350%) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(800%, -100%) rotate(360deg);
-            transform: translate(800%, -100%) rotate(360deg);
-  }
-}
-
-@-webkit-keyframes rotateToLeft {
-  0% {
-    -webkit-transform: translate(-300%, -300%) rotate(360deg);
-            transform: translate(-300%, -300%) rotate(360deg);
-  }
-  100% {
-    -webkit-transform: translate(300%, 300%) rotate(0deg);
-            transform: translate(300%, 300%) rotate(0deg);
-  }
-}
-
-@keyframes rotateToLeft {
-  0% {
-    -webkit-transform: translate(-300%, -300%) rotate(360deg);
-            transform: translate(-300%, -300%) rotate(360deg);
-  }
-  100% {
-    -webkit-transform: translate(300%, 300%) rotate(0deg);
-            transform: translate(300%, 300%) rotate(0deg);
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -631,7 +602,7 @@ input:focus {
     z-index: 10;
   }
   .banner .festival {
-    height: 25%;
+    height: 30%;
   }
   .banner .festival-title {
     text-align: center;
@@ -652,6 +623,7 @@ input:focus {
     background: #eeeeee62;
     padding: 3px 10px;
     text-shadow: 1px 1px 3px #000;
+    font-size: 17px;
   }
   .banner .slogan {
     height: 63%;
@@ -703,6 +675,9 @@ input:focus {
   .item-list .item-list-dialog .item-list-content .item-list-display {
     height: 88%;
   }
+  .item-list .item-list-dialog .item-list-content .item-list-display h2 {
+    font-size: 25px;
+  }
   .item-list .item-list-dialog .item-list-content .item-list-display ul li {
     margin: 0 10px;
   }
@@ -730,8 +705,8 @@ input:focus {
     width: 70%;
   }
   .item-list.open .item-list-dialog {
-    -webkit-transform: translate(-50%, -50%) perspective(2000px) rotate(-10deg);
-            transform: translate(-50%, -50%) perspective(2000px) rotate(-10deg);
+    -webkit-transform: translate(-50%, -50%) perspective(2000px);
+            transform: translate(-50%, -50%) perspective(2000px);
   }
 }
 

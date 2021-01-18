@@ -353,7 +353,7 @@ const showItemList = (target) => {
     let modal = document.querySelector(".item-list");
     modal.classList.add("open");
     modal.querySelector(".item-list-display ul").innerHTML = "";
-    modal.querySelector(".item-list-display h3 span").innerText = `${target.dataset.date.split("-")[1]}/${target.dataset.date.split("-")[2]}`;
+    modal.querySelector(".item-list-display h2 span").innerText = ` ( ${target.dataset.date.split("-")[1]} / ${target.dataset.date.split("-")[2]} )`;
     modal.querySelector(".btn-close").onclick = closeModal;
     modal.querySelector(".close").onclick = closeModal;
     modal.querySelector(".add-item").onclick = addModal;
