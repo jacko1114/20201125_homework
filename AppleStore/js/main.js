@@ -10,7 +10,7 @@ let JsonData = [];
 const getJSONdata = () => {
     let url = "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/AppleStore/js/products.json";
     fetch(url)
-        .then(res=>res.json())
+        .then(res => res.json())
         .then(result => {
             JsonData = result[0];
             createNav();
@@ -194,6 +194,15 @@ const createContinue = () => {
     productTotal.classList.add("bg-light");
     productTotal.appendChild(clonedContinueBtn);
     $g(".product-total").classList.add("non-selected");
+
+    $g(".fas.fa-heart").addEventListener("click", function () {
+        console.log(this.classList.contains("opacity"))
+        if (this.classList.contains("opacity")) {
+            this.classList.remove("opacity");
+        } else {
+            this.classList.add("opacity");
+        }
+    })
 }
 
 const selectModel = (target, category, product) => {

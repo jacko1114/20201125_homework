@@ -98,8 +98,27 @@ a.border.selected {
     left: 0;
 }
 
-.fa-heart {
+.far.fa-heart {
+    transition: .3s ease;
     cursor: pointer;
+}
+
+.far.fa-heart:hover {
+    opacity: 0;
+}
+
+.fas.fa-heart {
+    transition: .3s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.fas.fa-heart:hover {
+    opacity: 1;
+}
+
+.opacity {
+    opacity: 1 !important;
 }
 
 .w-33 {
