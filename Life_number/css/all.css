@@ -8,10 +8,11 @@
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(30deg,#6a79ff,#ff1717,#6a79ff);
+    background: linear-gradient(30deg, #6a79ff, #ff1717, #6a79ff);
     background-repeat: no-repeat;
     background-position: fixed;
     overflow: hidden;
@@ -20,7 +21,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     min-width: 300px;
     width: 600px;
     padding: 10px;
@@ -28,7 +30,8 @@ body{
     margin: auto;
     transition: .3s ease-in;
 }
-.row{
+
+.row {
     width: 100%;
     background: #fff;
     border-radius: 15px;
@@ -39,33 +42,39 @@ body{
     position: relative;
     box-shadow: 2px 2px 20px #5854548a;
 }
-.row.growup{
+
+.row.growup {
     height: 500px;
 }
-.title{
+
+.title {
     padding: 10px 0;
 }
-.title h2{
+
+.title h2 {
     font-size: 2rem;
     padding: .5rem 0 .5rem 2rem;
     margin: .5rem 0;
     border-left: 10px solid #ff1717;
 
 }
-.input-group{
+
+.input-group {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem 0;
 }
-.input-group input{
+
+.input-group input {
     font-size: 20px;
     letter-spacing: 2px;
     margin: 1.5rem 0;
     padding: .5rem 1rem;
     width: 100%;
 }
-.input-group button{
+
+.input-group button {
     padding: .5rem 1.5rem;
     border-radius: .5rem;
     border: 1px solid #6a79ff;
@@ -76,94 +85,86 @@ body{
     color: #6a79ff;
     transition: .1s;
 }
-.input-group button:hover{
+
+.input-group button:hover {
     color: #ffffff;
     background: #6a79ff;
 }
 
-.info h3{
+.info h3 {
     margin-top: 0.5rem;
 }
-.Aquarius{
-    color: #fff177;
-    text-shadow: 1px 1px 1px #f3de25,
-                1.5px 1.5px 1px #fff177,
-                -1px -1px 1px #f3de25;
+
+.Aquarius {
+    color: #dad188;
+    text-shadow: 1px 1px 1px #000;
 }
-.Pisces{
-    color: #f18553;
-    text-shadow: 1px 1px 1px #f86521,
-                1.5px 1.5px 1px #f18553,
-                -1px -1px 1px #f86521;
+
+.Pisces {
+    color: #c98768;
+    text-shadow: 1px 1px 1px #000;
 }
-.Aries{
-    color: #f3e48d;
-    text-shadow: 1px 1px 1px #eecf22,
-                1.5px 1.5px 1px #f3e48d,
-                -1px -1px 1px #fada23;
+
+.Aries {
+    color: #a9c291;
+    text-shadow: 1px 1px 1px #000;
 }
-.Taurus{
-    color: #a9f842;
-    text-shadow: 1px 1px 1px #8cee0b,
-                1.5px 1.5px 1px #a9f842,
-                -1px -1px 1px #8cee0b;
+
+.Taurus {
+    color: #1ec5c5;
+    text-shadow: 1px 1px 1px #000;
 }
-.Gemini{
-    color: #66eb71;
-    text-shadow: 1px 1px 1px #4aa151,
-                1.5px 1.5px 1px #66eb71,
-                -1px -1px 1px #4aa151;
+
+.Gemini {
+    color: #565eaa;
+    text-shadow: 1px 1px 1px #000;
 }
-.Cancer{
+
+.Cancer {
     color: #f59cc9;
-    text-shadow: 1px 1px 1px #f83e9b,
-                1.5px 1.5px 1px #f59cc9,
-                -1px -1px 1px #f53193;
+    text-shadow: 1px 1px 1px #000;
 }
-.Leo{
+
+.Leo {
     color: #42bae9;
-    text-shadow: 1px 1px 1px #028dc3,
-                1.5px 1.5px 1px #42bae9,
-                -1px -1px 1px #028dc3;
+    text-shadow: 1px 1px 1px #000;
 }
-.Virgo{
+
+.Virgo {
     color: #4c96eb;
-    text-shadow: 1px 1px 1px #0764ce,
-                1.5px 1.5px 1px #ff5277,
-                -1px -1px 1px #0764ce;
+    text-shadow: 1px 1px 1px #000;
 }
-.Libra{
+
+.Libra {
     color: #6a5aff;
-    text-shadow: 1px 1px 1px #230fd6,
-                1.5px 1.5px 1px #ff5277,
-                -1px -1px 1px #230fd6;
+    text-shadow: 1px 1px 1px #000;
 }
-.Sagittarius{
+
+.Sagittarius {
     color: #ff5277;
-    text-shadow: 1px 1px 1px #f00c3d,
-                1.5px 1.5px 1px #ff5277,
-                -1px -1px 1px #f00c3d;
+    text-shadow: 1px 1px 1px #000;
 }
-.Capricorn{
+
+.Capricorn {
     color: #55f5aa;
-    text-shadow: 1px 1px 1px #047540,
-                1.5px 1.5px 1px #55f5aa,
-                -1px -1px 1px #047540;
+    text-shadow: 1px 1px 1px #000;
 }
-.Scorpio{
+
+.Scorpio {
     color: #bd85eb;
-    text-shadow: 1px 1px 1px #871bdf,
-                1.5px 1.5px 1px #d6b8f0,
-                -1px -1px 1px #871bdf;
+    text-shadow: 1px 1px 1px #000;
 }
-span{
+
+span {
     font-weight: 400;
 }
-.rule{
+
+.rule {
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
+
 .rule i {
     width: 24px;
     height: 24px;
@@ -174,18 +175,22 @@ span{
     cursor: pointer;
     transition: .1s ease-in;
 }
-.rule i:hover{
+
+.rule i:hover {
     background: #888;
     color: #ffffff;
     border: 1px solid #888;
 }
-.rule i:hover + p{
+
+.rule i:hover+p {
     opacity: 1;
 }
-.rule i:hover + p:after{
+
+.rule i:hover+p:after {
     opacity: 1;
 }
-.rule p{
+
+.rule p {
     position: absolute;
     width: 220px;
     top: -2px;
@@ -198,8 +203,9 @@ span{
     opacity: 0;
     transition: .2s;
 }
-.rule p:after{
-    content:"";
+
+.rule p:after {
+    content: "";
     position: absolute;
     top: 50%;
     right: -2%;
@@ -210,11 +216,13 @@ span{
     opacity: 0;
     transition: .2s;
 }
-h2{
+
+h2 {
     display: flex;
     align-items: center;
 }
-.quadrant{
+
+.quadrant {
     margin: .6rem .5rem;
     font-size: 1rem;
     color: #ffffff;
@@ -226,44 +234,53 @@ h2{
     font-weight: 400;
     position: relative;
 }
-.quadrant.earth{
+
+.quadrant.earth {
     background: #f8bc78;
 }
-.quadrant.wind{
+
+.quadrant.wind {
     background: #c0f8ff;
     text-shadow: 1px 1px 1px #00000080;
 }
-.quadrant.fire{
+
+.quadrant.fire {
     background: #f1345d;
 }
-.quadrant.water{
+
+.quadrant.water {
     background: #3772fa;
 }
-.quadrant:hover p.quadrant_word{
-    opacity: 1;
-}
-.quadrant:hover p.quadrant_word:after{
+
+.quadrant:hover p.quadrant_word {
     opacity: 1;
 }
 
-.tag.earth{
+.quadrant:hover p.quadrant_word:after {
+    opacity: 1;
+}
+
+.tag.earth {
     color: #f8bc78;
     text-shadow: 1px 1px 1px #00000080;
 }
-.tag.wind{
+
+.tag.wind {
     color: #c0f8ff;
     text-shadow: 1px 1px 1px #00000080;
 }
-.tag.fire{
+
+.tag.fire {
     color: #f1345d;
     text-shadow: 1px 1px 1px #00000080;
 }
-.tag.water{
+
+.tag.water {
     color: #3772fa;
     text-shadow: 1px 1px 1px #00000080;
 }
 
-p.quadrant_word{
+p.quadrant_word {
     position: absolute;
     bottom: -110px;
     left: -50px;
@@ -272,13 +289,14 @@ p.quadrant_word{
     width: 250px;
     height: 100px;
     padding: 0.5rem;
-    font-size: 0.5rem;  
-    opacity: 0; 
+    font-size: 0.5rem;
+    opacity: 0;
     transition: .2s;
     pointer-events: none;
 }
-p.quadrant_word:after{
-    content:"";
+
+p.quadrant_word:after {
+    content: "";
     position: absolute;
     top: -5px;
     left: 60px;
@@ -288,8 +306,9 @@ p.quadrant_word:after{
     opacity: 0;
     transition: .2s;
 }
-@media screen and (min-width:768px){
-    .container{
+
+@media screen and (min-width:768px) {
+    .container {
         max-width: 700px;
     }
 }
