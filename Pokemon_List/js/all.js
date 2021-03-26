@@ -12,7 +12,7 @@ const loading = document.querySelector(".loading");
 
 const getPokemonFromJSON = () => {
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/20201125_homework/main/20201218_pokemon/js/pokemons.json");
+    xhr.open("GET", "https://raw.githubusercontent.com/jacko1114/Homeworks/main/Pokemon/js/pokemons.json");
     xhr.send();
     xhr.addEventListener("load", function () {
         pokemonArray = JSON.parse(this.responseText);
@@ -30,7 +30,7 @@ const addPokemon = (id) => {
         let fontSize = item.name.length > 3 ? "h6" : "h4"
         cloneContent.querySelector(".pokemon-id").innerText = item.id;
         cloneContent.querySelector(".pokemon-name").innerText = item.name;
-        cloneContent.querySelector(".pokemon-name").classList.add(padding,fontSize);
+        cloneContent.querySelector(".pokemon-name").classList.add(padding, fontSize);
         cloneContent.querySelector("img").src = item.img;
         cloneContent.querySelector(".btn").setAttribute("data-toggle", "modal");
         cloneContent.querySelector(".btn").setAttribute("data-target", ".modal");
@@ -42,7 +42,7 @@ const addPokemon = (id) => {
 }
 
 const getNewPokemonData = () => {
-    return pokemonArray.map( item => 
+    return pokemonArray.map(item =>
         ({
             id: item.id.toString().padStart(3, "0"),
             name: item.name.chinese,
@@ -72,7 +72,7 @@ const dataToModal = (clone, index) => {
         modal.querySelector("#spDefense").textContent = newPokemonArray[index].sp_defense;
         modal.querySelector("#speed").textContent = newPokemonArray[index].speed;
         modal.querySelector(".genus span").textContent = newPokemonArray[index].genus;
-        
+
         let types = document.querySelector(".types");
         types.innerHTML = "";
         newPokemonArray[index].type.forEach(type => {
@@ -84,24 +84,23 @@ const dataToModal = (clone, index) => {
 
         let evolution = document.querySelector(".evolution");
         evolution.innerHTML = "";
-        newPokemonArray[index].evolution.forEach((item)=>{
+        newPokemonArray[index].evolution.forEach((item) => {
             let img = document.createElement("img");
             let div = document.createElement("div");
-            div.classList.add("p-5","my-5","h4");
+            div.classList.add("p-5", "my-5", "h4");
 
-            if(item.id.toString().padStart(3,"0") != "000"){
+            if (item.id.toString().padStart(3, "0") != "000") {
                 img.src = `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${item.id.toString().padStart(3,"0")}.png`
                 img.classList.add("w-50")
                 evolution.appendChild(img)
-            }
-            else{
+            } else {
                 div.innerText = "無法進化"
                 evolution.appendChild(div);
             }
-        }) 
+        })
     })
 }
-const clean = () => { 
+const clean = () => {
     row.innerHTML = "";
 }
 
@@ -164,33 +163,33 @@ removeOne.addEventListener("click", function () {
     addPokemon(index);
 });
 addAll.addEventListener("click", function () {
-    setTimeout(function(){
+    setTimeout(function () {
         loading.classList.add("active");
-    },0)
+    }, 0)
 
-    setTimeout(function(){
+    setTimeout(function () {
         index = newPokemonArray.length;
         addPokemon(index);
-    },500)
+    }, 500)
 
-    setTimeout(function(){
+    setTimeout(function () {
         loading.classList.remove("active");
-    },3000)
+    }, 3000)
 });
 reset.addEventListener("click", function () {
     index = 0;
     clean();
 });
 
-topRightImg.addEventListener("click",function(){
-    this.setAttribute("style","top:-100%;");
-    setTimeout(function(){
+topRightImg.addEventListener("click", function () {
+    this.setAttribute("style", "top:-100%;");
+    setTimeout(function () {
         topRightImg.removeAttribute("style");
-    },2000)
+    }, 2000)
 })
-bottomRightImg.addEventListener("click",function(){
+bottomRightImg.addEventListener("click", function () {
     this.classList.add("active");
-    setTimeout(function(){
+    setTimeout(function () {
         bottomRightImg.classList.remove("active");
-    },2500)
+    }, 2500)
 })
