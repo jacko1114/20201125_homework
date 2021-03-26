@@ -211,7 +211,7 @@ const displayInfo = () => {
 }
 
 const ajax = (key, value) => {
-    let url = "https://buildschoolapi.azurewebsites.net/api/lifeNumber/GetNumerology";
+    let url = "https://buildschoolapi.azurewebsites.net/api/number/GetNumerology";
     $.ajax({
         type: "Get",
         url: url,
