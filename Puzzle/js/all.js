@@ -332,7 +332,7 @@ document.querySelector("#start").addEventListener("click", function () {
     alert("請先上傳任一圖檔!")
   } else {
     steps = 0;
-    start = !start;
+    start = true;
     countSteps();
     createBlockArray();
     createPuzzle();
